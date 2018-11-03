@@ -8,10 +8,23 @@
     }
 
     //mian
-     $plugins.page.main = function(){
-        console.log('main');
+    $plugins.page.owlcallback = function(event){
+        var $id = $('#' + event.target.id),
+            $wrap = $id.closest('.ui-owl');
 
-        $plugins.uiTab({ id:'mainEventTab', callback:tabslide });
+        $wrap.removeClass('n1 n2 n3 n4 n5 n6 n7 n8 n9 n10').addClass('n'+ $wrap.find('.owl-dots button').length);
+
+        $(doc).off('click.owlplay').on('click.owlplay', '.owl-control.play', function(){
+            $(this).removeClass('play').addClass('stop');
+            $id.trigger('play.owl.autoplay', [1000])
+        })
+        $(doc).off('click.owlstop').on('click.owlstop', '.owl-control.stop', function(){
+            $(this).removeClass('stop').addClass('play');
+            $id.trigger('stop.owl.autoplay')
+        });
+    }
+    $plugins.page.main = function(){
+        console.log('main');
 
         $('#mainVisual').owlCarousel({
             loop:true,
@@ -20,7 +33,7 @@
             nav:true,
             autoplay:true,
             autoplayTimeout:6000,
-            onInitialized : owlcallback, 
+            onInitialized : $plugins.page.owlcallback, 
             responsive:{
                 0:{
                     items:1
@@ -34,47 +47,112 @@
             }
         });
 
-        $('#mainEvent1').owlCarousel({
-            loop: true,
-            margin:40,
-            dot: true,
-            nav: true,
-            autoplay:true,
-            autoplayTimeout:6000,
-            onInitialized : owlcallback, 
-            responsive:{
-                0:{
-                    items:2
-                },
-                600:{
-                    items:2
-                },
-                1000:{
-                    items:2
-                }
+        //연수원안내
+        $plugins.uiTab({ id:'mainInfoTab', callback:tabSlideInfo, unres:true });
+        function tabSlideInfo(v){
+            $('#mainInfo').trigger('destroy.owl.carousel');
+            $plugins.uiAjax({
+                id: 'mainInfo',
+                url: '../../html/main/info_'+ (v.current + 1) +'.html',
+                page: true,
+                callback: infoSlide
+            });
+
+            function infoSlide(){
+                $('#mainInfo').owlCarousel({
+                    loop: true,
+                    margin:40,
+                    dot: true,
+                    nav: true,
+                    autoplay:true,
+                    autoplayTimeout:6000,
+                    onInitialized : $plugins.page.owlcallback, 
+                    responsive:{
+                        0:{
+                            items:2
+                        },
+                        600:{
+                            items:2
+                        },
+                        1000:{
+                            items:2
+                        }
+                    }
+                });
             }
-        });
-
-        function owlcallback(event){
-            console.log(event.target.id);
-            var $id = $('#' + event.target.id),
-                $wrap = $id.closest('.ui-owl');
-
-            $wrap.addClass('n'+ $wrap.find('.owl-dots button').length);
-
-            $(doc).on('click', '.owl-control.play', function(){
-                $(this).removeClass('play').addClass('stop');
-                $id.trigger('play.owl.autoplay', [1000])
-            })
-            $(doc).on('click', '.owl-control.stop', function(){
-                $(this).removeClass('stop').addClass('play');
-                $id.trigger('stop.owl.autoplay')
-            })
         }
 
-        function tabslide(v){
-            console.log(v)
+        //연수원 이벤트
+        $plugins.uiTab({ id:'mainEvntTab', callback:tabSlideEvnt, unres:true });
+        function tabSlideEvnt(v){
+            $('#mainEvent').trigger('destroy.owl.carousel');
+            $plugins.uiAjax({
+                id: 'mainEvent',
+                url: '../../html/main/evnt_'+ (v.current + 1) +'.html',
+                page: true,
+                callback: infoSlide
+            });
+
+            function infoSlide(){
+                $('#mainEvent').owlCarousel({
+                    loop: false,
+                    margin:26,
+                    dot: true,
+                    nav: false,
+                    autoplay:true,
+                    autoplayTimeout:6000,
+                    onInitialized : $plugins.page.owlcallback, 
+                    responsive:{
+                        0:{
+                            items:4
+                        },
+                        600:{
+                            items:4
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+            }
         }
+
+        //주변관광지
+        $plugins.uiTab({ id:'mainPlaceTab', callback:tabSlidePlace, unres:true });
+        function tabSlidePlace(v){
+            $('#mainPlace').trigger('destroy.owl.carousel');
+            $plugins.uiAjax({
+                id: 'mainPlace',
+                url: '../../html/main/place_'+ (v.current + 1) +'.html',
+                page: true,
+                callback: infoSlide
+            });
+
+            function infoSlide(){
+                $('#mainPlace').owlCarousel({
+                    loop: false,
+                    margin:26,
+                    dot: true,
+                    nav: false,
+                    autoplay:true,
+                    autoplayTimeout:6000,
+                    onInitialized : $plugins.page.owlcallback, 
+                    responsive:{
+                        0:{
+                            items:4
+                        },
+                        600:{
+                            items:4
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                });
+            }
+        }
+
+        
     }
 
     

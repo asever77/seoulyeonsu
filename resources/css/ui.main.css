@@ -4,10 +4,11 @@
 .owl-carousel .owl-dots button{display:inline-block; width:25px; height:25px;}
 .owl-carousel .owl-dots button span{display:block; width:7px; height:7px; background:#fff; border-radius: 50%; margin:0 auto;}
 .owl-carousel .owl-dots .active span{background-color:#309df1;}
+.owl-carousel.owl-loaded .owl-nav button { position:absolute;  background:url(../../resources/img/main/ico_slide.png) no-repeat 0 0 }
 
 .main-visual-wrap { position: relative; width: 100%; height: 550px; }
 .main-visual-wrap .item { background-position:50% 0; background-size:cover; background-repeat: no-repeat; width:100%; height:550px; }
-.main-visual-wrap .owl-carousel .owl-nav button { position:absolute; top:50%; margin-top:-50px; width:100px; height:100px; background:url(../../resources/img/main/ico_slide.png) no-repeat 0 0 }
+.main-visual-wrap .owl-carousel .owl-nav button { top:50%; margin-top:-50px; width:100px; height:100px;}
 .main-visual-wrap .owl-carousel .owl-nav .owl-prev {background-position:0 0; left:50px}
 .main-visual-wrap .owl-carousel .owl-nav .owl-next {background-position:-100px 0; right: 50px;}
 .main-visual-wrap .owl-carousel .owl-dots {top:136px;}
@@ -16,7 +17,7 @@
 .main-visual-wrap .owl-control{ position: absolute; top:136px; left:50%; margin-left:20px; z-index:10}
 
 .ui-owl .owl-control{ position: absolute; left:50%; z-index: 2;}
-.ui-owl.n1 .owl-control{margin-left:10px}
+.ui-owl.n1 .owl-control{display:none;}
 .ui-owl.n2 .owl-control{margin-left:25px}
 .ui-owl.n3 .owl-control{margin-left:40px}
 .ui-owl.n4 .owl-control{margin-left:55px}
@@ -34,7 +35,21 @@
 .main-search-wrap .sh-wrap {position:absolute; width:1200px; background:#fff; top:-77px}
 
 
-.main-event-wrap {padding:120px 0 90px; background-color:#f3f4f7; width:100%;}
+.main-info-wrap {padding:120px 0 90px; background-color:#f3f4f7; width:100%;}
+.main-info-wrap .ui-tab{width:1200px; margin:0 auto; }
+.main-info-wrap .h-type_b{position: absolute; top:0; left:0;}
+.main-info-wrap .owl-carousel .owl-dots button span{background:#b0b3c3;}
+.main-info-wrap .owl-carousel .owl-dots .active span{background-color:#309df1;}
+.main-info-wrap .owl-carousel .owl-dots {bottom:-50px;}
+.main-info-wrap .owl-control{ position: absolute; bottom:-50px; left:50%; margin-left:20px; z-index:10}
+.main-info-wrap .owl-control.stop{background-position:0 -125px}
+.main-info-wrap .owl-control.play{background-position:-25px -125px}
+.main-info-wrap .ui-owl .owl-control{ position: absolute; bottom:-45px;}
+.main-info-wrap .owl-carousel .owl-nav button { top:50%; margin-top:-50px; width:60px; height:60px;}
+.main-info-wrap .owl-carousel .owl-nav .owl-prev {background-position:-50px -100px; left:-130px}
+.main-info-wrap .owl-carousel .owl-nav .owl-next {background-position:-140px -100px; right: -130px;}
+
+.main-event-wrap {padding:60px 0 0; height:470px; background:url(../../resources/img/main/bg_evnt.jpg) no-repeat 50% 0; background-size:cover; width:100%;}
 .main-event-wrap .ui-tab{width:1200px; margin:0 auto; }
 .main-event-wrap .h-type_b{position: absolute; top:0; left:0;}
 .main-event-wrap .owl-carousel .owl-dots button span{background:#b0b3c3;}
@@ -45,14 +60,34 @@
 .main-event-wrap .owl-control.play{background-position:-25px -125px}
 .main-event-wrap .ui-owl .owl-control{ position: absolute; bottom:-45px;}
 
+.main-place-wrap {padding:60px 0 0; height:470px; width:100%;}
+.main-place-wrap .ui-tab{width:1200px; margin:0 auto; }
+.main-place-wrap .h-type_b{position: absolute; top:0; left:0;}
+.main-place-wrap .owl-carousel .owl-dots button span{background:#b0b3c3;}
+.main-place-wrap .owl-carousel .owl-dots .active span{background-color:#309df1;}
+.main-place-wrap .owl-carousel .owl-dots {bottom:-50px;}
+.main-place-wrap .owl-control{ position: absolute; bottom:-50px; left:50%; margin-left:20px; z-index:10}
+.main-place-wrap .owl-control.stop{background-position:0 -125px}
+.main-place-wrap .owl-control.play{background-position:-25px -125px}
+.main-place-wrap .ui-owl .owl-control{ position: absolute; bottom:-45px;}
 
+.goods-type-b .item{width:280px;}
+.goods-type-b .item-img{position: relative; width:280px; height:185px} 
+.goods-type-b .item-img img{width:100%; height:100%;}
+.goods-type-b .item-tag{position: absolute; top:0; left:0; background:rgba(207,33,77,0.9); color:#fff; width:81px; height:39px; font-size:18px; text-align: center; font-weight:300; line-height: 39px;}
+.goods-type-b figcaption{display:block; width:100%; margin:20px 0 0; font-size:21px; color:#000; text-align: center;}
+.goods-type-b figcaption a{display:block;}
+.goods-type-b figcaption a b{display:block; width:100%;}
+.goods-type-b figcaption a span{display:block; width:100%; padding:3px 0; font-size:17px; color:#9498ac;}
+.goods-type-b figcaption a .ico-arrow-a{width:auto; display:inline-block; padding-right:25px; background: url(../../resources/img/main/ico_arrow_a.png) no-repeat 100% 50%;}
 
-.goods-type-a{position: relative; width:580px; height:330px;}
-.goods-type-a img{width:100%; height:100%;}
-.goods-type-a figcaption{display:block; position: absolute; bottom:0; width:100%; min-height:66px; color:#fff; font-size:21px; font-weight:300; padding:15px 30px; background-color:rgba(0,0,0,0.5); }
-.goods-type-a a{display:block; position:absolute; right:30px; top:15px; color:#fff; font-size:17px; font-family: 'Roboto'; font-weight:200; letter-spacing: 0}
-.goods-type-a a:hover span{border-bottom:3px solid #cf214d;  padding:3px 0 2px;}
-.goods-type-a a span{display:inline-block; padding:3px 0; border-bottom:1px solid #cf214d;}
+.goods-type-a figure{position: relative; width:580px; height:330px;}
+.goods-type-a figure img{width:100%; height:100%;}
+.goods-type-a figcaption{display:block; position: absolute; bottom:0; width:100%; min-height:66px; color:#fff; font-size:21px; font-weight:300; padding:15px 30px; background-color:rgba(0,0,0,0.5); transition:background-color 0.3s;}
+.goods-type-a figcaption:hover{background-color:rgba(0,0,0,0.7);}
+.goods-type-a figcaption a{display:block; position:absolute; right:30px; top:15px; color:#fff; font-size:17px; font-family: 'Roboto'; font-weight:200; letter-spacing: 0}
+.goods-type-a figcaption a:hover span{border-bottom:3px solid #cf214d;  padding:3px 0 2px;}
+.goods-type-a figcaption a span{display:inline-block; padding:3px 0; border-bottom:1px solid #cf214d;}
 
 
 
