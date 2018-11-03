@@ -121,17 +121,21 @@
 
 /* $plugins.uiSelect */
 .ui-select{position:relative; display:inline-block; vertical-align:top}
+.ui-select:after {content:'';position:absolute;right:13px;top:50%;height:8px;width:13px;margin-top:-4px;background:url('../../resources/img/ico_form.png') no-repeat -100px 0;-webkit-transition:all .4s;transition:all .4s}
+.ui-select.on:after {-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}
 .ui-select select{width:100%}
 .ui-select select.off{position:absolute; width:0; height:0; border:0; opacity:0; z-index:-1; color:transparent; overflow:hidden; font-size:xx-small; line-height:0;}
-.ui-select-btn{display:inline-block; position:relative; text-align:left; vertical-align:top; width:100%; height:30px; padding:0 30px 0 10px; border-radius:2px; background:#fff url(/resources/img/common/ico_form.png) no-repeat 100% -110px; background-size:200px 200px; border:1px solid #c9c9c9; font-size:14px; cursor:pointer; outline:0; box-sizing:border-box; text-overflow:ellipsis;}
+.ui-select-btn{display:inline-block; position:relative; text-align:left; vertical-align:top; width:100%; height:30px; padding:0 30px 0 10px; cursor:pointer; outline:0; box-sizing:border-box; text-overflow:ellipsis;}
 .ui-select-btn span{display:inline-block; width:100%; text-align:left; word-break:nowrap; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; text-align:left}
 .ui-select-btn[aria-expanded="true"],
 .ui-select-btn:focus,
-.ui-select-btn:active{border-color:#000; box-shadow:0 0 5px rgba(0,0,0,0.7)}
+.ui-select-btn:active{border-color:#000;/*box-shadow:0 0 5px rgba(0,0,0,0.7)*/}
+.ui-select input[readonly='readonly'], .ui-select input[readonly] {background-color:#fff;color:#666 !important}
+.ui-select .ui-select-btn:disabled {cursor:not-allowed;border-color:#d5d6db;background-color:#e5e5e5;color:rgba(0,0,0,.5) !important}
 
 .ui-select-wrap.on{display:block}
-.ui-select-wrap.top{bottom:29px}
-.ui-select-wrap.bottom{top:29px}
+.ui-select-wrap.top{bottom:36px}
+.ui-select-wrap.bottom{top:36px}
 .ui-select-wrap{display:none; position:absolute; z-index:100; left:0; width:auto; border:1px solid #000; background:#fff; overflow-y:auto; max-height:150px}
 .ui-select-opt{display:block; float:left; width:100%; padding:5px 20px 5px 10px; height:30px; text-align:left; background:#fff; white-space:nowrap}
 .ui-select-opt.selected{font-weight:600; text-decoration:underline; background:#444; color:#fff;}
