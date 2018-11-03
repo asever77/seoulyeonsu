@@ -70,7 +70,15 @@
 	font-weight:700;
 	font-style:normal;
 }
-@font-face {   
+@font-face {
+	font-family:'Roboto';
+	src:url('../../resources/font/Roboto-Light.woff2') format('woff2'),
+	url('../../resources/font/Roboto-Light.woff') format('woff'),
+	url('../../resources/font/Roboto-Light.otf') format('opentype');
+	font-weight:300;
+	font-style:normal;
+}
+@font-face {
 	font-family:'Roboto';
 	src:url('../../resources/font/Roboto-Medium.woff2') format('woff2'),
 	url('../../resources/font/Roboto-Medium.woff') format('woff'),
