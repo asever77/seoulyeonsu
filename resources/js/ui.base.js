@@ -10,6 +10,7 @@
     script_file += '<script src="../../resources/js/ui.common.js"></script>';
     script_file += '<script src="../../resources/js/ui.page.js"></script>';
 
+
     $('head').append(script_file);
 
 })(jQuery, window, document);	
