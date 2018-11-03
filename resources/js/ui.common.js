@@ -20,6 +20,7 @@
                 callback: $plugins.common.footer
             });
 
+            $.browser.modal ? '' : $plugins.uiSelect();
 
             // datepicker jquery-ui
             $(".inp-date").datepicker({
