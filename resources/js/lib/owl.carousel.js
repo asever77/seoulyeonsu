@@ -189,6 +189,7 @@
 		center: false,
 		rewind: false,
 		checkVisibility: true,
+		callbackfn: false,
 
 		mouseDrag: true,
 		touchDrag: true,
@@ -467,6 +468,8 @@
 
 		// append stage
 		this.$element.append(this.$stage.parent());
+
+		
 	};
 
 	/**
@@ -505,6 +508,8 @@
 		this.$element
 			.removeClass(this.options.loadingClass)
 			.addClass(this.options.loadedClass);
+
+		
 	};
 
 	/**
@@ -536,6 +541,9 @@
 
 		this.leave('initializing');
 		this.trigger('initialized');
+
+		//callback 추가
+		!!this.options.callbackfn ? this.options.callbackfn() : '';
 	};
 
 	/**
@@ -589,6 +597,8 @@
 		this.settings = settings;
 		this.invalidate('settings');
 		this.trigger('changed', { property: { name: 'settings', value: this.settings } });
+
+		
 	};
 
 	/**
@@ -2909,8 +2919,8 @@
 		this._handlers = {
 			'prepared.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._core.settings.dotsData) {
-					this._templates.push('<div class="' + this._core.settings.dotClass + '">' +
-						$(e.content).find('[data-dot]').addBack('[data-dot]').attr('data-dot') + '</div>');
+					this._templates.push('<button type="button" class="' + this._core.settings.dotClass + '">' +
+						$(e.content).find('[data-dot]').addBack('[data-dot]').attr('data-dot') + '</button>');
 				}
 			}, this),
 			'added.owl.carousel': $.proxy(function(e) {
