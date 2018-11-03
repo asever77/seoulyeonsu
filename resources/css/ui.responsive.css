@@ -38,11 +38,18 @@
     .ui-datepicker-trigger:before {right:7px;width:12px;height:12px;margin-top:-6px}
 
     /* sprit */
+    .ui-select:after,
     .ico_fromb:before,
     .ui-datepicker-trigger:before,
     .ico_from {background-image:url('../../resources/img/ico_form_m.png');background-size:500px auto}
     .ico_common,
     .breadcrumb-item:before {background-image:url('../../resources/img/ico_common.png');background-size:500px auto}
+
+    /* select */
+    .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
+    .ui-m .ui-select .ui-select-btn {width:100%}
+    .ui-select-wrap.bottom {top:26px}
+    .ui-select-wrap.top {bottom:26px}
 
     /* title */
     .h-type_a {font-size:20px}
