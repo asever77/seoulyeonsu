@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.main-visual-wrap { position: relative; width: 100%; height: 550px; }
+.main-visual-wrap .item { background-position:50% 0; background-size:cover; background-repeat: no-repeat; width:100%; height:550px; }
+.main-visual-wrap .owl-carousel .owl-nav button { position:absolute; top:50%; margin-top:-50px; width:100px; height:100px; background:url(../../resources/img/main/ico_slide.png) no-repeat 0 0 }
+.main-visual-wrap .owl-carousel .owl-nav .owl-prev {background-position:0 0; left:50px}
+.main-visual-wrap .owl-carousel .owl-nav .owl-next {background-position:-100px 0; right: 50px;}
+.main-visual-wrap .owl-carousel .owl-dots {position: absolute; top:136px; width:100%; text-align: center;}
+.main-visual-wrap .owl-carousel .owl-dots button{display:inline-block; width:25px; height:25px;}
+.main-visual-wrap .owl-carousel .owl-dots button span{display:block; width:7px; height:7px; background:#fff; border-radius: 50%; margin:0 auto;}
+.main-visual-wrap .owl-carousel .owl-dots .active span{background-color:#309df1;}
+.main-visual-wrap .owl-control{ position: absolute; top:136px; left:50%; margin-left:20px; z-index:10}
+.main-visual-wrap.n2 .owl-control{ position: absolute; top:136px; left:50%; margin-left:25px}
+.main-visual-wrap.n3 .owl-control{ position: absolute; top:136px; left:50%; margin-left:40px}
+.main-visual-wrap.n4 .owl-control{ position: absolute; top:136px; left:50%; margin-left:55px}
+
+.owl-control{width:25px; height:25px; background:url(../../resources/img/main/ico_slide.png) no-repeat 0 -100px }
+.owl-control.stop{background-position:0 -100px}
+.owl-control.play{background-position:-25px -100px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
