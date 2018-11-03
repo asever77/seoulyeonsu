@@ -1,6 +1,17 @@
 @charset "utf-8";
 
 @media (max-width:1024px) {
+    /* search */
+    .sh-box .sh-item-from {padding:20px}
+    .sh-box .sh-item-title {margin-bottom:10px}
+    .sh-item-from.small {width:120px}
+    .sh-item-btn {width:120px}
+    .sh-item-from ~ .sh-item-from:before {top:20px;bottom:20px}
+    .sh-item-btn .sh-btn {font-size:26px}
+    .sh-item-btn .sh-btn span {font-size:14px}
+    .sh-box.type_b .sh-item-btn {width:160px}
+
+    /* box moaule */
     .box-module_a .box-item {width:32%;margin-right:2%}
     .box-module_b .box-item {padding-top:30px}
     .box-module_b .box-item ~ .box-item {margin-top:30px}
@@ -18,6 +29,9 @@
     input[type="text"],
     input[type="date"],
     input[type="password"]{height:27px;padding:0 10px}
+
+    .m_block {display:block}
+    .only-pc {display:none !important}
 
     /* datepicker */
     .ui-datepicker-trigger:before {right:7px;width:12px;height:12px;margin-top:-6px}
@@ -59,6 +73,23 @@
     .radio label:after {left:4px;top:4px;width:6px;height:6px}
     .radio input[type='radio'] {width:14px;height:14px}
 
+    /* search */
+    .sh-box,
+    [class*='sh-item'] {display:table;width:100%;table-layout:fixed}
+    .sh-item-from {padding:10px 15px !important}
+    .sh-item-from input[type="text"],
+    .sh-item-from input[type="date"],
+    .sh-item-from input[type="password"] {height:27px;line-height:27px;font-size:11px}
+    .sh-item-from ~ .sh-item-from {border-top:1px solid #dbdde6}
+    .sh-item-from ~ .sh-item-from:before {display:none}
+    .sh-item-from.small {width:100%}
+    .sh-item-from.small .sh-item-title {text-align:left}
+    .sh-box .sh-item-title {display:table-cell;width:74px;margin-bottom:0;font-size:13px;vertical-align:middle}
+    .sh-box .ui-select,
+    .sh-box .datepicker-box {display:table-cell;vertical-align:top}
+    .sh-item-btn {display:block;width:100% !important}
+    .sh-item-btn .sh-btn {position:static;display:block;height:48px;font-size:16px}
+
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
     a + .blt-new {margin-left:2px}
@@ -74,9 +105,6 @@
 
     /* table col */
     .cols-w2 {width:80px}
-
-    .m_block {display:block}
-    .only-pc {display:none}
     .col-area .col-group {float:none;width:100%}
 }
 
