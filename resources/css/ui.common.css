@@ -147,7 +147,7 @@ select:focus{border-color:#23b7e5; background-position:100% -50px}
 .checkbox input[type='checkbox']:disabled:checked + label:after {opacity:.3}
 .checkbox.no_label label {font-size:0;line-height:0}
 .checkbox.round label:before {width:21px;height:21px;border-radius:50%;background-color:transparent;border-color:#b6b6b6}
-.checkbox.round label:after {top:7px;left:6px;width:9px;height:6px;background-position:-160px 0}
+.checkbox.round label:after {content:'';top:7px;left:6px;width:9px;height:6px;background-position:-160px 0}
 .checkbox.round input[type='checkbox']:checked + label:after {background-position-x:-180px}
 
 /* radio */
@@ -167,7 +167,7 @@ select:focus{border-color:#23b7e5; background-position:100% -50px}
 /* paging */
 .paging {position:relative; margin:30px 0 15px 0; text-align:center}
 .paging * {vertical-align:top}
-.paging a {display:inline-block; min-width:33px; height:33px; padding:0 8px; margin:0 1px 0 0; font-size:14px; line-height:33px; text-align:center; background-color:#fff; border:1px solid #c2c3c6; text-decoration:none}
+.paging a {display:inline-block; min-width:33px; height:33px; padding:0 8px; margin:0 1px 0 0; font-size:14px; line-height:33px; text-align:center; background-color:#fff; border:1px solid #c2c3c6; text-decoration:none;font-family:'Roboto', 'sans-serif'}
 .paging a.active {border-color:#000; background-color:#000; color:#fff}
 .paging a.ico_fromb {background-color:#e0e2e8}
 .paging a.ico_fromb:before {position:relative; top:-1px; height:7px; vertical-align:middle}
@@ -357,8 +357,10 @@ sup {font-size:11px}
 .col-area.section {margin-top:20px;border-top:1px solid #c2c3c6}
 
 /* table col */
+.col-auto {width:auto}
 .cols-w1 {width:8%}
 .cols-w2 {width:13%}
+.cols-w3 {width:115px}
 
 
 

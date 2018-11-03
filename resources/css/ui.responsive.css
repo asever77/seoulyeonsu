@@ -11,7 +11,7 @@
     .sh-item-btn .sh-btn span {font-size:14px}
     .sh-box.type_b .sh-item-btn {width:160px}
 
-    /* box moaule */
+    /* box module */
     .box-module_a .box-item {width:32%;margin-right:2%}
     .box-module_b .box-item {padding-top:30px}
     .box-module_b .box-item ~ .box-item {margin-top:30px}
@@ -32,6 +32,7 @@
 
     .m_block {display:block}
     .only-pc {display:none !important}
+    .breadcrumb {display:none}
 
     /* datepicker */
     .ui-datepicker-trigger:before {right:7px;width:12px;height:12px;margin-top:-6px}
@@ -66,6 +67,9 @@
     .checkbox label:before {width:14px;height:14px;border:1px solid #d5d6db}
     .checkbox label:after {top:4px;left:3px;width:9px;height:7px;background:url('../../resources/img/ico_form_m.png') no-repeat 0 0;background-size:500px auto}
     .checkbox input[type='checkbox'] {width:14px;height:14px}
+    .checkbox.round label {min-height:17px;line-height:17px}
+    .checkbox.round label:before {width:17px;height:17px}
+    .checkbox.round label:after {width:12px;height:8px;top:5px;left:3px}
 
     /* radio */
     .radio label {padding-left:19px;line-height:14px;min-height:14px}
@@ -98,14 +102,55 @@
     /* clamp */
     .clamp {max-width:90%}
 
+    /* result */
+    .result-box {padding:10px 12px}
+    .result-box p {font-size:11px}
+
     /* list type */
-    .dot_list li {padding-left:7px}
-    .dot_list li:before {top:7px;width:3px;height:3px}
+    .dot_list li,
+    .dot-item {padding-left:7px}
+    .dot_list li:before,
+    .dot-item:before {top:7px;width:3px;height:3px}
     .dot_list.small li:before {top:8px}
+
+    /* box module */
+    .room-type {font-size:20px}
+    .box-module_a .box-item {width:100%;float:none}
+    .box-module_a .box-item ~ .box-item {margin-top:15px;padding-top:15px;border-top:1px solid #ddd}
+    .box-module_a .box-item ~ .box-item.active:before {top:15px}
+    .box-module_a .box-item .info-area {padding:12px 0}
+    .box-module_a .dl-type_a dt {width:83px}
+    .box-module_a .dl-type_a dt .room-type {margin-bottom:5px}
+    .box-module_a .dl-type_a dd {padding:0 18px;font-size:11px;line-height:16px}
+    .box-module_a .check-area .checkbox {padding:9px 0}
+    .box-module_a .check-area .checkbox label {font-size:13px;padding-left:22px}
+
+    .box-module_b .box-item {padding-top:20px}
+    .box-module_b .box-item ~ .box-item {margin-top:20px}
+    .box-module_b .box-item .img-area {float:none;width:auto}
+    .box-module_b .box-item .info-area {padding-left:0;margin-top:13px}
+    .box-module_b .room-type-area {padding:0 0 15px}
+    .box-module_b .room-type-area button {min-width:67px}
+    .box-module_b .room-info-group .dl-type_b {float:none;width:auto}
+    .box-module_b .dl-type_b {line-height:18px}
+    .box-module_b .tb-type_d caption.dot-item {margin-top:5px}
+
+    .tb-type_d caption.dot-item {margin-bottom:8px}
+    .tb-type_d tbody th {padding:8px}
+    .tb-type_d tbody td {padding:8px 15px}
+    .tb-type_d tbody th,
+    .tb-type_d tbody td {font-size:10px}
+
+    .col-area .col-group .col.th {width:80px;padding:8px}
+    .col-area .col-group .col.td {padding:5px 15px}
 
     /* table col */
     .cols-w2 {width:80px}
     .col-area .col-group {float:none;width:100%}
+    .cols-w3 {width:57px}
+
+    /* paging */
+    .paging a {min-width:24px;height:24px;line-height:24px;font-size:11px}
 }
 
 
