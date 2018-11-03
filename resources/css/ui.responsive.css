@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@media (max-width:768px) {
+    body {font-size:12px}
+
+    input, textarea, select, button {font-size:12px}
+
+    input[type="text"],
+    input[type="date"],
+    input[type="password"]{height:27px;padding:0 10px}
+
+    /* sprit */
+    .ico_fromb:before,
+    .ui-datepicker-trigger:before,
+    .ico_from {background-image:url('../../resources/img/ico_form_m.png');background-size:500px auto}
+    .ico_common,
+    .breadcrumb-item:before {background-image:url('../../resources/img/ico_common.png');background-size:500px auto}
+
+    /* title */
+    .h-type_a {font-size:20px}
+    .h-type_b {font-size:17px}
+    .h-type_c {font-size:14px}
+    .h-type_d {padding-left:8px;font-size:14px}
+    .h-type_d:before {top:10px;width:3px;height:3px}
+
+    /* text */
+    .txt-type_a {font-size:11px}
+    .txt-type_b {font-size:10px}
+    [class*='txt-type'].point {color:#000;font-weight:500}
+    .text-indent_a {padding-left:16px;text-indent:-16px;font-weight:300}
+
+    /* button */
+    [class*='btn-basic'] {min-width:43px;padding:0 15px;height:25px;line-height:25px;font-size:11px;border-radius:2px}
+    [class*='btn-basic'].big {min-width:97px;padding:0 20px;height:35px;line-height:35px;font-size:12px}
+    [class*='btn-basic'].small {padding:0 10px;height:21px;line-height:21px;font-size:10px}
+
+    /* checkbox */
+    .checkbox label {padding-left:19px;line-height:14px;min-height:14px}
+    .checkbox label:before {width:14px;height:14px;border:1px solid #d5d6db}
+    .checkbox label:after {top:4px;left:3px;width:9px;height:7px;background:url('../../resources/img/ico_form_m.png') no-repeat 0 0;background-size:500px auto}
+    .checkbox input[type='checkbox'] {width:14px;height:14px}
+
+    /* radio */
+    .radio label {padding-left:19px;line-height:14px;min-height:14px}
+    .radio label:before {width:14px;height:14px}
+    .radio label:after {left:4px;top:4px;width:6px;height:6px}
+    .radio input[type='radio'] {width:14px;height:14px}
+
+    /* etc */
+    .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
+    a + .blt-new {margin-left:2px}
+    sup {font-size:9px}
+
+    /* list type */
+    .dot_list li {padding-left:7px}
+    .dot_list li:before {top:7px;width:3px;height:3px}
+    .dot_list.small li:before {top:8px}
+
+    /* table col */
+    .cols-w2 {width:80px}
+
+
+    .m_block {display:block}
+    .only-pc {display:none}
+    .col-area .col-group {float:none;width:100%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
