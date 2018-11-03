@@ -21,7 +21,13 @@
 
 	<script src="../../resources/js/lib/jquery-3.2.1.min.js"></script>
 	<script src="../../resources/js/lib/jquery-ui.min.js"></script>
-	<script src="../../resources/js/ui.base.js"></script>
+	<script src="../../resources/js/lib/jquery.smoothwheel.js"></script>
+	<script src="../../resources/js/lib/owl.carousel.js"></script>
+
+	<script src="../../resources/js/ui.plugins.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+	<script src="../../resources/js/ui.page.js"></script>
+
 
 <style>
 	body{background:linear-gradient(to top right, #ffeff0 0%, #dcf6e7 100%);
@@ -868,7 +874,7 @@ function redrawDotNav(){
 					</ul>
 				</div>
 			</div>-->
-			<p class="h2">검색</p>
+			<p class="h2">검색 5</p>
 			<div class="type_view">
 				<div class="sh-wrap">
 					<form action="">
@@ -877,21 +883,81 @@ function redrawDotNav(){
 							<div class="sh-box">
 								<div class="sh-item-from">
 									<label for="" class="sh-item-title">연수원 선택</label>
+									<div class="ui-select">
+										<select class="sel_type" id="selectID_sh01">
+											<option selected="selected">선택</option>
+											<option>속초 수련원</option>
+											<option>수안보연수원</option>
+											<option>서천연수원</option>
+										</select>
+									</div>
 								</div>
 								<div class="sh-item-from">
-									<label for="" class="sh-item-title">체크인<span class="sub-t">IN</span></label>
+									<label for="" class="sh-item-title">체크인<span class="sub-t only-pc">IN</span></label>
+									<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
 								</div>
 								<div class="sh-item-from small">
 									<label for="" class="sh-item-title">숙박일</label>
+									<div class="ui-select">
+										<select class="sel_type" id="selectID_sh02">
+											<option selected="selected">선택</option>
+											<option>속초 수련원</option>
+											<option>수안보연수원</option>
+											<option>서천연수원</option>
+										</select>
+									</div>
 								</div>
 								<div class="sh-item-from">
-									<label for="" class="sh-item-title">체크아웃<span class="sub-t">OUT</span></label>
+									<label for="" class="sh-item-title">체크아웃<span class="sub-t only-pc">OUT</span></label>
+									<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
 								</div>
 								<div class="sh-item-from small">
 									<label for="" class="sh-item-title">인원</label>
+									<div class="ui-select">
+										<select class="sel_type" id="selectID_sh03">
+											<option selected="selected">선택</option>
+											<option>속초 수련원</option>
+											<option>수안보연수원</option>
+											<option>서천연수원</option>
+										</select>
+									</div>
 								</div>
 								<div class="sh-item-btn">
-									<button type="button" class="sh-btn"><span>srarch</span>검색</button>
+									<button type="button" class="sh-btn"><span class="only-pc">srarch</span>검색</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<p class="h2">검색 3</p>
+			<div class="type_view">
+				<div class="sh-wrap">
+					<form action="">
+						<fieldset>
+							<legend>검색</legend>
+							<div class="sh-box type_b">
+								<div class="sh-item-from">
+									<label for="" class="sh-item-title">연수원 선택</label>
+									<div class="ui-select">
+										<select class="sel_type" id="selectID_sh04">
+											<option selected="selected">선택</option>
+											<option>속초 수련원</option>
+											<option>수안보연수원</option>
+											<option>서천연수원</option>
+										</select>
+									</div>
+								</div>
+								<div class="sh-item-from">
+									<label for="" class="sh-item-title">체크인<span class="sub-t only-pc">IN</span></label>
+									<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
+								</div>
+								<div class="sh-item-from">
+									<label for="" class="sh-item-title">체크아웃<span class="sub-t  only-pc">OUT</span></label>
+									<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
+								</div>
+								<div class="sh-item-btn">
+									<button type="button" class="sh-btn"><span class="only-pc">srarch</span>검색</button>
 								</div>
 							</div>
 						</fieldset>
