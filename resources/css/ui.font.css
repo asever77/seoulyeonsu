@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-thin.eot');/* IE 호환성 보기 */
 	src:url('../../resources/font/notokr-thin.eot?#iefix') format('embedded-opentype'),/* IE 6 ~ 8 */
 		url('../../resources/font/notokr-thin.woff2') format('woff2'),/* WOFF2 지원 브라우저 */
@@ -11,7 +11,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-light.eot');
 	src:url('../../resources/font/notokr-light.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-light.woff2') format('woff2'),
@@ -21,7 +21,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-demilight.eot');
 	src:url('../../resources/font/notokr-demilight.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-demilight.woff2') format('woff2'),
@@ -31,7 +31,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-regular.eot');
 	src:url('../../resources/font/notokr-regular.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-regular.woff2') format('woff2'),
@@ -41,7 +41,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-medium.eot');
 	src:url('../../resources/font/notokr-medium.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-medium.woff2') format('woff2'),
@@ -51,7 +51,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-bold.eot');
 	src:url('../../resources/font/notokr-bold.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-bold.woff2') format('woff2'),
@@ -61,7 +61,7 @@
 	font-style:normal;
 }
 @font-face{
-	font-family:'notokr';
+	font-family:'Noto Sans KR';
 	src:url('../../resources/font/notokr-black.eot');
 	src:url('../../resources/font/notokr-black.eot?#iefix') format('embedded-opentype'),
 		url('../../resources/font/notokr-black.woff2') format('woff2'),
