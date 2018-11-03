@@ -302,8 +302,6 @@ sup {font-size:11px}
 .ui-widget.ui-datepicker .ui-datepicker-prev span {background-position-x:-200px}
 .ui-widget.ui-datepicker .ui-datepicker-next span {background-position-x:-220px}
 
-
-
 /* select */
 .sel_small .ui-selectmenu-button.ui-button {height:24px; line-height:22px; font-size:12px}
 .sel_small .ui-selectmenu-icon.ui-icon {width:7px; height:4px; margin-top:9px}
