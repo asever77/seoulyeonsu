@@ -21,141 +21,140 @@
 	<script src="../../resources/js/ui.init.js"></script>
 	<script src="../../resources/js/ui.plugins.js"></script>
 	<script src="../../resources/js/ui.common.js"></script>
-	<style>
-		body{background:linear-gradient(to top right, #ffeff0 0%, #dcf6e7 100%);
-			background:#ffeff0; /* Old browsers */
-			background:-moz-linear-gradient(45deg, #ffeff0 1%, #dcf6e7 100%); /* FF3.6-15 */
-			background:-webkit-linear-gradient(45deg, #ffeff0 1%,#dcf6e7 100%); /* Chrome10-25,Safari5.1-6 */
-			background:linear-gradient(45deg, #ffeff0 1%,#dcf6e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeff0', endColorstr='#dcf6e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-		}
-		.btnTop {position:fixed;z-index:50;overflow:hidden;width:30px;height:30px;right:10px;bottom:10px}
-		.btnTop a {display:block;width:30px;height:30px;background:url("../../btn_top.png") no-repeat 0 0;text-indent:-9999em;opacity:.7}
-		.btnTop a:hover {opacity:1}
-		.list_box_wrap {padding:0 20px 20px 20px;min-width:1000px}
-		.tabs {background-color:#309df1;position:fixed;top:0;right:0;left:0;z-index:49}
-		.tabs .logo {position:absolute;width:150px;top:0;left:0;height:50px;line-height:50px;color:#fff;font-weight:bold;text-align:center;background-color:#000;font-size:16px}
-		.tabs ul {overflow:hidden;margin-left:150px}
-		.tabs ul li {float:left;width:14.25%}
-		.tabs ul li a {display:block;text-align:center;height:50px;line-height:50px;font-weight:bold;color:#fff;font-size:13px;position:relative;font-family:'verdana'}
-		.tabs ul li a.active {background-color:#cf214d}
-		.tabs ul li a:after {content:'';position:absolute;top:0;right:0;bottom:0;width:1px;background-color:rgba(255,255,255,.3)}
-		.tabs ul li:last-child {width:14.5%}
-		.tabs ul li:last-child a:after{display:none}
+<style>
+	body{background:linear-gradient(to top right, #ffeff0 0%, #dcf6e7 100%);
+		background:#ffeff0; /* Old browsers */
+		background:-moz-linear-gradient(45deg, #ffeff0 1%, #dcf6e7 100%); /* FF3.6-15 */
+		background:-webkit-linear-gradient(45deg, #ffeff0 1%,#dcf6e7 100%); /* Chrome10-25,Safari5.1-6 */
+		background:linear-gradient(45deg, #ffeff0 1%,#dcf6e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeff0', endColorstr='#dcf6e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+	.btnTop {position:fixed;z-index:50;overflow:hidden;width:30px;height:30px;right:10px;bottom:10px}
+	.btnTop a {display:block;width:30px;height:30px;background:url("../../btn_top.png") no-repeat 0 0;text-indent:-9999em;opacity:.7}
+	.btnTop a:hover {opacity:1}
+	.list_box_wrap {padding:0 20px 20px 20px;min-width:1000px}
+	.tabs {background-color:#309df1;position:fixed;top:0;right:0;left:0;z-index:49}
+	.tabs .logo {position:absolute;width:150px;top:0;left:0;height:50px;line-height:50px;color:#fff;font-weight:bold;text-align:center;background-color:#000;font-size:16px}
+	.tabs ul {overflow:hidden;margin-left:150px}
+	.tabs ul li {float:left;width:14.25%}
+	.tabs ul li a {display:block;text-align:center;height:50px;line-height:50px;font-weight:bold;color:#fff;font-size:13px;position:relative;font-family:'verdana'}
+	.tabs ul li a.active {background-color:#cf214d}
+	.tabs ul li a:after {content:'';position:absolute;top:0;right:0;bottom:0;width:1px;background-color:rgba(255,255,255,.3)}
+	.tabs ul li:last-child {width:14.5%}
+	.tabs ul li:last-child a:after{display:none}
 
-		.h1 {font-weight:bold;font-size:18px;color:#000;margin-bottom:10px;font-family:'verdana';padding-top:60px}
-		.h2 {background-color:#e0f2e8;margin:0 -20px;height:30px;line-height:30px;padding:0 20px;font-weight:bold;margin-bottom:10px}
-		.box_wrap {border:1px solid #ddd;padding:0 20px 0 20px;background-color:#fff}
-		.type_view {padding-bottom:20px;max-width:1280px}
-		.type_view .sbt {margin-bottom:5px;color:#333}
-		.type_view .sbt ~ .sbt {margin-top:10px}
-		.type_view.btn_view button {margin-right:20px}
-		.type_view > .checkbox, .type_view > .radio {margin-right:15px}
-		@media (max-width:768px) {
-			.tabs ul {margin-left:0}
-			.tabs .logo {display:none}
-			.list_box_wrap {min-width:1px}
-		}
-	</style>
-	<script type="text/javascript">
-        $(document).ready(function() {
-            $('.btnTop').click(function(){
-                $('html, body').animate({scrollTop : 0},300);
-            });
+	.h1 {font-weight:bold;font-size:18px;color:#000;margin-bottom:10px;font-family:'verdana';padding-top:60px}
+	.h2 {background-color:#e0f2e8;margin:0 -20px;height:30px;line-height:30px;padding:0 20px;font-weight:bold;margin-bottom:10px}
+	.box_wrap {border:1px solid #ddd;padding:0 20px 0 20px;background-color:#fff}
+	.type_view {padding-bottom:20px;max-width:1280px}
+	.type_view .sbt {margin-bottom:5px;color:#333}
+	.type_view .sbt ~ .sbt {margin-top:10px}
+	.type_view.btn_view button {margin-right:20px}
+	.type_view > .checkbox, .type_view > .radio {margin-right:15px}
+	@media (max-width:768px) {
+		.list_box_wrap {min-width:1px}
+	}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.btnTop').click(function(){
+		$('html, body').animate({scrollTop : 0},300);
+	});
 
-            redrawDotNav();
-            /* Scroll event handler */
-            $(window).bind('scroll',function(e){
-                redrawDotNav();
-            });
+	redrawDotNav();
+	/* Scroll event handler */
+	$(window).bind('scroll',function(e){
+		redrawDotNav();
+	});
 
-            /* Next/prev and primary nav btn click handlers */
-            $('.tab_nav a.p01').click(function(){
-                $('html, body').animate({
-                    scrollTop:0
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p02').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group02').offset().top
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p03').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group03').offset().top
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p04').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group04').offset().top
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p05').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group05').offset().top
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p06').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group06').offset().top
-                }, 300);
-                return false;
-            });
-            $('.tab_nav a.p07').click(function(){
-                $('html, body').animate({
-                    scrollTop:$('#group07').offset().top
-                }, 300);
-                return false;
-            });
+	/* Next/prev and primary nav btn click handlers */
+	$('.tab_nav a.p01').click(function(){
+		$('html, body').animate({
+			scrollTop:0
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p02').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group02').offset().top
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p03').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group03').offset().top
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p04').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group04').offset().top
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p05').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group05').offset().top
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p06').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group06').offset().top
+		}, 300);
+		return false;
+	});
+	$('.tab_nav a.p07').click(function(){
+		$('html, body').animate({
+			scrollTop:$('#group07').offset().top
+		}, 300);
+		return false;
+	});
 
-            //timepicker/
-            $('.timepicker').timepicker({
-                timeFormat: 'h:mm p',
-                interval: 30,
-                minTime: '10',
-                //maxTime: '6:00pm',
-                //defaultTime: '11',
-                //startTime: '10:00',
-                dynamic: false,
-                dropdown: true,
-                scrollbar: true
-            });
-        });
+	//timepicker/
+	$('.timepicker').timepicker({
+		timeFormat: 'h:mm p',
+		interval: 30,
+		minTime: '10',
+		//maxTime: '6:00pm',
+		//defaultTime: '11',
+		//startTime: '10:00',
+		dynamic: false,
+		dropdown: true,
+		scrollbar: true
+	});
+});
 
-        /* Set navigation dots to an active state as the user scrolls */
-        function redrawDotNav(){
-            var section1Top =  0;
-            // The top of each section is offset by half the distance to the previous section.
-            var section2Top =  $('#group02').offset().top - (($('#group03').offset().top - $('#group02').offset().top) / 4);
-            var section3Top =  $('#group03').offset().top - (($('#group04').offset().top - $('#group03').offset().top) / 4);
-            var section4Top =  $('#group04').offset().top - (($('#group05').offset().top - $('#group04').offset().top) / 4);
-            var section5Top =  $('#group05').offset().top - (($('#group06').offset().top - $('#group05').offset().top) / 4);
-            var section6Top =  $('#group06').offset().top - (($('#group07').offset().top - $('#group06').offset().top) / 12);
-            var section7Top =  $('#group07').offset().top - (($(document).height() - $('#group07').offset().top) / 4);;
-            $('.tab_nav a').removeClass('active');
-            $('.product_section').removeClass('onbg');
-            if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
-                $('.tab_nav a.p01').addClass('active');
-            } else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
-                $('.tab_nav a.p02').addClass('active');
-            } else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
-                $('.tab_nav a.p03').addClass('active');
-            } else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
-                $('.tab_nav a.p04').addClass('active');
-            } else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
-                $('.tab_nav a.p05').addClass('active');
-            } else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
-                $('.tab_nav a.p06').addClass('active');
-            } else if ($(document).scrollTop() >= section7Top){
-                $('.tab_nav a.p07').addClass('active');
-            }
-        }
-	</script>
+/* Set navigation dots to an active state as the user scrolls */
+function redrawDotNav(){
+	var section1Top =  0;
+	// The top of each section is offset by half the distance to the previous section.
+	var section2Top =  $('#group02').offset().top - (($('#group03').offset().top - $('#group02').offset().top) / 4);
+	var section3Top =  $('#group03').offset().top - (($('#group04').offset().top - $('#group03').offset().top) / 4);
+	var section4Top =  $('#group04').offset().top - (($('#group05').offset().top - $('#group04').offset().top) / 4);
+	var section5Top =  $('#group05').offset().top - (($('#group06').offset().top - $('#group05').offset().top) / 4);
+	var section6Top =  $('#group06').offset().top - (($('#group07').offset().top - $('#group06').offset().top) / 12);
+	var section7Top =  $('#group07').offset().top - (($(document).height() - $('#group07').offset().top) / 4);;
+	$('.tab_nav a').removeClass('active');
+	$('.product_section').removeClass('onbg');
+	if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
+		$('.tab_nav a.p01').addClass('active');
+	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
+		$('.tab_nav a.p02').addClass('active');
+	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
+		$('.tab_nav a.p03').addClass('active');
+	} else if ($(document).scrollTop() >= section4Top && $(document).scrollTop() < section5Top){
+		$('.tab_nav a.p04').addClass('active');
+	} else if ($(document).scrollTop() >= section5Top && $(document).scrollTop() < section6Top){
+		$('.tab_nav a.p05').addClass('active');
+	} else if ($(document).scrollTop() >= section6Top && $(document).scrollTop() < section7Top){
+		$('.tab_nav a.p06').addClass('active');
+	} else if ($(document).scrollTop() >= section7Top){
+		$('.tab_nav a.p07').addClass('active');
+	}
+}
+</script>
+	<link rel="stylesheet" href="../../resources/css/ui.plugins.css">
 </head>
 <body>
 <div class="list_box_wrap">
@@ -240,31 +239,35 @@
 			<p class="h2">Select</p>
 			<div class="type_view">
 				<p class="sbt">small size type</p>
-				<span class="sel_small">
-					<select class="sel_type">
+				<div class="ui-select sel_small">
+					<select class="sel_type" id="selectID_1">
 						<option selected="selected">Slower</option>
 						<option>Slow</option>
 						<option >Medium</option>
 						<option>Fast</option>
 						<option>Faster</option>
 					</select>
-				</span>
+				</div>
 				<p class="sbt">basic type</p>
-				<select class="sel_type">
-					<option selected="selected">Slower</option>
-					<option>Slow</option>
-					<option >Medium</option>
-					<option>Fast</option>
-					<option>Faster</option>
-				</select>
+				<div class="ui-select">
+					<select class="sel_type" id="selectID_2">
+						<option selected="selected">Slower</option>
+						<option>Slow</option>
+						<option >Medium</option>
+						<option>Fast</option>
+						<option>Faster</option>
+					</select>
+				</div>
 				<p class="sbt">basic disabled</p>
-				<select class="sel_type" disabled>
-					<option selected="selected">Slower</option>
-					<option>Slow</option>
-					<option >Medium</option>
-					<option>Fast</option>
-					<option>Faster</option>
-				</select>
+				<div class="ui-select">
+					<select class="sel_type" id="selectID_3" disabled>
+						<option selected="selected">Slower</option>
+						<option>Slow</option>
+						<option >Medium</option>
+						<option>Fast</option>
+						<option>Faster</option>
+					</select>
+				</div>
 			</div>
 			<p class="h2">Radio</p>
 			<div class="type_view">
@@ -904,32 +907,32 @@
 									<col style="width:50%">
 								</colgroup>
 								<thead>
-								<tr>
-									<th scope="col">출국시간</th>
-									<th scope="col">구매마감시간</th>
-								</tr>
+									<tr>
+										<th scope="col">출국시간</th>
+										<th scope="col">구매마감시간</th>
+									</tr>
 								</thead>
 								<tbody>
-								<tr>
-									<td>당일 03:00 ~ 14:59 출국</td>
-									<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-								</tr>
-								<tr>
-									<td>당일 15:00 ~ 16:59 출국</td>
-									<td>당일 오전 10:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 17:00 ~ 18:59 출국</td>
-									<td>당일 오전 12:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 19:00 ~ 23:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>익일 00:00 ~ 02:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
+									<tr>
+										<td>당일 03:00 ~ 14:59 출국</td>
+										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
+									</tr>
+									<tr>
+										<td>당일 15:00 ~ 16:59 출국</td>
+										<td>당일 오전 10:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 17:00 ~ 18:59 출국</td>
+										<td>당일 오전 12:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 19:00 ~ 23:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>익일 00:00 ~ 02:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
 								</tbody>
 							</table>
 						</dd>
@@ -942,32 +945,32 @@
 									<col style="width:50%">
 								</colgroup>
 								<thead>
-								<tr>
-									<th scope="col">출국시간</th>
-									<th scope="col">구매마감시간</th>
-								</tr>
+									<tr>
+										<th scope="col">출국시간</th>
+										<th scope="col">구매마감시간</th>
+									</tr>
 								</thead>
 								<tbody>
-								<tr>
-									<td>당일 03:00 ~ 14:59 출국</td>
-									<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-								</tr>
-								<tr>
-									<td>당일 15:00 ~ 16:59 출국</td>
-									<td>당일 오전 10:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 17:00 ~ 18:59 출국</td>
-									<td>당일 오전 12:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 19:00 ~ 23:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>익일 00:00 ~ 02:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
+									<tr>
+										<td>당일 03:00 ~ 14:59 출국</td>
+										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
+									</tr>
+									<tr>
+										<td>당일 15:00 ~ 16:59 출국</td>
+										<td>당일 오전 10:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 17:00 ~ 18:59 출국</td>
+										<td>당일 오전 12:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 19:00 ~ 23:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>익일 00:00 ~ 02:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
 								</tbody>
 							</table>
 						</dd>
@@ -980,32 +983,32 @@
 									<col style="width:50%">
 								</colgroup>
 								<thead>
-								<tr>
-									<th scope="col">출국시간</th>
-									<th scope="col">구매마감시간</th>
-								</tr>
+									<tr>
+										<th scope="col">출국시간</th>
+										<th scope="col">구매마감시간</th>
+									</tr>
 								</thead>
 								<tbody>
-								<tr>
-									<td>당일 03:00 ~ 14:59 출국</td>
-									<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-								</tr>
-								<tr>
-									<td>당일 15:00 ~ 16:59 출국</td>
-									<td>당일 오전 10:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 17:00 ~ 18:59 출국</td>
-									<td>당일 오전 12:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>당일 19:00 ~ 23:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
-								<tr>
-									<td>익일 00:00 ~ 02:59 출국</td>
-									<td>당일 오후 02:30까지 주문 가능 </td>
-								</tr>
+									<tr>
+										<td>당일 03:00 ~ 14:59 출국</td>
+										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
+									</tr>
+									<tr>
+										<td>당일 15:00 ~ 16:59 출국</td>
+										<td>당일 오전 10:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 17:00 ~ 18:59 출국</td>
+										<td>당일 오전 12:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>당일 19:00 ~ 23:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
+									<tr>
+										<td>익일 00:00 ~ 02:59 출국</td>
+										<td>당일 오후 02:30까지 주문 가능 </td>
+									</tr>
 								</tbody>
 							</table>
 						</dd>

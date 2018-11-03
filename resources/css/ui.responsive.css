@@ -51,6 +51,9 @@
     a + .blt-new {margin-left:2px}
     sup {font-size:9px}
 
+    /* clamp */
+    .clamp {max-width:90%}
+
     /* list type */
     .dot_list li {padding-left:7px}
     .dot_list li:before {top:7px;width:3px;height:3px}
