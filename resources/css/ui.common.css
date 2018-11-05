@@ -3,7 +3,7 @@
 /* default */
 html, body{width:100%; height:100%}
 html{font-size:62.5%}
-body{font-family:'Noto Sans KR', 'Malgun Gothic', AppleGothicNeoSD, 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', arial, sans-serif; font-size:16px; line-height:1.5; color:#666; letter-spacing:-0.07em; background:#fff; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none; -moz-osx-font-smoothing:grayscale; overflow-y:auto;-webkit-overflow-scrolling:touch;}
+body{font-family:'Noto Sans KR', 'Malgun Gothic', AppleGothicNeoSD, 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', arial, sans-serif; font-size:16px; line-height:1.5; color:#666; letter-spacing:-0.07em; background:#f3f4f7; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none; -moz-osx-font-smoothing:grayscale; overflow-y:auto;-webkit-overflow-scrolling:touch;}
 body:before{content:''; position:fixed; left:0; top:0; width:100%; height:0}/* fix webkit bug(scroll event delay) */
 body, div, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, iframe, tr, tbody, thead, table, th, td, b, span, strong, label{margin:0; padding:0; box-sizing:border-box}
 dl, dt, dd, ul, ol, li{box-sizing:border-box; list-style:none; padding:0; margin:0}
@@ -52,6 +52,7 @@ textarea {resize:none}
 [class*='txt-type'].point {color:#000; font-weight:500}
 .text-indent_a {padding-left:16px; text-indent:-16px; font-weight:300}
 
+
 /* breadcrumb */
 .breadcrumb .breadcrumb-item {position:relative; display:inline-block; font-size:14px; color:#999; font-weight:200}
 .breadcrumb .breadcrumb-item:before {display:none}
@@ -60,6 +61,8 @@ textarea {resize:none}
 .breadcrumb .breadcrumb-item:last-child {font-weight:500; color:#000}
 
 /* button */
+.btn-area {text-align:center}
+.btn-area [class*='btn-basic'] {margin:0 2px}
 [class*='btn-basic'] {min-width:85px; padding:0 20px; height:49px; line-height:49px; color:#fff; font-size:18px; font-weight:500; border:1px solid transparent; border-radius:3px}
 [class*='btn-basic'].big {min-width:154px; height:59px; font-size:20px; line-height:59px}
 [class*='btn-basic'].small {padding:0 15px; height:37px; line-height:37px; font-size:16px; font-weight:300}
@@ -105,8 +108,10 @@ textarea {resize:none}
 
 .mgr-n{margin-right:0 !important}
 .mgb-n{margin-bottom:0 !important}
-.mgl-m{margin-left:20px !important}
-.mgt-m{margin-top:20px !important}
+.mgt-ms{margin-top:30px}
+.mgt-m{margin-top:40px}
+.mgt-mb{margin-top:50px}
+.mgt-b{margin-top:90px}
 .pd-n{padding:0 !important}
 .fl{float:left; display:block}
 .fr{float:right; display:block}
@@ -205,7 +210,7 @@ sup {font-size:11px}
 .room-type-area .room-type sup {font-size:16px}
 
 .box-module_a:after {content:''; display:block; clear:both}
-.box-module_a .box-item {position:relative; float:left; width:390px; margin-right:55px}
+.box-module_a .box-item {position:relative; float:left; width:380px; margin-right:30px}
 .box-module_a .box-item:nth-child(3n) {margin-right:0}
 .box-module_a .box-item .info-area {padding:27px 0 24px}
 .box-module_a .dl-type_a dt {width:136px; vertical-align:middle; text-align:center}
@@ -343,7 +348,7 @@ sup {font-size:11px}
 .ui-dialog{display:none}
 .ui-widget.ui-dialog.ui-widget-content{ padding:0; border-radius:0; border:0; box-shadow:0 0 10px rgba(0,0,0,0.2)}
 .ui-dialog .ui-dialog-titlebar{background:#2e3344; font-size:16px; color:#fff; margin:0; padding:10px 20px; border:0; border-radius:0; font-weight:400 }
-.ui-dialog .ui-dialog-titlebar-close{background:url(/resources/img/btn_close.png) no-repeat 0 0; width:20px; height:20px; border:0; right:10px}
+/*.ui-dialog .ui-dialog-titlebar-close{background:url(/resources/img/btn_close.png) no-repeat 0 0; width:20px; height:20px; border:0; right:10px}*/
 .ui-dialog .ui-dialog-titlebar-close span{display:none}
 .ui-dialog .ui-widget-content{padding:20px !important}
 .ui-dialog .type-scroll.tbl-wrap .tbl-head {border:none}
