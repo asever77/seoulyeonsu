@@ -19,6 +19,10 @@
     .box-module_b .room-type-area {padding:5px 0 20px}
     .box-module_b .room-info-group {margin-top:10px}
     .box-module_b .room-info-group .dl-type_b {width:60%}
+
+    /* table */
+    .fake-table {font-size:14px}
+    .col-area .col-group .col.th {width:180px;padding:15px 20px}
 }
 
 @media (max-width:768px) {
@@ -34,6 +38,10 @@
     .only-pc {display:none !important}
     .breadcrumb {display:none}
 
+    /* margin */
+    .mgt-ms {margin-top:15px}
+    .mgt-b {margin-top:30px}
+
     /* datepicker */
     .ui-datepicker-trigger:before {right:7px;width:12px;height:12px;margin-top:-6px}
 
@@ -41,6 +49,7 @@
     .ui-select:after,
     .ico_fromb:before,
     .ui-datepicker-trigger:before,
+    .radio.big label:after,
     .ico_from {background-image:url('../../resources/img/ico_form_m.png');background-size:500px auto}
     .ico_common,
     .breadcrumb-item:before {background-image:url('../../resources/img/ico_common.png');background-size:500px auto}
@@ -57,6 +66,8 @@
     .h-type_c {font-size:14px}
     .h-type_d {padding-left:8px;font-size:14px}
     .h-type_d:before {top:10px;width:3px;height:3px}
+    .title-box {border-width:1px;border-color:#309df1}
+    .title-box .h-type_a {text-align:center}
 
     /* text */
     .txt-type_a {font-size:11px}
@@ -83,6 +94,9 @@
     .radio label:before {width:14px;height:14px}
     .radio label:after {left:4px;top:4px;width:6px;height:6px}
     .radio input[type='radio'] {width:14px;height:14px}
+    .radio.big label {min-height:17px;line-height:17px}
+    .radio.big label:before {width:17px;height:17px}
+    .radio.big label:after {width:12px;height:8px;top:5px;left:3px}
 
     /* search */
     .sh-box,
@@ -99,7 +113,8 @@
     .sh-box .ui-select,
     .sh-box .datepicker-box {display:table-cell;vertical-align:top}
     .sh-item-btn {display:block;width:100% !important}
-    .sh-item-btn .sh-btn {position:static;display:block;height:48px;font-size:16px}
+    .sh-item-btn .sh-btn {position:static;display:block;height:38px;font-size:14px}
+    .sh-wrap.mgt-m {margin-top:0}
 
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
@@ -109,9 +124,12 @@
     /* clamp */
     .clamp {max-width:90%}
 
-    /* result */
+    /* result size */
     .result-box {padding:10px 12px}
-    .result-box p {font-size:11px}
+    .result-box_b {margin-top:0;padding:18px 0 13px;border-top:none}
+
+    /* font */
+    .fsize-m {font-size:11px}
 
     /* list type */
     .dot_list li,
@@ -129,8 +147,8 @@
     .box-module_a .dl-type_a dt {width:83px}
     .box-module_a .dl-type_a dt .room-type {margin-bottom:5px}
     .box-module_a .dl-type_a dd {padding:0 18px;font-size:11px;line-height:16px}
-    .box-module_a .check-area .checkbox {padding:9px 0}
-    .box-module_a .check-area .checkbox label {font-size:13px;padding-left:22px}
+    .box-module_a .check-area .radio {padding:9px 0}
+    .box-module_a .check-area .radio label {font-size:13px;padding-left:22px}
 
     .box-module_b .box-item {padding-top:20px}
     .box-module_b .box-item ~ .box-item {margin-top:20px}
@@ -142,6 +160,9 @@
     .box-module_b .dl-type_b {line-height:18px}
     .box-module_b .tb-type_d caption.dot-item {margin-top:5px}
 
+    /* table */
+    .fake-table {font-size:12px}
+
     .tb-type_d caption.dot-item {margin-bottom:8px}
     .tb-type_d tbody th {padding:8px}
     .tb-type_d tbody td {padding:8px 15px}
@@ -151,6 +172,8 @@
     .col-area .col-group .col.th {width:80px;padding:8px}
     .col-area .col-group .col.td {padding:5px 15px}
 
+    .small-in ~ .m_block {margin:5px 0 0 0;line-height:14px}
+
     /* table col */
     .cols-w2 {width:80px}
     .col-area .col-group {float:none;width:100%}
@@ -158,6 +181,9 @@
 
     /* paging */
     .paging a {min-width:24px;height:24px;line-height:24px;font-size:11px}
+
+    /* content layout */
+    .contents-area {padding:25px 15px 70px}
 }
 
 

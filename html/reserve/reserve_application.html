@@ -12,7 +12,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="mobile-web-app-capable" content="yes">
 
-    <title>기본 템플릿 페이지 | 서울시 연수원</title>
+    <title>예약신청 | 서울시 연수원</title>
 
 	<link rel="apple-touch-icon" href="../../resources/img/common/ico_app.png" >
 	<link rel="shortcut icon" href="../../resources/img/common/ico_favicon.ico"> 
@@ -61,9 +61,9 @@
 								<legend>검색</legend>
 								<div class="sh-box type_b">
 									<div class="sh-item-from">
-										<label for="" class="sh-item-title">연수원 선택</label>
+										<label for="areaChoice" class="sh-item-title">연수원 선택</label>
 										<div class="ui-select">
-											<select class="sel_type" id="selectID_sh04">
+											<select class="sel_type" id="areaChoice">
 												<option selected="selected">선택</option>
 												<option>속초 수련원</option>
 												<option>수안보연수원</option>
@@ -72,12 +72,12 @@
 										</div>
 									</div>
 									<div class="sh-item-from">
-										<label for="" class="sh-item-title">체크인<span class="sub-t only-pc">IN</span></label>
-										<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
+										<label for="checkin" class="sh-item-title">체크인<span class="sub-t only-pc">IN</span></label>
+										<span class="datepicker-box"><input type="text" name="" value="" id="checkin" placeholder="" class="inp-date"></span>
 									</div>
 									<div class="sh-item-from">
-										<label for="" class="sh-item-title">체크아웃<span class="sub-t  only-pc">OUT</span></label>
-										<span class="datepicker-box"><input type="text" name="" value="" placeholder="" class="inp-date"></span>
+										<label for="checkout" class="sh-item-title">체크아웃<span class="sub-t  only-pc">OUT</span></label>
+										<span class="datepicker-box"><input type="text" id="checkout" name="" value="" placeholder="" class="inp-date"></span>
 									</div>
 									<div class="sh-item-btn">
 										<button type="button" class="sh-btn"><span class="only-pc">srarch</span>검색</button>
@@ -89,6 +89,9 @@
 					<!-- E : search area -->
 
 					<!-- S : result area -->
+					<div class="result-box_b">
+						<p class="fsize-m">총 <em class="point-col2">5개</em>의 검색결과가 있습니다.</p>
+					</div>
 					<div class="box-module_a">
 						<div class="box-item">
 							<div class="img-area"><img src="../../resources/img/temp/room01.jpg" alt=""></div>
@@ -99,8 +102,8 @@
 								</dl>
 							</div>
 							<div class="check-area">
-							<span class="checkbox round">
-								<input type="checkbox" name="" id="termType001">
+							<span class="radio big">
+								<input type="radio" name="termType" id="termType001">
 								<label for="termType001">객실선택하기</label>
 							</span>
 							</div>
@@ -114,8 +117,8 @@
 								</dl>
 							</div>
 							<div class="check-area">
-							<span class="checkbox round">
-								<input type="checkbox" name="" id="termType002">
+							<span class="radio big">
+								<input type="radio" name="termType" id="termType002">
 								<label for="termType002">객실선택하기</label>
 							</span>
 							</div>
@@ -129,9 +132,39 @@
 								</dl>
 							</div>
 							<div class="check-area">
-							<span class="checkbox round">
-								<input type="checkbox" name="" id="termType003" checked="checked">
+							<span class="radio big">
+								<input type="radio" name="termType" id="termType003" checked="checked">
 								<label for="termType003">객실선택하기</label>
+							</span>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="img-area"><img src="../../resources/img/temp/room02.jpg" alt=""></div>
+							<div class="info-area">
+								<dl class="dl-type_a">
+									<dt><p class="room-type">B형</p><button type="button" class="btn-basic1 small">상세보기</button></dt>
+									<dd>29.28m<sup>2</sup>/최대 7인<br>성수기 비수기</dd>
+								</dl>
+							</div>
+							<div class="check-area">
+							<span class="radio big">
+								<input type="radio" name="termType" id="termType004">
+								<label for="termType004">객실선택하기</label>
+							</span>
+							</div>
+						</div>
+						<div class="box-item">
+							<div class="img-area"><img src="../../resources/img/temp/room01.jpg" alt=""></div>
+							<div class="info-area">
+								<dl class="dl-type_a">
+									<dt><p class="room-type">A형</p><button type="button" class="btn-basic1 small">상세보기</button></dt>
+									<dd>29.28m<sup>2</sup>/최대 7인<br>성수기 비수기</dd>
+								</dl>
+							</div>
+							<div class="check-area">
+							<span class="radio big">
+								<input type="radio" name="termType" id="termType005">
+								<label for="termType005">객실선택하기</label>
 							</span>
 							</div>
 						</div>
@@ -162,18 +195,56 @@
 						</div>
 						<div class="col-area section">
 							<div class="col-group">
+								<div class="col th">예약자명</div>
+								<div class="col td">홍길동</div>
+							</div>
+							<div class="col-group">
+								<div class="col th">예약번호</div>
+								<div class="col td">자동할당됨</div>
+							</div>
+						</div>
+						<div class="col-area">
+							<div class="col-group">
+								<div class="col th">소속</div>
+								<div class="col td">시의회</div>
+							</div>
+							<div class="col-group">
+								<div class="col th">부서</div>
+								<div class="col td">유지보수</div>
+							</div>
+						</div>
+						<div class="col-area">
+							<div class="col-group">
 								<div class="col th">예약자 휴대폰 번호</div>
 								<div class="col td">010-1234-5678</div>
 							</div>
 							<div class="col-group">
 								<div class="col th">방문자 휴대폰 번호</div>
-								<div class="col td"><input type="text"></div>
+								<div class="col td">
+									<div class="form-row">
+										<div class="form-col">
+											<div class="ui-select">
+												<select class="sel_type" id="cellChoice">
+													<option selected="selected">선택</option>
+													<option>010</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-col_txt">-</div>
+										<div class="form-col"><input type="text"></div>
+										<div class="form-col_txt">-</div>
+										<div class="form-col"><input type="text"></div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="col-area">
 							<div class="col-group full">
 								<div class="col th">인원</div>
-								<div class="col td"><input type="text"><span class="point-col3 m_block">(기입하신 인원수는 예약 내용 혹은 방배정과는 연관이 없으며, 단순 입실 확인용입니다.)</span></div>
+								<div class="col td">
+									<span class="small-in"><input type="text"><span class="small-in_txt">명</span></span>
+									<span class="point-col3 m_block">(기입하신 인원수는 예약 내용 혹은 방배정과는 연관이 없으며, 단순 입실 확인용입니다.)</span>
+								</div>
 							</div>
 						</div>
 					</div>
