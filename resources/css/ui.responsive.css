@@ -68,6 +68,7 @@
     .h-type_d:before {top:10px;width:3px;height:3px}
     .title-box {border-width:1px;border-color:#309df1}
     .title-box .h-type_a {text-align:center}
+    .title-box.m-not-line {border-bottom:none}
 
     /* text */
     .txt-type_a {font-size:11px}
@@ -172,6 +173,7 @@
     .col-area .col-group .col.th {width:80px;padding:8px}
     .col-area .col-group .col.td {padding:5px 15px}
 
+    .small-in {width:85px}
     .small-in ~ .m_block {margin:5px 0 0 0;line-height:14px}
 
     /* table col */
@@ -184,6 +186,23 @@
 
     /* content layout */
     .contents-area {padding:25px 15px 70px}
+
+    /* step */
+    .step-area {margin-top:10px}
+    .step-type_a .step-item {padding-right:7px}
+    .step-type_a .step-item ~ .step-item {padding-left:7px}
+    .step-type_a .step-item:last-child {padding-right:0}
+    .step-type_a .step-item .step-item_box {padding:17px 0}
+    .step-type_a .step-item .step-item_box:before {top:5px;left:5px;right:5px;bottom:5px}
+    .step-item i {display:block;margin:0 auto}
+    .step-item .step-txt {text-align:center;margin-top:5px}
+    .step-item .step-txt .step-number,
+    .step-item .step-txt .step-info{font-size:10px}
+    .step-type_a .step-item ~ .step-item:before {left:-3px;margin-top:-6px;width:7px;height:12px;background-position:0 -50px;background-size:250px auto}
+    [class*="ico_step"] {background-size:250px auto;width:40px;height:40px;background-position-y:-10px}
+    .ico_step2 {background-position-x:-40px}
+    .ico_step3 {background-position-x:-80px}
+
 }
 
 

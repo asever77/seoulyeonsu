@@ -28,8 +28,10 @@ textarea {resize:none}
 .ui-datepicker-trigger:before,
 .ui-datepicker .ui-widget-header .ui-icon,
 .radio.big label:after,
+.step-type_a .step-item ~ .step-item:before,
 .ico_from {content:''; display:inline-block; background-image:url('../../resources/img/ico_form.png'); background-repeat:no-repeat}
 .ico_common,
+.step-type_a .step-item ~ .step-item:before,
 .breadcrumb-item:before {content:''; display:inline-block; background-image:url('../../resources/img/ico_common.png'); background-repeat:no-repeat}
 
 /* title */
@@ -382,7 +384,7 @@ sup {font-size:11px}
 .tb-type_d {border:1px solid #c2c3c6}
 .tb-type_d caption.dot-item {margin-bottom:12px;height:auto;text-align:left;opacity:1}
 .tb-type_d tbody th {text-align:center;font-size:14px;padding:8px 10px;background-color:#f7f7fa;border-bottom:1px solid #e1e2e7}
-.tb-type_d tbody td {font-size:14px;padding:9px 24px 8px;border-bottom:1px solid #e1e2e7}
+.tb-type_d tbody td {font-size:14px;padding:9px 24px 8px;border-bottom:1px solid #e1e2e7;background-color:#fff}
 .tb-type_d tbody tr:last-child th, .tb-type_d tbody tr:last-child td {border-bottom:none}
 
 .fake-table {border-top:2px solid #000}
@@ -413,6 +415,25 @@ sup {font-size:11px}
 .small-in {position:relative;display:inline-block;width:130px;padding-right:20px}
 .small-in .small-in_txt {position:absolute;right:0;top:50%;margin-top:-13px}
 .small-in ~ .m_block {margin-left:10px}
+
+/* step */
+.step-area {margin-top:60px}
+.step-type_a {display:table;width:100%;table-layout:fixed}
+.step-type_a .step-item {position:relative;display:table-cell;padding-right:22px;text-align:center}
+.step-type_a .step-item ~ .step-item {padding-left:22px}
+.step-type_a .step-item ~ .step-item:before {position:absolute;top:50%;left:-6px;margin-top:-11px;width:13px;height:23px;background-position:0 -100px}
+.step-type_a .step-item:last-child {padding-right:0}
+.step-type_a .step-item .step-item_box {position:relative;padding:40px 0;background-color:#9a9aa1;height:100%}
+.step-type_a .step-item .step-item_box:before {content:'';position:absolute;top:10px;left:10px;bottom:10px;right:10px;border:1px solid rgba(255,255,255,.5)}
+.step-type_a .step-item.active .step-item_box {background-color:#309df1}
+.step-item i {vertical-align:middle;margin-right:10px}
+.step-item .step-txt {display:inline-block;vertical-align:middle;text-align:left;color:#fff}
+.step-item .step-txt .step-number {display:block;font-size:24px;font-family:'Roboto', 'sans-serif';line-height:100%}
+.step-item .step-txt .step-info {font-size:20px}
+[class*="ico_step"] {width:80px;height:80px;background-position-y:-20px}
+.ico_step1 {background-position-x:0}
+.ico_step2 {background-position-x:-80px}
+.ico_step3 {background-position-x:-160px}
 
 
 
