@@ -16,13 +16,25 @@
 
         $(doc).off('click.owlplay').on('click.owlplay', '.owl-control.play', function(){
             $(this).removeClass('play').addClass('stop');
-            $id.trigger('play.owl.autoplay', [1000])
+            $(this).closest('.ui-owl').find('.owl-carousel').trigger('play.owl.autoplay', [6000]);
         })
         $(doc).off('click.owlstop').on('click.owlstop', '.owl-control.stop', function(){
             $(this).removeClass('stop').addClass('play');
-            $id.trigger('stop.owl.autoplay')
+           $(this).closest('.ui-owl').find('.owl-carousel').trigger('stop.owl.autoplay')
         });
     }
+
+    var timer_resize;
+
+    $(win).resize(function(){
+        clearTimeout(timer_resize);
+        timer_resize = setTimeout(function(){
+            $('.ui-owl').each(function(){
+                $(this).removeClass('n1 n2 n3 n4 n5 n6 n7 n8 n9 n10').addClass('n'+ $(this).find('.owl-dots button').length);
+            })
+        },300);
+    });
+
     $plugins.page.main = function(){
         console.log('main');
 
@@ -38,10 +50,10 @@
                 0:{
                     items:1
                 },
-                600:{
+                768:{
                     items:1
                 },
-                1000:{
+                1024:{
                     items:1
                 }
             }
@@ -69,12 +81,12 @@
                     onInitialized : $plugins.page.owlcallback, 
                     responsive:{
                         0:{
+                            items:1
+                        },
+                        768:{
                             items:2
                         },
-                        600:{
-                            items:2
-                        },
-                        1000:{
+                        1024:{
                             items:2
                         }
                     }
@@ -104,12 +116,12 @@
                     onInitialized : $plugins.page.owlcallback, 
                     responsive:{
                         0:{
-                            items:4
+                            items:2
                         },
-                        600:{
-                            items:4
+                        768:{
+                            items:3
                         },
-                        1000:{
+                        1024:{
                             items:4
                         }
                     }
@@ -139,12 +151,12 @@
                     onInitialized : $plugins.page.owlcallback, 
                     responsive:{
                         0:{
-                            items:4
+                            items:2
                         },
-                        600:{
-                            items:4
+                        768:{
+                            items:3
                         },
-                        1000:{
+                        1024:{
                             items:4
                         }
                     }
