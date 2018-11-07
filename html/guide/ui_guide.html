@@ -737,6 +737,34 @@ function redrawDotNav(){
 			</div>
 			<p class="h2">table Type D</p>
 			<div class="type_view">
+				<table class="tb-type_d">
+					<caption class="dot-item">비품구성</caption>
+					<colgroup>
+						<col class="cols-w3">
+						<col class="col-auto">
+					</colgroup>
+					<tbody>
+					<tr>
+						<th scope="row">가구류</th>
+						<td>TV받침대/쇼파/식탁/식탁의자/침대매트/침대헤드보드/화장대</td>
+					</tr>
+					<tr>
+						<th scope="row">가전류</th>
+						<td>TV/에어컨/냉장고/전기밥솥/전기쿡탑</td>
+					</tr>
+					<tr>
+						<th scope="row">식기류</th>
+						<td>객실정원에 맞는 식기 일체</td>
+					</tr>
+					<tr>
+						<th scope="row">침구류</th>
+						<td>객실 정원에 맞는 침구류(이불/요/배게)일체</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<p class="h2">table Type E</p>
+			<div class="type_view">
 				<div class="fake-table">
 					<div class="col-area">
 						<div class="col-group">
@@ -760,18 +788,64 @@ function redrawDotNav(){
 					</div>
 					<div class="col-area section">
 						<div class="col-group">
+							<div class="col th">예약자명</div>
+							<div class="col td">홍길동</div>
+						</div>
+						<div class="col-group">
+							<div class="col th">예약번호</div>
+							<div class="col td">자동할당됨</div>
+						</div>
+					</div>
+					<div class="col-area">
+						<div class="col-group">
+							<div class="col th">소속</div>
+							<div class="col td">시의회</div>
+						</div>
+						<div class="col-group">
+							<div class="col th">부서</div>
+							<div class="col td">유지보수</div>
+						</div>
+					</div>
+					<div class="col-area">
+						<div class="col-group">
 							<div class="col th">예약자 휴대폰 번호</div>
 							<div class="col td">010-1234-5678</div>
 						</div>
 						<div class="col-group">
 							<div class="col th">방문자 휴대폰 번호</div>
-							<div class="col td"><input type="text"></div>
+							<div class="col td">
+								<div class="form-row">
+									<div class="form-col">
+										<div class="ui-select">
+											<select class="sel_type" id="cellChoice">
+												<option selected="selected">선택</option>
+												<option>010</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-col_txt">-</div>
+									<div class="form-col"><input type="text"></div>
+									<div class="form-col_txt">-</div>
+									<div class="form-col"><input type="text"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-area">
 						<div class="col-group full">
 							<div class="col th">인원</div>
-							<div class="col td"><input type="text"><span class="point-col3 m_block">(기입하신 인원수는 예약 내용 혹은 방배정과는 연관이 없으며, 단순 입실 확인용입니다.)</span></div>
+							<div class="col td">
+								<span class="small-in"><input type="text"><span class="small-in_txt">명</span></span>
+								<span class="point-col3 m_block">(기입하신 인원수는 예약 내용 혹은 방배정과는 연관이 없으며, 단순 입실 확인용입니다.)</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-area section">
+						<div class="col-group full">
+							<div class="col th">예약자명</div>
+							<div class="col td">
+								<textarea name="" cols="30" rows="10"></textarea>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -967,6 +1041,30 @@ function redrawDotNav(){
 							</div>
 						</fieldset>
 					</form>
+				</div>
+			</div>
+			<p class="h2">검색 상단 선택</p>
+			<div class="type_view">
+				<div class="search-top-group">
+					<div class="search-choice-group">
+						<span class="search-choice-item">
+							<input type="radio" id="searchChoice01" name="searchChoice" checked="checked">
+							<label for="searchChoice01">속초연수원</label>
+						</span>
+						<span class="search-choice-item">
+							<input type="radio" id="searchChoice02" name="searchChoice">
+							<label for="searchChoice02">수안보연수원</label>
+						</span>
+						<span class="search-choice-item">
+							<input type="radio" id="searchChoice03" name="searchChoice">
+							<label for="searchChoice03">서천연수원</label>
+						</span>
+					</div>
+					<ul class="legend-list only-pc">
+						<li class="legend-item"><i class="legend-type_a"></i>선택날짜</li>
+						<li class="legend-item"><i class="legend-type_b"></i>선택가능날짜</li>
+						<li class="legend-item"><i class="legend-type_c"></i>선택불가능날짜</li>
+					</ul>
 				</div>
 			</div>
 			<p class="h2">STEP</p>
