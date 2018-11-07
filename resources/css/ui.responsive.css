@@ -40,6 +40,7 @@
 
     /* margin */
     .mgt-ms {margin-top:15px}
+    .mgt-mb {margin-top:25px}
     .mgt-b {margin-top:30px}
 
     /* datepicker */
@@ -132,6 +133,9 @@
     /* font */
     .fsize-m {font-size:11px}
 
+    /* text indent */
+    .text-indent_a {padding-left:10px;text-indent:-10px}
+
     /* list type */
     .dot_list li,
     .dot-item {padding-left:7px}
@@ -202,6 +206,18 @@
     [class*="ico_step"] {background-size:250px auto;width:40px;height:40px;background-position-y:-10px}
     .ico_step2 {background-position-x:-40px}
     .ico_step3 {background-position-x:-80px}
+
+    /* contents */
+    .mini-noti {margin:15px 0 25px}
+    .items-group .items-item {display:block;padding:10px 0}
+    .items-group .items-item ~ .items-item {border-top:1px solid #cbcbcb}
+    .items-group .items-item .dot-item {margin-left:10px !important}
+
+    .search-top-group {padding-bottom:20px;border-bottom-width:1px}
+    .search-top-group .search-choice-group {float:none;text-align:center}
+    .search-top-group .search-choice-item {padding:0 9px}
+    .search-top-group .search-choice-item ~ .search-choice-item:before {margin-top:-5px;height:10px}
+    .search-choice-item label {font-size:13px}
 
 }
 

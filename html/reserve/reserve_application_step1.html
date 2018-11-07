@@ -85,11 +85,52 @@
 							</li>
 						</ol>
 					</div>
-					<!-- S : step area -->
+					<!-- E : step area -->
+
+					<!-- S : search area -->
+					<div class="search-top-group mgt-mb">
+						<div class="search-choice-group">
+							<span class="search-choice-item">
+								<input type="radio" id="searchChoice01" name="searchChoice" checked="checked">
+								<label for="searchChoice01">속초연수원</label>
+							</span>
+							<span class="search-choice-item">
+								<input type="radio" id="searchChoice02" name="searchChoice">
+								<label for="searchChoice02">수안보연수원</label>
+							</span>
+							<span class="search-choice-item">
+								<input type="radio" id="searchChoice03" name="searchChoice">
+								<label for="searchChoice03">서천연수원</label>
+							</span>
+						</div>
+						<ul class="legend-list only-pc">
+							<li class="legend-item"><i class="legend-type_a"></i>선택날짜</li>
+							<li class="legend-item"><i class="legend-type_b"></i>선택가능날짜</li>
+							<li class="legend-item"><i class="legend-type_c"></i>선택불가능날짜</li>
+						</ul>
+					</div>
+					<!-- E : search area -->
+
+					<div class="mini-noti">
+						<p class="text-indent_a fsize-m">※ 성수기 : 금요일 입실~일요일 퇴실 / 법정 및 국가지정 공휴일 전일 입실 ~ 공휴일 퇴실 / 지정된 별도 하계 휴가기간 (2018.07.20~2018.8.31) </p>
+					</div>
 
 					<!-- S : result area -->
 					<div class="result-box">
 						<p class="fsize-m">총 <em class="point-col1">2개</em>의 검색결과가 있습니다.</p>
+					</div>
+					<div class="items-group">
+						<div class="items-item">
+							<span class="dot-item small">속초연수원</span>
+						</div>
+						<div class="items-item">
+							<span class="dot-item small">체크인 : 2018-09-02</span>
+							<span class="dot-item small">체크아웃 : 2018-09-04</span>
+							<span class="dot-item small">2박</span>
+						</div>
+						<div class="items-item">
+							<span class="dot-item small">2인</span>
+						</div>
 					</div>
 					<div class="box-module_b">
 						<div class="box-item">
@@ -206,11 +247,9 @@
 	<script>
 	;(function($, win, doc, undefined) {
 		$(doc).ready(function(){
-			
 			console.log('page');
             $plugins.page.template();
-
-
+            $('.tab-wrap').tabs();
 		});
 	})(jQuery, window, document);
 	</script>

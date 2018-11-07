@@ -310,13 +310,13 @@ sup {font-size:11px}
 .ui-datepicker-unselectable.ui-state-disabled .ui-state-default {opacity:.3}
 .ui-datepicker-calendar .ui-state-active,
 .ui-datepicker-calendar .ui-widget-content .ui-state-active,
-.ui-datepicker-calendar .ui-datepicker-week-end .ui-state-default.ui-state-active {background-color:#c51315; border-color:#c51315; color:#fff}
+.ui-datepicker-calendar .ui-datepicker-week-end .ui-state-default.ui-state-active {background-color:#d23c5e; border-color:#d23c5e; color:#fff}
 .ui-datepicker-calendar .ui-state-highlight,
 .ui-datepicker-calendar .ui-widget-content .ui-state-highlight,
 .ui-datepicker-calendar .ui-widget-header .ui-state-highlight {}
-.ui-datepicker-calendar .ui-datepicker-today .ui-state-default {background-color:#eef5fb}
+.ui-datepicker-calendar .ui-datepicker-today .ui-state-default {background-color:#eef5fb;color:#333}
 /*.ui-datepicker .ui-state-default.ui-state-hover {color:#fff !important; background-color:#c51315}*/
-.ui-datepicker-calendar .ui-datepicker-week-end .ui-state-default {color:#ff5959}
+.ui-datepicker-calendar .ui-datepicker-week-end .ui-state-default {color:#d23c5e}
 .ui-datepicker .ui-datepicker-title select {height:32px; width:80px; color:#666; border-color:#fbfbfe}
 .ui-widget.ui-datepicker .ui-datepicker-header .ui-datepicker-prev,
 .ui-widget.ui-datepicker .ui-datepicker-header .ui-datepicker-next {border:none !important;background-color:transparent !important;top:0 !important;height:44px;width:44px}
@@ -338,13 +338,16 @@ sup {font-size:11px}
 /* tab */
 .tab-wrap.ui-widget.ui-widget-content{border:0; border-radius:0; background:transparent; padding:0}
 .tab-wrap.ui-tabs .ui-tabs-nav{padding:0; border:0; border-radius:0; background:transparent; margin-bottom:20px}
-.tab-wrap.ui-tabs .ui-tabs-nav li{margin:0; border:1px solid #dee5e7; font-size:14px; background:#fff; border-radius:0; margin-left:-1px; height:42px}
-.tab-wrap.ui-tabs .ui-tabs-nav li.ui-tabs-active{background:#23b7e5; border-color:#b2deec}
-.tab-wrap.ui-tabs .ui-tabs-nav li.ui-tabs-active a{font-weight:600; width:100%; display:inline-block}
-.tab-wrap.ui-tabs .ui-tabs-nav .ui-tabs-anchor{padding:0.8em 6em}
+.tab-wrap.ui-tabs .ui-tabs-nav li{margin:0;border:none;background-color:transparent}
+.tab-wrap.ui-tabs .ui-tabs-nav li ~ li:before {content:'';position:absolute;left:0;top:50%;margin-top:-7px;width:1px;height:15px;background-color:#c8c9cb}
+.tab-wrap.ui-tabs .ui-tabs-nav li:first-child .ui-tabs-anchor {padding-left:0}
+.tab-wrap.ui-tabs .ui-tabs-nav li.ui-tabs-active{border-color:#b2deec}
+.tab-wrap.ui-tabs .ui-tabs-nav li.ui-tabs-active a{display:block;color:#309df1;font-weight:500}
+.tab-wrap.ui-tabs .ui-tabs-nav .ui-tabs-anchor{position:relative;padding:5px 15px;color:#666;font-weight:200;font-size:22px}
 .tab-pnl{width:100%; margin-bottom:20px}
 .tab-pnl.type-b{padding:15px; border:1px solid #dee5e7; background:#fff}
 
+.ui-widget {font-family:'Noto Sans KR', 'sans-serif'}
 .tab-wrap-b .tab-pnl{margin-top:-1px}
 .tab-wrap-b.ui-widget.ui-widget-content{border:0; border-radius:0; background:transparent; padding:0}
 .tab-wrap-b.ui-tabs .ui-tabs-nav{padding:0; border:0; border-radius:0; background:transparent; margin-bottom:0; position:relative; z-index:1}
