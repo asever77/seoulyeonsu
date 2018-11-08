@@ -74,7 +74,74 @@
 
         header: function () {
             console.log('load - header ');
-            
+
+            var $gnb_wrap = $('.gnb-wrap'),
+                $dep1_btn = $gnb_wrap.find('.ui-acco-btn'),
+                $dep2_wrap = $gnb_wrap.find('.ui-acco-pnl'),
+                $dep2_btn = $dep2_wrap.find('a'),
+                $gnb_bg = $('.gnb-bg'),
+                timer_gnb;
+
+            $dep1_btn.on('mouseover focus', function(){
+                clearTimeout(timer_gnb);
+                gnbShow();
+            }).on('mouseleave blur', function(){
+                timer_gnb = setTimeout(function(){
+                     gnbHide();
+                }, 50);
+               
+            });
+            $dep2_btn.on('mouseover focus', function(){
+                clearTimeout(timer_gnb);
+                 gnbShow();
+            }).on('mouseleave blur', function(){
+                timer_gnb = setTimeout(function(){
+                     gnbHide();
+                }, 50);
+            });
+            $('.gnb-wrap, .gnb-bg').on('mouseover focus', function(){
+                clearTimeout(timer_gnb);
+            }).on('mouseleave blur', function(){
+                timer_gnb = setTimeout(function(){
+                     gnbHide();
+                }, 50);
+            });
+
+            function gnbShow(){
+                clearTimeout(timer_gnb);
+                $dep2_wrap.stop().animate({
+                    height: 250,
+                    padding: '20px 0'
+                },200);
+                $gnb_bg.stop().animate({
+                    height: 254
+                },200);
+            }
+            function gnbHide(){
+                $dep2_wrap.stop().animate({
+                    height: 0,
+                    padding: 0
+                },200);
+                $gnb_bg.stop().animate({
+                    height: 0
+                },200);
+            }
+
+            //mobile
+            $('.btn-allmenu-open').on('click', function(){
+                $('.allmenu-wrap').addClass('on').attr('aria-hidden',false);
+            });
+            $('.btn-allmenu-close').on('click', function(){
+                $('.allmenu-wrap').removeClass('on').attr('aria-hidden',true);
+            });
+
+            $plugins.uiAccordion({ 
+                id:'uiAllMenu', 
+                current:null, 
+                autoclose:true, 
+                callback:function(v){console.log(v)} 
+            });
+ 
         },
 
         footer: function () {

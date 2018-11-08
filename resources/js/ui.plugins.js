@@ -146,10 +146,10 @@ if (!Object.keys){
 	//IIFE - device & browser setup check
 	(function () {
 		var width = document.documentElement.offsetWidth,
-			devsize = [1920, 1600, 1440, 1280, 1024, 960, 840, 720, 600, 480, 400, 360],
+			devsize = [1024, 768],
 			size_len = devsize.length,
 			sizeMode,
-			colClass = width > devsize[5] ? 'col12' : width > devsize[8] ? 'col8' : 'col4',
+			colClass = width > devsize[0] ? 'rsp-d' : width > devsize[1] ? 'rsp-t' : 'rsp-m',
 			html5tags = ['article', 'aside', 'details', 'figcaption', 'figure', 'footer', 'header', 'hgroup', 'nav', 'main', 'section', 'summary'],
 			i = 0,
 			max = html5tags.length,
@@ -161,17 +161,17 @@ if (!Object.keys){
 			document.createElement(html5tags[i]);
 		}
 
-		document.documentElement.className += (' s' + sizeMode + ' ' +colClass);
+		document.documentElement.className += (' ' + colClass);
 
 		$(win).resize(function () {
 			clearTimeout(timer);
 			timer = setTimeout(function () {
 				width = $(win).outerWidth();
 
-				deviceSizeClassName(width);
-
-				colClass = (width > devsize[5] ? 'col12' : width > devsize[8] ? 'col8' : 'col4');
-				$('html').removeClass('s1920 s1600 s1440 s1280 s1024 s960 s840 s720 s600 s480 s400 s360 s0 col12 col8 col4').addClass(' s' + sizeMode + ' ' + colClass);
+				colClass = width > devsize[0] ? 'rsp-d' : width > devsize[1] ? 'rsp-t' : 'rsp-m';
+				$('html').removeClass('rsp-d');
+				$('html').removeClass('rsp-t');
+				$('html').removeClass('rsp-m').addClass(' ' + colClass);
 			}, 100);
 		});
 

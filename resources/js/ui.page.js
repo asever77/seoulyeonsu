@@ -75,7 +75,7 @@
                     loop: true,
                     margin:40,
                     dot: true,
-                    nav: true,
+                    nav: false,
                     autoplay:true,
                     autoplayTimeout:6000,
                     onInitialized : $plugins.page.owlcallback, 
