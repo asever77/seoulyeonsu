@@ -61,6 +61,7 @@
     .building-info {overflow:hidden;margin-top:0;font-size:10px;line-height:12px}
 
     /* margin */
+	.mgt-s {margin-top:10px}
     .mgt-ms {margin-top:15px}
 	.mgt-m {margin-top:20px}
     .mgt-mb {margin-top:25px}
@@ -79,6 +80,7 @@
 	.ico_noti {position:relative;top:-1px;width:10px;height:8px;background-position:-20px -50px}
 	.ico_sh {width:13px;height:13px;top:-2px}
 	.ico_write {width:13px;height:14px;background-position:-260px 0;vertical-align:middle;margin-right:5px}
+	.ico_file {position:relative;top:-1px;width:7px;height:10px;background-position:-40px -50px;margin-right:3px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -227,6 +229,25 @@
     .col-area .col-group {float:none;width:100%}
     .cols-w3 {width:57px}
 	.cols-w4 {width:90px}
+
+	/* view */
+	.view-title-area {padding-bottom:10px}
+	.view-title-area .view-title {font-size:14px}
+	.view-file {padding:10px 15px}
+	.view-file .file-item ~ .file-item {margin-top:5px}
+	.view-contents {padding:15px}
+
+	/* prenex-wrap */
+	.prenex-item {padding:10px 0}
+	.prenex-item dt {padding-left:15px;width:60px}
+
+	/* admin comment */
+	.admin-comment-area {padding:15px}
+	.admin-comment {display:block;padding-bottom:10px}
+	.admin-comment [class*='admin-comment-item'] {display:block;font-size:11px}
+	.admin-comment .admin-comment-item_a {padding:10px;margin-bottom:5px;border-bottom:1px dashed #e7ebef}
+	.admin-comment .admin-comment-item_b,
+	.admin-comment .admin-comment-item_c {display:inline-block;width:auto;padding-left:10px}
 
     /* paging */
     .paging a {min-width:24px;height:24px;line-height:24px;font-size:11px}
