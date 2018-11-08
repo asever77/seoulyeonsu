@@ -46,6 +46,7 @@
     .m_block {display:block}
     .only-pc {display:none !important}
     .breadcrumb {display:none}
+    .m-full {width:100% !important}
 
     /* footer */
     .base-footer {padding:20px 0}
@@ -61,6 +62,7 @@
 
     /* margin */
     .mgt-ms {margin-top:15px}
+	.mgt-m {margin-top:20px}
     .mgt-mb {margin-top:25px}
     .mgt-b {margin-top:30px}
 
@@ -74,6 +76,9 @@
     .radio.big label:after,
     .ico_from {background-image:url('../../resources/img/ico_form_m.png');background-size:500px auto}
     .ico_common {background-image:url('../../resources/img/ico_common.png');background-size:250px auto}
+	.ico_noti {position:relative;top:-1px;width:10px;height:8px;background-position:-20px -50px}
+	.ico_sh {width:13px;height:13px;top:-2px}
+	.ico_write {width:13px;height:14px;background-position:-260px 0;vertical-align:middle;margin-right:5px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -137,6 +142,20 @@
     .sh-item-btn {display:block;width:100% !important}
     .sh-item-btn .sh-btn {position:static;display:block;height:38px;font-size:14px}
     .sh-wrap.mgt-m {margin-top:0}
+	.table-search_a {padding:10px 0}
+	.table-search_a .sh-item-from {float:none;padding:0 !important}
+	.m-full .ui-select,
+	.m-full .ui-select .ui-select-btn,
+	.sh-item-from.medium .ui-select,
+	.table-search_a .sh-item-from .ui-select {width:100%}
+	.table-search_a .sh-total {font-size:12px;padding:15px 0 0 0;line-height:100%}
+	.sh-wrap_c {padding:0}
+	.sh-item-from.medium {width:100%}
+	.table-search_b .sh-item-btn {padding:0 !important}
+	.table-search_b .sh-item-btn [class*='btn-basic'] {border-radius:0;height:38px;line-height:38px}
+	.paging-area .btn-right {position:static;width:100%}
+	.paging-area .btn-right [class*='btn-basic'] {width:100%;height:38px;line-height:38px;text-align:center}
+	.btn-right i {top:-1px}
 
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
@@ -200,13 +219,22 @@
     .small-in {width:85px}
     .small-in ~ .m_block {margin:5px 0 0 0;line-height:14px}
 
+	.textarea_wrap textarea {height:200px}
+	.textarea_wrap.mini textarea {height:100px}
+
     /* table col */
     .cols-w2 {width:80px}
     .col-area .col-group {float:none;width:100%}
     .cols-w3 {width:57px}
+	.cols-w4 {width:90px}
 
     /* paging */
     .paging a {min-width:24px;height:24px;line-height:24px;font-size:11px}
+	.paging a.ico_fromb:before {height:6px}
+	.paging .prev:before,
+	.paging .next:before {width:3px}
+	.paging .pprev:before,
+	.paging .nnext:before {width:6px}
 
     /* content layout */
     .contents-area {padding:25px 15px 70px}

@@ -5,7 +5,7 @@ html, body{width:100%; height:100%}
 html{font-size:62.5%}
 body{font-family:'Noto Sans KR', 'Malgun Gothic', AppleGothicNeoSD, 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic', 'Droid sans', arial, sans-serif; font-size:16px; line-height:1.5; color:#666; letter-spacing:-0.07em; background:#f3f4f7; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none; -moz-osx-font-smoothing:grayscale; overflow-y:auto;-webkit-overflow-scrolling:touch;}
 body:before{content:''; position:fixed; left:0; top:0; width:100%; height:0}/* fix webkit bug(scroll event delay) */
-body, div, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, iframe, tr, tbody, thead, table, th, td, b, span, strong, label{margin:0; padding:0; box-sizing:border-box}
+body, div, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, iframe, tr, tbody, thead, table, th, td, b, span, strong, label{margin:0; padding:0; box-sizing:border-box;font-family:'Noto Sans KR','sans-serif'}
 dl, dt, dd, ul, ol, li{box-sizing:border-box; list-style:none; padding:0; margin:0}
 h1, h2, h3, h4, h5, h6, dt{font-weight:normal}
 img, fieldset, iframe, button{border:0 none}
@@ -33,6 +33,10 @@ textarea {resize:none}
 .ico_common,
 .step-type_a .step-item ~ .step-item:before,
 .breadcrumb-item:before {content:''; display:inline-block; background-image:url('../../resources/img/ico_common.png'); background-repeat:no-repeat}
+
+.ico_noti {width:20px;height:16px;background-position:-40px -100px;vertical-align:middle;margin-right:3px}
+.ico_sh {width:16px;height:16px;background-position:-240px 0;vertical-align:middle;margin-right:5px}
+.ico_write {width:15px;height:17px;background-position:-260px 0;vertical-align:middle;margin-right:8px}
 
 /* title */
 .h-type_a {color:#000; font-size:40px; font-weight:200}
@@ -66,7 +70,7 @@ textarea {resize:none}
 /* button */
 .btn-area {text-align:center}
 .btn-area [class*='btn-basic'] {margin:0 2px}
-[class*='btn-basic'] {min-width:85px; padding:0 20px; height:49px; line-height:49px; color:#fff; font-size:18px; font-weight:500; border:1px solid transparent; border-radius:3px}
+[class*='btn-basic'] {display:inline-block; min-width:85px; padding:0 20px; height:49px; line-height:49px; color:#fff; font-size:18px; font-weight:500; border:1px solid transparent; border-radius:2px}
 [class*='btn-basic'].big {min-width:154px; height:59px; font-size:20px; line-height:59px}
 [class*='btn-basic'].small {padding:0 15px; height:37px; line-height:37px; font-size:16px; font-weight:300}
 .btn-basic1 {background-color:#333}
@@ -75,6 +79,7 @@ textarea {resize:none}
 .btn-basic4 {background-color:#cf214d}
 .btn-basic5 {background-color:#fff; border-color:#9a9aa1; color:#333}
 .btn-basic6 {background-color:#000}
+.btn-basic7 {background-color:#1b89f9}
 
 /* common */
 .col-wrap:after{content:""; display:block; clear:both}
@@ -111,6 +116,7 @@ textarea {resize:none}
 
 .mgr-n{margin-right:0 !important}
 .mgb-n{margin-bottom:0 !important}
+.mgt-s{margin-top:20px}
 .mgt-ms{margin-top:30px}
 .mgt-m{margin-top:40px}
 .mgt-mb{margin-top:50px}
@@ -118,6 +124,14 @@ textarea {resize:none}
 .pd-n{padding:0 !important}
 .fl{float:left; display:block}
 .fr{float:right; display:block}
+
+/* input width */
+.in-w100 {width:100% !important}
+input[type="text"].in-w01,
+input[type="date"].in-w01,
+input[type="password"].in-w01,
+.in-w01 {width:235px}
+.datepicker-box.in-w01 .inp-date {width:100%}
 
 textarea {width:100%; border:1px solid #cfdadd; text-align:left; min-height:100px; vertical-align:middle; resize:none; outline:none; border-radius:0; box-sizing:border-box}
 input[type="text"],
@@ -195,6 +209,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 .radio-group .radio {margin-right:25px}
 
 /* paging */
+.paging-area {position:relative}
 .paging {position:relative; margin:30px 0 15px 0; text-align:center}
 .paging * {vertical-align:top}
 .paging a {display:inline-block; min-width:33px; height:33px; padding:0 8px; margin:0 1px 0 0; font-size:14px; line-height:33px; text-align:center; background-color:#fff; border:1px solid #c2c3c6; text-decoration:none;font-family:'Roboto', 'sans-serif'}
@@ -206,6 +221,9 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 .paging .prev:before {width:4px; background-position-x:-40px}
 .paging .next:before {width:4px; background-position-x:-60px}
 .paging .nnext:before {width:8px; background-position-x:-80px}
+.paging-area .btn-right {position:absolute;right:0;top:-8px}
+[class*='btn-basic'] i {position:relative}
+.btn-right i {top:-2px}
 
 /* clamp */
 .clamp {display:inline-block; max-width:95%; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; vertical-align:middle}
@@ -283,6 +301,7 @@ sup {font-size:11px}
 .sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:17px}
 .sh-item-from.small {width:158px}
 .sh-item-from.small .sh-item-title {text-align:center}
+.sh-item-from.medium {width:242px}
 .sh-box .sh-item-title {position:relative; display:block; margin-bottom:20px; font-size:21px; color:#000; font-weight:300}
 .sh-box .sh-item-title .sub-t {position:absolute; right:0; top:4px; color:#b5b5b5; font-size:16px; font-family:'Roboto', 'sans-serif'; letter-spacing:0;font-weight:500}
 .sh-item-from ~ .sh-item-from:before {content:''; position:absolute; left:0; top:30px; bottom:30px; display:block; width:1px; background-color:#dbdde6}
@@ -293,6 +312,18 @@ sup {font-size:11px}
 .sh-box.type_b .sh-item-from {padding:30px 52px}
 .sh-box .ui-select-wrap.bottom {top:47px}
 .sh-box .ui-select-wrap.top {bottom:47px}
+
+.table-search_a:after {content:'';display:block;clear:both}
+.table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
+.table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:48px}
+
+.sh-wrap_c {background-color:#fff;padding:20px 30px;margin-top:30px}
+.table-search_b {display:table;width:100%;table-layout:fixed}
+.table-search_b .sh-item-from {padding:0;vertical-align:top}
+.table-search_b [class*='sh-item'] ~ [class*='sh-item'] {padding-left:10px}
+.table-search_b .sh-item-btn {width:125px}
+.table-search_b .sh-item-btn [class*='btn-basic'] {height:48px;line-height:48px;width:100%}
+.sh-item-btn .ico_sh {position:relative;top:-1px}
 
 /* datepicker */
 .datepicker-box {position:relative; display:inline-block}
@@ -387,10 +418,16 @@ sup {font-size:11px}
 
 .tb-type_b tbody th {padding:14px 20px;text-align:left;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 .tb-type_b tbody td {padding:7px 20px;text-align:left;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6}
+.textarea_wrap textarea {height:400px}
+.textarea_wrap.mini textarea {height:250px}
 
 .tb-type_c {border-top:2px solid #000}
 .tb-type_c thead th {padding:14px 10px;text-align:center;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
-.tb-type_c tbody td {padding:13px 10px;text-align:center;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6}
+.tb-type_c tbody td {padding:13px 10px;text-align:center;color:#596a7f;line-height:26px;border-bottom:1px solid #c2c3c6}
+.tb-type_c tbody td a {color:#596a7f}
+.tb-type_c tbody td a:hover {text-decoration:underline}
+.tb-type_c tbody tr.noti-top td {background-color:#e4ecf7}
+.tb-type_c .comment-count {display:inline-block;vertical-align:middle;margin-left:3px;font-size:12px;font-weight:500}
 
 .tb-type_d {border:1px solid #c2c3c6}
 .tb-type_d caption.dot-item {margin-bottom:12px;height:auto;text-align:left;opacity:1}
@@ -412,6 +449,7 @@ sup {font-size:11px}
 .cols-w1 {width:8%}
 .cols-w2 {width:13%}
 .cols-w3 {width:115px}
+.cols-w4 {width:200px}
 
 /* form */
 .form-row {display:table;width:100%;table-layout:fixed}
