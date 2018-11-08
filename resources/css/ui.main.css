@@ -144,7 +144,7 @@
     .main-place-wrap .ui-owl .owl-control,
     .main-event-wrap .ui-owl .owl-control,
     .main-info-wrap .ui-owl .owl-control{bottom:-35px}
-
+    .main-visual-wrap .owl-nav{display:none;}
     .main-place-wrap,
     .main-event-wrap,
     .main-info-wrap{padding-bottom:45px;}
