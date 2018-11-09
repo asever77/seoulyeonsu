@@ -118,6 +118,7 @@
 	.ico_sh {width:13px;height:13px;top:-2px}
 	.ico_write {width:13px;height:14px;background-position:-260px 0;vertical-align:middle;margin-right:5px}
 	.ico_file {position:relative;top:-1px;width:7px;height:10px;background-position:-40px -50px;margin-right:3px}
+	.ico_secret {width:6px;height:8px;background-position:-60px -50px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -131,6 +132,7 @@
     .h-type_c {font-size:14px}
     .h-type_d {padding-left:8px;font-size:14px}
     .h-type_d:before {top:10px;width:3px;height:3px}
+	.h-type_e {font-size:12px}
     .title-box {border-width:1px;border-color:#309df1}
     .title-box .h-type_a {text-align:center}
     .title-box.m-not-line {border-bottom:none}
@@ -195,6 +197,11 @@
 	.paging-area .btn-right {position:static;width:100%}
 	.paging-area .btn-right [class*='btn-basic'] {width:100%;height:38px;line-height:38px;text-align:center}
 	.btn-right i {top:-1px}
+	.table-search_a .sh-sort {padding-top:10px;display:table;width:100%;table-layout:fixed}
+	.table-search_a .sh-sort .sh-sort-col {display:table-cell;padding-right:2px}
+	.table-search_a .sh-sort .sh-sort-col ~ .sh-sort-col {padding-left:2px;margin:0}
+	.table-search_a .sh-sort .sh-sort-col:last-child {padding-right:0}
+	.sh-sort .sh-sort-item {width:100%;min-width:10px;height:30px;line-height:30px;font-size:12px}
 
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
@@ -261,6 +268,28 @@
 	.textarea_wrap textarea {height:200px}
 	.textarea_wrap.mini textarea {height:100px}
 
+	.tb-type_c .comment-count {font-size:10px}
+	.tb-type_c.not-thead colgroup,
+	.tb-type_c.not-thead thead {display:none}
+	.tb-type_c.not-thead tbody tr,
+	.tb-type_c.not-thead tbody {display:block}
+	.tb-type_c.not-thead tbody tr {border-bottom:1px solid #c2c3c6;padding:5px 10px}
+	.tb-type_c.not-thead tbody tr.noti-top {background-color:#e4ecf7}
+	.tb-type_c.not-thead tbody td {display:inline-block;padding:0;border-bottom:none}
+	.tb-type_c.not-thead tbody td[class*='td-t']:before {color:#999;font-size:11px}
+	.tb-type_c.not-thead tbody td.blank {padding-left:15px}
+	.tb-type_c.not-thead tbody td.block {display:block;border-top:1px dashed #bfc7d1;border-bottom:1px dashed #bfc7d1}
+	.tb-type_c.not-thead tbody td.td-t-title {display:block;border-bottom:1px dashed #bfc7d1}
+	.not-thead .td-t-area:before {content:'연수원 : '}
+	.not-thead .td-t-type:before {content:'구분 : '}
+	.not-thead .td-t-lost:before {content:'분실물 : '}
+	.not-thead .td-t-person:before {content:'등록자 : '}
+	.not-thead .td-t-day:before {content:'등록일 : '}
+	.not-thead .td-t-state:before {content:'상태 : '}
+	.not-thead .td-t-day2:before {content:'등록일시 : '}
+
+	.comment-view-area .tb-type_c.not-thead tbody td.td-t-title {margin-bottom:3px;padding:8px 0;line-height:16px}
+
     /* table col */
     .cols-w2 {width:80px}
     .col-area .col-group {float:none;width:100%}
@@ -268,11 +297,14 @@
 	.cols-w4 {width:90px}
 
 	/* view */
-	.view-title-area {padding-bottom:10px}
+	.view-title-area {padding:0 15px 10px}
 	.view-title-area .view-title {font-size:14px}
+	.view-info .view-info-item ~ .view-info-item:before {height:8px;margin-top:-4px}
 	.view-file {padding:10px 15px}
 	.view-file .file-item ~ .file-item {margin-top:5px}
 	.view-contents {padding:15px}
+	.period-area {padding:10px 15px}
+	.comment-textarea .btn-comment .btn-comment-write {height:26px;line-height:26px;font-size:12px;min-width:60px}
 
 	/* prenex-wrap */
 	.prenex-item {padding:10px 0}
@@ -314,6 +346,10 @@
     .ico_step3 {background-position-x:-80px}
 
     /* contents */
+	.page-title-area {height:120px;padding-top:30px}
+	.page-title {font-size:20px}
+	.page-title_en {margin-top:5px;font-size:10px;letter-spacing:4px}
+
     .mini-noti {margin:15px 0 25px}
     .items-group .items-item {display:block;padding:10px 0}
     .items-group .items-item ~ .items-item {border-top:1px solid #cbcbcb}
@@ -325,6 +361,11 @@
     .search-top-group .search-choice-item ~ .search-choice-item:before {margin-top:-5px;height:10px}
     .search-choice-item label {font-size:13px}
 
+}
+@media (max-width:320px) {
+	.clamp {max-width:85%}
+	.cols-w2 {width:70px}
+	.tb-type_c tbody td.txt-l {padding-right:0}
 }
 
 

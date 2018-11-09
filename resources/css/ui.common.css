@@ -20,7 +20,7 @@ button{border:0 none; cursor:pointer; background:transparent; box-sizing:border-
 input, textarea, select, button{box-sizing:border-box;}
 article, aside, details, figcaption, figure, footer, header, main, hgroup, nav, section, summary{display:block; margin:0; padding:0; box-sizing:border-box}
 .hidden{position:absolute !important; width:0 !important; height:0 !important; z-index:-1 !important; color:transparent !important; overflow:hidden !important; font-size:xx-small !important; line-height:0 !important; min-height:0 !important; max-height:0 !important}
-textarea {resize:none}
+textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 
 
 /* sprit */
@@ -38,6 +38,7 @@ textarea {resize:none}
 .ico_sh {width:16px;height:16px;background-position:-240px 0;vertical-align:middle;margin-right:5px}
 .ico_write {width:15px;height:17px;background-position:-260px 0;vertical-align:middle;margin-right:8px}
 .ico_file {width:14px;height:20px;background-position:-80px -100px;vertical-align:middle;margin-right:5px}
+.ico_secret {width:12px;height:15px;background-position:-120px -100px;vertical-align:middle;margin-left:5px}
 
 /* title */
 .h-type_a {color:#000; font-size:40px; font-weight:200}
@@ -45,6 +46,7 @@ textarea {resize:none}
 .h-type_c {color:#000; font-size:24px; font-weight:500}
 .h-type_d {position:relative; padding-left:10px; color:#309df1; font-size:24px; font-weight:500}
 .h-type_d:before {content:''; position:absolute; left:0; top:16px; display:block; width:5px; height:5px; background-color:#309df1; border-radius:50%}
+.h-type_e {color:#354052; font-size:16px; font-weight:600}
 
 .title-box {position:relative; padding-bottom:15px; border-bottom:2px solid #000}
 .title-box .breadcrumb {position:absolute; right:0; bottom:23px}
@@ -85,12 +87,6 @@ textarea {resize:none}
 .gnb-wrap .util-menu a{color:#8a8f9b; font-size:16px; line-height:20px; font-weight:200; display:inline-block; vertical-align: middle;}
 .btn-allmenu-open{display:none;}
 .allmenu-wrap{display:none}
-
-
-
-
-
-
 
 
 /* breadcrumb */
@@ -175,9 +171,10 @@ input[type="text"]:focus,
 input[type="date"]:focus,
 input[type="password"]:focus{border-color:#333}
 
-input::-webkit-input-placeholder {color:#999}
-input::-moz-placeholder {color:#999}
-input:-ms-input-placeholder {color:#999}
+textarea::placeholder {color:#c2c5cb}
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder,
 input:-moz-placeholder {color:#999}
 
 input:disabled, input:readonly {background:#e5e5e5}
@@ -349,6 +346,11 @@ sup {font-size:11px}
 .table-search_a:after {content:'';display:block;clear:both}
 .table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
 .table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:48px}
+.table-search_a .sh-sort {float:left;padding-top:25px}
+.sh-sort .sh-sort-item {height:40px;min-width:98px;padding:0 15px;font-size:18px;line-height:40px;color:#5f6b7e;background-color:#fff;border:1px solid #dfe4e9}
+.sh-sort .sh-sort-item.active {color:#fff;background-color:#1b89f9;border-color:#1b89f9}
+.sh-sort .sh-sort-col {display:inline-block}
+.sh-sort .sh-sort-col ~ .sh-sort-col {margin-left:4px}
 
 .sh-wrap_c {background-color:#fff;padding:20px 30px;margin-top:30px}
 .table-search_b {display:table;width:100%;table-layout:fixed}
@@ -461,6 +463,7 @@ sup {font-size:11px}
 .tb-type_c tbody td a:hover {text-decoration:underline}
 .tb-type_c tbody tr.noti-top td {background-color:#e4ecf7}
 .tb-type_c .comment-count {display:inline-block;vertical-align:middle;margin-left:3px;font-size:12px;font-weight:500}
+td .ico_secret {position:relative;top:-1px}
 
 .tb-type_d {border:1px solid #c2c3c6}
 .tb-type_d caption.dot-item {margin-bottom:12px;height:auto;text-align:left;opacity:1}
@@ -486,6 +489,16 @@ sup {font-size:11px}
 .view-file {padding:20px 30px;border-top:1px solid #c2c3c6}
 .view-file .file-item ~ .file-item {display:block;margin-top:10px}
 .view-contents {padding:30px;min-height:200px;background-color:#fff;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.period-area {padding:15px 30px;border-top:1px solid #c2c3c6}
+
+/* comment */
+.comment-write-area,
+.comment-view-area {padding:25px 20px;background-color:#fff;border:1px solid #e7ebef}
+.comment-write-area .comment-textarea {margin-top:10px;border:1px solid #bfc2c7;border-radius:2px}
+.comment-write-area .comment-textarea textarea {border-color:transparent;height:70px;padding:10px}
+.comment-textarea .btn-comment {text-align:right;padding:10px 12px 12px}
+.comment-textarea .btn-comment .btn-comment-write {height:32px;line-height:32px;min-width:84px;text-align:center;padding:0 15px;font-size:14px;color:#5f6b7e;border:1px solid #dfe4e9}
+.comment-view-area table {margin-top:10px}
 
 /* prenex-wrap */
 .prenex-wrap {border-bottom:1px solid #c2c3c6}
@@ -510,6 +523,10 @@ sup {font-size:11px}
 .cols-w2 {width:13%}
 .cols-w3 {width:115px}
 .cols-w4 {width:200px}
+.cols-w5 {width:80px}
+.cols-w6 {width:130px}
+.cols-w7 {width:100px}
+.cols-w8 {width:160px}
 
 /* form */
 .form-row {display:table;width:100%;table-layout:fixed}
