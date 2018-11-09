@@ -353,6 +353,7 @@ sup {font-size:11px}
 .sh-sort .sh-sort-col ~ .sh-sort-col {margin-left:4px}
 
 .sh-wrap_c {background-color:#fff;padding:20px 30px;margin-top:30px}
+.sh-wrap_c.not-bg {background-color:transparent;margin-top:0}
 .table-search_b {display:table;width:100%;table-layout:fixed}
 .table-search_b .sh-item-from {padding:0;vertical-align:top}
 .table-search_b [class*='sh-item'] ~ [class*='sh-item'] {padding-left:10px}

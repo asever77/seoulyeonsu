@@ -203,6 +203,10 @@
 	.table-search_a .sh-sort .sh-sort-col:last-child {padding-right:0}
 	.sh-sort .sh-sort-item {width:100%;min-width:10px;height:30px;line-height:30px;font-size:12px}
 
+	.sh-wrap_c.not-bg .sh-item-from {display:table-cell;width:70%;padding-right:5px !important}
+	.sh-wrap_c.not-bg .sh-item-from input[type="text"] {height:38px;line-height:38px}
+	.sh-wrap_c.not-bg .sh-item-btn {padding:10px 15px 10px 0 !important}
+
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
     a + .blt-new {margin-left:2px}
@@ -360,6 +364,13 @@
     .search-top-group .search-choice-item {padding:0 9px}
     .search-top-group .search-choice-item ~ .search-choice-item:before {margin-top:-5px;height:10px}
     .search-choice-item label {font-size:13px}
+
+    /* FAQ */
+	.faq-wrap .ui-acco-btn {padding:10px 10px 10px 40px;font-size:12px}
+	.faq-wrap [class*='faq-blt_'] {top:7px;width:24px;height:24px;font-size:11px;line-height:22px;border-radius:50%}
+	.faq-wrap .faq-blt_q {left:10px}
+	.faq-wrap .faq-blt_a {left:30px}
+	.faq-wrap .ui-acco-pnl {padding:10px 30px 10px 60px;font-size:12px}
 
 }
 @media (max-width:320px) {
