@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-/* contents layout */
+/* contents */
+.page-title-area {height:300px;padding-top:105px;text-align:center;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
+.page-title-area.cs-center {background-image:url('../../resources/img/contents/top_img_cs.jpg')}
+.page-title {color:#fff;font-size:40px;font-weight:300}
+.page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
+
 .contents-area {max-width:1200px;margin:0 auto;padding:55px 0 100px}
 .mini-noti {margin:50px 0 45px}
 
@@ -25,6 +30,17 @@
 .search-choice-item label {cursor:pointer;font-size:22px;line-height:100%;font-weight:200;color:#666}
 .search-choice-item input[type='radio'] {position:absolute;z-index:1;opacity:0}
 .search-choice-item input[type='radio']:checked + label {color:#309df1;font-weight:500}
+
+/* FAQ */
+.faq-wrap {border-top:2px solid #000}
+.faq-wrap [class*='faq-blt_'] {position:absolute;display:block;width:40px;height:25px;margin-right:10px;line-height:24px;text-align:center;color:#fff;border-radius:12px;font-weight:600}
+.faq-blt_q {background-color:#596a7f}
+.faq-blt_a {background-color:#f58220}
+.faq-wrap .faq-blt_q {top:12px;left:20px}
+.faq-wrap .faq-blt_a {top:12px;left:70px}
+.faq-wrap .ui-acco-tit {background-color:transparent;border-color:#c2c3c6}
+.faq-wrap .ui-acco-btn {padding:15px 20px 15px 70px;color:#000;font-size:16px}
+.faq-wrap .ui-acco-pnl {padding:15px 50px 15px 120px;font-size:16px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 
 
 

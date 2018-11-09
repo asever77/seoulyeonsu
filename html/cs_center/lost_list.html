@@ -12,7 +12,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="mobile-web-app-capable" content="yes">
 
-    <title>공지사항 | 서울시 연수원</title>
+    <title>분실물신고 | 서울시 연수원</title>
 
 	<link rel="apple-touch-icon" href="../../resources/img/common/ico_app.png" >
 	<link rel="shortcut icon" href="../../resources/img/common/ico_favicon.ico"> 
@@ -48,11 +48,11 @@
 					<!-- S : title area -->
 					<div class="type_view">
 						<div class="title-box">
-							<h2 class="h-type_a">공지사항</h2>
+							<h2 class="h-type_a">분실물신고</h2>
 							<div class="breadcrumb">
 								<span class="breadcrumb-item">홈</span>
 								<span class="breadcrumb-item">고객센터</span>
-								<span class="breadcrumb-item">공지사항</span>
+								<span class="breadcrumb-item">분실물신고</span>
 							</div>
 						</div>
 					</div>
@@ -75,6 +75,11 @@
 											</select>
 										</div>
 									</div>
+									<div class="sh-sort">
+										<span class="sh-sort-col"><button type="button" class="sh-sort-item active">전체</button></span>
+										<span class="sh-sort-col"><button type="button" class="sh-sort-item">분실</button></span>
+										<span class="sh-sort-col"><button type="button" class="sh-sort-item">습득</button></span>
+									</div>
 									<div class="sh-total">
 										<span>총 103건 ( <em class="point-col2">1</em> / 11 Page)</span>
 									</div>
@@ -85,51 +90,63 @@
 					<!-- E : search area -->
 
 					<!-- S : table area -->
-					<table class="tb-type_c">
+					<table class="tb-type_c not-thead">
 						<caption></caption>
 						<colgroup>
-							<col class="cols-w1 only-pc">
+							<col class="cols-w5 only-pc">
+							<col class="cols-w6">
+							<col class="cols-w7">
 							<col class="cols-auto">
-							<col class="cols-w2">
-							<col class="cols-w2">
-							<col class="cols-w2 only-pc">
+							<col class="cols-w8">
+							<col class="cols-w8">
+							<col class="cols-w5 only-pc">
 						</colgroup>
 						<thead>
 						<tr>
 							<th scope="col" class="only-pc">번호</th>
-							<th scope="col">제목</th>
-							<th scope="col">작성자</th>
-							<th scope="col">작성일</th>
+							<th scope="col">연수원</th>
+							<th scope="col">구분</th>
+							<th scope="col">분실물</th>
+							<th scope="col">등록자</th>
+							<th scope="col">등록일</th>
 							<th scope="col" class="only-pc">조회수</th>
 						</tr>
 						</thead>
 						<tbody>
-						<tr class="noti-top">
-							<td class="only-pc">공지</td>
-							<td class="txt-l"><a href="" class="clamp"><i class="ico_common ico_noti"></i>제목들어감 제목들어감제목들어감 제목들어감 제목들어감 제목들어감 제목들어감 제목들어감 제목들어감</a><span class="blt-new">N</span></td>
-							<td>홍길동</td>
-							<td>18-10-15</td>
+						<tr>
+							<td class="only-pc">4</td>
+							<td class="td-t-area">서천</td>
+							<td class="td-t-type blank">분실</td>
+							<td class="td-t-lost block txt-l"><a href="">핸드폰 배터리</a></td>
+							<td class="td-t-person">서천연수원</td>
+							<td class="td-t-day blank">18-10-15</td>
 							<td class="only-pc">58</td>
 						</tr>
 						<tr>
 							<td class="only-pc">3</td>
-							<td class="txt-l"><a href="" class="clamp">제목들어감</a><span class="blt-new">N</span></td>
-							<td>홍길동</td>
-							<td>18-10-15</td>
+							<td class="td-t-area">수안보</td>
+							<td class="td-t-type blank">습득</td>
+							<td class="td-t-lost block txt-l"><a href="">지갑</a><i class="ico_common ico_secret"></i></td>
+							<td class="td-t-person">수안보연수원</td>
+							<td class="td-t-day blank">18-10-15</td>
 							<td class="only-pc">58</td>
 						</tr>
 						<tr>
 							<td class="only-pc">2</td>
-							<td class="txt-l"><a href="" class="clamp">제목들어감</a></td>
-							<td>홍길동</td>
-							<td>18-10-15</td>
+							<td class="td-t-area">수안보</td>
+							<td class="td-t-type blank">습득</td>
+							<td class="td-t-lost block txt-l"><a href="">메모리카드</a><i class="ico_common ico_secret"></i></td>
+							<td class="td-t-person">서천연수원</td>
+							<td class="td-t-day blank">18-10-15</td>
 							<td class="only-pc">58</td>
 						</tr>
 						<tr>
 							<td class="only-pc">1</td>
-							<td class="txt-l"><a href="" class="clamp">제목들어감 제목들어감 제목들어감 제목들어감</a></td>
-							<td>홍길동</td>
-							<td>18-10-15</td>
+							<td class="td-t-area">수안보</td>
+							<td class="td-t-type blank">분실</td>
+							<td class="td-t-lost block txt-l"><a href="">휴대용 게임기</a></td>
+							<td class="td-t-person">수안보연수원</td>
+							<td class="td-t-day blank">18-10-15</td>
 							<td class="only-pc">58</td>
 						</tr>
 						</tbody>
@@ -147,6 +164,9 @@
 							<a href="#">5</a>
 							<a href="#" title="다음" class="ico_fromb next"></a>
 							<a href="#" title="마지막" class="ico_fromb nnext"></a>
+						</div>
+						<div class="btn-right">
+							<a href="" class="btn-basic7"><i class="ico_from ico_write"></i>글쓰기</a>
 						</div>
 					</div>
 
@@ -193,7 +213,8 @@
 			
 			console.log('page');
             $plugins.page.template();
-            $plugins.page.menuID = 'M04_01';
+            $plugins.page.menuID = 'M04_05';
+
 
 		});
 	})(jQuery, window, document);
