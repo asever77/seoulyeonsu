@@ -162,10 +162,10 @@ input[type="password"].in-w01,
 .in-w01 {width:235px}
 .datepicker-box.in-w01 .inp-date {width:100%}
 
-textarea {width:100%; border:1px solid #cfdadd; text-align:left; min-height:100px; vertical-align:middle; resize:none; outline:none; border-radius:0; box-sizing:border-box}
+textarea {width:100%; border:1px solid #cfdadd; text-align:left; min-height:100px; vertical-align:middle; resize:none; outline:none; border-radius:0; box-sizing:border-box; -webkit-appearance:none !important}
 input[type="text"],
 input[type="date"],
-input[type="password"]{width:auto; vertical-align:middle; height:37px; border:1px solid #d5d6db; color:#666; padding:0 12px; outline:none; border-radius:0; box-sizing:border-box}
+input[type="password"]{width:auto; vertical-align:middle; height:37px; border:1px solid #d5d6db; color:#666; padding:0 12px; outline:none; border-radius:0; box-sizing:border-box; -webkit-appearance:none !important}
 textarea:focus,
 input[type="text"]:focus,
 input[type="date"]:focus,
