@@ -2788,6 +2788,8 @@ if (!Object.keys){
 
 			clsname = winh - ((offtop - scrtop) + btnh) > wraph ? 'bottom' : 'top' ;			
 
+
+			_$sel.closest('.ui-select-zindex').addClass('on');
 			$('body').addClass('dim-dropdown');
 			$('body').data('scrolling') === 'yes' ? win[global].uiScrollingCancel(): '';
 
@@ -2805,6 +2807,7 @@ if (!Object.keys){
 				$btn = $('.ui-select-btn'),
 				$wrap = $('.ui-select-wrap');
 			
+			$select.closest('.ui-select-zindex').removeClass('on');
 			$('body').data('scrolling') === 'no' ? win[global].uiScrolling(): '';
 			$('body').removeClass('dim-dropdown');
 			$btn.data('expanded', false).attr('aria-expanded', false);

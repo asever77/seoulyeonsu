@@ -49,6 +49,8 @@
 .ui-select.type-bank{width:200px}
 .ui-select.type-card{width:200px}
 
+.ui-select-zindex.on{z-index:99999}
+
 
 /* ui-acco: base layout */
 .ui-acco{position:relative; margin:10px 0; list-style:none}
