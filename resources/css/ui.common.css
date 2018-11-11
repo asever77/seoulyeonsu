@@ -340,8 +340,8 @@ sup {font-size:11px}
 .sh-item-btn .sh-btn span {display:block; color:#acdbff; font-size:18px; line-height:1; font-family:'Roboto', 'sans-serif'}
 .sh-box.type_b .sh-item-btn {width:222px}
 .sh-box.type_b .sh-item-from {padding:30px 52px}
-.sh-box .ui-select-wrap.bottom {top:47px}
-.sh-box .ui-select-wrap.top {bottom:47px}
+/* .sh-box .ui-select-wrap.bottom {top:47px}
+.sh-box .ui-select-wrap.top {bottom:47px} */
 
 .table-search_a:after {content:'';display:block;clear:both}
 .table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
