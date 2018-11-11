@@ -248,6 +248,7 @@ if (!Object.keys){
 			}
 		}
 
+
 		if (ie) {
 			browser.ie = ie = parseInt( ie[1] || ie[2] );
 			browser.oldie = false;
@@ -1899,7 +1900,7 @@ if (!Object.keys){
 			h = !opt.height ? Math.ceil($modal.outerHeight()) : opt.height;
 			w = !opt.width ? Math.ceil($modal.outerWidth()) : opt.width;
 			
-			if (!!$modal.data('orgw') || !!$modal.data('orgh') && !global.uiCheck.mobile) {
+			if (!!$modal.data('orgw') || !!$modal.data('orgh') && !$.browser.mobile) {
 				h = Number($modal.data('orgh'));
 				w = Number($modal.data('orgw'));
 			}
@@ -2520,6 +2521,10 @@ if (!Object.keys){
 		current: null
 	};
 	function createUiSelect(opt){
+		console.log($.browser.mobile)
+		if ($.browser.mobile) {
+			return false;
+		}
 		var opt = opt === undefined ? {} : opt,
 			opt = $.extend(true, {}, win[global].uiSelect.option, opt),
 			current = opt.current, 

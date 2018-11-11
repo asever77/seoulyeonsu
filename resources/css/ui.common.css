@@ -410,6 +410,16 @@ sup {font-size:11px}
 .sel_big .ui-selectmenu-icon.ui-icon {margin-top:27px}
 .sel_big .ui-icon-triangle-1-s {width:12px; height:7px; background-position:0 -280px}
 
+
+select{display:inline-block; position:relative; vertical-align:top; width:auto; height:30px; padding:0 30px 0 10px; border-radius:2px; 
+background:url('../../resources/img/ico_form.png') no-repeat -100px 0; background-size:200px 200px; appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #c9c9c9; font-size:14px; cursor:pointer;}
+select::-ms-expand{display:none;}
+select optgroup,
+select option{font-style:normal; background-color:#fff; font-size:13px;}
+select[disabled]{background-color:#f7f7f7; color:#888;}
+.ie9 select{padding:0;}
+
+
 /* tab */
 .tab-wrap.ui-widget.ui-widget-content{border:0; border-radius:0; background:transparent; padding:0}
 .tab-wrap.ui-tabs .ui-tabs-nav{padding:0; border:0; border-radius:0; background:transparent; margin-bottom:20px}
