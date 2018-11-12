@@ -588,99 +588,63 @@ function redrawDotNav(){
 			<p class="h2">table Type B</p>
 			<div class="type_view">
 				<table class="tb-type_b">
-					<caption>caption...</caption>
+					<caption>분실물신고 작성</caption>
 					<colgroup>
-						<col style="width:20%">
-						<col style="width:auto">
+						<col class="cols-w4">
+						<col class="col-auto">
 					</colgroup>
 					<tbody>
 					<tr>
-						<th scope="row">무궁화꽃이피었습니다무궁화꽃이피었습니다</th>
-						<td>무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다무궁화꽃이피었습니다</td>
-					</tr>
-					<tr>
-						<th scope="row">222</th>
-						<td>bbbb</td>
+						<th scope="row">연수원</th>
+						<td>
+							<div class="m-full">
+								<div class="ui-select">
+									<select class="sel_type" id="areaChoice001">
+										<option selected="selected">선택</option>
+										<option >통합</option>
+										<option>속초 수련원</option>
+										<option>수안보연수원</option>
+										<option>서천연수원</option>
+									</select>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<th scope="row">이름</th>
-						<td>홍길동</td>
-					</tr>
-					<tr>
-						<th scope="row">e-mail</th>
 						<td>
-							<input type="text" value="" placeholder="입력값" style="width:170px">
-							<span class="gap">@</span>
-							<input type="text" value="" placeholder="입력값" style="width:220px">
-							<select class="sel_type" style="width:170px">
-								<option selected="selected">선택</option>
-								<option>naver.com</option>
-								<option>gmail.com</option>
-								<option>nate.com</option>
-								<option>yahoo.co.kr</option>
-								<option>hanmail.net</option>
-								<option>daum.net</option>
-								<option>dreamwiz.com</option>
-								<option>lycos.co.kr</option>
-								<option>empas.com</option>
-								<option>korea.com</option>
-								<option>paran.com</option>
-								<option>freechal.com</option>
-								<option>hanmir.com</option>
-								<option>hotmail.com</option>
-								<option>직접입력</option>
-							</select>
+							<input type="text" value="" placeholder="" class="in-w01 m-full">
 						</td>
 					</tr>
 					<tr>
 						<th scope="row">연락처</th>
 						<td>
-							<input type="text" value="" placeholder="입력값" class="w_s">
-							<span class="gap">-</span>
-							<input type="text" value="" placeholder="입력값" class="w_s">
-							<span class="gap">-</span>
-							<input type="text" value="" placeholder="입력값" class="w_s">
+							<input type="text" value="" placeholder="" class="in-w01 m-full">
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">답변알림</th>
+						<th scope="row">물품명</th>
 						<td>
-							<div class="radio-group">
-								<span class="radio">
-									<input type="radio" name="alarmType" id="alarmType1" checked="">
-									<label for="alarmType1">e-mail</label>
-								</span>
-								<span class="radio">
-									<input type="radio" name="alarmType" id="alarmType2">
-									<label for="alarmType2">sns</label>
-								</span>
-								<span class="radio">
-									<input type="radio" name="alarmType" id="alarmType3">
-									<label for="alarmType3">전화</label>
-								</span>
-							</div>
+							<input type="text" value="" placeholder="" class="in-w100">
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">제목</th>
-						<td><input type="text" value="" placeholder="입력값" style="width:100%"></td>
-					</tr>
-					<tr>
-						<th scope="row">내용</th>
+						<th scope="row">분실일자</th>
 						<td>
-							<div class="textarea_wrap">
-								<textarea placeholder="메세지를 작성해주세요"></textarea>
-								<!-- <span class="byte_txt"><em>0</em> / 500 Byte</span> -->
-							</div>
+							<span class="datepicker-box in-w01 m-full"><input type="text" name="" value="" placeholder="날짜선택" class="inp-date"></span>
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">이미지 등록</th>
+						<th scope="row">분실장소</th>
 						<td>
-							<div class="file_sh">
-								<span class="file_name"></span>
-								<input type="file" name="" class="real_file">
-								<button type="button" class="btn-basic2 small fake_file">찾아보기</button>
+							<input type="text" value="" placeholder="" class="in-w100">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">물품특징</th>
+						<td>
+							<div class="textarea_wrap mini">
+								<textarea name="" cols="30" rows="10"></textarea>
 							</div>
 						</td>
 					</tr>
@@ -734,6 +698,70 @@ function redrawDotNav(){
 						<td class="txt-l"><a href="" class="clamp">제목들어감 제목들어감 제목들어감 제목들어감</a></td>
 						<td class="only-pc">홍길동</td>
 						<td>18-10-15</td>
+						<td class="only-pc">58</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<p class="h2">table Type C(모바일에서 thead 없음)</p>
+			<div class="type_view">
+				<table class="tb-type_c not-thead">
+					<caption></caption>
+					<colgroup>
+						<col class="cols-w5 only-pc">
+						<col class="cols-w6">
+						<col class="cols-w7">
+						<col class="cols-auto">
+						<col class="cols-w8">
+						<col class="cols-w8">
+						<col class="cols-w5 only-pc">
+					</colgroup>
+					<thead>
+					<tr>
+						<th scope="col" class="only-pc">번호</th>
+						<th scope="col">연수원</th>
+						<th scope="col">구분</th>
+						<th scope="col">분실물</th>
+						<th scope="col">등록자</th>
+						<th scope="col">등록일</th>
+						<th scope="col" class="only-pc">조회수</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td class="only-pc">4</td>
+						<td class="td-t-area">서천</td>
+						<td class="td-t-type blank">분실</td>
+						<td class="td-t-lost block txt-l"><a href="">핸드폰 배터리</a></td>
+						<td class="td-t-person">서천연수원</td>
+						<td class="td-t-day blank">18-10-15</td>
+						<td class="only-pc">58</td>
+					</tr>
+					<tr>
+						<td class="only-pc">3</td>
+						<td class="td-t-area">수안보</td>
+						<td class="td-t-type blank">습득</td>
+						<td class="td-t-lost block txt-l"><a href="">지갑</a><i class="ico_common ico_secret"></i></td>
+						<td class="td-t-person">수안보연수원</td>
+						<td class="td-t-day blank">18-10-15</td>
+						<td class="only-pc">58</td>
+					</tr>
+					<tr>
+						<td class="only-pc">2</td>
+						<td class="td-t-area">수안보</td>
+						<td class="td-t-type blank">습득</td>
+						<td class="td-t-lost block txt-l"><a href="">메모리카드</a><i class="ico_common ico_secret"></i></td>
+						<td class="td-t-person">서천연수원</td>
+						<td class="td-t-day blank">18-10-15</td>
+						<td class="only-pc">58</td>
+					</tr>
+					<tr>
+						<td class="only-pc">1</td>
+						<td class="td-t-area">수안보</td>
+						<td class="td-t-type blank">분실</td>
+						<td class="td-t-lost block txt-l"><a href="">휴대용 게임기</a></td>
+						<td class="td-t-person">수안보연수원</td>
+						<td class="td-t-day blank">18-10-15</td>
 						<td class="only-pc">58</td>
 					</tr>
 					</tbody>
@@ -1049,7 +1077,7 @@ function redrawDotNav(){
 							<div class="table-search_a">
 								<div class="sh-item-from">
 									<div class="ui-select">
-										<select class="sel_type" id="areaChoice2">
+										<select class="sel_type" id="areaChoic2">
 											<option selected="selected">전체</option>
 											<option >통합</option>
 											<option>속초 수련원</option>
@@ -1057,6 +1085,11 @@ function redrawDotNav(){
 											<option>서천연수원</option>
 										</select>
 									</div>
+								</div>
+								<div class="sh-sort">
+									<span class="sh-sort-col"><button type="button" class="sh-sort-item active">전체</button></span>
+									<span class="sh-sort-col"><button type="button" class="sh-sort-item">분실</button></span>
+									<span class="sh-sort-col"><button type="button" class="sh-sort-item">습득</button></span>
 								</div>
 								<div class="sh-total">
 									<span>총 103건 ( <em class="point-col2">1</em> / 11 Page)</span>
@@ -1084,6 +1117,24 @@ function redrawDotNav(){
 										</select>
 									</div>
 								</div>
+								<div class="sh-item-from">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="sh-item-btn">
+									<button type="button" class="btn-basic7"><i class="ico_from ico_sh"></i>검색</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<p class="h2">FAQ 검색</p>
+			<div class="type_view">
+				<div class="sh-wrap_c not-bg">
+					<form action="">
+						<fieldset>
+							<legend>검색</legend>
+							<div class="table-search_b">
 								<div class="sh-item-from">
 									<input type="text" name="" value="" placeholder="">
 								</div>
@@ -1155,121 +1206,29 @@ function redrawDotNav(){
 			</div>
 			<p class="h2">accordion</p>
 			<div class="type_view">
-				<div class="accordion_list">
-					<dl>
-						<dt><a href="#;" class="ico_cua open">인천공항 / 김포공항</a></dt>
-						<dd>
-							<table class="tb_list02">
-								<caption>인천공항 / 김포공항 출국시간 및 구매마감시간</caption>
-								<colgroup>
-									<col style="width:50%">
-									<col style="width:50%">
-								</colgroup>
-								<thead>
-									<tr>
-										<th scope="col">출국시간</th>
-										<th scope="col">구매마감시간</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>당일 03:00 ~ 14:59 출국</td>
-										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-									</tr>
-									<tr>
-										<td>당일 15:00 ~ 16:59 출국</td>
-										<td>당일 오전 10:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 17:00 ~ 18:59 출국</td>
-										<td>당일 오전 12:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 19:00 ~ 23:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>익일 00:00 ~ 02:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-								</tbody>
-							</table>
+				<div class="ui-acco faq-wrap" role="group" id="faqList">
+					<div class="ui-acco-wrap">
+						<div class="ui-acco-tit">
+							<button type="button" class="ui-acco-btn"><span class="faq-blt_q">Q</span>예약자 본인이 입실하지 못할 예약자 본인이 입실하지 못할 예약자 본인이 입실하지 못할 예약자 본인이 입실하지 못할 예약자 본인이 입실하지 못할 예약자 본인이 입실하지 못할 경우?</button>
+						</div>
+						<div class="ui-acco-pnl">
+							<span class="faq-blt_a">A</span>부모님이나 자녀들만 수련원을 이용할 경우 가족관계증명서 또는 의료보험카드와 오시는 분(부모님 또는 자녀분 중 한분)의 신분증을 지참하시면 됩니다. 부모님이나 자녀들만 수련원을 이용할 경우 가족관계증명서 또는 의료보험카드와 오시는 분(부모님 또는 자녀분 중 한분)의 신분증을 지참하시면 됩니다.
+						</div>
+					</div>
+					<dl class="ui-acco-wrap">
+						<dt class="ui-acco-tit">
+							<button type="button" class="ui-acco-btn"><span class="faq-blt_q">Q</span>예약자 본인이 입실하지 못할 경우?</button>
+						</dt>
+						<dd class="ui-acco-pnl">
+							<span class="faq-blt_a">A</span>부모님이나 자녀들만 수련원을 이용할 경우 가족관계증명서 또는 의료보험카드와 오시는 분(부모님 또는 자녀분 중 한분)의 신분증을 지참하시면 됩니다.
 						</dd>
-						<dt><a href="#;" class="ico_cua open">김해공항</a></dt>
-						<dd>
-							<table class="tb_list02">
-								<caption>김해공항 출국시간 및 구매마감시간</caption>
-								<colgroup>
-									<col style="width:50%">
-									<col style="width:50%">
-								</colgroup>
-								<thead>
-									<tr>
-										<th scope="col">출국시간</th>
-										<th scope="col">구매마감시간</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>당일 03:00 ~ 14:59 출국</td>
-										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-									</tr>
-									<tr>
-										<td>당일 15:00 ~ 16:59 출국</td>
-										<td>당일 오전 10:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 17:00 ~ 18:59 출국</td>
-										<td>당일 오전 12:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 19:00 ~ 23:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>익일 00:00 ~ 02:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-								</tbody>
-							</table>
-						</dd>
-						<dt><a href="#;" class="ico_cua open">제주공항</a></dt>
-						<dd>
-							<table class="tb_list02">
-								<caption>제주공항 출국시간 및 구매마감시간</caption>
-								<colgroup>
-									<col style="width:50%">
-									<col style="width:50%">
-								</colgroup>
-								<thead>
-									<tr>
-										<th scope="col">출국시간</th>
-										<th scope="col">구매마감시간</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>당일 03:00 ~ 14:59 출국</td>
-										<td>당일 주문 불가능 (전일 오후 08:50까지 주문가능)</td>
-									</tr>
-									<tr>
-										<td>당일 15:00 ~ 16:59 출국</td>
-										<td>당일 오전 10:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 17:00 ~ 18:59 출국</td>
-										<td>당일 오전 12:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>당일 19:00 ~ 23:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-									<tr>
-										<td>익일 00:00 ~ 02:59 출국</td>
-										<td>당일 오후 02:30까지 주문 가능 </td>
-									</tr>
-								</tbody>
-							</table>
+					</dl>
+					<dl class="ui-acco-wrap">
+						<dt class="ui-acco-tit">
+							<button type="button" class="ui-acco-btn"><span class="faq-blt_q">Q</span>질문합니다 3</button>
+						</dt>
+						<dd class="ui-acco-pnl">
+							<span class="faq-blt_a">A</span>부모님이나 자녀들만 수련원을 이용할 경우 가족관계증명서 또는 의료보험카드와 오시는 분(부모님 또는 자녀분 중 한분)의 신분증을 지참하시면 됩니다.
 						</dd>
 					</dl>
 				</div>
@@ -1290,5 +1249,12 @@ function redrawDotNav(){
 	</div>
 </div>
 <div class="btnTop"><a href="#;">top</a></div>
+<script>
+    ;(function($, win, doc, undefined) {
+        $(doc).ready(function(){
+            $plugins.page.accordion();
+        });
+    })(jQuery, window, document);
+</script>
 </body>
 </html>

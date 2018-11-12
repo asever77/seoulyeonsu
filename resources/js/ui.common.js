@@ -22,6 +22,10 @@
 
             $.browser.modal ? '' : $plugins.uiSelect();
 
+            $plugins.page.accordion = function(){
+                $plugins.uiAccordion({ id:'faqList', current:null, autoclose:true });;
+            }
+
             // datepicker jquery-ui
             $(".inp-date").datepicker({
                 showOn: "button",
