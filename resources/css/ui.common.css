@@ -109,6 +109,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .btn-basic5 {background-color:#fff; border-color:#9a9aa1; color:#333}
 .btn-basic6 {background-color:#000}
 .btn-basic7 {background-color:#1b89f9}
+.btn-del {font-size:0}
 
 /* common */
 .col-wrap:after{content:""; display:block; clear:both}
@@ -500,6 +501,8 @@ td .ico_secret {position:relative;top:-1px}
 .view-file {padding:20px 30px;border-top:1px solid #c2c3c6}
 .view-file .file-item ~ .file-item {display:block;margin-top:10px}
 .view-contents {padding:30px;min-height:200px;background-color:#fff;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.view-contents .view-contents-img {margin-bottom:10px}
+.view-contents .view-contents-img img {max-width:100%;vertical-align:top}
 .period-area {padding:15px 30px;border-top:1px solid #c2c3c6}
 
 /* comment */

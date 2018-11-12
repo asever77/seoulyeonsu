@@ -3,6 +3,7 @@
 /* contents */
 .page-title-area {height:300px;padding-top:105px;text-align:center;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
 .page-title-area.cs-center {background-image:url('../../resources/img/contents/top_img_cs.jpg')}
+.page-title-area.community {background-image:url('../../resources/img/contents/top_img_community.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
 

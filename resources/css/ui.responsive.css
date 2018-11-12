@@ -272,6 +272,8 @@
 	.textarea_wrap textarea {height:200px}
 	.textarea_wrap.mini textarea {height:100px}
 
+	.tb-type_c thead th {padding:10px}
+	.tb-type_c tbody td {line-height:14px}
 	.tb-type_c .comment-count {font-size:10px}
 	.tb-type_c.not-thead colgroup,
 	.tb-type_c.not-thead thead {display:none}
