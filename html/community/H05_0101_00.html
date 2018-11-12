@@ -58,62 +58,79 @@
 					</div>
 					<!-- E : title area -->
 
-					<!-- S : table area -->
-					<table class="tb-type_b mgt-m">
-						<caption>문의글 작성</caption>
-						<colgroup>
-							<col class="cols-w4">
-							<col class="col-auto">
-						</colgroup>
-						<tbody>
-						<tr>
-							<th scope="row">연수원</th>
-							<td>
-								<div class="m-full">
-									<div class="ui-select">
-										<select class="sel_type" id="areaChoice">
-											<option selected="selected">선택</option>
-											<option >통합</option>
-											<option>속초 수련원</option>
-											<option>수안보연수원</option>
-											<option>서천연수원</option>
-										</select>
+					<!-- S : search area -->
+					<div class="sh-wrap_b">
+						<form action="">
+							<fieldset>
+								<legend>검색</legend>
+								<div class="table-search_a">
+									<div class="sh-item-from">
+										<div class="ui-select">
+											<select class="sel_type" id="areaChoic2">
+												<option selected="selected">전체</option>
+												<option >통합</option>
+												<option>속초 수련원</option>
+												<option>수안보연수원</option>
+												<option>서천연수원</option>
+											</select>
+										</div>
+									</div>
+									<div class="sh-total">
+										<span>총 103건 ( <em class="point-col2">1</em> / 11 Page)</span>
 									</div>
 								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">제목</th>
-							<td>
-								<input type="text" value="" placeholder="" class="in-w100">
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">내용</th>
-							<td>
-								<div class="textarea_wrap">
-									<textarea name="" cols="30" rows="10"></textarea>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">이미지</th>
-							<td>
-								<div class="ui-file" id="addfile">
-									<button type="button" class="btn-base ui-file-btn btn-basic5 small"><span>파일선택</span></button>
-								</div>
-							</td>
-						</tr>
-						</tbody>
-					</table>
-					<!-- E : table area -->
-
-					<!-- S : button area -->
-					<div class="btn-area mgt-ms">
-						<button type="button" class="btn-basic1">목록</button>
-						<button type="button" class="btn-basic3">등록</button>
+							</fieldset>
+						</form>
 					</div>
-					<!-- E : button area -->
+					<!-- E : search area -->
+
+					<!-- S : search area -->
+					<div class="paging-area">
+						<div class="paging">
+							<a href="#" title="처음" class="ico_fromb pprev"></a>
+							<a href="#" title="이전" class="ico_fromb prev"></a>
+							<a href="#">1</a>
+							<a href="#" class="active">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#" title="다음" class="ico_fromb next"></a>
+							<a href="#" title="마지막" class="ico_fromb nnext"></a>
+						</div>
+						<div class="btn-right">
+							<a href="" class="btn-basic7"><i class="ico_from ico_write"></i>글쓰기</a>
+						</div>
+					</div>
+					<!-- E : search area -->
+
+					<!-- S : search area -->
+					<div class="sh-wrap_c">
+						<form action="">
+							<fieldset>
+								<legend>검색</legend>
+								<div class="table-search_b">
+									<div class="sh-item-from medium">
+										<div class="ui-select">
+											<select class="sel_type" id="areaChoice2">
+												<option selected="selected">전체</option>
+												<option >통합</option>
+												<option>속초 수련원</option>
+												<option>수안보연수원</option>
+												<option>서천연수원</option>
+											</select>
+										</div>
+									</div>
+									<div class="sh-item-from">
+										<input type="text" name="" value="" placeholder="">
+									</div>
+									<div class="sh-item-btn">
+										<button type="button" class="btn-basic7"><i class="ico_from ico_sh"></i>검색</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<!-- E : search area -->
 				</div>
 	
 				<!-- //content ---------------------------------------------------------------------------------------------- -->
@@ -128,7 +145,7 @@
 		$(doc).ready(function(){
 			
 			console.log('page');
-            $plugins.page.fileupload();
+            $plugins.page.template();
             $plugins.page.menuID = 'M05_01';
 
 		});

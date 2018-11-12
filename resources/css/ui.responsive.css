@@ -112,6 +112,7 @@
     .ico_fromb:before,
     .ui-datepicker-trigger:before,
     .radio.big label:after,
+    .ui-file-del,
     .ico_from {background-image:url('../../resources/img/ico_form_m.png');background-size:500px auto}
     .ico_common {background-image:url('../../resources/img/ico_common.png');background-size:250px auto}
 	.ico_noti {position:relative;top:-1px;width:10px;height:8px;background-position:-20px -50px}
@@ -119,6 +120,7 @@
 	.ico_write {width:13px;height:14px;background-position:-260px 0;vertical-align:middle;margin-right:5px}
 	.ico_file {position:relative;top:-1px;width:7px;height:10px;background-position:-40px -50px;margin-right:3px}
 	.ico_secret {width:6px;height:8px;background-position:-60px -50px}
+	.ui-file-del {width:11px;height:11px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -147,6 +149,7 @@
     [class*='btn-basic'] {min-width:43px;padding:0 15px;height:25px;line-height:25px;font-size:11px;border-radius:2px}
     [class*='btn-basic'].big {min-width:97px;padding:0 20px;height:35px;line-height:35px;font-size:12px}
     [class*='btn-basic'].small {padding:0 10px;height:21px;line-height:21px;font-size:10px}
+	.ui-file [class*='btn-basic'].small {height:26px;line-height:26px}
 
     /* checkbox */
     .checkbox label {padding-left:19px;line-height:14px;min-height:14px}
@@ -311,6 +314,9 @@
 	.view-contents {padding:15px}
 	.period-area {padding:10px 15px}
 	.comment-textarea .btn-comment .btn-comment-write {height:26px;line-height:26px;font-size:12px;min-width:60px}
+
+	/* file */
+	.ui-file {margin:0}
 
 	/* prenex-wrap */
 	.prenex-item {padding:10px 0}

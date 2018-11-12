@@ -99,7 +99,9 @@
 						<tr>
 							<th scope="row">이미지</th>
 							<td>
-
+								<div class="ui-file" id="addfile">
+									<button type="button" class="btn-base ui-file-btn btn-basic5 small"><span>파일선택</span></button>
+								</div>
 							</td>
 						</tr>
 						</tbody>
@@ -127,6 +129,7 @@
 			
 			console.log('page');
             $plugins.page.template();
+            $plugins.page.fileupload();
             $plugins.page.menuID = 'M05_01';
 
 		});

@@ -22,9 +22,12 @@
 
             $.browser.modal ? '' : $plugins.uiSelect();
 
+            $plugins.uiFileUpload({ id:'addfile', multi:true });
+
             $plugins.page.accordion = function(){
-                $plugins.uiAccordion({ id:'faqList', current:null, autoclose:true });;
+                $plugins.uiAccordion({ id:'faqList', current:null, autoclose:true });
             }
+
 
             // datepicker jquery-ui
             $(".inp-date").datepicker({

@@ -29,6 +29,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .ui-datepicker .ui-widget-header .ui-icon,
 .radio.big label:after,
 .step-type_a .step-item ~ .step-item:before,
+.ui-file-del,
 .ico_from {content:''; display:inline-block; background-image:url('../../resources/img/ico_form.png'); background-repeat:no-repeat}
 .ico_common,
 .step-type_a .step-item ~ .step-item:before,
@@ -109,7 +110,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .btn-basic5 {background-color:#fff; border-color:#9a9aa1; color:#333}
 .btn-basic6 {background-color:#000}
 .btn-basic7 {background-color:#1b89f9}
-.btn-del {font-size:0}
+.ui-file-del {font-size:0;width:13px;height:12px;background-position:-280px 0}
 
 /* common */
 .col-wrap:after{content:""; display:block; clear:both}
@@ -180,7 +181,7 @@ input:-moz-placeholder {color:#999}
 
 input:disabled, input:readonly {background:#e5e5e5}
 input[readonly='readonly'], input[readonly],
-input[disabled='disabled'], input[disabled] {background-color:#e5e5e5;color:rgba(0,0,0,.5) !important;opacity:1}
+input[disabled='disabled'], input[disabled] {background-color:#e5e5e5;color:rgba(0,0,0,.5) !important;opacity:1;border-color:#d5d6db !important}
 input.datepicker[disabled='disabled'], input.datepicker[disabled],
 input.datepicker[readonly='readonly'], input.datepicker[readonly],
 input.datepicker[disabled='disabled']::-webkit-input-placeholder,
@@ -412,8 +413,7 @@ sup {font-size:11px}
 .sel_big .ui-icon-triangle-1-s {width:12px; height:7px; background-position:0 -280px}
 
 
-select{display:inline-block; position:relative; vertical-align:top; width:auto; height:30px; padding:0 30px 0 10px; border-radius:2px; 
-background:url('../../resources/img/ico_form.png') no-repeat -100px 0; background-size:200px 200px; appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #c9c9c9; font-size:14px; cursor:pointer;}
+select{display:inline-block; position:relative; vertical-align:top; width:auto; height:30px; padding:0 30px 0 10px; border-radius:0px; appearance:none; -moz-appearance:none; -webkit-appearance:none; border:1px solid #d5d6db; font-size:14px; cursor:pointer}
 select::-ms-expand{display:none;}
 select optgroup,
 select option{font-style:normal; background-color:#fff; font-size:13px;}
@@ -504,6 +504,11 @@ td .ico_secret {position:relative;top:-1px}
 .view-contents .view-contents-img {margin-bottom:10px}
 .view-contents .view-contents-img img {max-width:100%;vertical-align:top}
 .period-area {padding:15px 30px;border-top:1px solid #c2c3c6}
+
+/* file */
+.ui-file-wrap {position:relative;display:block}
+.ui-file-wrap .ui-file-txt {width:100% !important;margin-top:5px}
+.ui-file-wrap .ui-file-del {position:absolute;right:10px;top:50%;margin:-3px 0 0 0}
 
 /* comment */
 .comment-write-area,
