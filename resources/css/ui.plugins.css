@@ -83,7 +83,7 @@
 
 .ui-tab{position:relative; margin:10px 0}
 .ui-tab-btns{margin-bottom:13px;}
-.ui-tab-btn{min-width:50px; height:20px; border:1px solid #969bb0; font-size:11px; margin:0 2px;}
+.ui-tab-btn{min-width:50px; height:20px; border:1px solid #969bb0; font-size:11px; margin:0 2px; padding-top:3px;}
 .ui-tab-btn.selected:after {bottom:-4px; margin-left:-3px; width:6px; height:6px;}
 
 .ui-select-wrap.on{display:block}

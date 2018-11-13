@@ -140,10 +140,10 @@
     .main-visual-wrap{height:230px;}
     .main-place-wrap .owl-carousel .owl-dots,
     .main-event-wrap .owl-carousel .owl-dots,
-    .main-info-wrap .owl-carousel .owl-dots{bottom:-40px}
+    .main-info-wrap .owl-carousel .owl-dots{bottom:-35px}
     .main-place-wrap .ui-owl .owl-control,
     .main-event-wrap .ui-owl .owl-control,
-    .main-info-wrap .ui-owl .owl-control{bottom:-40px}
+    .main-info-wrap .ui-owl .owl-control{bottom:-35px}
     .main-visual-wrap .owl-nav{display:none;}
     .main-place-wrap,
     .main-event-wrap,
