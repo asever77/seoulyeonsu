@@ -402,6 +402,20 @@
     .satisfaction-end .ico_end {width:80px;height:80px;background-size:80px}
     .satisfaction-end p {font-size:14px;line-height:24px}
 
+    /* 만족도설문조사 */
+    .survey-item{margin-top:15px;}
+    .survey-head{padding:5px 15px 6px; font-size:14px; }
+    .survey-head b{font-size:16px; }
+    .survey-body{padding:15px;}
+    .survey-body.sub-head{font-size:14px; padding:7px 15px}
+    .survey-body li{margin-top:10px;}
+    .survey-body .radio label{padding-left:35px; line-height: 16px;}
+    .survey-body .radio label i{left:18px; top:0}
+    .survey-lb{line-height:18px; margin-bottom:4px;}
+    .survey-graph{width:calc(100% - 40px); height:16px; margin-bottom:10px;}
+    .survey-bar{height:16px;}
+    .survey-bar b{font-size:14px; right:-50px; top:-3px;}
+
 }
 @media (max-width:420px) {
     .photo-list {margin:0 -10px}

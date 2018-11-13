@@ -68,12 +68,12 @@
 .survey-item{width:100%; border:1px solid #c2c3c6; margin-top:30px;}
 .survey-head{background:#e0e2e8; border-bottom:1px solid #c2c3c6; padding:10px 25px 11px; font-size:16px; color:#666; font-weight: 200; letter-spacing:0}
 .survey-head b{display:inline-block; font-size:20px; color:#000; font-weight: 500;}
-.survey-body{background:#fff; padding:25px 25px; font-weight: 300; letter-spacing:0;}
-.survey-body.sub-head{border-bottom:1px solid #c2c3c6; font-size:16px; font-weight:400; padding:15px 2}
+.survey-body{background:#fff; padding:25px; font-weight: 300; letter-spacing:0;}
+.survey-body.sub-head{border-bottom:1px solid #c2c3c6; font-size:16px; font-weight:400; padding:15px 25px}
 .survey-body li{margin-top:20px;}
 .survey-body li:first-child{margin-top:3px;}
-.survey-body .radio label{padding-left: 38px; font-size:14px; color:#354052; font-weight:400; line-height: 21px;}
-.survey-body .radio label i{display:inline-block; vertical-align: text-bottom;}
+.survey-body .radio label{padding-left:55px; font-size:14px; color:#354052; font-weight:400;}
+.survey-body .radio label i{display:block; position: absolute; top:-2px; left:38px;}
 .survey-lb{display:inline-block; width:145px; font-size:14px; color:#354052; font-weight:400; line-height: 21px; vertical-align: middle;}
 .survey-graph{display:inline-block; vertical-align: middle; width:934px; height:20px; position:relative;}
 .lot .survey-bar{background:#1b89f9; border-color:#1b89f9;}
