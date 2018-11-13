@@ -43,6 +43,25 @@
 .faq-wrap .ui-acco-btn {padding:15px 20px 15px 70px;color:#000;font-size:16px}
 .faq-wrap .ui-acco-pnl {padding:15px 50px 15px 120px;font-size:16px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 
+/* satisfaction */
+.satisfaction-info {display:table;width:100%;table-layout:fixed;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.satisfaction-info .satisfaction-img {display:table-cell;width:405px;vertical-align:top}
+.satisfaction-info .satisfaction-img img {vertical-align:top}
+.satisfaction-info .satisfaction-txt {display:table-cell;padding:0 40px;font-size:20px;line-height:50px;vertical-align:middle;color:#000;font-weight:500;background-color:#e0e2e8}
+.satisfaction-choice dl {margin:0 auto;max-width:324px}
+.satisfaction-choice dl ~ dl {margin-top:20px}
+.satisfaction-choice dl:after {content:'';display:block;clear:both}
+.satisfaction-choice dl dt {float:left;width:35%;text-align:center;font-size:18px;color:#354052;font-weight:600;height:54px;line-height:54px;border:1px solid #dddee5;border-right:none;background-color:#fff}
+.satisfaction-choice dl dd {float:left;width:65%}
+.satisfaction-choice .ui-select {width:100%}
+.satisfaction-choice input[type='text'] {height:54px;line-height:54px;border-color:#dddee5;width:100%;font-size:18px;color:#354052}
+.satisfaction-choice .ui-select input[readonly] {color:#354052 !important}
+.satisfaction-choice .ui-select-wrap.bottom {top:53px}
+.satisfaction-choice .ui-select-wrap.top {bottom:53px}
+.satisfaction-end {padding:45px 15px;text-align:center;background-color:#e0e2e8;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.satisfaction-end .ico_end {display:block;margin:0 auto;width:160px;height:160px;background:url('../../resources/img/contents/ico_satisfaction.png') no-repeat 0 0}
+.satisfaction-end p {font-size:20px;line-height:30px;color:#000;font-weight:500}
+
 
 
 

@@ -32,6 +32,11 @@
 
     /* contents */
     .contents-area {padding:25px 25px 70px}
+
+    /* satisfaction */
+    .satisfaction-info .satisfaction-img {width:32%}
+    .satisfaction-info .satisfaction-img img {width:100%}
+    .satisfaction-choice select {height:54px;border-color:#dddee5}
 }
 
 @media (max-width:768px) {
@@ -388,11 +393,24 @@
     .photo-item .photo-box-info p span:nth-child(3) {clear:both}
     .photo-item .photo-box .clamp {margin-top:5px;padding-left:0}
 
+    /* satisfaction */
+    .satisfaction-info .satisfaction-txt {padding:0 20px;font-size:12px;line-height:30px}
+    .satisfaction-choice dl ~ dl {margin-top:10px}
+    .satisfaction-choice dl dt {font-size:14px;height:40px;line-height:38px}
+    .satisfaction-choice select {height:40px}
+    .satisfaction-choice input[type='text'] {height:40px;line-height:40px}
+    .satisfaction-end .ico_end {width:80px;height:80px;background-size:80px}
+    .satisfaction-end p {font-size:14px;line-height:24px}
+
 }
 @media (max-width:420px) {
     .photo-list {margin:0 -10px}
     .photo-item .photo-box {margin:0 10px}
     .photo-list .photo-item {width:50%}
+
+    .satisfaction-info .satisfaction-img {display:block;width:100%}
+    .satisfaction-info .satisfaction-txt {display:block;padding:20px 15px}
+    .satisfaction-end {padding:25px 15px}
 }
 @media (max-width:320px) {
 	.clamp {max-width:85%}
