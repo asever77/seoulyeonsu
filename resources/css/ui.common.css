@@ -242,7 +242,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 
 /* paging */
 .paging-area {position:relative}
-.paging {position:relative; margin:30px 0 15px 0; text-align:center}
+.paging {position:relative; margin:0 0 15px 0; padding-top:30px; text-align:center}
 .paging * {vertical-align:top}
 .paging a {display:inline-block; min-width:33px; height:33px; padding:0 8px; margin:0 1px 0 0; font-size:14px; line-height:33px; text-align:center; background-color:#fff; border:1px solid #c2c3c6; text-decoration:none;font-family:'Roboto', 'sans-serif'}
 .paging a.active {border-color:#000; background-color:#000; color:#fff}
@@ -253,7 +253,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 .paging .prev:before {width:4px; background-position-x:-40px}
 .paging .next:before {width:4px; background-position-x:-60px}
 .paging .nnext:before {width:8px; background-position-x:-80px}
-.paging-area .btn-right {position:absolute;right:0;top:-8px}
+.paging-area .btn-right {position:absolute;right:0;top:20px}
 [class*='btn-basic'] i {position:relative}
 .btn-right i {top:-2px}
 
@@ -507,7 +507,7 @@ td .ico_secret {position:relative;top:-1px}
 
 /* file */
 .ui-file-wrap {position:relative;display:block}
-.ui-file-wrap .ui-file-txt {width:100% !important;margin-top:5px}
+.ui-file-wrap .ui-file-txt {width:100% !important;margin-top:5px;padding-right:20px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 .ui-file-wrap .ui-file-del {position:absolute;right:10px;top:50%;margin:-3px 0 0 0}
 
 /* comment */
@@ -579,6 +579,20 @@ td .ico_secret {position:relative;top:-1px}
 .ico_step1 {background-position-x:0}
 .ico_step2 {background-position-x:-80px}
 .ico_step3 {background-position-x:-160px}
+
+/* photo list */
+.photo-list:after {content:'';display:block;clear:both}
+.photo-list {margin:0 -15px}
+.photo-list .photo-item {float:left;width:25%;margin-bottom:40px}
+.photo-item .photo-box {margin:0 15px;display:block}
+.photo-item .photo-box:hover .photo-box-info {display:block}
+.photo-item .photo-box-img {position:relative}
+.photo-item .photo-box-info {display:none;position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,.65)}
+.photo-item .photo-box-info p {position:absolute;left:0;right:0;top:50%;margin-top:-41px;text-align:center;color:#fff;line-height:21px}
+.photo-item .photo-box-info p span {display:block}
+.photo-item .photo-box-img img {width:100%;vertical-align:top}
+.photo-item .photo-box .clamp {margin-top:14px;padding-left:10px;color:#596a7f}
+.photo-list ~ .paging-area {border-top:1px solid #c2c3c6}
 
 
 

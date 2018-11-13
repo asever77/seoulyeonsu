@@ -380,6 +380,19 @@
 	.faq-wrap .faq-blt_a {left:30px}
 	.faq-wrap .ui-acco-pnl {padding:10px 30px 10px 60px;font-size:12px}
 
+    /* photo */
+    .photo-list .photo-item {margin-bottom:20px}
+    .photo-item .photo-box-info {display:block;position:static;background-color:transparent}
+    .photo-item .photo-box-info p {position:static;color:#666;margin:7px 0 0 0;overflow:hidden;line-height:16px;font-size:11px}
+    .photo-item .photo-box-info p span {float:left;margin-right:5px}
+    .photo-item .photo-box-info p span:nth-child(3) {clear:both}
+    .photo-item .photo-box .clamp {margin-top:5px;padding-left:0}
+
+}
+@media (max-width:420px) {
+    .photo-list {margin:0 -10px}
+    .photo-item .photo-box {margin:0 10px}
+    .photo-list .photo-item {width:50%}
 }
 @media (max-width:320px) {
 	.clamp {max-width:85%}
