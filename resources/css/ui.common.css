@@ -362,6 +362,7 @@ sup {font-size:11px}
 .table-search_b [class*='sh-item'] ~ [class*='sh-item'] {padding-left:10px}
 .table-search_b .sh-item-btn {width:125px}
 .table-search_b .sh-item-btn [class*='btn-basic'] {height:48px;line-height:48px;width:100%}
+.table-search_b .ui-select-wrap {width:100%}
 .sh-item-btn .ico_sh {position:relative;top:-1px}
 
 /* datepicker */
