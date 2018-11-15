@@ -33,7 +33,7 @@
 .search-choice-item input[type='radio']:checked + label {color:#309df1;font-weight:500}
 
 /* FAQ */
-.faq-wrap {border-top:2px solid #000}
+/*.faq-wrap {border-top:2px solid #000}*/
 .faq-wrap [class*='faq-blt_'] {position:absolute;display:block;width:40px;height:25px;margin-right:10px;line-height:24px;text-align:center;color:#fff;border-radius:12px;font-weight:600}
 .faq-blt_q {background-color:#596a7f}
 .faq-blt_a {background-color:#f58220}

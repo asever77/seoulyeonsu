@@ -214,6 +214,11 @@
 	.sh-wrap_c.not-bg .sh-item-from {display:table-cell;width:70%;padding-right:5px !important}
 	.sh-wrap_c.not-bg .sh-item-from input[type="text"] {height:38px;line-height:38px}
 	.sh-wrap_c.not-bg .sh-item-btn {padding:10px 15px 10px 0 !important}
+	.sh-wrap_c .sh-item-from {padding:10px 0 !important}
+	.sh-wrap_c .sh-item-from ~ .sh-item-from {border-top:none;padding-top:0 !important}
+	.sh-wrap_c .sh-item-from.medium {width:100%}
+	.sh-wrap_c .table-search_b .ui-select {display:block}
+	.sh-wrap_c .table-search_b .ui-select input[type="text"] {width:100%}
 
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
