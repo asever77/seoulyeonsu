@@ -41,6 +41,8 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .ico_write {width:15px;height:17px;background-position:-260px 0;vertical-align:middle;margin-right:8px}
 .ico_file {width:14px;height:20px;background-position:-80px -100px;vertical-align:middle;margin-right:5px}
 .ico_secret {width:12px;height:15px;background-position:-120px -100px;vertical-align:middle;margin-left:5px}
+.calendar-prev {background-position:-300px 0}
+.calendar-next {background-position:-320px 0}
 
 /* title */
 .h-type_a {color:#000; font-size:40px; font-weight:200}
@@ -485,6 +487,9 @@ select[disabled]{background-color:#f7f7f7; color:#888;}
 .layer-big_a {text-align:center;font-size:24px;color:#000}
 .layer-txt_a {text-align:center}
 .layer-popup .btn-area {margin-top:30px}
+.ui-dialog.calendar-pop .ui-widget-content{padding:30px 20px 0 20px !important}
+.ui-dialog.calendar-pop .ui-dialog-titlebar-close {display:none}
+.ui-dialog.calendar-pop .ui-dialog-content {overflow:hidden}
 
 /* table */
 [class*='tb-type_'] {width:100%;table-layout:fixed}

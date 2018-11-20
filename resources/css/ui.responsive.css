@@ -444,6 +444,16 @@
 	.search-before {padding:100px 0}
 	.reserve-end {font-size:18px}
 
+	.ui-dialog .btn-area [class*='btn-basic'].small {height:35px;line-height:35px}
+	.calendar-box .calendar-item {display:block;padding:0}
+	.calendar-box .calendar-item ~ .calendar-item {margin-top:30px}
+	.calendar-box .calendar-item ~ .calendar-item:before {display:none}
+	.ui-dialog.calendar-pop .ui-dialog-content {overflow-y:auto;overflow-x:hidden;padding:15px 15px 0 15px!important}
+	.calendar-area .ico_from[class*='calendar-'] {top:25px}
+	.calendar-area .calendar-prev {left:25px}
+	.calendar-area .calendar-next {right:25px}
+	.calendar-pop .btn-full button {height:35px;line-height:35px}
+
 }
 @media (max-width:420px) {
     .photo-list {margin:0 -10px}
@@ -453,6 +463,10 @@
     .satisfaction-info .satisfaction-img {display:block;width:100%}
     .satisfaction-info .satisfaction-txt {display:block;padding:20px 15px}
     .satisfaction-end {padding:25px 15px}
+	.ui-widget.ui-dialog.ui-widget-content {width:310px !important}
+	.layer-big_a {font-size:18px}
+	.info-box-item.type-c {font-size:13px;margin-bottom:3px}
+	.info-box-item {font-size:12px}
 }
 @media (max-width:320px) {
 	.clamp {max-width:85%}

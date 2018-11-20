@@ -279,17 +279,150 @@
 	</div>
 
 	<!-- S : dialog -->
-	<div id="notiA" title="알림">
+	<div id="notiA" title="달력">
 		<div class="layer-popup">
-			<p class="layer-big_a">기관배정 신청 기간입니다.</p>
-			<p class="layer-txt_a point-col2 mgt-xs">현재는 기관배정 신청만 가능합니다. <br>예약 신청 후 기관배정 담당자가 승인하여야 <span class="m_block">예약이 완료됩니다.</span></p>
-			<div class="info-box_a mgt-s">
-				<p class="info-box-item type-c">개인 생활연수 예약 가능 기간</p>
-				<p class="info-box-item">공무원 :  매달 16일 오전 9:00 ~ 말일</p>
-				<p class="info-box-item">공무직 :  매달 17일 오전 9:00 ~ 말일</p>
-			</div>
-			<div class="btn-area">
-				<button type="button" class="btn-basic1 small">닫기</button>
+			<div class="calendar-area">
+				<button type="button" class="ico_from calendar-prev">이전</button>
+				<button type="button" class="ico_from calendar-next">다음</button>
+				<div class="calendar-box">
+					<div class="calendar-item">
+						<p class="calendar-year">2018.10</p>
+						<table>
+							<thead>
+								<tr>
+									<th scope="col">일</th>
+									<th scope="col">월</th>
+									<th scope="col">화</th>
+									<th scope="col">수</th>
+									<th scope="col">목</th>
+									<th scope="col">금</th>
+									<th scope="col">토</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="sun"><button type="button" class="day-prev" disabled="disabled">30</button></td>
+									<td><button type="button">1</button></td>
+									<td><button type="button">2</button></td>
+									<td><button type="button">3</button></td>
+									<td><button type="button">4</button></td>
+									<td><button type="button">5</button></td>
+									<td><button type="button">6</button></td>
+								</tr>
+								<tr>
+									<td class="sun"><button type="button" class="active">7</button></td>
+									<td><button type="button" class="active-ing">8</button></td>
+									<td class="holiday"><button type="button" class="active">9</button></td>
+									<td><button type="button">10</button></td>
+									<td><button type="button">11</button></td>
+									<td><button type="button">12</button></td>
+									<td><button type="button">13</button></td>
+								</tr>
+								<tr>
+									<td class="sun"><button type="button">14</button></td>
+									<td><button type="button">15</button></td>
+									<td><button type="button">16</button></td>
+									<td><button type="button">17</button></td>
+									<td><button type="button">18</button></td>
+									<td><button type="button">19</button></td>
+									<td><button type="button">20</button></td>
+								</tr>
+								<tr>
+									<td class="sun"><button type="button">21</button></td>
+									<td><button type="button">22</button></td>
+									<td><button type="button">23</button></td>
+									<td><button type="button">24</button></td>
+									<td><button type="button">25</button></td>
+									<td><button type="button">26</button></td>
+									<td><button type="button">27</button></td>
+								</tr>
+								<tr>
+									<td class="sun"><button type="button">28</button></td>
+									<td><button type="button">29</button></td>
+									<td><button type="button">30</button></td>
+									<td><button type="button">31</button></td>
+									<td><button type="button" class="day-prev" disabled="disabled">1</button></td>
+									<td><button type="button" class="day-prev" disabled="disabled">2</button></td>
+									<td><button type="button" class="day-prev" disabled="disabled">3</button></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="calendar-info">
+							<span class="choice-type_a">선택 가능 날짜</span>
+							<span class="choice-type_b">선택 불가능 날짜</span>
+						</div>
+					</div>
+					<div class="calendar-item">
+						<p class="calendar-year">2018.11</p>
+						<table>
+							<thead>
+							<tr>
+								<th scope="col">일</th>
+								<th scope="col">월</th>
+								<th scope="col">화</th>
+								<th scope="col">수</th>
+								<th scope="col">목</th>
+								<th scope="col">금</th>
+								<th scope="col">토</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="sun"><button type="button" class="day-prev" disabled="disabled">30</button></td>
+								<td><button type="button">1</button></td>
+								<td><button type="button">2</button></td>
+								<td><button type="button">3</button></td>
+								<td><button type="button">4</button></td>
+								<td><button type="button">5</button></td>
+								<td><button type="button">6</button></td>
+							</tr>
+							<tr>
+								<td class="sun"><button type="button" disabled="disabled">7</button></td>
+								<td><button type="button" disabled="disabled">8</button></td>
+								<td class="holiday"><button type="button" disabled="disabled">9</button></td>
+								<td><button type="button" disabled="disabled">10</button></td>
+								<td><button type="button" disabled="disabled">11</button></td>
+								<td><button type="button" disabled="disabled">12</button></td>
+								<td><button type="button" disabled="disabled">13</button></td>
+							</tr>
+							<tr>
+								<td class="sun"><button type="button">14</button></td>
+								<td><button type="button">15</button></td>
+								<td><button type="button">16</button></td>
+								<td><button type="button">17</button></td>
+								<td><button type="button">18</button></td>
+								<td><button type="button">19</button></td>
+								<td><button type="button">20</button></td>
+							</tr>
+							<tr>
+								<td class="sun"><button type="button">21</button></td>
+								<td><button type="button">22</button></td>
+								<td><button type="button">23</button></td>
+								<td><button type="button">24</button></td>
+								<td><button type="button">25</button></td>
+								<td><button type="button">26</button></td>
+								<td><button type="button">27</button></td>
+							</tr>
+							<tr>
+								<td class="sun"><button type="button">28</button></td>
+								<td><button type="button">29</button></td>
+								<td><button type="button">30</button></td>
+								<td><button type="button">31</button></td>
+								<td><button type="button" class="day-prev" disabled="disabled">1</button></td>
+								<td><button type="button" class="day-prev" disabled="disabled">2</button></td>
+								<td><button type="button" class="day-prev" disabled="disabled">3</button></td>
+							</tr>
+							</tbody>
+						</table>
+						<div class="calendar-info">
+							<span class="choice-type_a">선택 가능 날짜</span>
+							<span class="choice-type_b">선택 불가능 날짜</span>
+						</div>
+					</div>
+				</div>
+				<div class="btn-full mgt-ms">
+					<button type="button" class="btn-basic3">적용</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -303,9 +436,10 @@
             $plugins.page.menuID = 'M01_00';
             // 레이어 팝업
             $("#notiA").dialog({
-                dialogClass: "no_title",
+                dialogClass: "no_title calendar-pop",
                 resizable: false,
-                width:470,
+                width:890,
+	            height:450,
                 maxHeight: 720,
                 modal: true
             });
