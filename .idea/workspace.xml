@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ded9287-931d-4154-933f-cc44c67c7d35" name="Default Changelist" comment="" />
+    <list default="true" id="8ded9287-931d-4154-933f-cc44c67c7d35" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/ui.common.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/ui.contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.contents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/ui.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/ui.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/ui.common.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,37 +61,69 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/guide/ui_guide.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ui.responsive.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="757" column="98" selection-start-line="757" selection-start-column="98" selection-end-line="757" selection-end-column="98" />
+            <state relative-caret-position="113">
+              <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.contents.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="145" column="110" selection-start-line="145" selection-start-column="110" selection-end-line="145" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.ui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../현대면세점/ST/KO/js/ST/KO/common.ui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="263" column="69" lean-forward="true" selection-start-line="263" selection-start-column="69" selection-end-line="263" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tour_info_detail_com_info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="197" column="85" lean-forward="true" selection-start-line="197" selection-start-column="85" selection-end-line="197" selection-end-column="85" />
               <folding>
-                <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#4;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../KMI/coding/css/contents.css">
+      <file leaf-file-name="ui.common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/ui.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="2114" selection-start-line="2114" selection-end-line="2114" selection-end-column="26" />
+            <state relative-caret-position="664">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="ui.page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="353" column="12" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="12" />
+            <state relative-caret-position="650">
+              <caret line="653" column="101" selection-start-line="653" selection-start-column="101" selection-end-line="653" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -91,23 +132,98 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1단</find>
-      <find>Table sort</find>
-      <find>alarm_type</find>
-      <find>.inp-data</find>
-      <find>.ui-datepicker-trigger</find>
-      <find>Dot List</find>
-      <find>text-point</find>
-      <find>table Type C</find>
-      <find>Select</find>
+      <find>button</find>
+      <find>.tb-type_c tbody td</find>
+      <find>mini-noti</find>
+      <find>result-</find>
+      <find>sh-box</find>
+      <find>box-module_a</find>
+      <find>tab-wrap</find>
+      <find>photo_reply_detail</find>
+      <find>inp-date</find>
+      <find>/* dialog */</find>
+      <find>admin-comment</find>
+      <find>fileupload</find>
+      <find>tb-type_b</find>
+      <find>.ui-file-wrap</find>
+      <find>.ui-file</find>
+      <find>ui-file-wrap</find>
+      <find>.btn-del</find>
+      <find />
+      <find>0</find>
+      <find>view-title</find>
+      <find>tab-type</find>
+      <find>tab-</find>
+      <find>dot_list</find>
+      <find>link-type_a</find>
+      <find>.fake-table</find>
+      <find>h-type_b</find>
+      <find>img-text</find>
+      <find>uiTab</find>
+      <find>mainInfo</find>
+      <find>text-area</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/js/ui.common.js" />
+        <option value="$PROJECT_DIR$/html/reserve/H01_0101_00.html" />
+        <option value="$PROJECT_DIR$/html/reserve/H01_0004_00.html" />
+        <option value="$PROJECT_DIR$/html/reserve/H01_0001_00.html" />
+        <option value="$PROJECT_DIR$/html/community/H05_0301_00.html" />
+        <option value="$PROJECT_DIR$/html/community/H05_0103_00.html" />
+        <option value="$PROJECT_DIR$/html/community/H05_0102_00.html" />
+        <option value="$PROJECT_DIR$/html/cs_center/H04_0101_00.html" />
+        <option value="$PROJECT_DIR$/html/community/H05_0104_00.html" />
+        <option value="$PROJECT_DIR$/html/community/H05_0201_00.html" />
+        <option value="$PROJECT_DIR$/resources/data/codinglist.json" />
+        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_detil.html" />
+        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_detil.html" />
+        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_ins.html" />
+        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_upt.html" />
+        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply.html" />
+        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_finih.html" />
+        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_guide.html" />
+        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_resut.html" />
+        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_ins.html" />
+        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_upt.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/event_emply_detil.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/event_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/faq_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_detil.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_ins.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_upt.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_detil.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_ins.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_list.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_upt.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/notice_emply_detil.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/notice_emply_list.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/onlneRsv.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/reserve_application.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_bdhst_perod_alarm.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_duty_scdue_mbmr_alarm.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_finih.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_limit_mbmr_alarm.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_modify_finih.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_org_asign_perod_alarm.html" />
+        <option value="$PROJECT_DIR$/html/inc/header.html" />
         <option value="$PROJECT_DIR$/resources/css/ui.common.css" />
-        <option value="$PROJECT_DIR$/html/guide/ui_guide.html" />
+        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html" />
+        <option value="$PROJECT_DIR$/resources/css/ui.contents.css" />
+        <option value="$PROJECT_DIR$/resources/css/ui.responsive.css" />
+        <option value="$PROJECT_DIR$/resources/js/ui.common.js" />
+        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html" />
       </list>
     </option>
   </component>
@@ -117,11 +233,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="31" />
-    <option name="width" value="1583" />
-    <option name="height" value="989" />
+    <option name="x" value="1979" />
+    <option name="y" value="59" />
+    <option name="width" value="1582" />
+    <option name="height" value="986" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -133,34 +252,64 @@
         <subPane>
           <expand>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="cymad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="onlne_rsv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="tour_guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seoul_coding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoul_coding" type="462c0819:PsiDirectoryNode" />
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -172,9 +321,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../빗소리2/hei" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/tour_guide" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ETC\seoulyeonsu\html\tour_guide" />
+      <recent name="E:\ETC\seoulyeonsu\html\reserve" />
+      <recent name="E:\ETC\seoulyeonsu\html\community" />
+      <recent name="E:\ETC\seoulyeonsu\html\cs_center" />
+      <recent name="E:\ETC\seoulyeonsu\resources\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,33 +357,208 @@
       <option name="presentableId" value="Default" />
       <updated>1541153737263</updated>
       <workItem from="1541153739926" duration="8528000" />
+      <workItem from="1541381247465" duration="71310000" />
+      <workItem from="1541980976227" duration="7014000" />
+      <workItem from="1542157024225" duration="6100000" />
+      <workItem from="1542679947480" duration="17707000" />
+      <workItem from="1542765676246" duration="6082000" />
+      <workItem from="1542784668784" duration="14143000" />
     </task>
+    <task id="LOCAL-00001" summary="페이지 작업 시작">
+      <created>1541406171942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541406171942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="예약페이지 작업">
+      <created>1541475169931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541475169931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="예약 step1">
+      <created>1541492719498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541492719498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="예약신청 step1">
+      <created>1541558144889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541558144889</updated>
+    </task>
+    <task id="LOCAL-00005" summary="풋터 추가">
+      <created>1541569110624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541569110624</updated>
+    </task>
+    <task id="LOCAL-00006" summary="가이드 추가">
+      <created>1541570719869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541570719869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="고객센터 진행중">
+      <created>1541671759239</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541671759239</updated>
+    </task>
+    <task id="LOCAL-00008" summary="고객센터 진행중.........">
+      <created>1541674937040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541674937040</updated>
+    </task>
+    <task id="LOCAL-00009" summary="고객센터 FAQ 제외 완료">
+      <created>1541744736942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541744736942</updated>
+    </task>
+    <task id="LOCAL-00010" summary="고객센터 완료 휴.........">
+      <created>1541750669744</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541750669744</updated>
+    </task>
+    <task id="LOCAL-00011" summary="코딩 리스트 업데이트">
+      <created>1541751027247</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541751027247</updated>
+    </task>
+    <task id="LOCAL-00012" summary="누락된 파일 추가">
+      <created>1541981425678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541981425678</updated>
+    </task>
+    <task id="LOCAL-00013" summary="참여마당 진행중">
+      <created>1541988999310</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541988999310</updated>
+    </task>
+    <task id="LOCAL-00014" summary="포토갤러리 ing">
+      <created>1542001719178</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542001719178</updated>
+    </task>
+    <task id="LOCAL-00015" summary="옵션 및 명칭 수정">
+      <created>1542162915684</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542162915684</updated>
+    </task>
+    <task id="LOCAL-00016" summary="검색 수정 적용">
+      <created>1542270527835</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542270527835</updated>
+    </task>
+    <task id="LOCAL-00017" summary="예약">
+      <created>1542693803451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1542693803451</updated>
+    </task>
+    <task id="LOCAL-00018" summary="온라인 예약완료">
+      <created>1542698490747</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542698490747</updated>
+    </task>
+    <task id="LOCAL-00019" summary="참여마당 고객센터 수정">
+      <created>1542768614967</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1542768614968</updated>
+    </task>
+    <task id="LOCAL-00020" summary="수정요청 사항 반영">
+      <created>1542770840290</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1542770840290</updated>
+    </task>
+    <task id="LOCAL-00021" summary="css 수정">
+      <created>1542771157081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542771157081</updated>
+    </task>
+    <task id="LOCAL-00022" summary="파일명 정리">
+      <created>1542788105076</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1542788105076</updated>
+    </task>
+    <task id="LOCAL-00023" summary="메뉴 아이디 제거 ㅡㅡ;;;;;;;;;">
+      <created>1542788937387</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1542788937387</updated>
+    </task>
+    <task id="LOCAL-00024" summary="관광 정보">
+      <created>1542802616149</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1542802616149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8528000" />
+    <option name="totallyTimeSpent" value="130884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="31" width="1583" height="989" extended-state="0" />
+    <frame x="1979" y="59" width="1582" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18705502" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17098446" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50064766" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49935234" weight="0.32941177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293979" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,46 +567,383 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="페이지 작업 시작" />
+    <MESSAGE value="예약페이지 작업" />
+    <MESSAGE value="예약 step1" />
+    <MESSAGE value="예약신청 step1" />
+    <MESSAGE value="풋터 추가" />
+    <MESSAGE value="가이드 추가" />
+    <MESSAGE value="고객센터 진행중" />
+    <MESSAGE value="고객센터 진행중........." />
+    <MESSAGE value="고객센터 FAQ 제외 완료" />
+    <MESSAGE value="고객센터 완료 휴........." />
+    <MESSAGE value="코딩 리스트 업데이트" />
+    <MESSAGE value="누락된 파일 추가" />
+    <MESSAGE value="참여마당 진행중" />
+    <MESSAGE value="포토갤러리 ing" />
+    <MESSAGE value="옵션 및 명칭 수정" />
+    <MESSAGE value="검색 수정 적용" />
+    <MESSAGE value="예약" />
+    <MESSAGE value="온라인 예약완료" />
+    <MESSAGE value="참여마당 고객센터 수정" />
+    <MESSAGE value="수정요청 사항 반영" />
+    <MESSAGE value="css 수정" />
+    <MESSAGE value="파일명 정리" />
+    <MESSAGE value="메뉴 아이디 제거 ㅡㅡ;;;;;;;;;" />
+    <MESSAGE value="관광 정보" />
+    <option name="LAST_COMMIT_MESSAGE" value="관광 정보" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../현대면세점/M_KO/js/M_KO/design.ui.js">
+    <entry file="file://$PROJECT_DIR$/html/cs_center/H04_0101_00.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="2204">
+          <caret line="116" column="54" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/ui.common.js">
+    <entry file="file://$PROJECT_DIR$/html/community/H05_0201_00.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="2071">
+          <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../KMI/coding/css/contents.css">
+    <entry file="file://$PROJECT_DIR$/../서울시 연수원/resources/data/codinglist.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="2114" selection-start-line="2114" selection-end-line="2114" selection-end-column="26" />
+        <state relative-caret-position="-58" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_ins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_upt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_finih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_resut.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_ins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_upt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/event_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/faq_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="183" column="32" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_ins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_upt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="139" column="32" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_ins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_upt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/notice_emply_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/notice_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="189" column="32" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/onlneRsv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/inc/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_org_asign_perod_alarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="304" column="40" lean-forward="true" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_modify_finih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_limit_mbmr_alarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_finih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_duty_scdue_mbmr_alarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_bdhst_perod_alarm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/reserve_application_step1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/reserve_application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="277" column="32" selection-start-line="277" selection-start-column="32" selection-end-line="277" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/evnt_1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="237" column="44" lean-forward="true" selection-start-line="237" selection-start-column="44" selection-end-line="237" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guest_centr/event_emply_detil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/evnt_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/H00_0000_00.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../현대면세점/ST/KO/js/ST/KO/common.ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="263" column="69" lean-forward="true" selection-start-line="263" selection-start-column="69" selection-end-line="263" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="353" column="12" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="12" />
+        <state relative-caret-position="650">
+          <caret line="653" column="101" selection-start-line="653" selection-start-column="101" selection-end-line="653" selection-end-column="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guide/ui_guide.html">
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="757" column="98" selection-start-line="757" selection-start-column="98" selection-end-line="757" selection-end-column="98" />
+        <state relative-caret-position="618">
+          <caret line="145" column="110" selection-start-line="145" selection-start-column="110" selection-end-line="145" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="197" column="85" lean-forward="true" selection-start-line="197" selection-start-column="85" selection-end-line="197" selection-end-column="85" />
           <folding>
-            <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/ui.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
