@@ -279,7 +279,7 @@
     .box-module_a .box-item ~ .box-item {margin-top:15px;padding-top:15px;border-top:1px solid #ddd}
     .box-module_a .box-item ~ .box-item.active:before {top:15px}
     .box-module_a .box-item .info-area {padding:12px 0}
-    .box-module_a .dl-type_a dt {width:83px}
+    .box-module_a .dl-type_a dt {width:100px}
     .box-module_a .dl-type_a dt .room-type {margin-bottom:5px}
     .box-module_a .dl-type_a dd {padding:0 18px;font-size:11px;line-height:16px}
     .box-module_a .check-area .radio {padding:9px 0}
