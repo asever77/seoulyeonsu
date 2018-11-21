@@ -52,6 +52,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .h-type_d {position:relative; padding-left:10px; color:#309df1; font-size:24px; font-weight:500}
 .h-type_d:before {content:''; position:absolute; left:0; top:16px; display:block; width:5px; height:5px; background-color:#309df1; border-radius:50%}
 .h-type_e {color:#354052; font-size:16px; font-weight:600}
+.h-type_f {color:#000; font-size:32px; font-weight:400}
 
 .title-box {position:relative; padding-bottom:15px; border-bottom:2px solid #000}
 .title-box .breadcrumb {position:absolute; right:0; bottom:23px}
@@ -64,6 +65,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 /* text */
 .txt-type_a {color:#666; font-size:16px}
 .txt-type_b {color:#666; font-size:14px}
+.txt-type_c {color:#666;line-height:28px}
 [class*='txt-type'].point {color:#000; font-weight:500}
 .text-indent_a {padding-left:16px; text-indent:-16px; font-weight:300}
 
@@ -209,6 +211,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 
 /* text link */
 .link-type_a {color:#fff;font-weight:200}
+.link-type_b {color:#309df1}
 
 /* checkbox */
 .checkbox {position:relative}
@@ -474,6 +477,15 @@ select[disabled]{background-color:#f7f7f7; color:#888;}
 .tab-wrap-b.ui-tabs .ui-tabs-nav .ui-tabs-anchor{padding:0.8em 1em; width:100%; text-align:center}
 .ui-tabs .ui-tabs-panel{padding:0}
 
+.tab-type_a.ui-tab {margin-top:0}
+.tab-type_a .ui-tab-btns {text-align:center;border-bottom:1px solid #cbcbcb;padding-bottom:20px;margin-bottom:0}
+.tab-type_a .ui-tab-btn {border:none;font-size:22px;min-width:10px;padding:0 15px}
+.tab-type_a .ui-tab-btn ~ .ui-tab-btn:before {content:'';position:absolute;left:0;top:50%;width:1px;height:15px;margin-top:-7px;background-color:#c8c9cb}
+.tab-type_a .ui-tab-btn.selected {background-color:transparent;color:#309df1;font-weight:500}
+.tab-type_a .ui-tab-btn.selected:after {display:none}
+.tab-type_a .ui-tab-btn:hover i,
+.tab-type_a .ui-tab-btn:focus i {border:none}
+
 /* dialog */
 .ui-dialog{display:none}
 .ui-widget-overlay {background-color:#000;opacity:.7;cursor:pointer}
@@ -526,6 +538,7 @@ td .ico_secret {position:relative;top:-1px}
 .tb-type_d tbody tr:last-child th, .tb-type_d tbody tr:last-child td {border-bottom:none}
 
 .fake-table {border-top:2px solid #000}
+.fake-table.size_a {border-top:1px solid #c2c3c6}
 .col-area:after {content:'';display:block;clear:both}
 .col-area .col-group {float:left;width:50%;display:table;table-layout:fixed}
 .col-area .col-group.full {float:none;width:100%}
@@ -537,6 +550,7 @@ td .ico_secret {position:relative;top:-1px}
 /* view */
 .view-title-area {text-align:center;padding-bottom:20px}
 .view-title-area .view-title {font-size:21px;color:#000;font-weight:500}
+.view-title-area .view-title.big {font-size:40px}
 .view-title-area .view-info {color:#596a7f}
 .view-info .view-info-item {position:relative;display:inline-block;padding:0 13px}
 .view-info .view-info-item ~ .view-info-item:before {content:'';position:absolute;left:0;top:50%;width:1px;height:16px;margin-top:-8px;background-color:#596a7f}
@@ -637,4 +651,5 @@ td .ico_secret {position:relative;top:-1px}
 .photo-item .photo-box-info p span {display:block}
 .photo-item .photo-box-img img {width:100%;vertical-align:top}
 .photo-item .photo-box .clamp {margin-top:14px;padding-left:10px;color:#596a7f}
+.photo-item .photo-box .photo-name {margin-top:14px;padding-left:10px;color:#596a7f;text-align:center}
 .photo-list ~ .paging-area {border-top:1px solid #c2c3c6}

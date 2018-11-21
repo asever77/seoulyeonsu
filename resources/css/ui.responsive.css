@@ -151,6 +151,7 @@
     .h-type_d {padding-left:8px;font-size:14px}
     .h-type_d:before {top:10px;width:3px;height:3px}
 	.h-type_e {font-size:12px}
+	.h-type_f {font-size:16px}
     .title-box {border-width:1px;border-color:#309df1}
     .title-box .h-type_a {text-align:center}
     .title-box.m-not-line {border-bottom:none}
@@ -160,6 +161,7 @@
     .txt-type_b {font-size:10px}
     [class*='txt-type'].point {color:#000;font-weight:500}
     .text-indent_a {padding-left:16px;text-indent:-16px;font-weight:300}
+	.txt-type_c {font-size:12px;line-height:18px}
 
     /* button */
     [class*='btn-basic'] {min-width:43px;padding:0 15px;height:30px;line-height:30px;font-size:11px;border-radius:2px}
@@ -308,6 +310,7 @@
 
     .col-area .col-group .col.th {width:80px;padding:8px}
     .col-area .col-group .col.td {padding:5px 15px}
+	.size_a .col-area .col-group .col.th {width:130px}
 
     .small-in {width:85px}
     .small-in ~ .m_block {margin:5px 0 0 0;line-height:14px}
@@ -471,6 +474,18 @@
 	.photo-list {margin:0 -10px}
 	.photo-item .photo-box {margin:0 10px}
 	.photo-list .photo-item {width:50%}
+	.photo-list .photo-item:nth-child(2n+1) {clear:both}
+
+	/* tour */
+	.view-title-area .view-title.big {font-size:24px}
+	.tab-type_a .ui-tab-btn {font-size:16px}
+	.img-text .img-area {width:40%}
+	.img-text .img-area img {width:100%}
+	.img-text .text-area .sub-info-txt {padding-top:15px;line-height:20px}
+	.img-text ~ .img-text {margin-top:25px;padding-top:25px}
+	.img-slide-area {margin:0}
+	.img-slide-area .owl-nav {display:none}
+	.big-img-area {padding:0}
 }
 
 @media (max-width:420px) {
@@ -481,6 +496,14 @@
 	.layer-big_a {font-size:18px}
 	.info-box-item.type-c {font-size:13px;margin-bottom:3px}
 	.info-box-item {font-size:12px}
+
+	/* tour */
+	.view-title-area .view-title.big {font-size:16px}
+	.tab-type_a .ui-tab-btn {font-size:13px;padding:0 10px}
+	.tab-type_a .ui-tab-btns {padding-bottom:10px}
+	.img-text .img-area {float:none;width:100%}
+	.img-text .text-area {padding:0;margin-top:15px}
+	.img-text .text-area .dot_list li ~ li {margin-top:5px}
 }
 @media (max-width:320px) {
 	.clamp {max-width:85%}

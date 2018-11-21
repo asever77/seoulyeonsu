@@ -5,6 +5,7 @@
 .page-title-area.cs-center {background-image:url('../../resources/img/contents/top_img_cs.jpg')}
 .page-title-area.community {background-image:url('../../resources/img/contents/top_img_community.jpg')}
 .page-title-area.reservation {background-image:url('../../resources/img/contents/top_img_reservation.jpg')}
+.page-title-area.tour-info {background-image:url('../../resources/img/contents/top_img_tour.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
 
@@ -125,6 +126,27 @@
 .calendar-area .ico_from[class*='calendar-'] {position:absolute;top:40px;font-size:0;width:7px;height:14px;cursor:pointer;z-index:10}
 .calendar-area .calendar-prev {left:50px}
 .calendar-area .calendar-next {right:50px}
+
+/* tour */
+.img-text {overflow:hidden}
+.img-text:after {content:'';display:block;clear:both}
+.img-text .img-area {float:left}
+.img-text .img-area img {vertical-align:top}
+.img-text .text-area {overflow:hidden;padding-left:40px}
+.img-text .text-area .dot_list li ~ li {margin-top:15px}
+.img-text .text-area .sub-info-txt {padding-top:25px;line-height:26px;border-top:1px dashed #cbcbcb}
+.img-text ~ .img-text {margin-top:50px;padding-top:50px;border-top:1px solid #cbcbcb}
+.img-slide-area {position:relative;margin:0 45px}
+.img-slide-area .owl-carousel.owl-loaded .owl-nav button {position:absolute;background-image:url('../../resources/img/ico_common.png');background-repeat:no-repeat}
+.img-slide-area .owl-carousel .owl-nav button {top:50%;margin-top:-19px;width:20px;height:38px}
+.img-slide-area .owl-carousel .owl-nav .owl-prev {background-position:-240px -20px;left:-45px}
+.img-slide-area .owl-carousel .owl-nav .owl-next {background-position:-280px -20px;right:-45px}
+.img-slide-area .owl-carousel .owl-item a {position:relative;display:block}
+.img-slide-area .owl-carousel .owl-item a:before {content:'';position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.5)}
+.img-slide-area .owl-carousel .owl-item a.active:before {background-color:transparent;border:2px solid #309df1}
+.img-slide-area .owl-dots {display:none}
+.big-img-area {padding:0 190px}
+.big-img-area img {width:100%;vertical-align:top}
 
 
 

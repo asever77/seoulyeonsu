@@ -22,6 +22,41 @@
 
             $.browser.modal ? '' : $plugins.uiSelect();
 
+            $plugins.uiTab({ id:'tourinfoTab', callback:tourSlideInfo });
+            function tourSlideInfo(v){
+                $('#tourImg').owlCarousel({
+                    loop: true,
+                    dot: false,
+                    nav: true,
+                    onInitialized : $plugins.page.owlcallback,
+                    responsive:{
+                        0:{
+                            items:3,
+                            margin:10,
+                        },
+                        500:{
+                            items:3,
+                            margin:10,
+                        },
+                        1024:{
+                            items:6,
+                            margin:19,
+                        }
+                    }
+                });
+            }
+
+            $(function () {
+                var $PicBox = $('.big-img-area img'), $thumbImg = $('.img-slide-area .item a');
+                $thumbImg.click(function(e){
+                    e.preventDefault();
+                    $thumbImg.removeClass('active');
+                    $(this).addClass('active');
+                    var imgUrl = $(this).attr('href');
+                    $PicBox.attr('src',imgUrl);
+                });
+            });
+
             $plugins.uiFileUpload({ id:'addfile', accept:'image/*'});
             $plugins.uiFileUpload({ id:'addfile2', accept:'image/*'});
             $plugins.uiFileUpload({ id:'addfile3', accept:'image/*'});
