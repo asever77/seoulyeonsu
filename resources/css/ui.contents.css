@@ -107,8 +107,11 @@
 .calendar-item table tbody td ~ td {border-left:1px solid #e5e6ed}
 .calendar-item table tbody tr ~ tr td {border-top:1px solid #e5e6ed}
 .calendar-item table tbody button {height:40px;width:100%;text-align:center;line-height:40px;color:#999;font-size:14px;font-family:'Roboto', 'sans-serif'}
-.calendar-item table tbody button.day-prev {background-color:transparent !important;color:#ccc !important}
-.calendar-item table tbody button:disabled {background-color:#f4f4f4}
+.calendar-item table tbody button.day-prev {background-color:transparent !important;color:#e2dfdf !important}
+.calendar-item table tbody button.day-prev:after {display:none}
+.calendar-item table tbody button.day-prev:disabled {opacity:.8}
+.calendar-item table tbody button:disabled {position:relative;opacity:.5;cursor:not-allowed}
+.calendar-item table tbody button:disabled:after {content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,.3)}
 .calendar-item table tbody td.sun button,
 .calendar-item table tbody td.holiday button {color:#cf214d}
 .calendar-item table tbody button.active {background-color:#cf214d;color:#fff !important}
@@ -116,7 +119,7 @@
 .calendar-info {margin-top:20px;text-align:center}
 .calendar-info [class*='choice-type']:before {content:'';;display:inline-block;width:22px;height:22px;margin-right:5px;border:1px solid #d5d6db;vertical-align:middle}
 .calendar-info [class*='choice-type'] ~ [class*='choice-type'] {margin-left:24px}
-.calendar-info .choice-type_b:before {background-color:#f4f4f4}
+.calendar-info .choice-type_b:before {background-color:rgba(0,0,0,.3);border-color:rgba(0,0,0,.1)}
 .calendar-pop .btn-full {position:relative;margin:30px -20px 0;bottom:-1px}
 .calendar-pop .btn-full button {width:100%;border-radius:0}
 .calendar-area .ico_from[class*='calendar-'] {position:absolute;top:40px;font-size:0;width:7px;height:14px;cursor:pointer;z-index:10}

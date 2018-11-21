@@ -212,7 +212,7 @@
 	.sh-wrap_c {padding:0}
 	.sh-item-from.medium {width:100%}
 	.table-search_b .sh-item-btn {padding:0 !important}
-	.table-search_b .sh-item-btn [class*='btn-basic'] {border-radius:0;height:38px;line-height:38px}
+	.table-search_b .sh-item-btn [class*='btn-basic'] {border-radius:0;height:35px;line-height:35px}
 	.paging-area .btn-right {position:static;width:100%}
 	.paging-area .btn-right [class*='btn-basic'] {width:100%;height:38px;line-height:38px;text-align:center}
 	.btn-right i {top:-1px}
@@ -239,6 +239,13 @@
 	.sh-box.type_c .sh-item-title {display:block;font-size:14px;margin-bottom:5px}
 	.sh-box.type_c .sh-item-btn {float:none;width:100%;padding:0}
 	.sh-box.type_c .sh-item-btn button {width:100%;height:40px;line-height:40px;border-radius:0}
+
+	.table-search_a .sh-item-from input[type="text"],
+	.table-search_a .sh-item-from input[type="date"],
+	.table-search_a .sh-item-from input[type="password"],
+	.sh-wrap_c .sh-item-from input[type="text"],
+	.sh-wrap_c .sh-item-from input[type="date"],
+	.sh-wrap_c .sh-item-from input[type="password"] {height:30px}
 
     /* etc */
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
@@ -320,8 +327,8 @@
 	.tb-type_c.not-thead tbody td {display:inline-block;padding:0;border-bottom:none}
 	.tb-type_c.not-thead tbody td[class*='td-t']:before {color:#999;font-size:11px}
 	.tb-type_c.not-thead tbody td.blank {padding-left:15px}
-	.tb-type_c.not-thead tbody td.block {display:block;border-top:1px dashed #bfc7d1;border-bottom:1px dashed #bfc7d1}
-	.tb-type_c.not-thead tbody td.td-t-title {display:block;border-bottom:1px dashed #bfc7d1}
+	.tb-type_c.not-thead tbody td.block {display:block;border-top:1px dashed #bfc7d1;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-top:5px;margin-bottom:5px}
+	.tb-type_c.not-thead tbody td.td-t-title {display:block;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-bottom:5px}
 	.not-thead .td-t-area:before {content:'연수원 : '}
 	.not-thead .td-t-type:before {content:'구분 : '}
 	.not-thead .td-t-lost:before {content:'분실물 : '}
@@ -461,12 +468,12 @@
 	.calendar-area .calendar-next {right:25px}
 	.calendar-pop .btn-full button {height:35px;line-height:35px}
 
+	.photo-list {margin:0 -10px}
+	.photo-item .photo-box {margin:0 10px}
+	.photo-list .photo-item {width:50%}
 }
-@media (max-width:420px) {
-    .photo-list {margin:0 -10px}
-    .photo-item .photo-box {margin:0 10px}
-    .photo-list .photo-item {width:50%}
 
+@media (max-width:420px) {
     .satisfaction-info .satisfaction-img {display:block;width:100%}
     .satisfaction-info .satisfaction-txt {display:block;padding:20px 15px}
     .satisfaction-end {padding:25px 15px}
