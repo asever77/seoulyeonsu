@@ -22,7 +22,10 @@
 
             $.browser.modal ? '' : $plugins.uiSelect();
 
-            $plugins.uiFileUpload({ id:'addfile', multi:true });
+            $plugins.uiFileUpload({ id:'addfile', accept:'image/*'});
+            $plugins.uiFileUpload({ id:'addfile2', accept:'image/*'});
+            $plugins.uiFileUpload({ id:'addfile3', accept:'image/*'});
+            $plugins.uiFileUpload({ id:'addfile4', accept:'image/*'});
 
             $plugins.page.accordion = function(){
                 $plugins.uiAccordion({ id:'faqList', current:null, autoclose:true });

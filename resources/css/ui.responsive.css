@@ -136,6 +136,7 @@
 	.ico_file {position:relative;top:-1px;width:7px;height:10px;background-position:-40px -50px;margin-right:3px}
 	.ico_secret {width:6px;height:8px;background-position:-60px -50px}
 	.ui-file-del {width:11px;height:11px}
+	.btn-del2 {width:9px;height:9px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -161,10 +162,10 @@
     .text-indent_a {padding-left:16px;text-indent:-16px;font-weight:300}
 
     /* button */
-    [class*='btn-basic'] {min-width:43px;padding:0 15px;height:25px;line-height:25px;font-size:11px;border-radius:2px}
+    [class*='btn-basic'] {min-width:43px;padding:0 15px;height:30px;line-height:30px;font-size:11px;border-radius:2px}
     [class*='btn-basic'].big {min-width:97px;padding:0 20px;height:35px;line-height:35px;font-size:12px}
     [class*='btn-basic'].small {padding:0 10px;height:21px;line-height:21px;font-size:10px}
-	.ui-file [class*='btn-basic'].small {height:26px;line-height:26px}
+	.ui-file [class*='btn-basic'].small {height:27px;line-height:27px}
 
     /* checkbox */
     .checkbox label {padding-left:19px;line-height:14px;min-height:14px}
@@ -290,6 +291,8 @@
     /* table */
     .fake-table {font-size:12px}
 
+	.tb-type_b tbody td {padding:7px 10px}
+
     .tb-type_d caption.dot-item {margin-bottom:8px}
     .tb-type_d tbody th {padding:8px}
     .tb-type_d tbody td {padding:8px 15px}
@@ -347,6 +350,10 @@
 
 	/* file */
 	.ui-file {margin:0}
+	.tb-type_b .ui-file-wrap {height:27px}
+	.tb-type_b .ui-file {min-height:27px;padding-left:65px}
+	.tb-type_b .ui-file .ui-file-btn {min-width:50px}
+	.tb-type_b .ui-file ~ .ui-file {margin-top:3px}
 
 	/* prenex-wrap */
 	.prenex-item {padding:10px 0}

@@ -43,6 +43,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .ico_secret {width:12px;height:15px;background-position:-120px -100px;vertical-align:middle;margin-left:5px}
 .calendar-prev {background-position:-300px 0}
 .calendar-next {background-position:-320px 0}
+.btn-del2 {font-size:0;vertical-align:middle;height:11px;width:11px;background-position:-340px 0}
 
 /* title */
 .h-type_a {color:#000; font-size:40px; font-weight:200}
@@ -337,7 +338,7 @@ sup {font-size:11px}
 .sh-item-from {padding:30px}
 .sh-item-from input[type="text"],
 .sh-item-from input[type="date"],
-.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:17px}
+.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:14px}
 .sh-item-from.small {width:158px}
 .sh-item-from.small .sh-item-title {text-align:center}
 .sh-item-from.medium {width:242px}
@@ -364,8 +365,11 @@ sup {font-size:11px}
 
 .table-search_a:after {content:'';display:block;clear:both}
 .table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
-.table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:48px}
+.table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:40px}
 .table-search_a .sh-sort {float:left;padding-top:25px}
+.table-search_a .sh-item-from input[type="text"],
+.table-search_a .sh-item-from input[type="date"],
+.table-search_a .sh-item-from input[type="password"] {height:40px;line-height:40px}
 .sh-sort .sh-sort-item {height:40px;min-width:98px;padding:0 15px;font-size:18px;line-height:40px;color:#5f6b7e;background-color:#fff;border:1px solid #dfe4e9}
 .sh-sort .sh-sort-item.active {color:#fff;background-color:#1b89f9;border-color:#1b89f9}
 .sh-sort .sh-sort-col {display:inline-block}
@@ -385,6 +389,7 @@ sup {font-size:11px}
 .sh-wrap_c .sh-item-from input[type="date"],
 .sh-wrap_c .sh-item-from input[type="password"] {height:40px;line-height:40px}
 .sh-wrap_c .sh-item-from.medium {width:210px}
+.sh-wrap_c .sh-item-from.medium .ui-select {width:100%}
 
 /* datepicker */
 .datepicker-box {position:relative; display:inline-block}
@@ -543,9 +548,11 @@ td .ico_secret {position:relative;top:-1px}
 .period-area {padding:15px 30px;border-top:1px solid #c2c3c6}
 
 /* file */
-.ui-file-wrap {position:relative;display:block}
-.ui-file-wrap .ui-file-txt {width:100% !important;margin-top:5px;padding-right:20px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
-.ui-file-wrap .ui-file-del {position:absolute;right:10px;top:50%;margin:-3px 0 0 0}
+.tb-type_b .ui-file {position:relative;padding-left:95px;min-height:37px}
+.tb-type_b .ui-file .ui-file-btn {position:absolute;left:0;top:0}
+.ui-file-wrap {position:relative;display:block;background-color:#e5e5e5;border:1px solid #d5d6db;height:37px}
+.ui-file-wrap .ui-file-txt {width:100% !important;padding-right:20px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;border:none;background-color:transparent}
+.ui-file-wrap .ui-file-del {position:absolute;right:10px;top:50%;margin:-6px 0 0 0}
 
 /* comment */
 .comment-write-area,
@@ -572,6 +579,7 @@ td .ico_secret {position:relative;top:-1px}
 .admin-comment .admin-comment-item_a {text-align:left;padding:20px}
 .admin-comment .admin-comment-item_b {width:170px}
 .admin-comment .admin-comment-item_c {width:170px;color:#b8bfc9}
+.admin-comment .btn-del {position:relative;top:-1px;margin-left:7px}
 
 /* table col */
 .col-auto {width:auto}
