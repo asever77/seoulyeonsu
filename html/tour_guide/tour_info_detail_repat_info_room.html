@@ -28,6 +28,10 @@
     <script src="../../resources/js/ui.common.js"></script>
     <script src="../../resources/js/ui.page.js"></script>
 
+	<style>
+	#uiSlideRoomInfo .big-img-area{width:300px;}
+	</style>
+
 </head>
 
 <body>
@@ -175,9 +179,9 @@
 							</section>
 							<!-- E : 소개정보 -->
 							<!-- S : 객실정보 -->
-							<section class="ui-tab-pnl">
+							<section class="ui-tab-pnl carousel-room-info" id="uiSlideRoomInfo">
 								<div class="img-text type-b">
-									<div class="img-area">
+									<div class="img-area ui-bigimg-slide">
 										<div class="big-img-area">
 											<img src="../../resources/img/temp/room_big01.jpg" alt="">
 										</div>
@@ -293,7 +297,7 @@
 									</div>
 								</div>
 								<div class="img-text type-b">
-									<div class="img-area">
+									<div class="img-area ui-bigimg-slide">
 										<div class="big-img-area">
 											<img src="../../resources/img/temp/room_big01.jpg" alt="">
 										</div>
@@ -411,7 +415,7 @@
 							</section>
 							<!-- E : 객실정보 -->
 							<!-- S : 이미지정보 -->
-							<section class="ui-tab-pnl">
+							<section class="ui-tab-pnl ui-bigimg-slide">
 								<div class="img-slide-area">
 									<div class="owl-carousel owl-theme" id="tourImg">
 										<div class="item">
@@ -493,8 +497,10 @@
 	;(function($, win, doc, undefined) {
 		$(doc).ready(function(){
 			console.log('page');
-            $plugins.page.template();
-            $plugins.page.tab();
+			$plugins.page.menuID = 'M03_01';
+
+            //page script
+			$plugins.page.tour();
 		});
 	})(jQuery, window, document);
 	</script>

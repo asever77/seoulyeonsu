@@ -35,6 +35,7 @@
         },300);
     });
 
+    //메인
     $plugins.page.main = function(){
         console.log('main');
 
@@ -167,7 +168,74 @@
         
     }
 
-    
+    //관광정보
+    $plugins.page.tour = function(){
+        $plugins.uiTab({ id:'tourinfoTab', callback:tourSlideInfo });
+         $('#uiSlideRoomInfo').find('.owl-carousel').each(function(i){
+            $(this).attr('id', 'uiSlideRoomInfoItem' + i);
+        });
+        function tourSlideInfo(v){
+            if (v.current === 2 && !$('#uiSlideRoomInfo').data('load')) {
+                console.log('한번실행');
+                $('#uiSlideRoomInfo').data('load',true)
+
+                $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
+                    console.log($(this).attr('id'));
+                    $('#' + $(this).attr('id')).owlCarousel({
+                        loop: true,
+                        dot: false,
+                        nav: true,
+                        responsive:{
+                            0:{
+                                items:3,
+                                margin:10,
+                            },
+                            500:{
+                                items:3,
+                                margin:10,
+                            },
+                            1024:{
+                                items:6,
+                                margin:19,
+                            }
+                        }
+                    });
+                });
+            }
+            if (v.current === 3 && !$('#tourImg').data('load')) {
+                console.log('한번실행');
+                $('#tourImg').data('load',true).owlCarousel({
+                    loop: true,
+                    dot: false,
+                    nav: true,
+                    responsive:{
+                        0:{
+                            items:3,
+                            margin:10,
+                        },
+                        500:{
+                            items:3,
+                            margin:10,
+                        },
+                        1024:{
+                            items:6,
+                            margin:19,
+                        }
+                    }
+                });
+                
+            }
+
+            $(document).on('click', '.img-slide-area .item a', function(e){
+                e.preventDefault();
+                var $this = $(this),
+                    imgUrl = $this.attr('href');
+
+                $this.addClass('active').closest('.ui-bigimg-slide').find('.img-slide-area .item a').removeClass('active');
+                $this.addClass('active').closest('.ui-bigimg-slide').find('.big-img-area img').attr('src',imgUrl);
+            });
+        }
+    }
         
 
 
