@@ -47,13 +47,13 @@
             }
 
             $(function () {
-                var $PicBox = $('.big-img-area img'), $thumbImg = $('.img-slide-area .item a');
+                var $thumbImg = $('.img-slide-area .item a');
                 $thumbImg.click(function(e){
                     e.preventDefault();
                     $thumbImg.removeClass('active');
                     $(this).addClass('active');
                     var imgUrl = $(this).attr('href');
-                    $PicBox.attr('src',imgUrl);
+                    $(this).parent().parent().parent().parent().parent().parent().parent().find('.big-img-area img').attr('src',imgUrl);
                 });
             });
 
