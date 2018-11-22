@@ -517,7 +517,7 @@ select[disabled]{background-color:#f7f7f7; color:#888;}
 .tb-type_a thead th ~ th,
 .tb-type_a tbody td ~ td {border-left:1px solid #c2c3c6}
 
-.tb-type_b tbody th {padding:14px 20px;text-align:left;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
+.tb-type_b tbody th {padding:14px 20px;text-align:center;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 .tb-type_b tbody td {padding:7px 20px;text-align:left;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6}
 .textarea_wrap textarea {height:400px}
 .textarea_wrap.mini textarea {height:250px}
@@ -543,7 +543,7 @@ td .ico_secret {position:relative;top:-1px}
 .col-area .col-group {float:left;width:50%;display:table;table-layout:fixed}
 .col-area .col-group.full {float:none;width:100%}
 .col-area .col-group .col {display:table-cell;vertical-align:middle}
-.col-area .col-group .col.th {padding:14px 20px;width:200px;text-align:left;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
+.col-area .col-group .col.th {padding:14px 20px;width:200px;text-align:center;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 .col-area .col-group .col.td {padding:7px 20px;text-align:left;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6}
 .col-area.section {margin-top:20px;border-top:1px solid #c2c3c6}
 
