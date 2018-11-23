@@ -185,18 +185,16 @@
                         loop: true,
                         dot: false,
                         nav: true,
+                        margin:10,
                         responsive:{
                             0:{
                                 items:3,
-                                margin:10,
                             },
                             500:{
-                                items:3,
-                                margin:10,
+                                items:4,
                             },
                             1024:{
-                                items:6,
-                                margin:19,
+                                items:5,
                             }
                         }
                     });

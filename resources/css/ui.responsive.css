@@ -137,6 +137,9 @@
 	.ico_secret {width:6px;height:8px;background-position:-60px -50px}
 	.ui-file-del {width:11px;height:11px}
 	.btn-del2 {width:9px;height:9px}
+	[class*='ico-traffic'] {width:17px;height:17px;background-position-y:-50px}
+	.ico-traffic01 {background-position-x:-120px}
+	.ico-traffic02 {background-position-x:-140px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -152,6 +155,7 @@
     .h-type_d:before {top:10px;width:3px;height:3px}
 	.h-type_e {font-size:12px}
 	.h-type_f {font-size:16px}
+	.h-type_g {font-size:16px}
     .title-box {border-width:1px;border-color:#309df1}
     .title-box .h-type_a {text-align:center}
     .title-box.m-not-line {border-bottom:none}
@@ -223,6 +227,8 @@
 	.table-search_a .sh-sort .sh-sort-col ~ .sh-sort-col {padding-left:2px;margin:0}
 	.table-search_a .sh-sort .sh-sort-col:last-child {padding-right:0}
 	.sh-sort .sh-sort-item {width:100%;min-width:10px;height:30px;line-height:30px;font-size:12px}
+	.table-search_a .sh-item-from.apply {position:relative;padding-right:70px !important}
+	.table-search_a .apply button {position:absolute;right:0;top:0;height:30px;line-height:30px;width:65px;font-size:12px}
 
 	.sh-wrap_c.not-bg .sh-item-from {display:table-cell;width:70%;padding-right:5px !important}
 	.sh-wrap_c.not-bg .sh-item-from input[type="text"] {height:38px;line-height:38px}
@@ -263,6 +269,7 @@
 
     /* font */
     .fsize-m {font-size:11px}
+	.fsize-s {font-size:10px}
 
     /* text indent */
     .text-indent_a {padding-left:10px;text-indent:-10px}
@@ -300,7 +307,8 @@
     /* table */
     .fake-table {font-size:12px}
 
-	.tb-type_b tbody td {padding:7px 10px}
+	.tb-type_b tbody td,
+	.tb-type_b tbody th {padding:7px 10px}
 
     .tb-type_d caption.dot-item {margin-bottom:8px}
     .tb-type_d tbody th {padding:8px}
@@ -484,11 +492,43 @@
 	.img-text .img-area img {width:100%}
 	.img-text .text-area .sub-info-txt {padding-top:15px;line-height:20px}
 	.img-text ~ .img-text {margin-top:25px;padding-top:25px}
-	.img-slide-area {margin:0}
+	.img-slide-area,
+	.img-text.type-b .img-slide-area {margin:0}
 	.img-slide-area .owl-nav {display:none}
 	.big-img-area {padding:0}
 	.img-text.type-b .img-area {float:none;width:100%}
-	.img-text .text-area {padding:0;margin-top:15px}
+	.img-text.type-b .text-area {padding:0;margin-top:15px}
+
+	/* weather */
+	.weather-info .weather-area,
+	.weather-info .weather-time {float:none}
+	.weather-info .weather-point {font-size:12px;padding-right:8px}
+	.tb-type_e thead th,
+	.tb-type_e tbody td {padding:10px 5px}
+	.tb-type_e tbody tr.white td {padding:10px 5px}
+	.tb-type_e tbody tr.white td img {width:40px}
+	.tb-type_e thead th .fsize-s {display:block;margin:0}
+
+	/* map */
+	.map-area {height:300px}
+	.traffic-area .traffic-item {float:none;width:100%}
+	.traffic-area .traffic-item ~ .traffic-item {margin-top:20px}
+	.traffic-area .traffic-item [class*='ico-traffic'] {margin-right:7px}
+	.traffic-area .traffic-item ul li {line-height:18px}
+	.sh-tb-area {padding:5px 0 0 0}
+	/*.sh-tb-area table tr:nth-child(even) th,
+	.sh-tb-area table tr:nth-child(even) td {background-color:#eee}*/
+	.sh-tb-area table td {padding:5px 10px 5px 5px}
+	.sh-tb-area table th {height:32px}
+	.sh-tb-area .form-row {width:100%}
+	.sh-tb-area .checkbox {display:inline-block;margin-bottom:3px}
+	.sh-tb-area .btn-basic3 {position:static;width:100%;margin-top:5px}
+	.sh-tb-area select {font-size:11px;padding-right:20px}
+	.sh-tb-area .form-row [class^='form-col'] {display:block;width:100% !important}
+	.sh-tb-area .form-row .form-col ~ .form-col {padding:0;margin-top:5px}
+	.sh-tb-area .form-row.with-txt {position:relative}
+	.sh-tb-area .form-row.with-txt {padding-right:20px}
+	.sh-tb-area .form-row.with-txt .form-col_txt2 {position:absolute;right:0;top:5px;width:20px !important}
 }
 
 @media (max-width:420px) {
@@ -509,6 +549,8 @@
 	.img-text .img-area {float:none;width:100%}
 	.img-text .text-area {padding:0;margin-top:15px}
 	.img-text .text-area .dot_list li ~ li {margin-top:5px}
+
+	.tab-type_a.no-line {margin-top:20px}
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}
@@ -517,7 +559,7 @@
 	.clamp {max-width:85%}
 	.cols-w2 {width:70px}
 	.tb-type_c tbody td.txt-l {padding-right:0}
-	.tab-type_a .ui-tab-btn {font-size:12px}
+	.tab-type_a .ui-tab-btn {font-size:12px;padding:0 5px 0 7px}
 	.img-text.type-b .cols-w3 {width:68px}
 	.img-text.type-b .tb-type_d tbody th,
 	.img-text.type-b .tb-type_d tbody td {padding:8px 3px}

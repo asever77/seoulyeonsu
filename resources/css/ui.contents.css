@@ -147,7 +147,45 @@
 .img-slide-area .owl-dots {display:none}
 .big-img-area {padding:0 190px}
 .big-img-area img {width:100%;vertical-align:top}
-.img-text.type-b .big-img-area {padding:0}
+.img-text.type-b .img-area {width:493px}
+.img-text.type-b .big-img-area {padding:0;margin-bottom:10px}
+.img-text.type-b .img-slide-area {margin:0 30px}
+.img-text.type-b .img-slide-area .owl-carousel .owl-nav button {margin-top:-10px;width:10px;height:20px}
+.img-text.type-b .img-slide-area .owl-carousel .owl-nav .owl-prev {background-position:-320px -20px;left:-20px}
+.img-text.type-b .img-slide-area .owl-carousel .owl-nav .owl-next {background-position:-360px -20px;right:-20px}
+.fake-table ~ .h-type_c {margin-top:40px}
+.tb-type_b p + p.text-indent_a {margin-top:20px}
+.tb-type_b p.text-indent_a + p.text-indent_a {margin-top:0}
+.weather-info {overflow:hidden}
+.weather-info .weather-area {float:left}
+.weather-info .weather-time {float:right}
+.weather-info .weather-point {position:relative;top:1px;color:#000;font-size:18px;padding-right:20px}
+
+.tb-description {text-align:right;margin-top:5px;font-weight:300}
+
+.sub-linlk-wrap {text-align:center}
+.sub-linlk {display:inline-block}
+.sub-linlk li {float:left}
+.sub-linlk li a {position:relative;padding:0 15px;color:#51566d;font-size:22px}
+.sub-linlk li a.active {color:#309df1;font-weight:500}
+.sub-linlk li ~ li a:before {content:'';position:absolute;left:0;top:50%;width:1px;height:15px;margin-top:-7px;background-color:#c8c9cb}
+
+/* map */
+.map-area {height:461px;border:1px solid #c2c3c6}
+.traffic-area {overflow:hidden}
+.traffic-area .traffic-item {float:left;width:50%}
+.traffic-area .traffic-item  [class*='ico-traffic'] {vertical-align:middle;margin-right:15px}
+.traffic-area .traffic-item ul li {line-height:26px}
+.fsize-m .point-col1 {font-weight:500}
+
+.sh-tb-area {position:relative;padding:10px 120px 10px 10px;background-color:#fff}
+.sh-tb-area  table th {height:51px;color:#000;font-weight:500}
+.sh-tb-area  table td {padding:7px 0}
+.sh-tb-area .form-row {width:75%}
+.sh-tb-area .form-row .form-col ~ .form-col {padding-left:10px}
+.sh-tb-area .form-row .ui-select {width:100%}
+.sh-tb-area .checkbox {margin-right:25px}
+.sh-tb-area  .btn-basic3 {position:absolute;top:0;right:0;bottom:0;width:110px;min-width:0;height:auto;line-height:auto;border-radius:0}
 
 
 
