@@ -156,6 +156,7 @@
 	.h-type_e {font-size:12px}
 	.h-type_f {font-size:16px}
 	.h-type_g {font-size:16px}
+    .h-type_h {font-size:13px}
     .title-box {border-width:1px;border-color:#309df1}
     .title-box .h-type_a {text-align:center}
     .title-box.m-not-line {border-bottom:none}
@@ -529,7 +530,9 @@
 	.sh-tb-area .form-row.with-txt {position:relative}
 	.sh-tb-area .form-row.with-txt {padding-right:20px}
 	.sh-tb-area .form-row.with-txt .form-col_txt2 {position:absolute;right:0;top:5px;width:20px !important}
-}
+
+    /* sub link */
+    .sub-linlk li a {font-size:16px}
 
 @media (max-width:420px) {
 	.sm-block {display:block}
@@ -551,6 +554,9 @@
 	.img-text .text-area .dot_list li ~ li {margin-top:5px}
 
 	.tab-type_a.no-line {margin-top:20px}
+
+    /* sub link */
+    .sub-linlk li a {font-size:14px}
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}
