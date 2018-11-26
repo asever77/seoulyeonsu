@@ -377,7 +377,7 @@ sup {font-size:11px}
 .table-search_a:after {content:'';display:block;clear:both}
 .table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
 .table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:40px}
-.table-search_a .sh-sort {float:left;padding-top:25px}
+.table-search_a .sh-sort {float:left;padding-top:20px}
 .table-search_a .sh-item-from input[type="text"],
 .table-search_a .sh-item-from input[type="date"],
 .table-search_a .sh-item-from input[type="password"] {height:40px;line-height:40px}
@@ -541,6 +541,7 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .tb-type_c tbody td a {color:#596a7f}
 .tb-type_c tbody td a:hover {text-decoration:underline}
 .tb-type_c tbody tr.noti-top td {background-color:#e4ecf7}
+.tb-type_c tbody td .btn-del2 {position:relative;top:-1px;margin-left:5px}
 .tb-type_c .comment-count {display:inline-block;vertical-align:middle;margin-left:3px;font-size:12px;font-weight:500}
 td .ico_secret {position:relative;top:-1px}
 
