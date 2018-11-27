@@ -181,11 +181,15 @@
 .sh-tb-area {position:relative;padding:10px 120px 10px 10px;background-color:#fff}
 .sh-tb-area  table th {height:51px;color:#000;font-weight:500}
 .sh-tb-area  table td {padding:7px 0}
-.sh-tb-area .form-row {width:75%}
+.sh-tb-area .form-row {width:50%}
+.sh-tb-area .form-row.type-small {width:25%}
 .sh-tb-area .form-row .form-col ~ .form-col {padding-left:10px}
 .sh-tb-area .form-row .ui-select {width:100%}
 .sh-tb-area .checkbox {margin-right:25px}
 .sh-tb-area  .btn-basic3 {position:absolute;top:0;right:0;bottom:0;width:110px;min-width:0;height:auto;line-height:auto;border-radius:0}
+.sh-tb-area .ui-select-wrap {width:100%;min-width:10px !important}
+.sh-tb-area .ui-select-wrap.bottom {top:37px}
+.sh-tb-area .ui-select-wrap.top {bottom:37px}
 
 
 

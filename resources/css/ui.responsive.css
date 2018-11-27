@@ -521,6 +521,7 @@
 	.sh-tb-area table tr:nth-child(even) td {background-color:#eee}*/
 	.sh-tb-area table td {padding:5px 10px 5px 5px}
 	.sh-tb-area table th {height:32px}
+    .sh-tb-area .form-row.type-small,
 	.sh-tb-area .form-row {width:100%}
 	.sh-tb-area .checkbox {display:inline-block;margin-bottom:3px}
 	.sh-tb-area .btn-basic3 {position:static;width:100%;margin-top:5px}
