@@ -62,7 +62,7 @@
     .m-full {width:100% !important}
     
     /* main */
-    .base-main{min-width:0;}
+    .base-main{min-width:0}
 
     /* header */
     .base-wrap{min-width:0; padding-top:45px;}
@@ -140,6 +140,7 @@
 	[class*='ico-traffic'] {width:17px;height:17px;background-position-y:-50px}
 	.ico-traffic01 {background-position-x:-120px}
 	.ico-traffic02 {background-position-x:-140px}
+	.ico_map {width:6px;height:8px;background-position:-160px -50px}
 
     /* select */
     .ui-select:after {width:8px;height:5px;margin-top:-2px;right:7px}
@@ -260,6 +261,7 @@
     .blt-new {width:14px;height:14px;padding-right:0;font-size:9px;line-height:14px}
     a + .blt-new {margin-left:2px}
     sup {font-size:9px}
+	.base-content {min-height:calc(100vh - 231px)}
 
     /* clamp */
     .clamp {max-width:90%}
@@ -269,6 +271,7 @@
     .result-box_b {margin-top:0;padding:18px 0 13px;border-top:none}
 
     /* font */
+	.fsize-b {font-size:15px}
     .fsize-m {font-size:11px}
 	.fsize-s {font-size:10px}
 
@@ -357,6 +360,10 @@
     .cols-w3 {width:57px}
 	.img-text.type-b .cols-w3 {width:75px}
 	.cols-w4 {width:90px}
+	.cols-w9 {width:40px}
+	.layer-popup .tb-type_c thead th {padding:10px 5px}
+	.layer-popup .tb-type_c tbody td {padding:13px 5px}
+	.layer-popup .tb-type_c .cols-w5 {width:45px}
 
 	/* view */
 	.view-title-area {padding:0 15px 10px}
@@ -413,6 +420,7 @@
     [class*="ico_step"] {background-size:250px auto;width:40px;height:40px;background-position-y:-10px}
     .ico_step2 {background-position-x:-40px}
     .ico_step3 {background-position-x:-80px}
+	.ico_step4 {background-position-x:-200px}
 
     /* contents */
 	.page-title-area {height:120px;padding-top:30px}
@@ -534,6 +542,26 @@
 
     /* sub link */
     .sub-linlk li a {font-size:16px}
+
+    /* member */
+	.error-txt {padding-left:19px;text-indent:-19px}
+	.error-txt i {width:14px;height:14px;margin-right:5px;line-height:12px}
+	.form-row.half {width:100%}
+	.form-row .form-col.with-btn {padding-right:80px}
+	.form-row .form-col.with-btn button {height:27px;line-height:27px;width:75px;min-width:10px}
+
+	.small-area {padding:30px}
+	.small-area input[type="text"],
+	.small-area input[type="date"],
+	.small-area input[type="password"] {height:30px;line-height:30px;font-size:12px}
+
+	.login-form {padding-right:100px}
+	.login-form .btn-login {width:95px}
+	.login-nav {padding:10px 0}
+	.login-nav a {padding:0 10px}
+	.location .ico_map {top:-2px}
+}
+
 
 @media (max-width:420px) {
 	.sm-block {display:block}

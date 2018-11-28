@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 /* contents */
+.base-content {min-height:675px}
+
 .page-title-area {height:300px;padding-top:105px;text-align:center;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
 .page-title-area.cs-center {background-image:url('../../resources/img/contents/top_img_cs.jpg')}
 .page-title-area.community {background-image:url('../../resources/img/contents/top_img_community.jpg')}
@@ -186,10 +188,45 @@
 .sh-tb-area .form-row .form-col ~ .form-col {padding-left:10px}
 .sh-tb-area .form-row .ui-select {width:100%}
 .sh-tb-area .checkbox {margin-right:25px}
-.sh-tb-area  .btn-basic3 {position:absolute;top:0;right:0;bottom:0;width:110px;min-width:0;height:auto;line-height:auto;border-radius:0}
+.sh-tb-area  .btn-basic3 {position:absolute;top:0;right:0;bottom:0;width:110px;min-width:0;height:auto;line-height:initial;border-radius:0}
 .sh-tb-area .ui-select-wrap {width:100%;min-width:10px !important}
 .sh-tb-area .ui-select-wrap.bottom {top:37px}
 .sh-tb-area .ui-select-wrap.top {bottom:37px}
 
+/* member */
+.error-txt {padding-left:27px;text-indent:-27px}
+.error-txt i {display:inline-block;width:20px;height:20px;margin-right:7px;text-align:center;line-height:18px;border:1px solid #ff4876;border-radius:50%;text-indent:0}
+.agree-box {border:1px solid #c2c3c6}
+.agree-box .agree-title {padding:12px 20px;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
+.agree-box .agree-text {padding:20px;background-color:#fff}
+.agree-choice {text-align:center}
+.agree-choice .radio ~ .radio {margin-left:40px}
+.txt-box {padding:45px 15px;text-align:center;background-color:#e0e2e8;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.ico_join_end {display:block;margin:0 auto;width:91px;height:91px;background:url('../../resources/img/contents/ico_join_end.png') no-repeat 0 0}
+.ico_not_id {display:block;margin:0 auto;width:91px;height:91px;background:url('../../resources/img/contents/ico_not_id.png') no-repeat 0 0}
+
+.small-area {max-width:600px;margin-left:auto;margin-right:auto;padding:50px 80px;background-color:#fff;border:1px solid #e7ebef}
+.small-area .form-row ~ .form-row {margin-top:5px}
+.small-area input[type="text"],
+.small-area input[type="date"],
+.small-area input[type="password"] {height:50px;line-height:50px;font-size:16px}
+.small-area .fsize-m {text-align:center}
+
+.small-area .txt-box {padding:15px;text-align:left}
+.list-type_a li ~ li {margin-top:8px}
+
+.login-form {position:relative;padding-right:130px}
+.login-form .btn-login {position:absolute;top:0;bottom:0;right:0;width:120px;line-height:initial}
+.login-form .btn-login button {height:100%;width:100%;min-width:10px}
+.login-nav {padding:20px 0;text-align:center;border-top:1px solid #e7ebef;background-color:#f3f8ff}
+.login-nav a {position:relative;display:inline-block;padding:0 20px}
+.login-nav a ~ a:before {content:'';position:absolute;left:0;top:50%;width:1px;height:10px;margin-top:-5px;background-color:#c2c3c6}
+.location {text-align:center;border-top:1px solid #e7ebef;padding-top:20px}
+.location .ico_map {position:relative;top:-1px;margin-right:5px;vertical-align:middle}
+
+.login-banner {position:fixed;top:0;left:0;right:0;background-color:#fff;z-index:100;border-bottom:1px solid #cdd0db}
+.login-banner:after {content:'';position:absolute;left:50%;bottom:-15px;margin-left:-14px;width:28px;height:15px;background:url('../../resources/img/contents/banner_blt.png') no-repeat 0 0}
+.login-banner .contents-area {padding:15px 0 25px;text-align:center}
+.login-banner .ico_close {position:absolute;right:20px;top:20px;font-size:0}
 
 

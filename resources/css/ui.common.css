@@ -47,6 +47,8 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 [class*='ico-traffic'] {width:34px;height:34px;background-position-y:-100px}
 .ico-traffic01 {background-position-x:-240px}
 .ico-traffic02 {background-position-x:-280px}
+.ico_map {width:12px;height:16px;background-position:-320px -100px}
+.ico_close {width:15px;height:15px;background-position:-360px -100px}
 
 /* title */
 .h-type_a {color:#000;font-size:40px;font-weight:200}
@@ -61,6 +63,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 
 .title-box {position:relative;padding-bottom:15px;border-bottom:2px solid #000}
 .title-box .breadcrumb {position:absolute;right:0;bottom:23px}
+.title-box.type-b {text-align:center;border-bottom:none}
 
 /* point color */
 .point-col1 {color:#d23c5e}
@@ -277,6 +280,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 .clamp {display:inline-block;max-width:95%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;vertical-align:middle}
 
 /* font size */
+.fsize-b {font-size:24px;font-weight:500}
 .fsize-m {font-size:18px}
 .fsize-s {font-size:14px}
 
@@ -516,6 +520,7 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .ui-dialog.no_title.full_type .ui-dialog-content {min-height:100% !important}
 .layer-big_a {text-align:center;font-size:24px;color:#000}
 .layer-txt_a {text-align:center}
+.layer-txt_b {padding-top:20px;border-top:1px solid #e7ebef}
 .layer-popup .btn-area {margin-top:30px}
 .ui-dialog.calendar-pop .ui-widget-content{padding:30px 20px 0 20px !important}
 .ui-dialog.calendar-pop .ui-dialog-titlebar-close {display:none}
@@ -627,9 +632,11 @@ td .ico_secret {position:relative;top:-1px}
 .cols-w6 {width:130px}
 .cols-w7 {width:100px}
 .cols-w8 {width:160px}
+.cols-w9 {width:60px}
 
 /* form */
 .form-row {display:table;width:100%;table-layout:fixed}
+.form-row.half {width:50%}
 .form-row [class^='form-col'] {display:table-cell;vertical-align:middle}
 .form-row .form-col_txt {width:14px;text-align:center;color:#b9bcc4}
 .form-row .form-col_txt2 {width:24px;text-align:center;font-weight:300}
@@ -639,6 +646,8 @@ td .ico_secret {position:relative;top:-1px}
 .small-in input[type='text'],
 .small-in input[type='password'],
 .small-in input[type='date']{width:100%}
+.form-row .form-col.with-btn {position:relative;padding-right:100px}
+.form-row .form-col.with-btn button {position:absolute;right:0;top:0}
 .small-in {position:relative;display:inline-block;width:130px;padding-right:20px}
 .small-in .small-in_txt {position:absolute;right:0;top:50%;margin-top:-13px}
 .small-in ~ .m_block {margin-left:10px}
@@ -662,6 +671,7 @@ td .ico_secret {position:relative;top:-1px}
 .ico_step1 {background-position-x:0}
 .ico_step2 {background-position-x:-80px}
 .ico_step3 {background-position-x:-160px}
+.ico_step4 {background-position-x:-400px}
 
 /* photo list */
 .photo-list:after {content:'';display:block;clear:both}
