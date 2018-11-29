@@ -234,6 +234,10 @@
             });
         }
     }
+    //관광정보
+    $plugins.page.idpw = function(){
+        $plugins.uiTab({ id:'idpwTab' });
+    }
         
 
 

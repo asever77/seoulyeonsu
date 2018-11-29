@@ -220,7 +220,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 
 /* text link */
 .link-type_a {color:#fff;font-weight:200}
-.link-type_b {color:#309df1}
+.link-type_b {color:#309df1 !important}
 
 /* checkbox */
 .checkbox {position:relative}
@@ -503,6 +503,16 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .tab-type_a.al_b .ui-tab-btns {border:none;text-align:left;margin-top:20px}
 .tab-type_a.al_b .ui-tab-btns .ui-tab-btn:first-child {padding-left:0}
 
+.tab-type_b {max-width:600px;margin-left:auto;margin-right:auto}
+.tab-type_b .ui-tab-btns {text-align:center;padding-bottom:0;margin-bottom:0}
+.tab-type_b .ui-tab-btn {display:block;float:left;width:50%;font-size:22px;min-width:10px;padding:0 15px;margin:0;height:60px;border:1px solid #e7ebef;background-color:#e7ebef}
+.tab-type_b .ui-tab-btn ~ .ui-tab-btn {border-left:none}
+.tab-type_b .ui-tab-btn.selected {background-color:#fff;color:#309df1;font-weight:500;border-bottom:none}
+.tab-type_b .ui-tab-btn.selected:after {display:none}
+.tab-type_b .ui-tab-btn:hover i,
+.tab-type_b .ui-tab-btn:focus i {border:none}
+.ui-tab-pnls .small-area {border-top:none}
+
 /* dialog */
 .ui-dialog{display:none}
 .ui-widget-overlay {background-color:#000;opacity:.7;cursor:pointer}
@@ -525,6 +535,11 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .ui-dialog.calendar-pop .ui-widget-content{padding:30px 20px 0 20px !important}
 .ui-dialog.calendar-pop .ui-dialog-titlebar-close {display:none}
 .ui-dialog.calendar-pop .ui-dialog-content {overflow:hidden}
+/* noti */
+.ui-dialog.noti .ui-widget-content {padding:0 !important}
+.ui-dialog.noti .layer-big_a {padding:15px;border-bottom:1px solid #e0e2e8}
+.ui-dialog.noti .noti-img img {width:100%;vertical-align:top}
+.ui-dialog.noti .not-today {padding:10px 15px}
 
 /* table */
 [class*='tb-type_'] {width:100%;table-layout:fixed}
@@ -548,6 +563,7 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .tb-type_c tbody tr.noti-top td {background-color:#e4ecf7}
 .tb-type_c tbody td .btn-del2 {position:relative;top:-1px;margin-left:5px}
 .tb-type_c .comment-count {display:inline-block;vertical-align:middle;margin-left:3px;font-size:12px;font-weight:500}
+.tb-type_c .link-type_b {text-decoration:underline}
 td .ico_secret {position:relative;top:-1px}
 
 .tb-type_d {border:1px solid #c2c3c6}
