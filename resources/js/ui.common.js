@@ -30,6 +30,7 @@
 
             $plugins.page.accordion = function(){
                 $plugins.uiAccordion({ id:'faqList', current:null, autoclose:true });
+                $plugins.uiAccordion({ id:'guidanceList', current:[0], autoclose:true });
             }
 
 

@@ -571,6 +571,12 @@
 	.sh-tb-area .form-row .form-col_txt {padding:0;display:none}
 
 	.tab-type_b .ui-tab-btn {height:40px;font-size:14px}
+	.base-wrap.pop {padding-top:0}
+	.base-wrap.pop .contents-area {padding-bottom:30px}
+	.guidance-wrap .ui-acco-btn {font-size:14px}
+	.guidance-wrap .ui-acco-pnl {font-size:12px}
+	.guidance-wrap .agree-area {margin-top:10px;padding-top:7px}
+	.guidance-wrap .ui-acco-pnl {padding:15px}
 }
 
 
