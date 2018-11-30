@@ -240,6 +240,9 @@
 .contents-area.print {max-width:800px;font-size:14px;padding:30px 0}
 .contents-area.print .col-area .col-group .col.th {width:160px}
 
+/* popup */
+.popup .contents-area {padding:30px 0}
+
 /* guidanceList */
 .guidance-wrap .ui-acco-tit {background-color:transparent;border-color:#c2c3c6}
 .guidance-wrap .ui-acco-btn {padding:15px 20px;color:#000;font-size:16px}
