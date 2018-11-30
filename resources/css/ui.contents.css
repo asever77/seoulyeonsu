@@ -200,9 +200,9 @@
 /* member */
 .error-txt {padding-left:27px;text-indent:-27px}
 .error-txt i {display:inline-block;width:20px;height:20px;margin-right:7px;text-align:center;line-height:18px;border:1px solid #ff4876;border-radius:50%;text-indent:0}
-.agree-box {border:1px solid #c2c3c6}
-.agree-box .agree-title {padding:12px 20px;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
-.agree-box .agree-text {padding:20px;background-color:#fff}
+/*.agree-box {border:1px solid #c2c3c6}*/
+.agree-box .agree-title {padding:12px 20px;color:#fff;background-color:#333}
+.agree-box .agree-text {padding:20px;background-color:#fff;border-bottom:1px solid #e7ebef;max-height:300px;overflow-x:hidden;overflow-y:auto}
 .agree-choice {text-align:center}
 .agree-choice .radio ~ .radio {margin-left:40px}
 .txt-box {padding:45px 15px;text-align:center;background-color:#e0e2e8;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
@@ -210,6 +210,7 @@
 .ico_not_id {display:block;margin:0 auto;width:91px;height:91px;background:url('../../resources/img/contents/ico_not_id.png') no-repeat 0 0}
 
 .small-area {max-width:600px;margin-left:auto;margin-right:auto;padding:50px 80px;background-color:#fff;border:1px solid #e7ebef}
+.small-area.agree-type {padding:0 0 50px}
 .small-area .form-row ~ .form-row {margin-top:5px}
 .small-area input[type="text"],
 .small-area input[type="date"],
@@ -233,6 +234,7 @@
 .login-banner:after {content:'';position:absolute;left:50%;bottom:-15px;margin-left:-14px;width:28px;height:15px;background:url('../../resources/img/contents/banner_blt.png') no-repeat 0 0}
 .login-banner .contents-area {padding:15px 0 25px;text-align:center}
 .login-banner .ico_close {position:absolute;right:20px;top:20px;font-size:0}
+.small-copy {text-align:center;color:#999}
 
 /* print */
 .contents-area.print {max-width:800px;font-size:14px;padding:30px 0}

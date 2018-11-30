@@ -14,8 +14,20 @@
                 callback: $plugins.common.header
             });
             $plugins.uiAjax({
+                id: 'sHeader',
+                url: '../../html/inc/header_small.html',
+                page: true,
+                callback: $plugins.common.header
+            });
+            $plugins.uiAjax({
                 id: 'baseFooter',
                 url: '../../html/inc/footer.html',
+                page: true,
+                callback: $plugins.common.footer
+            });
+            $plugins.uiAjax({
+                id: 'sFooter',
+                url: '../../html/inc/footer_copy.html',
                 page: true,
                 callback: $plugins.common.footer
             });

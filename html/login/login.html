@@ -27,31 +27,31 @@
 	<script src="../../resources/js/ui.plugins.js"></script>
 	<script src="../../resources/js/ui.common.js"></script>
 	<script src="../../resources/js/ui.page.js"></script>
-	<script>
+	<!--<script>
         $(document).ready(function() {
             $(".login-banner .ico_close").click(function () {
                 $('.login-banner').css('display', 'none');
             });
         })
-	</script>
+	</script>-->
 
 </head>
 
 <body>
 <!-- S : banner -->
-<div class="login-banner">
+<!--<div class="login-banner">
 	<div class="contents-area">
 		<p class="fsize-b point-col2">회원통합 진행중입니다.</p>
 		<p class="fsize-m point-col3 mgt-xs">기존 연수원 아이디로는 로그인을 진행하실 수 없습니다.</p>
 		<p>기존 속초연수원, 서천/수안보 연수원 사이트에 ID를 보유하고 계신분은 하단의 <span class="point-col2">‘회원통합’</span> 버튼을 눌러 회원통합을 진행하여 주십시오. </p>
 	</div>
 	<button type="button" class="ico_common ico_close">닫기</button>
-</div>
+</div>-->
 <!-- E : banner -->
 <div class="base-skip" id="baseSkip"></div>
 <div class="base-layer" id="baseLayer"></div>
 <div class="base-wrap" id="baseWrap">
-	<header class="base-header" id="baseHeader"></header>
+	<header class="base-header" id="sHeader"></header>
 	<main class="base-main" id="baseMain" role="main">
 		<div class="base-content" id="baseContent">
 
@@ -77,7 +77,6 @@
 					</div>
 					<p class="error-txt point-col3 mgt-xs"><i>!</i>에러 메세지 노출</p>
 					<div class="login-nav mgt-s">
-						<a href="">회원통합</a>
 						<a href="">회원가입</a>
 						<a href="">아이디/비밀번호 찾기</a>
 					</div>
@@ -86,13 +85,13 @@
 					</div>
 				</div>
 				<!-- E : login area -->
+				<footer class="small-footer" id="sFooter"></footer>
 			</div>
 
 			<!-- //content ---------------------------------------------------------------------------------------------- -->
 
 		</div>
 	</main>
-	<footer class="base-footer" id="baseFooter"></footer>
 </div>
 
 <script>

@@ -103,6 +103,9 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .gnb-wrap .util-menu a{color:#8a8f9b;font-size:16px;line-height:20px;font-weight:200;display:inline-block;vertical-align: middle;}
 .btn-allmenu-open{display:none;}
 .allmenu-wrap{display:none}
+#sHeader.base-header {height:auto}
+.header-wrap.only-logo {width:100%;padding:20px 0;border-bottom:4px solid #309df1}
+.header-wrap.only-logo .logo {position:static;margin:0 auto}
 
 
 /* breadcrumb */
@@ -217,6 +220,7 @@ input.datepicker[disabled]::-webkit-input-placeholder {background-color:#fff !im
 .building-info-item {display:block}
 .footer-logo {display:block;width:196px;height:56px;background-position:0 -140px;font-size:0}
 .footer-item_a .link-type_a {display:inline-block;margin-top:30px}
+.btn-area + footer {padding-top:30px}
 
 /* text link */
 .link-type_a {color:#fff;font-weight:200}

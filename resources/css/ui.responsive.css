@@ -557,10 +557,11 @@
 	.form-row .form-col.with-btn {padding-right:80px}
 	.form-row .form-col.with-btn button {height:27px;line-height:27px;width:75px;min-width:10px}
 
-	.small-area {padding:30px}
+	.small-area {padding:30px 25px}
 	.small-area input[type="text"],
 	.small-area input[type="date"],
 	.small-area input[type="password"] {height:30px;line-height:30px;font-size:12px}
+	.small-area.agree-type {padding-bottom:30px}
 
 	.login-form {padding-right:100px}
 	.login-form .btn-login {width:95px}
@@ -577,6 +578,10 @@
 	.guidance-wrap .ui-acco-pnl {font-size:12px}
 	.guidance-wrap .agree-area {margin-top:10px;padding-top:7px}
 	.guidance-wrap .ui-acco-pnl {padding:15px}
+
+    .header-wrap.only-logo {padding:10px 0;border-bottom-width:2px}
+	#sHeader ~ .base-main .contents-area {padding-bottom:30px}
+
 }
 
 
@@ -608,6 +613,7 @@
 	.tb-type_d tbody td {padding:8px 10px}
 }
 @media (max-width:320px) {
+	.s-size-block {display:block}
 	.clamp {max-width:85%}
 	.cols-w2 {width:70px}
 	.tb-type_c tbody td.txt-l {padding-right:0}
@@ -615,4 +621,5 @@
 	.img-text.type-b .cols-w3 {width:68px}
 	.img-text.type-b .tb-type_d tbody th,
 	.img-text.type-b .tb-type_d tbody td {padding:8px 3px}
+	.small-area {padding:20px 15px}
 }

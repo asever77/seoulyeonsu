@@ -34,7 +34,7 @@
 <div class="base-skip" id="baseSkip"></div>
 <div class="base-layer" id="baseLayer"></div>
 <div class="base-wrap" id="baseWrap">
-	<header class="base-header" id="baseHeader"></header>
+	<header class="base-header" id="sHeader"></header>
 	<main class="base-main" id="baseMain" role="main">
 		<div class="base-content" id="baseContent">
 
@@ -61,14 +61,7 @@
 									<div class="form-col"><input type="text" placeholder="이름"></div>
 								</div>
 								<div class="form-row">
-									<div class="form-col">
-										<div class="ui-select">
-											<select class="sel_type" id="cellChoice">
-												<option selected="selected">선택</option>
-												<option>010</option>
-											</select>
-										</div>
-									</div>
+									<div class="form-col"><input type="text" placeholder="휴대폰번호"></div>
 									<div class="form-col_txt">-</div>
 									<div class="form-col"><input type="text"></div>
 									<div class="form-col_txt">-</div>
@@ -78,12 +71,12 @@
 									<div class="form-col"><input type="text" placeholder="주민번호 앞 6자리"></div>
 								</div>
 								<p class="error-txt point-col3 mgt-xs"><i>!</i> 에러 메세지</p>
+								<!-- S : button area -->
+								<div class="btn-area mgt-ms">
+									<button type="button" class="btn-basic3">아이디 찾기</button>
+								</div>
+								<!-- E : button area -->
 							</div>
-							<!-- S : button area -->
-							<div class="btn-area mgt-ms">
-								<button type="button" class="btn-basic3 big">아이디 찾기</button>
-							</div>
-							<!-- E : button area -->
 						</section>
 						<!-- E : 아이디 -->
 						<!-- S : 비밀번호 -->
@@ -96,24 +89,25 @@
 									<div class="form-col"><input type="text" placeholder="아이디"></div>
 								</div>
 								<p class="error-txt point-col3 mgt-xs"><i>!</i> 에러 메세지</p>
+								<!-- S : button area -->
+								<div class="btn-area mgt-ms">
+									<button type="button" class="btn-basic3">본인인증</button>
+								</div>
+								<!-- E : button area -->
 							</div>
-							<!-- S : button area -->
-							<div class="btn-area mgt-ms">
-								<button type="button" class="btn-basic3 big">본인인증</button>
-							</div>
-							<!-- E : button area -->
 						</section>
 						<!-- E : 비밀번호 -->
 					</div>
 				</div>
 				<!-- E : small area -->
+				<footer id="sFooter"></footer>
+
 			</div>
 
 			<!-- //content ---------------------------------------------------------------------------------------------- -->
 
 		</div>
 	</main>
-	<footer class="base-footer" id="baseFooter"></footer>
 </div>
 
 <script>

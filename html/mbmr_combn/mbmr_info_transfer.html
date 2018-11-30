@@ -180,12 +180,79 @@
 			</div>
 		</main>
 	</div>
+	<!-- S : dialog -->
+	<div id="transfer" title="사용실적 이관">
+		<div class="layer-popup">
+			<p class="layer-big_a">사용실적 이관</p>
+			<p class="layer-txt_b mgt-s">본인을 선택하여 주십시오.</p>
+			<table class="tb-type_c mgt-xs">
+				<caption></caption>
+				<colgroup>
+					<col class="cols-w5">
+					<col class="cols-w4">
+					<col>
+				</colgroup>
+				<thead>
+				<tr>
+					<th scope="col">선택</th>
+					<th scope="col">이름</th>
+					<th scope="col">생년월일 앞 8자리</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>
+					<span class="radio no_label">
+						<input type="radio" name="iChoice" id="i01">
+						<label for="i01">선택</label>
+					</span>
+					</td>
+					<td>홍길동</td>
+					<td>73040112</td>
+				</tr>
+				<tr>
+					<td>
+					<span class="radio no_label">
+						<input type="radio" name="iChoice" id="i02">
+						<label for="i02">선택</label>
+					</span>
+					</td>
+					<td>홍길동</td>
+					<td>73040112</td>
+				</tr>
+				<tr>
+					<td>
+					<span class="radio no_label">
+						<input type="radio" name="iChoice" id="i03">
+						<label for="i03">선택</label>
+					</span>
+					</td>
+					<td>홍길동</td>
+					<td>73040112</td>
+				</tr>
+				</tbody>
+			</table>
+			<p class="dot-item mgt-xs">본인 정보를 찾기 어려우신 경우 문의하여 주십시오. <br>문의) xx-xxxx-xxxxx </p>
+			<div class="btn-area">
+				<button type="button" class="btn-basic3 small">확인</button>
+			</div>
+		</div>
+	</div>
+	<!-- E : dialog -->
 
 	<script>
 	;(function($, win, doc, undefined) {
 		$(doc).ready(function(){
 			console.log('page');
             $plugins.page.template();
+            // 레이어 팝업
+            $("#transfer").dialog({
+                dialogClass: "no_title",
+                resizable: false,
+                width:600,
+                maxHeight: 720,
+                modal: true
+            });
 		});
 	})(jQuery, window, document);
 	</script>
