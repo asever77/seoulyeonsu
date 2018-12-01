@@ -8,6 +8,7 @@
 .page-title-area.community {background-image:url('../../resources/img/contents/top_img_community.jpg')}
 .page-title-area.reservation {background-image:url('../../resources/img/contents/top_img_reservation.jpg')}
 .page-title-area.tour-info {background-image:url('../../resources/img/contents/top_img_tour.jpg')}
+.page-title-area.mypage {background-image:url('../../resources/img/contents/top_mypage.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
 
@@ -248,3 +249,12 @@
 .guidance-wrap .ui-acco-btn {padding:15px 20px;color:#000;font-size:16px}
 .guidance-wrap .ui-acco-pnl {padding:15px 20px;font-size:14px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
 .guidance-wrap .agree-area {text-align:right;border-top:1px dashed rgba(0,0,0,.1);margin-top:15px;padding-top:10px}
+
+/* mypage */
+.has-lnb {max-width:1200px;margin:0 auto}
+.has-lnb:after {content:'';display:block;clear:both}
+.has-lnb .contents-area {overflow:hidden}
+.lnb-wrap {float:left;width:200px;margin-right:50px;padding-top:60px}
+.lnb-title {text-align:center;padding-bottom:20px;height:72px;line-height:70px;background-color:#000;color:#fff}
+.lnb-wrap > ul > li > a {display:block;padding:10px 20px;border-bottom:1px solid #ccc}
+.lnb-wrap > ul > li > a.active {font-weight:500;color:#309df1}

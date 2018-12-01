@@ -39,138 +39,146 @@
 			<div class="base-content" id="baseContent">
 				
 				<!-- content ---------------------------------------------------------------------------------------------- -->
+				<div class="page-title-area mypage">
+					<h2 class="page-title">마이페이지</h2>
+					<p class="page-title_en">MY PAGE</p>
+				</div>
+				<div class="has-lnb">
+					<div class="lnb-wrap">
+						<p class="lnb-title h-type_c">마이페이지</p>
+						<ul>
+							<li><a href="rsv_brkdw_list.html">예약 내역</a></li>
+							<li><a href="rsv_use_list.html">이용 내역</a></li>
+							<li><a href="panalty_brkdw.html">패널티 내역</a></li>
+							<li><a href="mbmr_info_mng_pwd_confm.html" class="active">회원정보관리</a></li>
+						</ul>
+					</div>
 				
-				<div class="contents-area">
-					<!-- S : title area -->
-					<div class="title-box">
-						<h2 class="h-type_a">회원정보관리</h2>
-						<div class="breadcrumb">
-							<span class="breadcrumb-item">홈</span>
-							<span class="breadcrumb-item">마이페이지</span>
-							<span class="breadcrumb-item">회원정보관리</span>
+					<div class="contents-area">
+						<!-- S : title area -->
+						<div class="title-box">
+							<h2 class="h-type_a">회원정보관리</h2>
+							<div class="breadcrumb">
+								<span class="breadcrumb-item">홈</span>
+								<span class="breadcrumb-item">마이페이지</span>
+								<span class="breadcrumb-item">회원정보관리</span>
+							</div>
 						</div>
-					</div>
-					<!-- E : title area -->
+						<!-- E : title area -->
 
-					<!-- S : table area -->
-					<table class="tb-type_b mgt-m">
-						<caption>회원 정보 수정</caption>
-						<colgroup>
-							<col class="cols-w4">
-							<col class="col-auto">
-						</colgroup>
-						<tbody>
-						<tr>
-							<th scope="row">아이디</th>
-							<td>
-								<div class="form-row half">
-									<div class="form-col with-btn">
-										<input type="text" value="" placeholder="">
-										<button type="button" class="btn-basic2 small">중복확인</button>
-									</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">비밀번호</th>
-							<td>
-								<div class="form-row half">
-									<div class="form-col">
-										<input type="password" value="" placeholder="">
-									</div>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row">비밀번호 확인</th>
-							<td>
-								<div class="form-row half">
-									<div class="form-col">
-										<input type="password" value="" placeholder="">
-									</div>
-								</div>
-							</td>
-						</tr>
-						</tbody>
-					</table>
-					<p class="error-txt point-col3 mgt-xs"><i>!</i>비밀번호는 영문, 숫자, 특수문자 3종류를 조합하여 8자리 이상으로 입력하여 주십시오.</p>
-					<div class="fake-table mgt-ms">
-						<div class="col-area">
-							<div class="col-group">
-								<div class="col th">이름</div>
-								<div class="col td">홍길동</div>
-							</div>
-							<div class="col-group">
-								<div class="col th">주민번호 <span class="m_block">앞 7자리</span></div>
-								<div class="col td">751106-1</div>
-							</div>
-						</div>
-						<div class="col-area">
-							<div class="col-group">
-								<div class="col th">소속</div>
-								<div class="col td">행정국</div>
-							</div>
-							<div class="col-group">
-								<div class="col th">부서</div>
-								<div class="col td">인력개발과</div>
-							</div>
-						</div>
-						<div class="col-area">
-							<div class="col-group">
-								<div class="col th">급</div>
-								<div class="col td">7급</div>
-							</div>
-							<div class="col-group">
-								<div class="col th">재직상태</div>
-								<div class="col td">재직</div>
-							</div>
-						</div>
-						<div class="col-area">
-							<div class="col-group">
-								<div class="col th">휴직상태</div>
-								<div class="col td">육아휴직</div>
-							</div>
-							<div class="col-group">
-								<div class="col th">공무직 여부</div>
-								<div class="col td">X</div>
-							</div>
-						</div>
-						<div class="col-area">
-							<div class="col-group">
-								<div class="col th">이메일</div>
-								<div class="col td">
-									<input type="text" class="in-w100">
-								</div>
-							</div>
-							<div class="col-group">
-								<div class="col th">휴대폰 번호</div>
-								<div class="col td">
-									<div class="form-row">
-										<div class="form-col">
-											<div class="ui-select">
-												<select class="sel_type" id="cellChoice">
-													<option selected="selected">선택</option>
-													<option>010</option>
-												</select>
-											</div>
+						<!-- S : table area -->
+						<table class="tb-type_b mgt-m">
+							<caption>회원 정보 수정</caption>
+							<colgroup>
+								<col class="cols-w4">
+								<col class="col-auto">
+							</colgroup>
+							<tbody>
+							<tr>
+								<th scope="row">아이디</th>
+								<td>
+									<div class="form-row half">
+										<div class="form-col with-btn">
+											<input type="text" value="" placeholder="">
+											<button type="button" class="btn-basic2 small">중복확인</button>
 										</div>
-										<div class="form-col_txt">-</div>
-										<div class="form-col"><input type="text"></div>
-										<div class="form-col_txt">-</div>
-										<div class="form-col"><input type="text"></div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">비밀번호</th>
+								<td>
+									<div class="form-row half">
+										<div class="form-col">
+											<input type="password" value="" placeholder="">
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">비밀번호 확인</th>
+								<td>
+									<div class="form-row half">
+										<div class="form-col">
+											<input type="password" value="" placeholder="">
+										</div>
+									</div>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+						<p class="error-txt point-col3 mgt-xs"><i>!</i>비밀번호는 영문, 숫자, 특수문자 3종류를 조합하여 8자리 이상으로 입력하여 주십시오.</p>
+						<div class="fake-table mgt-ms">
+							<div class="col-area">
+								<div class="col-group">
+									<div class="col th">이름</div>
+									<div class="col td">홍길동</div>
+								</div>
+								<div class="col-group">
+									<div class="col th">주민번호 <span class="m_block">앞 7자리</span></div>
+									<div class="col td">751106-1</div>
+								</div>
+							</div>
+							<div class="col-area">
+								<div class="col-group">
+									<div class="col th">소속</div>
+									<div class="col td">행정국</div>
+								</div>
+								<div class="col-group">
+									<div class="col th">부서</div>
+									<div class="col td">인력개발과</div>
+								</div>
+							</div>
+							<div class="col-area">
+								<div class="col-group">
+									<div class="col th">급</div>
+									<div class="col td">7급</div>
+								</div>
+								<div class="col-group">
+									<div class="col th">재직상태</div>
+									<div class="col td">재직</div>
+								</div>
+							</div>
+							<div class="col-area">
+								<div class="col-group">
+									<div class="col th">휴직상태</div>
+									<div class="col td">육아휴직</div>
+								</div>
+								<div class="col-group">
+									<div class="col th">공무직 여부</div>
+									<div class="col td">X</div>
+								</div>
+							</div>
+							<div class="col-area">
+								<div class="col-group">
+									<div class="col th">이메일</div>
+									<div class="col td">
+										<input type="text" class="in-w100">
+									</div>
+								</div>
+								<div class="col-group">
+									<div class="col th">휴대폰 번호</div>
+									<div class="col td">
+										<div class="form-row">
+											<div class="form-col"><input type="text"></div>
+											<div class="form-col_txt">-</div>
+											<div class="form-col"><input type="text"></div>
+											<div class="form-col_txt">-</div>
+											<div class="form-col"><input type="text"></div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- E : table area -->
+						<!-- E : table area -->
 
-					<!-- S : button area -->
-					<div class="btn-area mgt-ms">
-						<button type="button" class="btn-basic1 big">취소</button>
-						<button type="button" class="btn-basic3 big">확인</button>
+						<!-- S : button area -->
+						<div class="btn-area mgt-ms">
+							<button type="button" class="btn-basic1 big">취소</button>
+							<button type="button" class="btn-basic3 big">확인</button>
+						</div>
+						<!-- E : button area -->
 					</div>
-					<!-- E : button area -->
 				</div>
 	
 				<!-- //content ---------------------------------------------------------------------------------------------- -->
