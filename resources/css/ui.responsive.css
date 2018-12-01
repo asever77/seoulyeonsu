@@ -348,6 +348,7 @@
 	.tb-type_c.not-thead tbody td.block3 {display:block;text-align:left;background-color:#e0e2e8;margin:-5px -10px;padding:5px 10px}
 	.tb-type_c.not-thead tbody td.block3 + .block2 {border-top:none}
 	.tb-type_c.not-thead tbody td.td-t-title {display:block;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-bottom:5px}
+	.tb-type_c.not-thead tbody td.td-t-point2 {position:absolute;left:0;bottom:0;right:0;text-align:left;padding:5px 10px;background-color:#ffe9e9}
 	.not-thead .td-t-area:before {content:'연수원 : '}
 	.not-thead .td-t-type:before {content:'구분 : '}
 	.not-thead .td-t-lost:before {content:'분실물 : '}
@@ -356,9 +357,19 @@
 	.not-thead .td-t-state:before {content:'상태 : '}
 	.not-thead .td-t-day2:before {content:'등록일시 : '}
 	.not-thead .td-t-day3:before {content:'예약일 : '}
-	.not-thead .td-t-number:before {content:'예약번호 : '}
+	.not-thead .td-t-number:before {content:'예약번호 : ';color:#000 !important}
 	.not-thead .td-t-room:before {content:'이용객실 : '}
 	.not-thead .td-t-day4:before {content:'이용일 : '}
+	.not-thead .td-t-roomtype:before {content:'객실타입 : '}
+	.not-thead .td-t-roomnum:before {content:'호실 : '}
+	.not-thead .td-t-day5:before {content:'체크인 : '}
+	.not-thead .td-t-day6:before {content:'체크아웃 : '}
+	.not-thead .td-t-point:before {content:'차감포인트 : '}
+	.not-thead .td-t-point2:before {content:'차감포인트 합계 : ';color:#000 !important}
+
+	.tbody-group {position:relative;display:block;padding-bottom:24px;border-bottom:1px solid #000}
+	.tb-type_c.not-thead .tbody-group tr ~ tr {padding-top:0}
+	.tb-type_c.not-thead .tbody-group tr ~ tr td:first-child {margin-top:0 !important;border-top:none !important}
 
 	.comment-view-area .tb-type_c.not-thead tbody td.td-t-title {margin-bottom:3px;padding:8px 0;line-height:16px}
 
@@ -538,8 +549,10 @@
 	.sh-tb-area table td {padding:5px 10px 5px 5px}
 	.sh-tb-area table th {height:32px}
     .sh-tb-area .form-row.type-small,
+	.sh-tb-area .form-row.type-small2,
 	.sh-tb-area .form-row {width:100%}
-	.sh-tb-area .form-row.type-small.pds {padding-right:0}
+	.sh-tb-area .form-row.type-small.pds,
+	.sh-tb-area .form-row.type-small2.pds {padding-right:0}
 	.sh-tb-area .checkbox {display:inline-block;margin-bottom:3px}
 	.sh-tb-area .btn-basic3 {position:static;width:100%;margin-top:5px;line-height:30px}
 	.sh-tb-area select {font-size:11px;padding-right:20px}

@@ -188,7 +188,9 @@
 .sh-tb-area .form-row.full .datepicker-box,
 .sh-tb-area .form-row.full {width:100%}
 .sh-tb-area .form-row.type-small {width:25%}
-.sh-tb-area .form-row.type-small.pds {padding-right:5px}
+.sh-tb-area .form-row.type-small2 {width:33.3%}
+.sh-tb-area .form-row.type-small.pds,
+.sh-tb-area .form-row.type-small2.pds {padding-right:5px}
 .sh-tb-area .form-row .form-col ~ .form-col {padding-left:10px}
 .sh-tb-area .form-row .form-col_txt {padding-left:10px;width:20px}
 .sh-tb-area .form-row .ui-select {width:100%}
