@@ -5959,6 +5959,102 @@ if (!Object.keys){
 		$('body').data('scrolling') === 'yes' ? win[global].uiScrollingCancel(): '';
 		$('body').data('scrolling') === 'no' ? win[global].uiScrolling(): '';
 	}
+	
+	win[global] = uiNameSpace(namespace, {
+		uiRollTxt: function (opt) {
+			return createUiRollTxt(opt);
+		},
+		uiRollTxtAct: function (opt) {
+			return createUiRollTxtAct(opt);
+		}
+	});
+	win[global].uiRollTxt.option = {
+		autoplay: true,
+		speed: 2000
+	}
+	win[global].uiRollTxt.timer = '';
+	function createUiRollTxt(opt){
+		var opt = $.extend(true, {}, win[global].uiRollTxt.option, opt),
+			autoplay = opt.autoplay,
+			speed = opt.speed,
+			$roll = $('#' + opt.id),
+			$roll_wrap = $roll.find('.ui-rolltxt-wrap'),
+			$roll_item = $roll_wrap.find('.ui-rolltxt-item'),
+			len = $roll_item.length,
+			play_txt = autoplay ? '정지' : '진행',
+			play_class = autoplay ? 'stop' : 'play',
+			html_btn = '';
+
+		if (len > 1) {
+			var item_clone = $roll_item.eq(0).clone();
+			$roll_wrap.append(item_clone);
+			html_btn += '<button type="button" class="ui-rolltxt-btn '+ play_class +'" role-label="'+ play_txt +'" data-play="'+ autoplay +'">';
+			html_btn += '</button">';
+
+			$roll.append(html_btn);
+			html_btn = '';
+
+			win[global].uiRollTxtAct({ id:opt.id, play: true, speed: speed });
+		}
+	}
+	function createUiRollTxtAct(opt){
+		var $roll = $('#' + opt.id),
+			$roll_wrap = $roll.find('.ui-rolltxt-wrap'),
+			$roll_item = $roll_wrap.find('.ui-rolltxt-item'),
+			$roll_btn = $roll.find('.ui-rolltxt-btn'),
+			len = $roll_item.length,
+			h = $roll_item.outerHeight(),
+			play = opt.play,
+			speed = opt.speed,
+			n = 0,
+			timer;
+
+		if (play) {
+			clearTimeout(timer);
+			rollPlay();
+		} else {
+			clearTimeout(timer);
+		}
+
+		function rollPlay(){
+			timer = setTimeout(function(){
+				n = n + 1;
+				if (n >= len) {
+					n = 1;
+					rollMove(n, true);
+				} else {
+					rollMove(n);
+				}
+			},speed);
+		}
+		function rollMove(m, v){
+			v ? $roll_wrap.css('top', 0) : '';
+			$roll_wrap.stop().animate({
+				top: '-' + h * m + 'px'
+			}, 300, function(){
+				rollPlay();
+			});
+		}
+
+		$roll_item.on('mouseover', function(){
+			clearTimeout(timer);
+		}).on('mouseleave', function(){
+			clearTimeout(timer);
+			!!$(this).closest('.ui-rolltxt.pause').length ? '' :
+			rollPlay();
+		});
+		$roll_btn.on('click',function(){
+			console.log($(this).data('play'))
+			if ($(this).data('play')) {
+				$(this).data('play',false).removeClass('stop').addClass('play').closest('.ui-rolltxt').addClass('pause');
+				clearTimeout(timer);
+			} else {
+				$(this).data('play',true).removeClass('play').addClass('stop').closest('.ui-rolltxt').removeClass('pause');;
+				clearTimeout(timer);
+				rollPlay();
+			}
+		});
+	}
 
 
 	/* 참고용

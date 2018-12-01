@@ -165,7 +165,9 @@
             }
         }
 
-        
+        $plugins.uiRollTxt({ id:'mainRollNotice' });
+
+        //$plugins.uiRollTxtAct({ id:'mainRollNotice', play:false });
     }
 
     //관광정보

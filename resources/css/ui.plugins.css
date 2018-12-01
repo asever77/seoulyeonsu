@@ -1,5 +1,11 @@
 @charset "utf-8";
 /* used ----------------------------------------------------------------- */
+
+.ui-rolltxt{position: relative; width:100%; overflow: hidden; height:30px}
+.ui-rolltxt-wrap{position: absolute; top:0; left:0; width:100%;}
+.ui-rolltxt-item{height:30px}
+.ui-rolltxt-btn{position: absolute;}
+
 .ui-tab{position:relative; margin:10px 0}
 .ui-tab-btns{position:relative; z-index:1; font-size:0; margin-bottom:15px; text-align: right;}
 .ui-tab-btns:after{content:""; display:block; clear:both;}
