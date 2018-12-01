@@ -345,6 +345,8 @@
 	.tb-type_c.not-thead tbody td.block {display:block;border-top:1px dashed #bfc7d1;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-top:5px;margin-bottom:5px}
 	.tb-type_c.not-thead tbody td.block2 {display:block;border-top:1px dashed #bfc7d1;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-top:5px;text-align:left}
 	.tb-type_c.not-thead tbody td.block2 + .block2 {margin-top:0;border-top:none;margin-bottom:5px}
+	.tb-type_c.not-thead tbody td.block3 {display:block;text-align:left;background-color:#e0e2e8;margin:-5px -10px;padding:5px 10px}
+	.tb-type_c.not-thead tbody td.block3 + .block2 {border-top:none}
 	.tb-type_c.not-thead tbody td.td-t-title {display:block;border-bottom:1px dashed #bfc7d1;padding:7px 0;margin-bottom:5px}
 	.not-thead .td-t-area:before {content:'연수원 : '}
 	.not-thead .td-t-type:before {content:'구분 : '}
@@ -582,6 +584,13 @@
     .header-wrap.only-logo {padding:10px 0;border-bottom-width:2px}
 	#sHeader ~ .base-main .contents-area {padding-bottom:30px}
 
+	.lnb-wrap {float:none;width:100%;padding:0}
+	.lnb-title {display:none}
+	.lnb-wrap > ul {display:table;width:100%;table-layout:fixed}
+	.lnb-wrap > ul > li {display:table-cell;text-align:center}
+	.lnb-wrap > ul > li ~ li {border-left:1px solid #ccc}
+	.lnb-wrap > ul > li a {border:none;padding:15px 0;border-bottom:1px solid #ccc}
+	.lnb-wrap > ul > li a.active {background-color:#000;color:#fff;border-bottom-color:#000}
 }
 
 

@@ -39,108 +39,123 @@
 			<div class="base-content" id="baseContent">
 				
 				<!-- content ---------------------------------------------------------------------------------------------- -->
+				<div class="page-title-area mypage">
+					<h2 class="page-title">마이페이지</h2>
+					<p class="page-title_en">MY PAGE</p>
+				</div>
+				<div class="has-lnb">
+					<div class="lnb-wrap">
+						<p class="lnb-title h-type_c">마이페이지</p>
+						<ul>
+							<li><a href="rsv_brkdw_list.html">예약 내역</a></li>
+							<li><a href="rsv_use_list.html">이용 내역</a></li>
+							<li><a href="panalty_brkdw.html" class="active">패널티 내역</a></li>
+							<li><a href="mbmr_info_mng_pwd_confm.html">회원정보관리</a></li>
+						</ul>
+					</div>
 				
-				<div class="contents-area">
-					<!-- S : title area -->
-					<div class="title-box">
-						<h2 class="h-type_a">패널티내역</h2>
-						<div class="breadcrumb">
-							<span class="breadcrumb-item">홈</span>
-							<span class="breadcrumb-item">마이페이지</span>
-							<span class="breadcrumb-item">패널티내역</span>
+					<div class="contents-area">
+						<!-- S : title area -->
+						<div class="title-box">
+							<h2 class="h-type_a">패널티내역</h2>
+							<div class="breadcrumb">
+								<span class="breadcrumb-item">홈</span>
+								<span class="breadcrumb-item">마이페이지</span>
+								<span class="breadcrumb-item">패널티내역</span>
+							</div>
 						</div>
-					</div>
-					<!-- E : title area -->
+						<!-- E : title area -->
 
-					<!-- S : table area -->
-					<table class="tb-type_b">
-						<caption>분실물신고 작성</caption>
-						<colgroup>
-							<col class="cols-w4">
-							<col class="col-auto">
-						</colgroup>
-						<tbody>
-						<tr>
-							<th scope="row">예약제한 상태</th>
-							<td>예약 불가</td>
-						</tr>
-						<tr>
-							<th scope="row">예약제한 사유</th>
-							<td>예약 부도 3회 누적</td>
-						</tr>
-						<tr>
-							<th scope="row">약제한 기간</th>
-							<td>2018-05-06 ~ 2019-05-06</td>
-						</tr>
-						<tr>
-							<th scope="row">예약부도 횟수</th>
-							<td>3 / 3</td>
-						</tr>
-						<tr>
-							<th scope="row">기타 패널티 횟수</th>
-							<td>2 / 3</td>
-						</tr>
-						</tbody>
-					</table>
-					<p class="text-indent_a mgt-xs">※ 예약 제한 기간이 종료되면 해당하는 예약부도 횟수 및 기타 패널티 횟수도 초기화 됩니다.</p>
+						<!-- S : table area -->
+						<table class="tb-type_b mgt-m">
+							<caption>분실물신고 작성</caption>
+							<colgroup>
+								<col class="cols-w4">
+								<col class="col-auto">
+							</colgroup>
+							<tbody>
+							<tr>
+								<th scope="row">예약제한 상태</th>
+								<td>예약 불가</td>
+							</tr>
+							<tr>
+								<th scope="row">예약제한 사유</th>
+								<td>예약 부도 3회 누적</td>
+							</tr>
+							<tr>
+								<th scope="row">약제한 기간</th>
+								<td>2018-05-06 ~ 2019-05-06</td>
+							</tr>
+							<tr>
+								<th scope="row">예약부도 횟수</th>
+								<td>3 / 3</td>
+							</tr>
+							<tr>
+								<th scope="row">기타 패널티 횟수</th>
+								<td>2 / 3</td>
+							</tr>
+							</tbody>
+						</table>
+						<p class="text-indent_a mgt-xs">※ 예약 제한 기간이 종료되면 해당하는 예약부도 횟수 및 기타 패널티 횟수도 초기화 됩니다.</p>
 
-					<table class="tb-type_c mgt-mb">
-						<caption></caption>
-						<colgroup>
-							<col class="cols-w1 only-pc">
-							<col class="cols-w2">
-							<col class="cols-w2">
-							<col class="cols-auto">
-							<col class="cols-w2">
-						</colgroup>
-						<thead>
-						<tr>
-							<th scope="col" class="only-pc">연번</th>
-							<th scope="col">패널티 일자</th>
-							<th scope="col">연수원</th>
-							<th scope="col">패널티 사유</th>
-							<th scope="col">횟수</th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr>
-							<td class="only-pc">4</td>
-							<td>18-10-15</td>
-							<td>서천 연수원</td>
-							<td>예약 부도</td>
-							<td>3 / 3</td>
-						</tr>
-						<tr>
-							<td class="only-pc">4</td>
-							<td>18-10-15</td>
-							<td>속초 수련원</td>
-							<td>지시 불이행</td>
-							<td>2 / 3</td>
-						</tr>
-						<tr>
-							<td class="only-pc">4</td>
-							<td>18-10-15</td>
-							<td>수안보  수련원</td>
-							<td>예약 부도</td>
-							<td>초기화</td>
-						</tr>
-						</tbody>
-					</table>
+						<table class="tb-type_c mgt-mb">
+							<caption></caption>
+							<colgroup>
+								<col class="cols-w1 only-pc">
+								<col class="cols-w2">
+								<col class="cols-w2">
+								<col class="cols-auto">
+								<col class="cols-w2">
+							</colgroup>
+							<thead>
+							<tr>
+								<th scope="col" class="only-pc">연번</th>
+								<th scope="col">패널티 일자</th>
+								<th scope="col">연수원</th>
+								<th scope="col">패널티 사유</th>
+								<th scope="col">횟수</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="only-pc">4</td>
+								<td>18-10-15</td>
+								<td>서천 연수원</td>
+								<td>예약 부도</td>
+								<td>3 / 3</td>
+							</tr>
+							<tr>
+								<td class="only-pc">4</td>
+								<td>18-10-15</td>
+								<td>속초 수련원</td>
+								<td>지시 불이행</td>
+								<td>2 / 3</td>
+							</tr>
+							<tr>
+								<td class="only-pc">4</td>
+								<td>18-10-15</td>
+								<td>수안보  수련원</td>
+								<td>예약 부도</td>
+								<td>초기화</td>
+							</tr>
+							</tbody>
+						</table>
 
-					<div class="paging-area">
-						<div class="paging">
-							<a href="#" title="처음" class="ico_fromb pprev"></a>
-							<a href="#" title="이전" class="ico_fromb prev"></a>
-							<a href="#">1</a>
-							<a href="#" class="active">2</a>
-							<a href="#">3</a>
-							<a href="#">4</a>
-							<a href="#">5</a>
-							<a href="#" title="다음" class="ico_fromb next"></a>
-							<a href="#" title="마지막" class="ico_fromb nnext"></a>
+						<div class="paging-area">
+							<div class="paging">
+								<a href="#" title="처음" class="ico_fromb pprev"></a>
+								<a href="#" title="이전" class="ico_fromb prev"></a>
+								<a href="#">1</a>
+								<a href="#" class="active">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#" title="다음" class="ico_fromb next"></a>
+								<a href="#" title="마지막" class="ico_fromb nnext"></a>
+							</div>
 						</div>
+						<!-- E : table area -->
 					</div>
-					<!-- E : table area -->
 				</div>
 	
 				<!-- //content ---------------------------------------------------------------------------------------------- -->
