@@ -173,16 +173,13 @@
     //관광정보
     $plugins.page.tour = function(){
         $plugins.uiTab({ id:'tourinfoTab', callback:tourSlideInfo });
-         $('#uiSlideRoomInfo').find('.owl-carousel').each(function(i){
+        $('#uiSlideRoomInfo').find('.owl-carousel').each(function(i){
             $(this).attr('id', 'uiSlideRoomInfoItem' + i);
         });
         function tourSlideInfo(v){
             if (v.current === 2 && !$('#uiSlideRoomInfo').data('load')) {
-                console.log('한번실행');
                 $('#uiSlideRoomInfo').data('load',true)
-
                 $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
-                    console.log($(this).attr('id'));
                     $('#' + $(this).attr('id')).owlCarousel({
                         loop: true,
                         dot: false,
@@ -205,7 +202,6 @@
                 });
             }
             if (v.current === 3 && !$('#tourImg').data('load')) {
-                console.log('한번실행');
                 $('#tourImg').data('load',true).owlCarousel({
                     loop: true,
                     dot: false,
@@ -250,12 +246,9 @@
             $(this).attr('id', 'uiSlideUseInfoItem' + i);
         });
         function facilSlideInfo(v){
-            if (v.current === 2 && !$('#uiSlideRoomInfo').data('load')) {
-                console.log('한번실행');
-                $('#uiSlideRoomInfo').data('load',true)
-
+            if (v.current === 1 && !$('#uiSlideRoomInfo').data('load')) {
+                $('#uiSlideRoomInfo').data('load',true);
                 $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
-                    console.log($(this).attr('id'));
                     $('#' + $(this).attr('id')).owlCarousel({
                         loop: true,
                         dot: false,
@@ -277,12 +270,9 @@
                     });
                 });
             }
-            if (v.current === 3 && !$('#uiSlideFacilitInfo').data('load')) {
-                console.log('한번실행');
+            if (v.current === 2 && !$('#uiSlideFacilitInfo').data('load')) {
                 $('#uiSlideFacilitInfo').data('load',true)
-
                 $('#uiSlideFacilitInfo').find('.owl-carousel').each(function(){
-                    console.log($(this).attr('id'));
                     $('#' + $(this).attr('id')).owlCarousel({
                         loop: true,
                         dot: false,
@@ -304,12 +294,9 @@
                     });
                 });
             }
-            if (v.current === 4 && !$('#uiSlideUseInfo').data('load')) {
-                console.log('한번실행');
+            if (v.current === 3 && !$('#uiSlideUseInfo').data('load')) {
                 $('#uiSlideUseInfo').data('load',true)
-
                 $('#uiSlideUseInfo').find('.owl-carousel').each(function(){
-                    console.log($(this).attr('id'));
                     $('#' + $(this).attr('id')).owlCarousel({
                         loop: true,
                         dot: false,
