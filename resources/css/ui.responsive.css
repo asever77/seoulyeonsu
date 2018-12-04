@@ -612,6 +612,10 @@
 	[class*='txt-bg_'] p {font-size:20px;line-height:26px;margin-top:-13px}
 	.txt-bg_b p,
 	.txt-bg_c p {margin-top:-26px}
+
+	[class*='facilities-area'] {height:250px}
+	.facilities-area_a {background-position:50% 0}
+	.text-area .room-type-area {padding:0 0 15px}
 }
 
 
@@ -630,6 +634,7 @@
 	.view-title-area .view-title.big {font-size:16px}
 	.tab-type_a .ui-tab-btn {font-size:13px;padding:0 10px}
 	.tab-type_a .ui-tab-btns {padding-bottom:10px}
+	.tab-type_a#facilitiesTab .ui-tab-btn {padding:0 5px 0 7px}
 	.img-text .img-area {float:none;width:100%}
 	.img-text .text-area {padding:0;margin-top:15px}
 	.img-text .text-area .dot_list li ~ li {margin-top:5px}
@@ -670,6 +675,15 @@
 
 	.txt-bg_b p,
 	.txt-bg_c p {margin-top:-39px}
+
+	[class*='facilities-area'] {height:200px;background-size:700px auto}
+	.facilities-area_a {background-position:55% 10%}
+
+	.food-list .food-item {width:49%;margin-right:2%}
+	.food-list .food-item:nth-child(3n) {margin-right:2%}
+	.food-list .food-item:nth-child(even) {margin-right:0}
+	.food-list .food-item:nth-child(2n+1) {clear:both}
+	.food-list .food-item:nth-child(n+3) {margin-top:10px}
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}
@@ -686,4 +700,5 @@
 	.small-area {padding:20px 15px}
 
 	[class*='txt-bg_'] p {font-size:18px}
+	.tab-type_a#facilitiesTab .ui-tab-btn {padding:0 4px 0 6px}
 }

@@ -80,6 +80,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .txt-type_d .point-col2 {font-weight:400}
 [class*='txt-type'].point {color:#000;font-weight:500}
 .text-indent_a {padding-left:16px;text-indent:-16px;font-weight:300}
+.hide {font-size:0;line-height:0}
 
 /* header */
 .base-wrap{width:100%;min-width:1200px;}
@@ -305,6 +306,9 @@ sup {font-size:11px}
 .room-type-area {position:relative;border-bottom:1px dashed #cbcbcb}
 .room-type {color:#000;font-size:32px;font-weight:400;line-height:1}
 .room-type-area .room-type sup {font-size:16px}
+.text-area .room-type-area {padding:12px 0 30px}
+.text-area .room-type-area button {position:absolute;right:0;top:0}
+.text-area .dl-type_b {line-height:26px}
 
 /*.box-module_a {margin-top:-30px}*/
 .box-module_a:after {content:'';display:block;clear:both}

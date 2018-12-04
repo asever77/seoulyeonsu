@@ -10,6 +10,7 @@
 .page-title-area.tour-info {background-image:url('../../resources/img/contents/top_img_tour.jpg')}
 .page-title-area.mypage {background-image:url('../../resources/img/contents/top_mypage.jpg')}
 .page-title-area.about {background-image:url('../../resources/img/contents/top_about.jpg')}
+.page-title-area.facilities-info {background-image:url('../../resources/img/contents/top_facilities.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
 
@@ -301,3 +302,16 @@
 .history-item dl dt {display:inline-block;margin-right:15px;font-weight:500}
 .history-item dl dd {display:inline-block}
 .history-item .history-img img {vertical-align:top;margin-top:8px;max-width:100%}
+
+/* facilities */
+[class*='facilities-area'] {height:500px;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
+.facilities-area_a {background-image:url('../../resources/img/contents/facilities_img01.jpg')}
+.food-top img {width:100%;vertical-align:top}
+.food-list:after {content:'';display:block;clear:both}
+.food-list .food-item {float:left;width:32%;margin-right:2%}
+.food-list .food-item:nth-child(3n) {margin-right:0}
+.food-list .food-item:nth-child(n+4) {margin-top:20px}
+.food-list .food-item .food-img img {width:100%;vertical-align:top}
+.food-list .food-item .food-name {margin-top:5px}
+.attention-area {border-top:1px solid #cbcbcb;padding-top:30px}
+.img-text .text-area .sub-dot .dot_list li ~ li {margin-top:3px}
