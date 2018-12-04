@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ded9287-931d-4154-933f-cc44c67c7d35" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/ui.common.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/ui.contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.contents.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/ui.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/ui.responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/ui.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/ui.common.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,71 +55,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ui.responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.contents.css" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="145" column="110" selection-start-line="145" selection-start-column="110" selection-end-line="145" selection-end-column="110" />
+            <state relative-caret-position="3000">
+              <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tour_info_detail_com_info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/mypge/rsv_brkdw_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="197" column="70" selection-start-line="197" selection-start-column="70" selection-end-line="197" selection-end-column="70" />
+            <state relative-caret-position="2445">
+              <caret line="163" column="59" selection-start-line="163" selection-start-column="53" selection-end-line="163" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/mypge/rsv_use_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2385">
+              <caret line="159" column="61" selection-start-line="159" selection-start-column="61" selection-end-line="159" selection-end-column="61" />
               <folding>
-                <element signature="n#section#1;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#2;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#3;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#4;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#5;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#7;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#col#8;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui.common.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/ui.common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="owl.carousel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/lib/owl.carousel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.common.css" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="653" column="101" selection-start-line="653" selection-start-column="101" selection-end-line="653" selection-end-column="101" />
+            <state relative-caret-position="9735">
+              <caret line="649" column="8" selection-start-line="649" selection-start-column="1" selection-end-line="649" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="105" column="117" selection-start-line="105" selection-start-column="105" selection-end-line="105" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="348" column="85" selection-start-line="348" selection-start-column="85" selection-end-line="348" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -236,9 +224,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1979" />
     <option name="y" value="59" />
@@ -250,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,88 +242,11 @@
               <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
               <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="cymad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="onlne_rsv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="tour_guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,28 +473,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132219000" />
+    <option name="totallyTimeSpent" value="132482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1979" y="59" width="1582" height="986" extended-state="0" />
+    <frame x="136" y="26" width="1711" height="990" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17098446" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5012953" side_tool="true" visible="true" weight="0.3293979" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49870467" weight="0.3293979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1751345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293979" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293979" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50209206" side_tool="true" visible="true" weight="0.32827103" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49790794" visible="true" weight="0.32827103" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,22 +532,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="이미지 왜 안올라가냐 ㅡㅡ 좀 올라가라규" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/community/H05_0201_00.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../서울시 연수원/resources/data/codinglist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html/community/H05_0201_00.html" />
+    <entry file="file://$PROJECT_DIR$/../서울시 연수원/resources/data/codinglist.json" />
     <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="1575">
+          <caret line="105" column="117" selection-start-line="105" selection-start-column="105" selection-end-line="105" selection-end-column="117" />
         </state>
       </provider>
     </entry>
@@ -911,17 +808,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/main/H00_0000_00.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/H00_0000_00.html" />
     <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="476" column="48" selection-start-line="476" selection-start-column="48" selection-end-line="476" selection-end-column="48" />
+        <state relative-caret-position="175">
+          <caret line="348" column="85" selection-start-line="348" selection-start-column="85" selection-end-line="348" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -934,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="653" column="101" selection-start-line="653" selection-start-column="101" selection-end-line="653" selection-end-column="101" />
+        <state relative-caret-position="9735">
+          <caret line="649" column="8" selection-start-line="649" selection-start-column="1" selection-end-line="649" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -943,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="197" column="70" selection-start-line="197" selection-start-column="70" selection-end-line="197" selection-end-column="70" />
-          <folding>
-            <element signature="n#section#1;n#div#1;n#div#2;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="145" column="110" selection-start-line="145" selection-start-column="110" selection-end-line="145" selection-end-column="110" />
+        <state relative-caret-position="3000">
+          <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
         </state>
       </provider>
     </entry>
