@@ -236,9 +236,13 @@
             });
         }
     }
-    //관광정보
+    //아이디 비밀번호
     $plugins.page.idpw = function(){
         $plugins.uiTab({ id:'idpwTab' });
+    }
+    //연수원 안내
+    $plugins.page.about = function(){
+        $plugins.uiTab({ id:'infoTab' });
     }
         
 
