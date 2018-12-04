@@ -187,16 +187,18 @@
                         loop: true,
                         dot: false,
                         nav: true,
-                        margin:10,
                         responsive:{
                             0:{
-                                items:3,
+                                items:4,
+                                margin:5,
                             },
                             500:{
                                 items:4,
+                                margin:10,
                             },
                             1024:{
                                 items:5,
+                                margin:10,
                             }
                         }
                     });
@@ -225,6 +227,110 @@
                 });
                 
             }
+            $(document).on('click', '.img-slide-area .item a', function(e){
+                e.preventDefault();
+                var $this = $(this),
+                    imgUrl = $this.attr('href');
+
+                $this.addClass('active').closest('.ui-bigimg-slide').find('.img-slide-area .item a').removeClass('active');
+                $this.addClass('active').closest('.ui-bigimg-slide').find('.big-img-area img').attr('src',imgUrl);
+            });
+        }
+    }
+    //시설안내
+    $plugins.page.facil = function(){
+        $plugins.uiTab({ id:'facilitiesTab', callback:facilSlideInfo });
+        $('#uiSlideRoomInfo').find('.owl-carousel').each(function(i){
+            $(this).attr('id', 'uiSlideRoomInfoItem' + i);
+        });
+        $('#uiSlideFacilitInfo').find('.owl-carousel').each(function(i){
+            $(this).attr('id', 'uiSlideFacilitInfoItem' + i);
+        });
+        $('#uiSlideUseInfo').find('.owl-carousel').each(function(i){
+            $(this).attr('id', 'uiSlideUseInfoItem' + i);
+        });
+        function facilSlideInfo(v){
+            if (v.current === 2 && !$('#uiSlideRoomInfo').data('load')) {
+                console.log('한번실행');
+                $('#uiSlideRoomInfo').data('load',true)
+
+                $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
+                    console.log($(this).attr('id'));
+                    $('#' + $(this).attr('id')).owlCarousel({
+                        loop: true,
+                        dot: false,
+                        nav: true,
+                        responsive:{
+                            0:{
+                                items:4,
+                                margin:5,
+                            },
+                            500:{
+                                items:4,
+                                margin:10,
+                            },
+                            1024:{
+                                items:5,
+                                margin:10,
+                            }
+                        }
+                    });
+                });
+            }
+            if (v.current === 3 && !$('#uiSlideFacilitInfo').data('load')) {
+                console.log('한번실행');
+                $('#uiSlideFacilitInfo').data('load',true)
+
+                $('#uiSlideFacilitInfo').find('.owl-carousel').each(function(){
+                    console.log($(this).attr('id'));
+                    $('#' + $(this).attr('id')).owlCarousel({
+                        loop: true,
+                        dot: false,
+                        nav: true,
+                        responsive:{
+                            0:{
+                                items:4,
+                                margin:5,
+                            },
+                            500:{
+                                items:4,
+                                margin:10,
+                            },
+                            1024:{
+                                items:5,
+                                margin:10,
+                            }
+                        }
+                    });
+                });
+            }
+            if (v.current === 4 && !$('#uiSlideUseInfo').data('load')) {
+                console.log('한번실행');
+                $('#uiSlideUseInfo').data('load',true)
+
+                $('#uiSlideUseInfo').find('.owl-carousel').each(function(){
+                    console.log($(this).attr('id'));
+                    $('#' + $(this).attr('id')).owlCarousel({
+                        loop: true,
+                        dot: false,
+                        nav: true,
+                        responsive:{
+                            0:{
+                                items:4,
+                                margin:5,
+                            },
+                            500:{
+                                items:4,
+                                margin:10,
+                            },
+                            1024:{
+                                items:5,
+                                margin:10,
+                            }
+                        }
+                    });
+                });
+            }
 
             $(document).on('click', '.img-slide-area .item a', function(e){
                 e.preventDefault();
@@ -236,9 +342,14 @@
             });
         }
     }
-    //관광정보
+
+    //아이디 비밀번호
     $plugins.page.idpw = function(){
         $plugins.uiTab({ id:'idpwTab' });
+    }
+    //연수원 안내
+    $plugins.page.about = function(){
+        $plugins.uiTab({ id:'infoTab' });
     }
         
 

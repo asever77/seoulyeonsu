@@ -9,6 +9,8 @@
 .page-title-area.reservation {background-image:url('../../resources/img/contents/top_img_reservation.jpg')}
 .page-title-area.tour-info {background-image:url('../../resources/img/contents/top_img_tour.jpg')}
 .page-title-area.mypage {background-image:url('../../resources/img/contents/top_mypage.jpg')}
+.page-title-area.about {background-image:url('../../resources/img/contents/top_about.jpg')}
+.page-title-area.facilities-info {background-image:url('../../resources/img/contents/top_facilities.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
 
@@ -260,3 +262,56 @@
 .lnb-title {text-align:center;padding-bottom:20px;height:72px;line-height:70px;background-color:#000;color:#fff}
 .lnb-wrap > ul > li > a {display:block;padding:10px 20px;border-bottom:1px solid #ccc}
 .lnb-wrap > ul > li > a.active {font-weight:500;color:#309df1}
+
+/* about */
+[class*='txt-bg_'] {position:relative;height:255px;background-position:50% 50%;background-size:cover}
+.txt-bg_a {background-image:url('../../resources/img/contents/about_bg.jpg')}
+.txt-bg_b {background-image:url('../../resources/img/contents/about_bg.jpg')}
+.txt-bg_c {background-image:url('../../resources/img/contents/about_bg.jpg')}
+[class*='txt-bg_'] p {position:absolute;left:0;right:0;top:50%;font-size:40px;line-height:50px;color:#fff;text-align:center;margin-top:-25px;font-weight:200}
+.txt-bg_b p,
+.txt-bg_c p {margin-top:-50px}
+.about-text {text-align:center}
+.group-about {position:relative;text-align:center}
+.group-about:before {content:'';position:absolute;top:120px;left:0;right:0;height:96px;background:url('../../resources/img/contents/group_line.png') no-repeat 50% 0}
+.group-about.type-b:before {background-image:url('../../resources/img/contents/group_line2.png')}
+.group-about .group-head {width:120px;height:120px;margin:0 auto;line-height:120px;color:#fff;font-size:24px;background-color:#00adef;border-radius:50%}
+.group-about .group-sub {margin-top:96px;text-align:center}
+.group-sub .group-item {display:inline-block;width:170px}
+.group-sub .group-item .group-sub-title {position:relative;margin:0 10px -10px;padding:15px 0;color:#fff;background-color:#898989}
+.group-sub .group-item ul {padding:30px 0 20px;background-color:#fff}
+.group-sub .group-item ul li ~ li {margin-top:12px}
+.group-sub .group-item ~ .group-item {margin-left:330px}
+.type-b .group-sub .group-item ~ .group-item {margin-left:50px}
+.history-title {position:relative;width:120px;height:120px;margin:0 auto;padding-top:26px;text-align:center;line-height:22px;color:#fff;font-size:20px;background-color:#309df1;border-radius:50%;font-family:'Roboto', 'sans-serif'}
+.history-title:after {content:'';position:absolute;left:50%;width:2px;top:120px;height:80px;margin-left:-1px;background-color:#309df1}
+.history-list:after {content:'';display:block;clear:both}
+.history-list .history-item {position:relative;width:50%;clear:both}
+.history-list .history-item:before {content:'';display:block;position:absolute;top:0;bottom:-15px;width:2px;background-color:#309df1}
+.history-list .history-item:nth-child(odd) {float:left;text-align:right;padding-right:40px}
+.history-list .history-item:nth-child(even) {float:right;text-align:left;padding-left:40px}
+.history-list .history-item:nth-child(odd):before {right:-1px}
+.history-list .history-item:nth-child(even):before {left:-1px}
+.history-list .history-item:last-child:before {display:none}
+.history-list .history-year {position:relative;font-family:'Roboto', 'sans-serif';font-size:28px;font-weight:500}
+.history-list .history-year:before {content:'';display:block;position:absolute;top:50%;width:14px;height:14px;margin-top:-7px;background-color:#309df1;border-radius:50%}
+.history-list .history-item:nth-child(odd) .history-year:before {right:-47px}
+.history-list .history-item:nth-child(even) .history-year:before {left:-47px}
+.history-item dl {margin-top:20px}
+.history-item dl ~ dl {margin-top:8px}
+.history-item dl dt {display:inline-block;margin-right:15px;font-weight:500}
+.history-item dl dd {display:inline-block}
+.history-item .history-img img {vertical-align:top;margin-top:8px;max-width:100%}
+
+/* facilities */
+[class*='facilities-area'] {height:500px;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
+.facilities-area_a {background-image:url('../../resources/img/contents/facilities_img01.jpg')}
+.food-top img {width:100%;vertical-align:top}
+.food-list:after {content:'';display:block;clear:both}
+.food-list .food-item {float:left;width:32%;margin-right:2%}
+.food-list .food-item:nth-child(3n) {margin-right:0}
+.food-list .food-item:nth-child(n+4) {margin-top:20px}
+.food-list .food-item .food-img img {width:100%;vertical-align:top}
+.food-list .food-item .food-name {margin-top:5px}
+.attention-area {border-top:1px solid #cbcbcb;padding-top:30px}
+.img-text .text-area .sub-dot .dot_list li ~ li {margin-top:3px}

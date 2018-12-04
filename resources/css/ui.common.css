@@ -49,6 +49,7 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .ico-traffic02 {background-position-x:-280px}
 .ico_map {width:12px;height:16px;background-position:-320px -100px}
 .ico_close {width:15px;height:15px;background-position:-360px -100px}
+.ico_tel {width:20px;height:15px;background-position:-400px -100px}
 
 /* title */
 .h-type_a {color:#000;font-size:40px;font-weight:200}
@@ -75,8 +76,11 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .txt-type_a {color:#666;font-size:16px}
 .txt-type_b {color:#666;font-size:14px}
 .txt-type_c {color:#666;line-height:28px}
+.txt-type_d {font-size:30px;line-height:36px;color:#000;font-weight:200}
+.txt-type_d .point-col2 {font-weight:400}
 [class*='txt-type'].point {color:#000;font-weight:500}
 .text-indent_a {padding-left:16px;text-indent:-16px;font-weight:300}
+.hide {font-size:0;line-height:0}
 
 /* header */
 .base-wrap{width:100%;min-width:1200px;}
@@ -302,6 +306,9 @@ sup {font-size:11px}
 .room-type-area {position:relative;border-bottom:1px dashed #cbcbcb}
 .room-type {color:#000;font-size:32px;font-weight:400;line-height:1}
 .room-type-area .room-type sup {font-size:16px}
+.text-area .room-type-area {padding:12px 0 30px}
+.text-area .room-type-area button {position:absolute;right:0;top:0}
+.text-area .dl-type_b {line-height:26px}
 
 /*.box-module_a {margin-top:-30px}*/
 .box-module_a:after {content:'';display:block;clear:both}
@@ -569,6 +576,11 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .tb-type_c .comment-count {display:inline-block;vertical-align:middle;margin-left:3px;font-size:12px;font-weight:500}
 .tb-type_c .link-type_b {text-decoration:underline}
 td .ico_secret {position:relative;top:-1px}
+.tb-type_c.lines {border-top:1px solid #c2c3c6}
+.tb-type_c.lines thead th ~ th,
+.tb-type_c.lines tbody td ~ td {border-left:1px solid #c2c3c6}
+.tb-type_c.lines .ico_tel {margin:0 5px}
+.tb-type_c.lines tbody td .ico_tel {opacity:.6}
 
 .tb-type_d {border:1px solid #c2c3c6}
 .tb-type_d caption.dot-item {margin-bottom:12px;height:auto;text-align:left;opacity:1}
