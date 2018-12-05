@@ -678,6 +678,8 @@
 
 	[class*='facilities-area'] {height:200px;background-size:700px auto}
 	.facilities-area_a {background-position:55% 10%}
+	.facilities-area_b {background-size:600px auto;background-position:45% 20%}
+	.facilities-area_c {background-position:55% 10%}
 
 	.food-list .food-item {width:49%;margin-right:2%}
 	.food-list .food-item:nth-child(3n) {margin-right:2%}

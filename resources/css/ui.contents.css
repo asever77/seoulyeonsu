@@ -306,6 +306,8 @@
 /* facilities */
 [class*='facilities-area'] {height:500px;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
 .facilities-area_a {background-image:url('../../resources/img/contents/facilities_img01.jpg')}
+.facilities-area_b {background-image:url('../../resources/img/contents/facilities_img02.jpg')}
+.facilities-area_c {background-image:url('../../resources/img/contents/facilities_img03.jpg')}
 .food-top img {width:100%;vertical-align:top}
 .food-list:after {content:'';display:block;clear:both}
 .food-list .food-item {float:left;width:32%;margin-right:2%}
