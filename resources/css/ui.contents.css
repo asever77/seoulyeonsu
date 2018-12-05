@@ -317,3 +317,4 @@
 .food-list .food-item .food-name {margin-top:5px}
 .attention-area {border-top:1px solid #cbcbcb;padding-top:30px}
 .img-text .text-area .sub-dot .dot_list li ~ li {margin-top:3px}
+.menu-img .food-list .food-item:nth-child(n+4) {margin-top:10px}

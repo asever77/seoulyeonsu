@@ -551,6 +551,11 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .ui-dialog.noti .layer-big_a {padding:15px;border-bottom:1px solid #e0e2e8}
 .ui-dialog.noti .noti-img img {width:100%;vertical-align:top}
 .ui-dialog.noti .not-today {padding:10px 15px}
+/* floor */
+.floor-img {text-align:center}
+.menu-img img,
+.floor-img img {max-width:100%;vertical-align:center}
+.menu-img {max-height:500px;overflow-x:hidden;overflow-y:auto}
 
 /* table */
 [class*='tb-type_'] {width:100%;table-layout:fixed}
