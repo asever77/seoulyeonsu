@@ -391,7 +391,8 @@ sup {font-size:11px}
 
 .table-search_a:after {content:'';display:block;clear:both}
 .table-search_a .sh-item-from {float:left;display:block;padding:20px 30px}
-.table-search_a .sh-total {float:right;padding:20px 30px;font-size:18px;line-height:40px}
+.table-search_a .sh-item-from:first-child {padding-left:0}
+.table-search_a .sh-total {float:right;padding:20px 0 20px 30px;font-size:18px;line-height:40px}
 .table-search_a .sh-sort {float:left;padding-top:20px}
 .table-search_a .sh-item-from input[type="text"],
 .table-search_a .sh-item-from input[type="date"],

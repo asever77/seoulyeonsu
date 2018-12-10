@@ -528,6 +528,7 @@
 	.big-img-area {padding:0}
 	.img-text.type-b .img-area {float:none;width:100%}
 	.img-text.type-b .text-area {padding:0;margin-top:15px}
+	.tour-article ~ .tour-article {margin-top:20px}
 
 	/* weather */
 	.weather-info .weather-area,
@@ -616,6 +617,9 @@
 	[class*='facilities-area'] {height:250px}
 	.facilities-area_a {background-position:50% 0}
 	.text-area .room-type-area {padding:0 0 15px}
+
+	.group-sub .group-item {width:200px}
+	.group-sub .group-item ~  .group-item {margin-left:150px}
 }
 
 

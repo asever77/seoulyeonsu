@@ -250,7 +250,7 @@
                 $('#uiSlideRoomInfo').data('load',true);
                 $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
                     $('#' + $(this).attr('id')).owlCarousel({
-                        loop: true,
+                        loop: false,
                         dot: false,
                         nav: true,
                         responsive:{
@@ -274,7 +274,7 @@
                 $('#uiSlideFacilitInfo').data('load',true)
                 $('#uiSlideFacilitInfo').find('.owl-carousel').each(function(){
                     $('#' + $(this).attr('id')).owlCarousel({
-                        loop: true,
+                        loop: false,
                         dot: false,
                         nav: true,
                         responsive:{
@@ -298,7 +298,7 @@
                 $('#uiSlideUseInfo').data('load',true)
                 $('#uiSlideUseInfo').find('.owl-carousel').each(function(){
                     $('#' + $(this).attr('id')).owlCarousel({
-                        loop: true,
+                        loop: false,
                         dot: false,
                         nav: true,
                         responsive:{
