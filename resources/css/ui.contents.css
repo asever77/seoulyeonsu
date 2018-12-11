@@ -49,8 +49,8 @@
 .faq-wrap .faq-blt_q {top:12px;left:20px}
 .faq-wrap .faq-blt_a {top:12px;left:70px}
 .faq-wrap .ui-acco-tit {background-color:transparent;border-color:#c2c3c6}
-.faq-wrap .ui-acco-btn {padding:15px 20px 15px 70px;color:#000;font-size:16px}
-.faq-wrap .ui-acco-pnl {padding:15px 50px 15px 120px;font-size:16px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
+.faq-wrap .ui-acco-btn {padding:15px 20px 15px 70px;color:#000;font-size:16px;word-break:break-all}
+.faq-wrap .ui-acco-pnl {padding:15px 50px 15px 120px;font-size:16px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6;word-break:break-all}
 
 /* satisfaction */
 .satisfaction-info {display:table;width:100%;table-layout:fixed;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}

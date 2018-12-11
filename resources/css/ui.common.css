@@ -615,14 +615,14 @@ td .ico_secret {position:relative;top:-1px}
 
 /* view */
 .view-title-area {text-align:center;padding-bottom:20px}
-.view-title-area .view-title {font-size:21px;color:#000;font-weight:500}
+.view-title-area .view-title {font-size:21px;color:#000;font-weight:500;word-break:break-all}
 .view-title-area .view-title.big {font-size:40px}
 .view-title-area .view-info {color:#596a7f}
 .view-info .view-info-item {position:relative;display:inline-block;padding:0 13px}
 .view-info .view-info-item ~ .view-info-item:before {content:'';position:absolute;left:0;top:50%;width:1px;height:16px;margin-top:-8px;background-color:#596a7f}
 .view-file {padding:20px 30px;border-top:1px solid #c2c3c6}
 .view-file .file-item ~ .file-item {display:block;margin-top:10px}
-.view-contents {padding:30px;min-height:200px;background-color:#fff;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.view-contents {padding:30px;min-height:200px;background-color:#fff;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6;word-break:break-all}
 .view-contents .view-contents-img {margin-bottom:10px}
 .view-contents .view-contents-img img {max-width:100%;vertical-align:top}
 .period-area {padding:15px 30px;border-top:1px solid #c2c3c6}
