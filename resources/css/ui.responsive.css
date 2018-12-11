@@ -690,6 +690,13 @@
 	.food-list .food-item:nth-child(even) {margin-right:0}
 	.food-list .food-item:nth-child(2n+1) {clear:both}
 	.food-list .food-item:nth-child(n+3) {margin-top:10px}
+
+	.tour-article-info .dot_list li {float:none;width:100%}
+	.tour-article-info .dot_list:before {display:none}
+	.tour-article-info .dot_list li:nth-child(4n+2),
+	.tour-article-info .dot_list li:nth-child(4n+3) {background-color:#fff}
+	.tour-article-info .dot_list li:nth-child(even) {background-color:#f3f4f7}
+	.tour-article-info .dot_list li:before {top:17px}
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}

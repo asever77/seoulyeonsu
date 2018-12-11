@@ -326,3 +326,13 @@
 .attention-area {border-top:1px solid #cbcbcb;padding-top:30px}
 .img-text .text-area .sub-dot .dot_list li ~ li {margin-top:3px}
 .menu-img .food-list .food-item:nth-child(n+4) {margin-top:10px}
+
+.tour-article-info {background-color:#fff;border-top:1px solid #c2c3c6;border-bottom:1px solid #c2c3c6}
+.tour-article-info .dot_list {position:relative}
+.tour-article-info .dot_list:before {content:'';position:absolute;top:0;bottom:0;left:50%;width:1px;background-color:#e9e9e9;z-index:3}
+.tour-article-info .dot_list:after {content:'';display:block;clear:both}
+.tour-article-info .dot_list li {float:left;width:50%;padding:10px 30px}
+.tour-article-info .dot_list li:before {left:20px;top:19px}
+.tour-article-info .dot_list li:nth-child(2n+1) {clear:both}
+.tour-article-info .dot_list li:nth-child(4n+2),
+.tour-article-info .dot_list li:nth-child(4n+3) {background-color:#f3f4f7}
