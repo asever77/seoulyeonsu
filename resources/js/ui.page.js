@@ -181,7 +181,7 @@
                 $('#uiSlideRoomInfo').data('load',true)
                 $('#uiSlideRoomInfo').find('.owl-carousel').each(function(){
                     $('#' + $(this).attr('id')).owlCarousel({
-                        loop: true,
+                        loop: false,
                         dot: false,
                         nav: true,
                         responsive:{
@@ -203,7 +203,7 @@
             }
             if (v.current === 3 && !$('#tourImg').data('load')) {
                 $('#tourImg').data('load',true).owlCarousel({
-                    loop: true,
+                    loop: false,
                     dot: false,
                     nav: true,
                     responsive:{
