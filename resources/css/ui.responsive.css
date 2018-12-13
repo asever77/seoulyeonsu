@@ -75,6 +75,7 @@
     .gnb-wrap{display:none;}
 
     .allmenu-wrap.on{left:0; box-shadow: 0 0 10px rgba(0,0,0,0.2)}
+	.allmenu-wrap.on .btn-allmenu-close {left:210px;opacity:1}
     .allmenu-wrap{display:block; position: fixed; top:0; left:-210px; z-index: 1000; width:205px; height:150%; overflow-y:auto; background:#f3f3f3; 
     transition: left 0.3s cubic-bezier(0.77, 0, 0.175, 1); -webkit-transition: left 0.3s cubic-bezier(0.77, 0, 0.175, 1);}
     .allmenu-wrap .ui-acco-btn{line-height:40px; width:100%; padding:0 15px 0 20px; height:40px; font-size:13px; background:#fff;}
@@ -95,8 +96,9 @@
     .allmenu-wrap .util-menu span{font-size:6px; margin:0 10px; line-height:1.2; vertical-align: middle;}
     .allmenu-wrap .util-menu a{color:#8a8f9b; font-size:10px; line-height:1.2; font-weight:400; display:inline-block; vertical-align: middle;}
     .btn-allmenu-open{display:block; position:absolute; top:0; left:0; width:45px; height:45px; background:url(../../resources/img/common/btn_gnb.png) no-repeat 50% 50%; background-size:cover;}
-    .btn-allmenu-close{display:block; position:absolute; top:8px; left:10px; width:30px; height:30px; background:url(../../resources/img/common/btn_close.png) no-repeat 50% 50%; background-size:cover; border:1px solid #ccc;}
-    .gnb-bg{display:none}
+    .btn-allmenu-close{display:block; position:fixed; top:8px; left:-30px; width:30px; height:30px; background:url(../../resources/img/common/btn_close.png) no-repeat 50% 50% #fff; background-size:cover; border:1px solid #ccc; transition:all 0.3s;;opacity:0}
+	.base-header > .util-menu,
+	.gnb-bg{display:none}
 
     /* footer */
     .base-footer {padding:20px 0}
