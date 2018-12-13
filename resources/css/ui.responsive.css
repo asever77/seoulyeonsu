@@ -598,7 +598,7 @@
 	.guidance-wrap .ui-acco-pnl {padding:15px}
 
     .header-wrap.only-logo {padding:10px 0;border-bottom-width:2px}
-	#sHeader ~ .base-main .contents-area {padding-bottom:30px}
+	#sHeader ~ .base-main .contents-area {padding-bottom:30px;padding-top:65px}
 
 	.lnb-wrap {float:none;width:100%;padding:0}
 	.lnb-title {display:none}

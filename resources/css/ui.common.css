@@ -726,3 +726,5 @@ td .ico_secret {position:relative;top:-1px}
 .photo-item .photo-box .clamp {margin-top:14px;padding-left:10px;color:#596a7f;display:block;max-width:100%}
 .photo-item .photo-box .photo-name {text-align:center;color:#000}
 .photo-list ~ .paging-area {border-top:1px solid #c2c3c6}
+
+.pop .small-footer {padding-top:20px}
