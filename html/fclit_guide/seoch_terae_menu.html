@@ -1930,7 +1930,7 @@
 											</table>
 										</div>
 										<p class="text-indent_a mgt-xs">※ 상기 메뉴는 계절에 따라 변동될 수 있습니다.</p>
-										<button type="button" class="btn-basic1 small mgt-xs">메뉴구성</button>
+										<button type="button" class="btn-basic1 small mgt-xs" id="menuView01">메뉴구성</button>
 									</div>
 								</div>
 								<div class="img-text type-b">
@@ -2014,7 +2014,7 @@
 											</table>
 										</div>
 										<p class="text-indent_a mgt-xs">※ 테라스에서는 갓 뽑아낸 원두커피와 다양한 차, 그리고 맥주, 소주등 연수가족 여러분들의 편안한 휴식 공간입니다.</p>
-										<button type="button" class="btn-basic1 small mgt-xs">메뉴구성</button>
+										<button type="button" class="btn-basic1 small mgt-xs" id="menuView02">메뉴구성</button>
 									</div>
 								</div>
 								<div class="img-text type-b">
@@ -2335,6 +2335,45 @@
 	<!-- S : dialog -->
 	<div id="menuA" title="메뉴 보기">
 		<div class="layer-popup">
+			<p class="layer-big_a">서천 연수원 다산정 대식당 메뉴</p>
+			<div class="menu-img mgt-s">
+				<img src="../../resources/img/temp/menu.jpg" alt="">
+				<p class="h-type_c txt-c mgt-xs">주요메뉴</p>
+				<div class="food-list mgt-xs">
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s01.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s02.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s03.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s04.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s05.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s06.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s07.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s08.jpg" alt=""></div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/temp/food_s09.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="menuB" title="메뉴 보기">
+		<div class="layer-popup">
 			<p class="layer-big_a">서천 연수원 다산정 테라스 메뉴</p>
 			<div class="menu-img mgt-s">
 				<img src="../../resources/img/temp/menu.jpg" alt="">
@@ -2380,9 +2419,30 @@
 
             //page script
 			$plugins.page.facil();
+            $plugins.uiTab({ id:'facilitiesTab',  current:3});
 
             // 레이어 팝업
+            $("#menuView01").click(function(event) {
+                $("#menuA").dialog("open");
+                event.preventDefault();
+            });
+
+            $("#menuView02").click(function(event) {
+                $("#menuB").dialog("open");
+                event.preventDefault();
+            });
+
             $("#menuA").dialog({
+                autoOpen: false,
+                dialogClass: "no_title",
+                resizable: false,
+                minWidth:600,
+                maxHeight: 720,
+                modal: true
+            });
+
+            $("#menuB").dialog({
+                //autoOpen: false,
                 dialogClass: "no_title",
                 resizable: false,
                 minWidth:600,

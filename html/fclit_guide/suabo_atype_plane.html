@@ -170,7 +170,7 @@
 										<div class="info-area">
 											<div class="room-type-area">
 												<p class="room-type">A타입(78M<sup>2</sup>)</p>
-												<button type="button" class="btn-basic1">평면도 보기</button>
+												<button type="button" class="btn-basic1" id="roomView01">평면도 보기</button>
 											</div>
 											<div class="room-info">
 												<div class="room-info-group mgt-s">
@@ -272,7 +272,7 @@
 										<div class="info-area">
 											<div class="room-type-area">
 												<p class="room-type">B타입(53M<sup>2</sup>)</p>
-												<button type="button" class="btn-basic1">평면도 보기</button>
+												<button type="button" class="btn-basic1" id="roomView02">평면도 보기</button>
 											</div>
 											<div class="room-info">
 												<div class="room-info-group mgt-s">
@@ -374,7 +374,7 @@
 										<div class="info-area">
 											<div class="room-type-area">
 												<p class="room-type">O타입(33M<sup>2</sup>)</p>
-												<button type="button" class="btn-basic1">평면도 보기</button>
+												<button type="button" class="btn-basic1" id="roomView03">평면도 보기</button>
 											</div>
 											<div class="room-info">
 												<div class="room-info-group mgt-s">
@@ -2344,6 +2344,24 @@
 			</div>
 		</div>
 	</div>
+
+	<div id="floorB" title="객실평면도">
+		<div class="layer-popup">
+			<p class="layer-big_a">수안보 연수원 B형 객실 평면도</p>
+			<div class="floor-img mgt-s">
+				<img src="../../resources/img/contents/floor3_b.jpg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div id="floorO" title="객실평면도">
+		<div class="layer-popup">
+			<p class="layer-big_a">수안보 연수원 O형 객실 평면도</p>
+			<div class="floor-img mgt-s">
+				<img src="../../resources/img/contents/floor3_c.jpg" alt="">
+			</div>
+		</div>
+	</div>
 	<!-- E : dialog -->
 
 	<script>
@@ -2353,9 +2371,40 @@
 
             //page script
 			$plugins.page.facil();
+            $plugins.uiTab({ id:'facilitiesTab',  current:1});
 
             // 레이어 팝업
+            $("#roomView01").click(function(event) {
+                $("#floorA").dialog("open");
+                event.preventDefault();
+            });
+            $("#roomView02").click(function(event) {
+                $("#floorB").dialog("open");
+                event.preventDefault();
+            });
+            $("#roomView03").click(function(event) {
+                $("#floorO").dialog("open");
+                event.preventDefault();
+            });
+
             $("#floorA").dialog({
+                //autoOpen: false,
+                dialogClass: "no_title",
+                resizable: false,
+                minWidth:400,
+                maxHeight: 720,
+                modal: true
+            });
+            $("#floorB").dialog({
+                autoOpen: false,
+                dialogClass: "no_title",
+                resizable: false,
+                minWidth:500,
+                maxHeight: 720,
+                modal: true
+            });
+            $("#floorO").dialog({
+                autoOpen: false,
                 dialogClass: "no_title",
                 resizable: false,
                 minWidth:400,
