@@ -7,7 +7,7 @@
 
 	<meta name="keywords" content=""/>
 	<meta name="description" content=""/>
-    
+
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="mobile-web-app-capable" content="yes">
@@ -15,7 +15,7 @@
     <title>속초 연수원 | 서울시 연수원</title>
 
 	<link rel="apple-touch-icon" href="../../resources/img/common/ico_app.png" >
-	<link rel="shortcut icon" href="../../resources/img/common/ico_favicon.ico"> 
+	<link rel="shortcut icon" href="../../resources/img/common/ico_favicon.ico">
 
 	<link rel="stylesheet" href="../../resources/css/ui.base.css">
 
@@ -43,7 +43,7 @@
 					<h2 class="page-title">시설안내</h2>
 					<p class="page-title_en">FACILITIES</p>
 				</div>
-				
+
 				<div class="contents-area">
 					<!-- S : title area -->
 					<div class="type_view">
@@ -170,7 +170,7 @@
 										<div class="info-area">
 											<div class="room-type-area">
 												<p class="room-type">A타입(60M<sup>2</sup>)</p>
-												<button type="button" class="btn-basic1">평면도 보기</button>
+												<button type="button" class="btn-basic1" id="roomView01">평면도 보기</button>
 											</div>
 											<div class="room-info">
 												<div class="room-info-group mgt-s">
@@ -272,7 +272,7 @@
 										<div class="info-area">
 											<div class="room-type-area">
 												<p class="room-type">B타입(30M<sup>2</sup>)</p>
-												<button type="button" class="btn-basic1">평면도 보기</button>
+												<button type="button" class="btn-basic1" id="roomView02">평면도 보기</button>
 											</div>
 											<div class="room-info">
 												<div class="room-info-group mgt-s">
@@ -1281,24 +1281,68 @@
 					</div>
 					<!-- E : view area -->
 				</div>
-	
+
 				<!-- //content ---------------------------------------------------------------------------------------------- -->
 
 			</div>
 		</main>
 		<footer class="base-footer" id="baseFooter"></footer>
 	</div>
+	<!-- S : dialog -->
+	<div id="floorA" title="객실평면도">
+		<div class="layer-popup">
+			<p class="layer-big_a">속초 수련원 A형 객실 평면도</p>
+			<div class="floor-img mgt-s">
+				<img src="../../resources/img/contents/floor_a.jpg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div id="floorB" title="객실평면도">
+		<div class="layer-popup">
+			<p class="layer-big_a">속초 수련원 B형 객실 평면도</p>
+			<div class="floor-img mgt-s">
+				<img src="../../resources/img/contents/floor_b.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- E : dialog -->
 
 	<script>
-	;(function($, win, doc, undefined) {
-		$(doc).ready(function(){
-			console.log('page');
-			$plugins.page.menuID = 'M03_01';
+        ;(function($, win, doc, undefined) {
+            $(doc).ready(function(){
+                console.log('page');
+                //page script
+                $plugins.page.facil();
 
-            //page script
-			$plugins.page.facil();
-		});
-	})(jQuery, window, document);
+                // 레이어 팝업
+                $("#roomView01").click(function(event) {
+                    $("#floorA").dialog("open");
+                    event.preventDefault();
+                });
+                $("#roomView02").click(function(event) {
+                    $("#floorB").dialog("open");
+                    event.preventDefault();
+                });
+
+                $("#floorA").dialog({
+                    autoOpen: false,
+                    dialogClass: "no_title",
+                    resizable: false,
+                    minWidth:400,
+                    maxHeight: 720,
+                    modal: true
+                });
+                $("#floorB").dialog({
+                    autoOpen: false,
+                    dialogClass: "no_title",
+                    resizable: false,
+                    minWidth:500,
+                    maxHeight: 720,
+                    modal: true
+                });
+            });
+        })(jQuery, window, document);
 	</script>
 </body>
 </html>
