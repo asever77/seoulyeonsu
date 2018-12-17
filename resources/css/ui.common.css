@@ -576,7 +576,7 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 
 .tb-type_c {border-top:2px solid #000}
 .tb-type_c thead th {padding:14px 10px;text-align:center;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
-.tb-type_c tbody td {padding:13px 10px;text-align:center;color:#596a7f;line-height:26px;border-bottom:1px solid #c2c3c6}
+.tb-type_c tbody td {padding:13px 10px;text-align:center;color:#596a7f;line-height:26px;border-bottom:1px solid #c2c3c6;word-break:break-all}
 .tb-type_c tbody td a {color:#596a7f}
 .tb-type_c tbody td a:hover {text-decoration:underline}
 .tb-type_c tbody tr.noti-top td {background-color:#e4ecf7}
