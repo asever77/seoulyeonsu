@@ -84,6 +84,12 @@
             });
             */
 
+            //파일 선택
+            $(".file-upload .input-file").on("change", function() {
+                $(this).closest(".file-upload").find(".input-text").val(this.value.split("\\").pop());
+            });
+
+
             function getDate( element ) {
                 var date;
                 try {

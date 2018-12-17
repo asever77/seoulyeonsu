@@ -622,6 +622,10 @@
 
 	.group-sub .group-item {width:200px}
 	.group-sub .group-item ~  .group-item {margin-left:150px}
+
+	/* file */
+	.file-upload [class*='btn-basic'].small {min-width:5px;height:27px;line-height:27px}
+	.file-upload .file-name ~ .file-btns button {width:27px;height:27px}
 }
 
 
