@@ -374,6 +374,7 @@ sup {font-size:11px}
 .sh-item-from ~ .sh-item-from:before {content:'';position:absolute;left:0;top:30px;bottom:30px;display:block;width:1px;background-color:#dbdde6}
 .sh-item-btn {width:199px}
 .sh-item-btn .sh-btn {position:absolute;left:0;top:0;bottom:0;width:100%;display:block;color:#fff;font-size:32px;text-align:center;background-color:#309df1}
+.main-search-wrap .sh-item-btn .sh-btn {height:159px}
 .sh-item-btn .sh-btn span {display:block;color:#acdbff;font-size:18px;line-height:1;font-family:'Roboto', 'sans-serif'}
 .sh-box.type_b .sh-item-btn {width:222px}
 .sh-box.type_b .sh-item-from {padding:30px 52px}
