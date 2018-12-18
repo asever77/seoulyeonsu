@@ -693,6 +693,8 @@ td .ico_secret {position:relative;top:-1px}
 .small-in .small-in_txt {position:absolute;right:0;top:50%;margin-top:-13px}
 .small-in ~ .m_block {margin-left:10px}
 .col-w01 {width:30%}
+.form-row .ui-select-wrap.bottom {top:37px;left:1px}
+.form-row .ui-select-wrap.top {bottom:37px;left:1px}
 
 /* step */
 .step-area {margin-top:60px}
