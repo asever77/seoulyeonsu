@@ -103,7 +103,7 @@
 .goods-type-b .item-end{position: absolute; bottom:0; right:0; background:rgba(0,0,0,0.9); color:#fff; width:81px; height:39px; font-size:18px; text-align: center; font-weight:300; line-height: 39px;}
 .goods-type-b figcaption{display:block; width:100%; margin:20px 0 0; font-size:21px; color:#000; text-align: center;}
 .goods-type-b figcaption a{display:block;}
-.goods-type-b figcaption a b{display:block; width:100%;}
+.goods-type-b figcaption a b{display:block; width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 .goods-type-b figcaption a span{display:block; width:100%; padding:3px 0; font-size:17px; color:#9498ac;}
 .goods-type-b figcaption a .ico-arrow-a{width:auto; display:inline-block; padding-right:25px; background: url(../../resources/img/main/ico_arrow_a.png) no-repeat 100% 50%;}
 
