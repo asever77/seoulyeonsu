@@ -348,3 +348,6 @@
 .file-upload .file-name {padding:0 5px}
 .file-upload .file-name .input-text {width:100%}
 .file-upload .file-name ~ .file-btns button {font-size:0;width:37px;height:37px;border:1px solid #ccc;vertical-align:top;background-color:#e0e2e8;text-align:center}
+
+/* login-pop */
+.layer-popup .small-area {border:none;padding:0 10px}

@@ -1,7 +1,7 @@
 <div class="util-menu">
     <div class="util-menu-item">
-        <a href="#">로그아웃</a>
-        <a href="#">마이페이지</a>
+        <a href="#" id="LoginOpen">로그인 </a>
+        <a href="#">회원가입</a>
         <a href="#">연수원 운영규정</a>
     </div>
 </div>
@@ -185,3 +185,52 @@
     
 </div>
 <div class="gnb-bg"></div>
+
+<!-- S : dialog -->
+<div id="LoginPop" title="로그인">
+    <div class="layer-popup">
+        <p class="layer-big_a">로그인</p>
+        <div class="small-area">
+            <div class="login-form">
+                <div class="form-row mgt-s">
+                    <div class="form-col"><input type="text" placeholder="아이디"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col"><input type="password" placeholder="비밀번호"></div>
+                </div>
+                <div class="btn-login"><button type="button" class="btn-basic3">로그인</button></div>
+            </div>
+            <p class="error-txt point-col3 mgt-xs"><i>!</i>에러 메세지 노출</p>
+            <div class="login-nav mgt-s">
+                <a href="">회원가입</a>
+                <a href="">아이디/비밀번호 찾기</a>
+            </div>
+            <div class="location">
+                <a href="" class="point-col2"><i class="ico_common ico_map"></i>찾아오는 길</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- E : dialog -->
+
+<script>
+    ;(function($, win, doc, undefined) {
+        $(doc).ready(function(){
+
+            // 레이어 팝업
+            $("#LoginOpen").click(function(event) {
+                $("#LoginPop").dialog("open");
+                event.preventDefault();
+            });
+
+            $("#LoginPop").dialog({
+                autoOpen: false,
+                dialogClass: "no_title",
+                resizable: false,
+                minWidth:400,
+                maxHeight: 720,
+                modal: true
+            });
+        });
+    })(jQuery, window, document);
+</script>
