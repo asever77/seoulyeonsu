@@ -703,6 +703,11 @@
 	.tour-article-info .dot_list li:nth-child(4n+3) {background-color:#fff}
 	.tour-article-info .dot_list li:nth-child(even) {background-color:#f3f4f7}
 	.tour-article-info .dot_list li:before {top:17px}
+
+	/* new food */
+	.food-list_a .food-item {float:none;width:100%;margin:0 !important;padding-bottom:15px}
+	.food-list_a .food-item .food-name {font-size:16px}
+	.food-list_a .food-item:last-child {padding-bottom:0}
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}

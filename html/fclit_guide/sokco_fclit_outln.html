@@ -988,6 +988,7 @@
 												</tr>
 												</tbody>
 											</table>
+											<button type="button" class="btn-basic1 small mgt-xs" id="menuView01">메뉴구성</button>
 										</div>
 									</div>
 								</div>
@@ -1392,6 +1393,142 @@
 			</div>
 		</div>
 	</div>
+
+	<div id="menuA" title="메뉴 보기">
+		<div class="layer-popup">
+			<p class="layer-big_a">속초 연수원 식당 메뉴</p>
+			<div class="menu-img mgt-s">
+				<div class="food-list_a">
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food01.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">갈비탕</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>11,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>기본찬6, 나물2가지</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>갈비(호주산), 나머지 국산</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food02.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">된장찌개</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>16,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>돌솥밥, 된장찌개, 기본찬6, 나물 6, 잡채, 버섯탕수육, 제육볶음, 전, 더덕구이, 야채샐러드</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>생선(수입), 나머지 국산</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food03.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">황태해장국</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>8,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>기본찬6, 나물 3가지</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>황태(러시아산, 용대리채)</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food04.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">강원나물밥</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>11,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>기본찬6, 나물3, 잡채, 제육볶음, 된장찌개</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>국내산</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food05.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">황태정식</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>13,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>기본찬 6, 나물 6, 황태국, 황태구이</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>황태(러시아산, 용대리채), 나머지 국산</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food06.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">버섯탕수육</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>12,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>표고버섯, 부추, 양파</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>국내산</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="food-item">
+						<div class="food-img"><img src="../../resources/img/contents/sokco_food07.jpg" alt=""></div>
+						<div class="food-info">
+							<p class="food-name">돈까스</p>
+							<dl>
+								<dt>가격 :</dt>
+								<dd>8,000원</dd>
+							</dl>
+							<dl>
+								<dt>구성 :</dt>
+								<dd>야채, 과일, 단무지</dd>
+							</dl>
+							<dl>
+								<dt>원산지 :</dt>
+								<dd>국내산</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- E : dialog -->
 
 	<script>
@@ -1410,6 +1547,10 @@
                     $("#floorB").dialog("open");
                     event.preventDefault();
                 });
+                $("#menuView01").click(function(event) {
+                    $("#menuA").dialog("open");
+                    event.preventDefault();
+                });
 
                 $("#floorA").dialog({
                     autoOpen: false,
@@ -1424,6 +1565,14 @@
                     dialogClass: "no_title",
                     resizable: false,
                     minWidth:500,
+                    maxHeight: 720,
+                    modal: true
+                });
+                $("#menuA").dialog({
+                    autoOpen: false,
+                    dialogClass: "no_title",
+                    resizable: false,
+                    minWidth:600,
                     maxHeight: 720,
                     modal: true
                 });
