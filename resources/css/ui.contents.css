@@ -352,6 +352,7 @@
 /* login-pop */
 .layer-popup .small-area {border:none;padding:0 10px}
 
+/* S : 2019-01-09 add */
 /* new food */
 .food-list_a:after {content:'';display:block;clear:both}
 .food-list_a .food-item {float:left;width:32%;margin-right:2%;padding-bottom:30px}
@@ -370,3 +371,28 @@
 .layer-popup .food-list_a .food-item:nth-child(2n) {margin-right:0}
 .layer-popup .food-list_a .food-item:nth-child(3n+1) {clear:right}
 .layer-popup .food-list_a .food-item:nth-child(2n+1) {clear:both}
+
+/* 달력 */
+.calendar-pop .btn-full.btn-tb {display:table;width:calc(100% + 40px);table-layout:fixed}
+.calendar-pop .btn-full.btn-tb .btn-cols {display:table-cell}
+
+.ui-widget.ui-dialog.ui-widget-content.full_ .layer-popup {padding-left:15px;padding-right:15px}
+.reserve-today {position:absolute;width:295px;top:35px;left:30px;padding-right:95px}
+.reserve-today button {position:absolute;right:0;top:0}
+.reserve-sell .ui-select,
+.reserve-sell .ui-select .ui-select-btn {width:100%}
+.reserve-calender {border-top:2px solid #222;margin-top:15px;padding-top:15px}
+.reserve-calender-top .reserve-month {position:relative;text-align:center}
+.reserve-calender-top .calendar-year {color:#000;font-family:'Roboto', 'sans-serif';font-size:22px;font-weight:500}
+.reserve-calender-top .ico_from[class*='calendar-'] {position:absolute;top:12px;left:50%;font-size:0;width:7px;height:14px;cursor:pointer;z-index:10}
+.reserve-calender-top .calendar-prev {margin-left:-70px}
+.reserve-calender-top .calendar-next {margin-left:60px}
+.reserve-calender .calendar-box .calendar-item {padding:0}
+.reserve-calender .calendar-item table tbody td {vertical-align:top}
+.reserve-calender .calendar-item table tbody td.today {position:relative;background-color:#e9f3fa}
+.reserve-calender .calendar-item table tbody td.today:before {content:'';position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid #309df1}
+.reserve-calender .calendar-item table tbody td.today button {color:#309df1}
+.reserve-calender .calendar-item table tbody button {height:100%;text-align:right;padding:8px;line-height:20px}
+.reserve-calender .calendar-item table tbody button .day {display:block;font-size:13px;font-family:'Roboto','sans-serif'}
+.reserve-calender .calendar-item table tbody button .possible-item {display:block;text-align:left;font-family:'Noto Sans KR','sans-serif';color:#666}
+/* E : 2019-01-09 add */

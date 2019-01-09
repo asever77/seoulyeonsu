@@ -704,10 +704,21 @@
 	.tour-article-info .dot_list li:nth-child(even) {background-color:#f3f4f7}
 	.tour-article-info .dot_list li:before {top:17px}
 
+	/* S : 2019-01-09 add */
 	/* new food */
 	.food-list_a .food-item {float:none;width:100%;margin:0 !important;padding-bottom:15px}
 	.food-list_a .food-item .food-name {font-size:16px}
 	.food-list_a .food-item:last-child {padding-bottom:0}
+
+	/* 달력 */
+	.ui-widget.ui-dialog.ui-widget-content.full_ {width:100% !important}
+	.ui-widget.ui-dialog.ui-widget-content.full_ .layer-popup {padding:0}
+	.reserve-today {position:relative;top:0;width:100%;left:0}
+	.reserve-today [class*='btn-basic'].small {height:30px;line-height:30px}
+	.reserve-calender-top {margin-top:15px}
+	.reserve-calender .calendar-item table tbody button {line-height:14px;padding:5px}
+	.reserve-calender .calendar-item table tbody button .possible-item {font-size:10px}
+	/* E : 2019-01-09 add */
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<title>비밀번호 변경 | 서울시 연수원</title>
+
+	<link rel="apple-touch-icon" href="../../resources/img/common/ico_app.png" >
+	<link rel="shortcut icon" href="../../resources/img/common/ico_favicon.ico">
+
+	<link rel="stylesheet" href="../../resources/css/ui.base.css">
+
+	<script src="../../resources/js/lib/jquery-3.2.1.min.js"></script>
+	<script src="../../resources/js/lib/jquery-ui.min.js"></script>
+	<script src="../../resources/js/lib/jquery.smoothwheel.js"></script>
+	<script src="../../resources/js/lib/owl.carousel.js"></script>
+
+	<script src="../../resources/js/ui.plugins.js"></script>
+	<script src="../../resources/js/ui.common.js"></script>
+	<script src="../../resources/js/ui.page.js"></script>
+	<!--<script>
+        $(document).ready(function() {
+            $(".login-banner .ico_close").click(function () {
+                $('.login-banner').css('display', 'none');
+            });
+        })
+	</script>-->
+
+</head>
+
+<body>
+<!-- S : banner -->
+<!--<div class="login-banner">
+	<div class="contents-area">
+		<p class="fsize-b point-col2">회원통합 진행중입니다.</p>
+		<p class="fsize-m point-col3 mgt-xs">기존 연수원 아이디로는 로그인을 진행하실 수 없습니다.</p>
+		<p>기존 속초연수원, 서천/수안보 연수원 사이트에 ID를 보유하고 계신분은 하단의 <span class="point-col2">‘회원통합’</span> 버튼을 눌러 회원통합을 진행하여 주십시오. </p>
+	</div>
+	<button type="button" class="ico_common ico_close">닫기</button>
+</div>-->
+<!-- E : banner -->
+<div class="base-skip" id="baseSkip"></div>
+<div class="base-layer" id="baseLayer"></div>
+<div class="base-wrap" id="baseWrap">
+	<header class="base-header" id="sHeader"></header>
+	<main class="base-main" id="baseMain" role="main">
+		<div class="base-content" id="baseContent">
+
+			<!-- content ---------------------------------------------------------------------------------------------- -->
+
+			<div class="contents-area">
+				<!-- S : title area -->
+				<div class="title-box type-b">
+					<h2 class="h-type_a">비밀번호 변경</h2>
+				</div>
+				<!-- E : title area -->
+
+				<!-- S : login area -->
+				<div class="small-area mgt-m">
+					<p class="fsize-m txt-c">회원님은 비밀번호 변경 안내 대상입니다.</p>
+					<p class="fsize-s txt-c mgt-xs">서울시 공무원 연수원에서는 회원님의 개인정보를 안전하게 보호하고, <br>개인정보도용으로 인한 피해를 예방하기 위해 <br><span class="point-col2">90일 이상 비밀번호를 변경하지 않은 경우</span> 비밀번호 변경을 안내하고 있습니다.</p>
+					<p class="fsize-s txt-c mgt-xs">비밀번호 변경을 원하지 않을 경우 <br>‘다음에 변경하기‘ 버튼을 눌러 90일동안 안내를 받지 않을 수 있습니다.</p>
+					<div class="form-row mgt-s">
+						<div class="form-col"><input type="password" placeholder="현재 비밀번호"></div>
+					</div>
+					<div class="form-row">
+						<div class="form-col"><input type="password" placeholder="새 비밀번호"></div>
+					</div>
+					<div class="form-row">
+						<div class="form-col"><input type="password" placeholder="새 비밀번호 확인"></div>
+					</div>
+					<!--<p class="error-txt point-col3 mgt-xs"><i>!</i>에러 메세지 노출</p>-->
+					<ul class="dot_list small mgt-xs">
+						<li class="fsize-s point-col4">비밀번호는 영문, 숫자, 특수문자 3종류를 조합하여 9자리 이상으로 입력하여 주십시오.</li>
+						<li class="fsize-s point-col4">키보드 연속배열(asdf, 1234), 연속동일문자(aaaa, 1111)는 사용하실 수 없습니다.</li>
+					</ul>
+					<p class="fsize-s  point-col4"> <br></p>
+					<!-- S : button area -->
+					<div class="btn-area mgt-ms">
+						<button type="button" class="btn-basic1">변경하기</button>
+						<button type="button" class="btn-basic3">다음에 변경하기</button>
+					</div>
+					<!-- E : button area -->
+				</div>
+				<!-- E : login area -->
+				<footer class="small-footer" id="sFooter"></footer>
+			</div>
+
+			<!-- //content ---------------------------------------------------------------------------------------------- -->
+
+		</div>
+	</main>
+</div>
+
+<script>
+    ;(function($, win, doc, undefined) {
+        $(doc).ready(function(){
+            console.log('page');
+            $plugins.page.template();
+        });
+    })(jQuery, window, document);
+</script>
+</body>
+</html>

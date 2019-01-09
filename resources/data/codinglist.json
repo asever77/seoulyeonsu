@@ -9,6 +9,7 @@
   {"state":"완료","date":"181121","end":"181112","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"onlneRsv","d1":"온라인예약","d2":"","d3":"","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
   {"state":"완료","date":"181121","end":"181130","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_guide","d1":"","d2":"","d3":"예약안내","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
   {"state":"완료","date":"181121","end":"18112","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_calendar","d1":"","d2":"","d3":"달력","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
+  {"state":"완료","date":"190109","end":"190109","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_calendar2","d1":"","d2":"","d3":"예약가능객실","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
   {"state":"완료","date":"181121","end":"18112","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_limit_mbmr_alarm","d1":"","d2":"","d3":"예약 제한 회원 알람","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
   {"state":"완료","date":"181121","end":"18112","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_duty_scdue_mbmr_alarm","d1":"","d2":"","d3":"퇴직 예정 회원 알람","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
   {"state":"완료","date":"181121","end":"18112","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_org_asign_perod_alarm","d1":"","d2":"","d3":"기간배정 기간 알람","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../onlne_rsv/","memo":""},
@@ -91,5 +92,6 @@
   {"state":"완료","date":"18113","end":"181201","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"rsv_use_list","d1":"","d2":"이용내역","d3":"","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../mypge/","memo":""},
   {"state":"완료","date":"18113","end":"181129","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"panalty_brkdw","d1":"","d2":"패널티내역","d3":"","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../mypge/","memo":""},
   {"state":"완료","date":"18113","end":"181129","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"mbmr_info_mng_pwd_confm","d1":"","d2":"회원정보관리","d3":"비밀번호 확인","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../mypge/","memo":""},
-  {"state":"완료","date":"18113","end":"181129","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"mbmr_info_mng_upd_finih","d1":"","d2":"","d3":"수정","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../mypge/","memo":""}
+  {"state":"완료","date":"18113","end":"181129","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"mbmr_info_mng_upd_finih","d1":"","d2":"","d3":"수정","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../mypge/","memo":""},
+  {"state":"완료","date":"190109","end":"190109","pub":"미정","pop":"","modal":"","tab":"","overlap":"","id":"old_pw_change","d1":"비밀번호 변경","d2":"","d3":"","d4":"","d5":"","d6":"","d7":"","d8":"","root":"../login/","memo":""}
 ]}

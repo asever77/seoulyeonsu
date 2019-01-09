@@ -38,8 +38,8 @@
 .ui-select .ui-select-btn:disabled {cursor:not-allowed;border-color:#d5d6db;background-color:#e5e5e5;color:rgba(0,0,0,.5) !important}
 
 .ui-select-wrap.on{display:block}
-.ui-select-wrap.top{bottom:46px}
-.ui-select-wrap.bottom{top:46px}
+.ui-select-wrap.top{bottom:37px}
+.ui-select-wrap.bottom{top:37px}
 .ui-select-wrap{display:none; position:absolute; z-index:100; left:0; width:auto; border:1px solid #000; background:#fff; overflow-y:auto; max-height:150px}
 .ui-select-opt{display:block; float:left; width:100%; padding:5px 20px 5px 10px; height:30px; text-align:left; background:#fff; white-space:nowrap}
 .ui-select-opt.selected{font-weight:600; text-decoration:underline; background:#444; color:#fff;}
