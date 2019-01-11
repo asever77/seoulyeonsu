@@ -378,8 +378,10 @@ sup {font-size:11px}
 .sh-item-btn .sh-btn span {display:block;color:#acdbff;font-size:18px;line-height:1;font-family:'Roboto', 'sans-serif'}
 .sh-box.type_b .sh-item-btn {width:222px}
 .sh-box.type_b .sh-item-from {padding:30px 52px}
-/* .sh-box .ui-select-wrap.bottom {top:47px}
-.sh-box .ui-select-wrap.top {bottom:47px} */
+/* S : 2019-01-11 modify */
+.sh-box.type_c .ui-select-wrap.bottom {top:47px}
+.sh-box.type_c .ui-select-wrap.top {bottom:47px}
+/* E : 2019-01-11 modify */
 .sh-box.type_c {padding:20px 20px 20px 30px;display:block}
 .sh-box.type_c .sh-item-from {padding:0;display:block;float:left}
 .sh-box.type_c:after {content:'';display:block;clear:both}

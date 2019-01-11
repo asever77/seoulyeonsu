@@ -716,8 +716,12 @@
 	.reserve-today {position:relative;top:0;width:100%;left:0}
 	.reserve-today [class*='btn-basic'].small {height:30px;line-height:30px}
 	.reserve-calender-top {margin-top:15px}
-	.reserve-calender .calendar-item table tbody button {line-height:14px;padding:5px}
-	.reserve-calender .calendar-item table tbody button .possible-item {font-size:10px}
+	/* S : 2019-01-11 modify */
+	.reserve-calender .calendar-item table tbody button,
+	.reserve-calender .calendar-item table tbody .days {line-height:14px;padding:5px}
+	.reserve-calender .calendar-item table tbody button .possible-item,
+	.reserve-calender .calendar-item table tbody .days .possible-item {font-size:10px}
+	/* E : 2019-01-11 modify */
 	/* E : 2019-01-09 add */
 }
 @media (max-width:360px) {

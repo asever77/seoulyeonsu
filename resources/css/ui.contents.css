@@ -377,8 +377,9 @@
 .calendar-pop .btn-full.btn-tb .btn-cols {display:table-cell}
 
 .ui-widget.ui-dialog.ui-widget-content.full_ .layer-popup {padding-left:15px;padding-right:15px}
-.reserve-today {position:absolute;width:295px;top:35px;left:30px;padding-right:95px}
-.reserve-today button {position:absolute;right:0;top:0}
+/* S : 2019-01-11 modify */
+.reserve-today {position:absolute;width:295px;top:35px;left:30px}
+/*.reserve-today button {position:absolute;right:0;top:0}*/
 .reserve-sell .ui-select,
 .reserve-sell .ui-select .ui-select-btn {width:100%}
 .reserve-calender {border-top:2px solid #222;margin-top:15px;padding-top:15px}
@@ -392,7 +393,14 @@
 .reserve-calender .calendar-item table tbody td.today {position:relative;background-color:#e9f3fa}
 .reserve-calender .calendar-item table tbody td.today:before {content:'';position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid #309df1}
 .reserve-calender .calendar-item table tbody td.today button {color:#309df1}
-.reserve-calender .calendar-item table tbody button {height:100%;text-align:right;padding:8px;line-height:20px}
+.reserve-calender .calendar-item table tbody .days,
+.reserve-calender .calendar-item table tbody button {height:100%;text-align:right;padding:8px;line-height:20px;font-size:14px;font-family:'Roboto', 'sans-serif';color:#999}
+.reserve-calender .calendar-item table tbody .days .day,
 .reserve-calender .calendar-item table tbody button .day {display:block;font-size:13px;font-family:'Roboto','sans-serif'}
+.reserve-calender .calendar-item table tbody .days.day-prev {opacity: .8;color:#e2dfdf !important}
+.reserve-calender .calendar-item table tbody .days .possible-item,
 .reserve-calender .calendar-item table tbody button .possible-item {display:block;text-align:left;font-family:'Noto Sans KR','sans-serif';color:#666}
+.calendar-item table tbody td.sun .days,
+.calendar-item table tbody td.holiday .days {color:#cf214d}
 /* E : 2019-01-09 add */
+/* E : 2019-01-11 modify */
