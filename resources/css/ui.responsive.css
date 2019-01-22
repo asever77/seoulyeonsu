@@ -370,6 +370,17 @@
 	.not-thead .td-t-day6:before {content:'체크아웃 : '}
 	.not-thead .td-t-point:before {content:'차감포인트 : '}
 	.not-thead .td-t-point2:before {content:'차감포인트 합계 : ';color:#000 !important}
+	/* S : 2019-01-22 add */
+	.not-thead .td-t-usearea:before {content:'이용연수원 : '}
+	.not-thead .td-t-name:before {content:'이름 : '}
+	.not-thead .td-t-birthday:before {content:'생년월일 앞 8자리 : '}
+	.not-thead .td-t-phone:before {content:'휴대폰번호 : '}
+	.not-thead .td-t-attach:before {content:'소속 : '}
+
+	.tb-type_c.not-thead tbody.with-check tr {padding:8px 10px 8px 25px;position:relative}
+	.tb-type_c.not-thead tbody td.only-check {position:absolute;left:0;top:8px}
+	.layer-popup .tb-type_c tbody.with-check td {padding:5px}
+	/* E : 2019-01-22 add */
 
 	.tbody-group {position:relative;display:block;padding-bottom:24px;border-bottom:1px solid #000}
 	.tb-type_c.not-thead .tbody-group tr ~ tr {padding-top:0}
