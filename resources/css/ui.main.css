@@ -111,6 +111,8 @@
 .goods-type-b figcaption a span{display:block; width:100%; padding:3px 0; font-size:17px; color:#9498ac;}
 .goods-type-b figcaption a .ico-arrow-a{width:auto; display:inline-block; padding-right:25px; background: url(../../resources/img/main/ico_arrow_a.png) no-repeat 100% 50%;}
 
+.only-mobile {display:none}
+
 /* main responsive */
 @media (max-width:1024px) {
     .only-d{display:none;}
@@ -188,6 +190,8 @@
     .main-visual-wrap .owl-carousel .owl-dots {top:200px}
     .main-search-wrap .sh-item-btn .sh-btn {height:38px}
     /* E : 2019-01-09 modify */
+
+    .only-mobile {display:block}
 }
 
 

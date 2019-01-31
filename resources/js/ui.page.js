@@ -64,6 +64,7 @@
         $plugins.uiTab({ id:'mainInfoTab', callback:tabSlideInfo, unres:true });
         function tabSlideInfo(v){
             $('#mainInfo').trigger('destroy.owl.carousel');
+            $('#mainInfoM').trigger('destroy.owl.carousel');
             $plugins.uiAjax({
                 id: 'mainInfo',
                 url: '../../html/main/info_'+ (v.current + 1) +'.html',
@@ -80,6 +81,36 @@
                     autoplay:true,
                     autoplayTimeout:6000,
                     onInitialized : $plugins.page.owlcallback, 
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        768:{
+                            items:2
+                        },
+                        1024:{
+                            items:2
+                        }
+                    }
+                });
+            }
+
+            $plugins.uiAjax({
+                id: 'mainInfoM',
+                url: '../../html/main/infom_'+ (v.current + 1) +'.html',
+                page: true,
+                callback: infoSlideM
+            });
+
+            function infoSlideM(){
+                $('#mainInfoM').owlCarousel({
+                    loop: true,
+                    margin:40,
+                    dot: true,
+                    nav: false,
+                    autoplay:true,
+                    autoplayTimeout:6000,
+                    onInitialized : $plugins.page.owlcallback,
                     responsive:{
                         0:{
                             items:1
