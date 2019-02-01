@@ -404,3 +404,11 @@
 .calendar-item table tbody td.holiday .days {color:#cf214d}
 /* E : 2019-01-09 add */
 /* E : 2019-01-11 modify */
+
+/* S : 2019-02-01 add */
+.popup {text-align:center}
+.popup .popup-tit {padding:10px;text-align:center;font-size:24px;color:#000}
+.popup .noti-img img {max-width:100%;vertical-align:top}
+.popup .not-today {padding:5px 10px;text-align:left;background-color:#333}
+.popup .not-today .checkbox label {color:#eee}
+/* E : 2019-02-01 add */
