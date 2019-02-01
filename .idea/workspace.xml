@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ded9287-931d-4154-933f-cc44c67c7d35" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="8ded9287-931d-4154-933f-cc44c67c7d35" name="Default Changelist" comment="시서">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/info_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/info_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/info_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/info_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/info_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/info_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/infom_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/infom_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/infom_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/infom_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main/infom_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main/infom_3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,66 +62,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
+      <file leaf-file-name="seoch_fclit_outln.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_fclit_outln.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/mypge/rsv_brkdw_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2445">
-              <caret line="163" column="59" selection-start-line="163" selection-start-column="53" selection-end-line="163" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/mypge/rsv_use_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2385">
-              <caret line="159" column="61" selection-start-line="159" selection-start-column="61" selection-end-line="159" selection-end-column="61" />
+            <state relative-caret-position="15770">
+              <caret line="1313" column="113" selection-start-line="1313" selection-start-column="113" selection-end-line="1313" selection-end-column="113" />
               <folding>
-                <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#2;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#3;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#4;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#5;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#7;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#8;n#colgroup#0;n#table#0;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#section#3;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
+      <file leaf-file-name="info_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/info_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9735">
-              <caret line="649" column="8" selection-start-line="649" selection-start-column="1" selection-end-line="649" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
+      <file leaf-file-name="info_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/info_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="105" column="117" selection-start-line="105" selection-start-column="105" selection-end-line="105" selection-end-column="117" />
+            <state relative-caret-position="513">
+              <caret line="180" column="80" selection-start-line="180" selection-start-column="80" selection-end-line="180" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
+      <file leaf-file-name="infom_2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/infom_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="348" column="85" selection-start-line="348" selection-start-column="85" selection-end-line="348" selection-end-column="85" />
+            <state relative-caret-position="475">
+              <caret line="37" column="80" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infom_3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/infom_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info_3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/main/info_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="238" column="16" lean-forward="true" selection-start-line="238" selection-start-column="16" selection-end-line="238" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infom_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/infom_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2166">
+              <caret line="114" column="79" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/ui.main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3363">
+              <caret line="194" column="82" lean-forward="true" selection-start-line="194" selection-start-column="82" selection-end-line="194" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="69" column="71" lean-forward="true" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -123,39 +167,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.tb-type_c tbody td</find>
-      <find>mini-noti</find>
-      <find>result-</find>
-      <find>sh-box</find>
-      <find>box-module_a</find>
-      <find>tab-wrap</find>
-      <find>photo_reply_detail</find>
-      <find>inp-date</find>
-      <find>/* dialog */</find>
-      <find>admin-comment</find>
-      <find>fileupload</find>
-      <find>tb-type_b</find>
-      <find>.ui-file-wrap</find>
-      <find>.ui-file</find>
-      <find>ui-file-wrap</find>
-      <find>.btn-del</find>
-      <find />
-      <find>0</find>
-      <find>view-title</find>
-      <find>tab-type</find>
-      <find>tab-</find>
-      <find>dot_list</find>
-      <find>link-type_a</find>
-      <find>.fake-table</find>
-      <find>h-type_b</find>
-      <find>img-text</find>
-      <find>uiTab</find>
-      <find>mainInfo</find>
-      <find>text-area</find>
-      <find>owlCarousel</find>
+      <find>gnb-bg</find>
+      <find>대식당</find>
+      <find>카페테</find>
+      <find>마트</find>
+      <find>족구</find>
+      <find>평</find>
+      <find>평면도</find>
+      <find>평면</find>
+      <find>roomView01</find>
+      <find>체육</find>
+      <find>menuView01</find>
+      <find>메뉴구</find>
+      <find>clam</find>
+      <find>106</find>
+      <find>root</find>
+      <find>file-upload</find>
+      <find>border-bottom:1px solid #c2c3c6;color:#666;font-size:16px;padding:15px 20px;text-align:left;</find>
+      <find>border-bottom:1px solid #c2c3c6;background-color:#e0e2e8;color:#000;font-size:16px;padding:15px 20px;</find>
+      <find>menuA</find>
+      <find>food-list</find>
+      <find>식당</find>
+      <find>menuView02</find>
+      <find>.calendar-pop .btn-full</find>
+      <find>개&lt;/</find>
+      <find>new food</find>
+      <find>Select</find>
+      <find>대강당</find>
+      <find>class=&quot;active&quot;</find>
+      <find>parameter</find>
+      <find>&lt;span&gt;Detail view&lt;/span&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
+      <replace>&lt;i class=&quot;ico_common ico_tel&quot;&gt;&lt;/i&gt;</replace>
+      <replace>border-bottom:1px solid #c2c3c6;line-height:28px;color:#666;font-size:16px;padding:13px 20px;text-align:left;</replace>
+      <replace>border-bottom:1px solid #c2c3c6;background-color:#e0e2e8;color:#000;;vertical-align:top;line-height:28px;font-size:16px;padding:13px 20px;</replace>
+      <replace>&lt;span class=&quot;only-pc&quot;&gt;개&lt;/span&gt;&lt;/</replace>
+      <replace>&lt;span&gt;&lt;/span&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,57 +213,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/reserve/H01_0101_00.html" />
-        <option value="$PROJECT_DIR$/html/reserve/H01_0004_00.html" />
-        <option value="$PROJECT_DIR$/html/reserve/H01_0001_00.html" />
-        <option value="$PROJECT_DIR$/html/community/H05_0301_00.html" />
-        <option value="$PROJECT_DIR$/html/community/H05_0103_00.html" />
-        <option value="$PROJECT_DIR$/html/community/H05_0102_00.html" />
-        <option value="$PROJECT_DIR$/html/cs_center/H04_0101_00.html" />
-        <option value="$PROJECT_DIR$/html/community/H05_0104_00.html" />
-        <option value="$PROJECT_DIR$/html/community/H05_0201_00.html" />
-        <option value="$PROJECT_DIR$/resources/data/codinglist.json" />
-        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_detil.html" />
-        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_detil.html" />
-        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_ins.html" />
-        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/cymad/photo_galay_emply_upt.html" />
-        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply.html" />
-        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_finih.html" />
-        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_guide.html" />
-        <option value="$PROJECT_DIR$/html/cymad/sasfc_invst_emply_resut.html" />
-        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_ins.html" />
-        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_upt.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/event_emply_detil.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/event_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/faq_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_detil.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_ins.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/iqury_emply_upt.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_detil.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_ins.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_list.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_upt.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/notice_emply_detil.html" />
-        <option value="$PROJECT_DIR$/html/guest_centr/notice_emply_list.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/onlneRsv.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/reserve_application.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_bdhst_perod_alarm.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_duty_scdue_mbmr_alarm.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_finih.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_limit_mbmr_alarm.html" />
-        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_modify_finih.html" />
         <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_org_asign_perod_alarm.html" />
-        <option value="$PROJECT_DIR$/html/inc/header.html" />
-        <option value="$PROJECT_DIR$/resources/css/ui.common.css" />
         <option value="$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/html/trctr_intce/sokco_invit_word.html" />
+        <option value="$PROJECT_DIR$/html/trctr_intce/seoch_invit_word.html" />
+        <option value="$PROJECT_DIR$/html/trctr_intce/suabo_invit_word.html" />
+        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html" />
+        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_detail_repat_info.html" />
+        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_detail_repat_info_room.html" />
+        <option value="$PROJECT_DIR$/html/login/login_seoch_fdrod.html" />
+        <option value="$PROJECT_DIR$/html/login/login_sokco_fdrod.html" />
+        <option value="$PROJECT_DIR$/html/login/login_suabo_fdrod.html" />
+        <option value="$PROJECT_DIR$/html/guest_centr/lsace_decle_list.html" />
+        <option value="$PROJECT_DIR$/resources/js/ui.common.js" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_terae_menu.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/sokco_atype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/sokco_btype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_atype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_btype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_ctype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_atype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_btype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_otype_plane.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_cantn_menu.html" />
+        <option value="$PROJECT_DIR$/html/email/satisfaction.html" />
+        <option value="$PROJECT_DIR$/html/email/reservation_cancel.html" />
+        <option value="$PROJECT_DIR$/html/email/reservation_end.html" />
+        <option value="$PROJECT_DIR$/html/inc/header.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/sokco_fclit_outln.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_rstrt_menu.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_rstrt_menu.html" />
+        <option value="$PROJECT_DIR$/html/login/old_pw_change.html" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html" />
+        <option value="$PROJECT_DIR$/resources/data/codinglist.json" />
+        <option value="$PROJECT_DIR$/resources/css/ui.plugins.css" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/suabo_fclit_outln.html" />
+        <option value="$PROJECT_DIR$/resources/css/ui.common.css" />
+        <option value="$PROJECT_DIR$/html/onlne_rsv/rsv_calendar2.html" />
         <option value="$PROJECT_DIR$/resources/css/ui.contents.css" />
         <option value="$PROJECT_DIR$/resources/css/ui.responsive.css" />
-        <option value="$PROJECT_DIR$/resources/js/ui.common.js" />
-        <option value="$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html" />
+        <option value="$PROJECT_DIR$/html/mbmr_combn/mbmr_info_transfer.html" />
+        <option value="$PROJECT_DIR$/html/fclit_guide/seoch_fclit_outln.html" />
+        <option value="$PROJECT_DIR$/html/main/main.html" />
+        <option value="$PROJECT_DIR$/resources/css/ui.main.css" />
+        <option value="$PROJECT_DIR$/resources/js/ui.page.js" />
+        <option value="$PROJECT_DIR$/html/main/info_1.html" />
+        <option value="$PROJECT_DIR$/html/main/infom_1.html" />
+        <option value="$PROJECT_DIR$/html/main/infom_2.html" />
+        <option value="$PROJECT_DIR$/html/main/info_2.html" />
+        <option value="$PROJECT_DIR$/html/main/infom_3.html" />
+        <option value="$PROJECT_DIR$/html/main/info_3.html" />
       </list>
     </option>
   </component>
@@ -224,11 +273,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1979" />
-    <option name="y" value="59" />
-    <option name="width" value="1582" />
-    <option name="height" value="986" />
+    <option name="x" value="2032" />
+    <option name="y" value="139" />
+    <option name="width" value="1581" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -242,6 +294,40 @@
               <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
               <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seoulyeonsu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seoulyeonsu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -251,17 +337,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/tour_guide" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ETC\seoulyeonsu\html\tour_guide" />
-      <recent name="E:\ETC\seoulyeonsu\html\reserve" />
-      <recent name="E:\ETC\seoulyeonsu\html\community" />
-      <recent name="E:\ETC\seoulyeonsu\html\cs_center" />
-      <recent name="E:\ETC\seoulyeonsu\resources\css" />
+      <recent name="E:\ETC\seoulyeonsu\html\main" />
+      <recent name="E:\ETC\seoulyeonsu\html\onlne_rsv" />
+      <recent name="E:\ETC\seoulyeonsu\html\login" />
+      <recent name="E:\ETC\seoulyeonsu\html\email" />
+      <recent name="E:\ETC\seoulyeonsu\html\fclit_guide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,41 +380,24 @@
       <workItem from="1542679947480" duration="17707000" />
       <workItem from="1542765676246" duration="6082000" />
       <workItem from="1542784668784" duration="15478000" />
-    </task>
-    <task id="LOCAL-00001" summary="페이지 작업 시작">
-      <created>1541406171942</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541406171942</updated>
-    </task>
-    <task id="LOCAL-00002" summary="예약페이지 작업">
-      <created>1541475169931</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1541475169931</updated>
-    </task>
-    <task id="LOCAL-00003" summary="예약 step1">
-      <created>1541492719498</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1541492719498</updated>
-    </task>
-    <task id="LOCAL-00004" summary="예약신청 step1">
-      <created>1541558144889</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1541558144889</updated>
-    </task>
-    <task id="LOCAL-00005" summary="풋터 추가">
-      <created>1541569110624</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1541569110624</updated>
+      <workItem from="1543968116960" duration="5916000" />
+      <workItem from="1543979489064" duration="2579000" />
+      <workItem from="1544401041895" duration="33492000" />
+      <workItem from="1544752916052" duration="3110000" />
+      <workItem from="1544771361420" duration="1658000" />
+      <workItem from="1545092954526" duration="433000" />
+      <workItem from="1545108930056" duration="9737000" />
+      <workItem from="1545798356220" duration="78000" />
+      <workItem from="1545971482691" duration="2731000" />
+      <workItem from="1546216807980" duration="599000" />
+      <workItem from="1546473752709" duration="8222000" />
+      <workItem from="1546850541319" duration="20820000" />
+      <workItem from="1547185145016" duration="2887000" />
+      <workItem from="1547200064250" duration="594000" />
+      <workItem from="1547423731427" duration="610000" />
+      <workItem from="1548122135020" duration="1690000" />
+      <workItem from="1548909873344" duration="6989000" />
+      <workItem from="1548978789939" duration="763000" />
     </task>
     <task id="LOCAL-00006" summary="가이드 추가">
       <created>1541570719869</created>
@@ -469,33 +539,257 @@
       <option name="project" value="LOCAL" />
       <updated>1542844771235</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="시설안내 이미지 추가">
+      <created>1543968898599</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1543968898599</updated>
+    </task>
+    <task id="LOCAL-00027" summary="시설안내 팝업들">
+      <created>1543975260348</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1543975260348</updated>
+    </task>
+    <task id="LOCAL-00028" summary="test">
+      <created>1543979542914</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543979542914</updated>
+    </task>
+    <task id="LOCAL-00029" summary="수정">
+      <created>1544425996928</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1544425996929</updated>
+    </task>
+    <task id="LOCAL-00030" summary="수정">
+      <created>1544502661032</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1544502661032</updated>
+    </task>
+    <task id="LOCAL-00031" summary="개발 그지야!!!!">
+      <created>1544515523660</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1544515523660</updated>
+    </task>
+    <task id="LOCAL-00032" summary="css">
+      <created>1544519000065</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1544519000065</updated>
+    </task>
+    <task id="LOCAL-00033" summary="css 수정">
+      <created>1544580468940</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1544580468940</updated>
+    </task>
+    <task id="LOCAL-00034" summary="modify">
+      <created>1544679917009</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1544679917009</updated>
+    </task>
+    <task id="LOCAL-00035" summary="GNB 변경">
+      <created>1544687758695</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1544687758695</updated>
+    </task>
+    <task id="LOCAL-00036" summary="메뉴명 변경">
+      <created>1544689335796</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1544689335796</updated>
+    </task>
+    <task id="LOCAL-00037" summary="gnb 수정 및 메뉴명 변경">
+      <created>1544690705909</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1544690705909</updated>
+    </task>
+    <task id="LOCAL-00038" summary="개발자 개그지새키">
+      <created>1544755415632</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1544755415632</updated>
+    </task>
+    <task id="LOCAL-00039" summary="..">
+      <created>1544777455903</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1544777455903</updated>
+    </task>
+    <task id="LOCAL-00040" summary="시설안내 이미지">
+      <created>1545116399643</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1545116399643</updated>
+    </task>
+    <task id="LOCAL-00041" summary="IE 대응">
+      <created>1545120111761</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1545120111761</updated>
+    </task>
+    <task id="LOCAL-00042" summary="css">
+      <created>1545121302034</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1545121302034</updated>
+    </task>
+    <task id="LOCAL-00043" summary="css">
+      <created>1545181247549</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1545181247549</updated>
+    </task>
+    <task id="LOCAL-00044" summary="로그인 팝업">
+      <created>1545986516283</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1545986516283</updated>
+    </task>
+    <task id="LOCAL-00045" summary="메인 비주얼">
+      <created>1546475830737</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1546475830738</updated>
+    </task>
+    <task id="LOCAL-00046" summary="메일">
+      <created>1546479934133</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1546479934133</updated>
+    </task>
+    <task id="LOCAL-00047" summary="식당">
+      <created>1546852315444</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1546852315444</updated>
+    </task>
+    <task id="LOCAL-00048" summary="식당 메뉴 추가">
+      <created>1546855016224</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1546855016224</updated>
+    </task>
+    <task id="LOCAL-00049" summary="추가 요청">
+      <created>1547027056879</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1547027056879</updated>
+    </task>
+    <task id="LOCAL-00050" summary="...">
+      <created>1547027419152</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1547027419153</updated>
+    </task>
+    <task id="LOCAL-00051" summary="수안보 추가">
+      <created>1547101234048</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1547101234048</updated>
+    </task>
+    <task id="LOCAL-00052" summary="수정요청 반영">
+      <created>1547186783437</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1547186783437</updated>
+    </task>
+    <task id="LOCAL-00053" summary="사용실적이관 수정">
+      <created>1548123565773</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1548123565773</updated>
+    </task>
+    <task id="LOCAL-00054" summary="서천 연수원 사진 추가 및 메인 콘텐츠 추가">
+      <created>1548916443692</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1548916443692</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132482000" />
+    <option name="totallyTimeSpent" value="235381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="26" width="1711" height="990" extended-state="0" />
+    <frame x="2032" y="139" width="1581" height="892" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1751345" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1749838" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293979" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50209206" side_tool="true" visible="true" weight="0.32827103" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49790794" visible="true" weight="0.32827103" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029164" side_tool="true" weight="0.3278302" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4970836" weight="0.32802126" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32934928" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1749838" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4970836" weight="0.32821724" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293979" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029164" side_tool="true" weight="0.3278302" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -504,364 +798,399 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="예약페이지 작업" />
-    <MESSAGE value="예약 step1" />
-    <MESSAGE value="예약신청 step1" />
-    <MESSAGE value="풋터 추가" />
-    <MESSAGE value="가이드 추가" />
-    <MESSAGE value="고객센터 진행중" />
-    <MESSAGE value="고객센터 진행중........." />
-    <MESSAGE value="고객센터 FAQ 제외 완료" />
-    <MESSAGE value="고객센터 완료 휴........." />
-    <MESSAGE value="코딩 리스트 업데이트" />
-    <MESSAGE value="누락된 파일 추가" />
-    <MESSAGE value="참여마당 진행중" />
-    <MESSAGE value="포토갤러리 ing" />
-    <MESSAGE value="옵션 및 명칭 수정" />
-    <MESSAGE value="검색 수정 적용" />
-    <MESSAGE value="예약" />
-    <MESSAGE value="온라인 예약완료" />
-    <MESSAGE value="참여마당 고객센터 수정" />
-    <MESSAGE value="수정요청 사항 반영" />
+    <MESSAGE value="시설안내 팝업들" />
+    <MESSAGE value="test" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="개발 그지야!!!!" />
     <MESSAGE value="css 수정" />
-    <MESSAGE value="파일명 정리" />
-    <MESSAGE value="메뉴 아이디 제거 ㅡㅡ;;;;;;;;;" />
-    <MESSAGE value="관광 정보" />
-    <MESSAGE value="Default Changelist" />
-    <MESSAGE value="이미지 왜 안올라가냐 ㅡㅡ 좀 올라가라규" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 왜 안올라가냐 ㅡㅡ 좀 올라가라규" />
+    <MESSAGE value="modify" />
+    <MESSAGE value="GNB 변경" />
+    <MESSAGE value="메뉴명 변경" />
+    <MESSAGE value="gnb 수정 및 메뉴명 변경" />
+    <MESSAGE value="개발자 개그지새키" />
+    <MESSAGE value=".." />
+    <MESSAGE value="시설안내 이미지" />
+    <MESSAGE value="IE 대응" />
+    <MESSAGE value="css" />
+    <MESSAGE value="로그인 팝업" />
+    <MESSAGE value="메인 비주얼" />
+    <MESSAGE value="메일" />
+    <MESSAGE value="식당" />
+    <MESSAGE value="식당 메뉴 추가" />
+    <MESSAGE value="추가 요청" />
+    <MESSAGE value="..." />
+    <MESSAGE value="수안보 추가" />
+    <MESSAGE value="수정요청 반영" />
+    <MESSAGE value="사용실적이관 수정" />
+    <MESSAGE value="서천 연수원 사진 추가 및 메인 콘텐츠 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="서천 연수원 사진 추가 및 메인 콘텐츠 추가" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/community/H05_0201_00.html" />
-    <entry file="file://$PROJECT_DIR$/../서울시 연수원/resources/data/codinglist.json" />
-    <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="105" column="117" selection-start-line="105" selection-start-column="105" selection-end-line="105" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_detil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_ins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_upt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_finih.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/sasfc_invst_emply_resut.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_ins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_detil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/tran_tlrpt_emply_upt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/event_emply_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="204" column="32" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/faq_emply_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="183" column="32" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_detil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_ins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
+        <state>
+          <caret selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/iqury_emply_upt.html">
+    <entry file="file://$PROJECT_DIR$/html/login/login_suabo_fdrod.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_detil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="139" column="32" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_ins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="488" column="71" selection-start-line="488" selection-start-column="71" selection-end-line="488" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="209" column="32" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
+        <state relative-caret-position="855">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/lsace_decle_upt.html">
+    <entry file="file://$PROJECT_DIR$/html/login/login_seoch_fdrod.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/sokco_btype_plane.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="1683" column="31" lean-forward="true" selection-start-line="1683" selection-start-column="31" selection-end-line="1683" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_ctype_plane.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="2402" column="33" lean-forward="true" selection-start-line="2402" selection-start-column="33" selection-end-line="2402" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_btype_plane.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="2396" column="39" lean-forward="true" selection-end-line="2437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_terae_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="2435" column="32" lean-forward="true" selection-start-line="2435" selection-start-column="16" selection-end-line="2435" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_otype_plane.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
-          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+          <caret line="2406" column="18" selection-start-line="2406" selection-start-column="18" selection-end-line="2406" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/notice_emply_detil.html">
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_btype_plane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="2379" column="15" lean-forward="true" selection-end-line="2418" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/notice_emply_list.html">
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_atype_plane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="189" column="32" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
+        <state relative-caret-position="256">
+          <caret line="172" column="104" selection-start-line="172" selection-start-column="89" selection-end-line="172" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/onlneRsv.html">
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/sokco_atype_plane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
+        <state relative-caret-position="759">
+          <caret line="1659" column="23" selection-start-line="1641" selection-start-column="4" selection-end-line="1659" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/inc/header.html">
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_atype_plane.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="256">
+          <caret line="172" column="104" selection-start-line="172" selection-start-column="88" selection-end-line="172" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_org_asign_perod_alarm.html">
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_cantn_menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="304" column="40" lean-forward="true" selection-start-line="304" selection-start-column="40" selection-end-line="304" selection-end-column="40" />
+        <state relative-caret-position="19475">
+          <caret line="1025" column="109" selection-start-line="1025" selection-start-column="93" selection-end-line="1025" selection-end-column="109" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_modify_finih.html">
+    <entry file="file://$PROJECT_DIR$/resources/js/ui.plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_limit_mbmr_alarm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_finih.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_duty_scdue_mbmr_alarm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="435" selection-start-line="435" selection-end-line="435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_bdhst_perod_alarm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/reserve_application_step1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/reserve_application.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="277" column="32" selection-start-line="277" selection-start-column="32" selection-end-line="277" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/main/evnt_1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="237" column="44" lean-forward="true" selection-start-line="237" selection-start-column="44" selection-end-line="237" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_list_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/guest_centr/event_emply_detil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/main/evnt_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/main/H00_0000_00.html" />
-    <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="348" column="85" selection-start-line="348" selection-start-column="85" selection-end-line="348" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9735">
-          <caret line="649" column="8" selection-start-line="649" selection-start-column="1" selection-end-line="649" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/lib/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="103303">
+          <caret line="5437" lean-forward="true" selection-start-line="5437" selection-end-line="5437" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/tour_guide/tour_info_detail_com_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="197" column="70" selection-start-line="197" selection-start-column="70" selection-end-line="197" selection-end-column="70" />
+        <state relative-caret-position="-4859">
+          <caret line="103" column="97" lean-forward="true" selection-start-line="103" selection-start-column="97" selection-end-line="103" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../현대면세점/ST/KO/js/ST/KO/common.ui.js">
+    <entry file="file://$PROJECT_DIR$/html/cymad/photo_galay_emply_ins.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="263" column="69" lean-forward="true" selection-start-line="263" selection-start-column="69" selection-end-line="263" selection-end-column="69" />
+        <state relative-caret-position="224">
+          <caret line="100" column="55" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
+    <entry file="file://$PROJECT_DIR$/../현대면세점/email/email/departure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
+        <state relative-caret-position="209">
+          <caret line="11" column="158" lean-forward="true" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../유팀장님/2digit/html/email/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/email/satisfaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="114" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/email/reservation_cancel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="130" selection-start-line="91" selection-start-column="130" selection-end-line="91" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/email/reservation_end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="115" column="7" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/inc/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="188" column="19" lean-forward="true" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/sokco_fclit_outln.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="1196" column="32" selection-start-line="1196" selection-start-column="32" selection-end-line="1323" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_rstrt_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="2502" column="22" selection-start-line="2339" selection-start-column="40" selection-end-line="2502" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_rstrt_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="2515" column="8" selection-start-line="2515" selection-start-column="8" selection-end-line="2515" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/id_pwd_find/pwd_upt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="58" column="78" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="58" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mbmr_combn/id_combn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="80" column="44" selection-start-line="75" selection-start-column="20" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/codinglist.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="424" column="71" selection-start-line="424" selection-start-column="71" selection-end-line="424" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/old_pw_change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="89" column="63" lean-forward="true" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/ui.common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="-1691">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/guide/ui_guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="235" column="30" lean-forward="true" selection-start-line="235" selection-start-column="30" selection-end-line="235" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7277">
+          <caret line="383" column="7" selection-start-line="383" selection-start-column="7" selection-end-line="383" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/onlne_rsv/rsv_calendar2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10317">
+          <caret line="543" column="63" selection-start-line="543" selection-start-column="63" selection-end-line="543" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.contents.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7201">
+          <caret line="379" column="14" selection-start-line="379" selection-start-column="12" selection-end-line="379" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mbmr_combn/mbmr_info_transfer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4959">
+          <caret line="261" column="37" lean-forward="true" selection-start-line="261" selection-start-column="37" selection-end-line="261" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="368" column="51" selection-start-line="368" selection-start-column="51" selection-end-line="368" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/suabo_fclit_outln.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30457">
+          <caret line="1968" column="51" selection-start-line="1968" selection-start-column="51" selection-end-line="1968" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="114" column="79" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fclit_guide/seoch_fclit_outln.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15770">
+          <caret line="1313" column="113" selection-start-line="1313" selection-start-column="113" selection-end-line="1313" selection-end-column="113" />
+          <folding>
+            <element signature="n#section#0;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#1;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#section#3;n#div#1;n#div#1;n#div#1;n#div#0;n#main#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/ui.main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3363">
+          <caret line="194" column="82" lean-forward="true" selection-start-line="194" selection-start-column="82" selection-end-line="194" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/ui.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="71" lean-forward="true" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/infom_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/info_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="78" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/info_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="180" column="80" selection-start-line="180" selection-start-column="80" selection-end-line="180" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/infom_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="37" column="80" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/infom_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main/info_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="238" column="16" lean-forward="true" selection-start-line="238" selection-start-column="16" selection-end-line="238" selection-end-column="16" />
         </state>
       </provider>
     </entry>
