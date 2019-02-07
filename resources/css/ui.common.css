@@ -573,7 +573,7 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .tb-type_a tbody td ~ td {border-left:1px solid #c2c3c6}
 
 .tb-type_b tbody th {padding:14px 20px;text-align:center;color:#000;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
-.tb-type_b tbody td {padding:7px 20px;text-align:left;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6}
+.tb-type_b tbody td {padding:7px 20px;text-align:left;color:#666;line-height:26px;border-bottom:1px solid #c2c3c6;word-break:break-all} /* 2019-02-07 modify */
 .textarea_wrap textarea {height:400px}
 .textarea_wrap.mini textarea {height:250px}
 

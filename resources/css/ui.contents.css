@@ -72,22 +72,22 @@
 .satisfaction-end p {font-size:20px;line-height:30px;color:#000;font-weight:500}
 
 /* 만족도조사 */
-.tb-wrap-bg{background:#fff;}
-.survey-list{width:100%; }
-.survey-item{width:100%; border:1px solid #c2c3c6; margin-top:30px;}
-.survey-head{background:#e0e2e8; border-bottom:1px solid #c2c3c6; padding:10px 25px 11px; font-size:16px; color:#666; font-weight: 200; letter-spacing:0}
-.survey-head b{display:inline-block; font-size:20px; color:#000; font-weight: 500;}
-.survey-body{background:#fff; padding:25px; font-weight: 300; letter-spacing:0;}
-.survey-body.sub-head{border-bottom:1px solid #c2c3c6; font-size:16px; font-weight:400; padding:15px 25px}
-.survey-body li{margin-top:20px;}
-.survey-body li:first-child{margin-top:3px;}
-.survey-body .radio label{padding-left:55px; font-size:14px; color:#354052; font-weight:400;}
-.survey-body .radio label i{display:block; position: absolute; top:-2px; left:38px;}
-.survey-lb{display:inline-block; width:145px; font-size:14px; color:#354052; font-weight:400; line-height: 21px; vertical-align: middle;}
-.survey-graph{display:inline-block; vertical-align: middle; width:934px; height:20px; position:relative;}
-.lot .survey-bar{background:#1b89f9; border-color:#1b89f9;}
-.survey-bar{width:auto; height:20px; background:#e2edf9; border:1px solid #9acbfc; position:relative;}
-.survey-bar b{font-size:18px; display:block; position:absolute; width:40px; right:-50px; top:-5px;}
+.tb-wrap-bg{background:#fff}
+.survey-list{width:100%}
+.survey-item{width:100%;border:1px solid #c2c3c6;margin-top:30px}
+.survey-head{background:#e0e2e8;border-bottom:1px solid #c2c3c6;padding:10px 25px 11px;font-size:16px;color:#666;font-weight: 200;letter-spacing:0}
+.survey-head b{display:inline-block;font-size:20px;color:#000;font-weight: 500}
+.survey-body{background:#fff;padding:25px;font-weight: 300;letter-spacing:0;word-break:break-all} /* 2019-02-07 modify */
+.survey-body.sub-head{border-bottom:1px solid #c2c3c6;font-size:16px;font-weight:400;padding:15px 25px}
+.survey-body li{margin-top:20px}
+.survey-body li:first-child{margin-top:3px}
+.survey-body .radio label{padding-left:55px;font-size:14px;color:#354052;font-weight:400}
+.survey-body .radio label i{display:block;position: absolute;top:-2px;left:38px}
+.survey-lb{display:inline-block;width:145px;font-size:14px;color:#354052;font-weight:400;line-height: 21px;vertical-align: middle}
+.survey-graph{display:inline-block;vertical-align: middle;width:934px;height:20px;position:relative}
+.lot .survey-bar{background:#1b89f9;border-color:#1b89f9}
+.survey-bar{width:auto;height:20px;background:#e2edf9;border:1px solid #9acbfc;position:relative}
+.survey-bar b{font-size:18px;display:block;position:absolute;width:40px;right:-50px;top:-5px}
 
 /* sh result */
 .search-before {padding:250px 0;text-align:center;border-bottom:2px solid #000}
