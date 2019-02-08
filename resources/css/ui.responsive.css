@@ -637,6 +637,13 @@
 	/* file */
 	.file-upload [class*='btn-basic'].small {min-width:5px;height:27px;line-height:27px}
 	.file-upload .file-name ~ .file-btns button {width:27px;height:27px}
+
+	/* S : 2019-02-08 add */
+	.popup {padding-bottom:28px}
+	.popup .not-today .pop-close {right:5px}
+	.popup .not-today .pop-close i:before,
+	.popup .not-today .pop-close i:after {width:80%;top:8px}
+	/* E : 2019-02-08 add */
 }
 
 
