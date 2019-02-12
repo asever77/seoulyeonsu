@@ -417,3 +417,9 @@
 .popup .not-today .pop-close i:before {transform:rotate(135deg)}
 .popup .not-today .pop-close i:after {transform:rotate(45deg)}
 /* E : 2019-02-08 modify */
+
+/* S : 2018-02-12 add */
+.big-area {max-width:1000px;margin-left:auto;margin-right:auto;padding:50px;background-color:#fff;border:1px solid #e7ebef}
+.text-indent_b {padding-left:14px;text-indent:-14px;font-weight:300}
+.text-indent_c {padding-left:8px;text-indent:-8px;font-weight:300}
+/* E : 2018-02-12 add */
