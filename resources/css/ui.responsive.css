@@ -627,7 +627,9 @@
 	.txt-bg_b p,
 	.txt-bg_c p {margin-top:-26px}
 
-	[class*='facilities-area'] {height:250px}
+	/* S : 2019-02-14 modify */
+	[class*='facilities-area'] {height:280px}
+	/* E : 2019-02-14 modify */
 	.facilities-area_a {background-position:50% 0}
 	.text-area .room-type-area {padding:0 0 15px}
 
@@ -704,10 +706,12 @@
 	.txt-bg_b p,
 	.txt-bg_c p {margin-top:-39px}
 
-	[class*='facilities-area'] {height:200px;background-size:700px auto}
-	.facilities-area_a {background-position:55% 10%}
-	.facilities-area_b {background-size:600px auto;background-position:45% 20%}
-	.facilities-area_c {background-position:55% 10%}
+	/* S : 2019-02-14 modify */
+	[class*='facilities-area'] {height:180px}
+	/*.facilities-area_a {background-position:55% 10%}*/
+	.facilities-area_b {background-position:65% 50%}
+	.facilities-area_c {background-position:30% 50%}
+	/* E : 2019-02-14 modify */
 
 	.food-list .food-item {width:49%;margin-right:2%}
 	.food-list .food-item:nth-child(3n) {margin-right:2%}
@@ -741,6 +745,10 @@
 	.reserve-calender .calendar-item table tbody .days .possible-item {font-size:10px}
 	/* E : 2019-01-11 modify */
 	/* E : 2019-01-09 add */
+
+	/* S : 2019-02-12 add */
+	.big-area {padding:20px}
+	/* E : 2019-02-12 add */
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}

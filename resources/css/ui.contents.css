@@ -268,9 +268,11 @@
 
 /* about */
 [class*='txt-bg_'] {position:relative;height:255px;background-position:50% 50%;background-size:cover}
-.txt-bg_a {background-image:url('../../resources/img/contents/about_bg.jpg')}
-.txt-bg_b {background-image:url('../../resources/img/contents/about_bg.jpg')}
-.txt-bg_c {background-image:url('../../resources/img/contents/about_bg.jpg')}
+/* S : 2019-02-14 modify */
+.txt-bg_a {background-image:url('../../resources/img/contents/about_bg_a.jpg')}
+.txt-bg_b {background-image:url('../../resources/img/contents/about_bg_b.jpg')}
+.txt-bg_c {background-image:url('../../resources/img/contents/about_bg_c.jpg')}
+/* E : 2019-02-14 modify */
 [class*='txt-bg_'] p {position:absolute;left:0;right:0;top:50%;font-size:40px;line-height:50px;color:#fff;text-align:center;margin-top:-25px;font-weight:200}
 .txt-bg_b p,
 .txt-bg_c p {margin-top:-50px}
