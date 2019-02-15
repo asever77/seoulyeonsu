@@ -607,7 +607,9 @@
 	.base-wrap.pop .contents-area {padding-bottom:30px}
 	.guidance-wrap .ui-acco-btn {font-size:14px}
 	.guidance-wrap .ui-acco-pnl {font-size:12px}
-	.guidance-wrap .agree-area {margin-top:10px;padding-top:7px}
+	/* S : 2019-02-15 modify */
+	.guidance-wrap .agree-area {margin-top:-8px}
+	/* E : 2019-02-15 modify */
 	.guidance-wrap .ui-acco-pnl {padding:15px}
 
     .header-wrap.only-logo {padding:10px 0;border-bottom-width:2px}

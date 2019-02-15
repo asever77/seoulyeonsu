@@ -255,7 +255,11 @@
 .guidance-wrap .ui-acco-tit {background-color:transparent;border-color:#c2c3c6}
 .guidance-wrap .ui-acco-btn {padding:15px 20px;color:#000;font-size:16px}
 .guidance-wrap .ui-acco-pnl {padding:15px 20px;font-size:14px;color:#666;background-color:#e0e2e8;border-bottom:1px solid #c2c3c6}
-.guidance-wrap .agree-area {text-align:right;border-top:1px dashed rgba(0,0,0,.1);margin-top:15px;padding-top:10px}
+/* S : 2019-02-15 modify */
+.guidance-wrap .agree-area {position:absolute;right:15px;top:50%;margin-top:-12px;z-index:10;cursor:pointer}
+.guidance-wrap .checkbox input[type='checkbox'] {cursor:pointer}
+.guidance-wrap .ui-acco-pnl {display:none}
+/* E : 2019-02-15 modify */
 
 /* mypage */
 .has-lnb {max-width:1200px;margin:0 auto}
