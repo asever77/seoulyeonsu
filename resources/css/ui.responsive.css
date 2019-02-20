@@ -151,8 +151,8 @@
     .ui-select-wrap.bottom {top:26px}
     .ui-select-wrap.top {bottom:26px}
 
-	.ui-select-btn{background:url(../../resources/img/ico_select_m.png) no-repeat 100% 50% !important; background-size:cover}
-	.ui-select.on .ui-select-btn{background:url(../../resources/img/ico_select_m2.png) no-repeat 100% 50% !important; background-size:cover}
+	.ui-select-btn{background:url(../../resources/img/ico_select_m.png) no-repeat 100% 50% !important; background-size:contain !important}
+	.ui-select.on .ui-select-btn{background:url(../../resources/img/ico_select_m2.png) no-repeat 100% 50% !important; background-size:contain !important}
 
     /* title */
     .h-type_a {font-size:20px}
