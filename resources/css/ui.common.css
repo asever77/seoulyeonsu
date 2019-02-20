@@ -373,7 +373,7 @@ sup {font-size:11px}
 .sh-item-from {padding:30px}
 .sh-item-from input[type="text"],
 .sh-item-from input[type="date"],
-.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:14px}
+.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:14px; background:transparent}
 .sh-item-from.small {width:158px}
 .sh-item-from.small .sh-item-title {text-align:center}
 .sh-item-from.medium {width:242px}
