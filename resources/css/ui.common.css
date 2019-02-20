@@ -66,6 +66,10 @@ textarea {resize:none;font-family:'Noto Sans KR','sans-serif'}
 .title-box .breadcrumb {position:absolute;right:0;bottom:23px}
 .title-box.type-b {text-align:center;border-bottom:none}
 
+/* S : 2019-02-20 add */
+.title-box .agree-area {padding-right:15px;text-align:right}
+/* E : 2019-02-20 add */
+
 /* point color */
 .point-col1 {color:#d23c5e}
 .point-col2 {color:#309df1}
@@ -319,9 +323,13 @@ sup {font-size:11px}
 .box-module_a .dl-type_a dt {width:136px;vertical-align:middle;text-align:center}
 .box-module_a .dl-type_a dt .room-type {margin-bottom:8px}
 .box-module_a .dl-type_a dd {padding:0 22px;border-left:1px solid #c2c3c6;line-height:27px;color:#666;font-size:16px;vertical-align:middle}
-.box-module_a .check-area {background-color:#e0e2e8;border-top:1px solid #c2c2c2;border-bottom:1px solid #c2c2c2}
+/* S : 2019-02-20 modify */
+.box-module_a .check-area {background-color:#309df1;border-top:1px solid #309df1;border-bottom:1px solid #309df1}
 .box-module_a .check-area .radio {display:block;padding:13px 0;text-align:center}
-.box-module_a .check-area .radio label {color:#666;font-size:18px}
+.box-module_a .check-area .radio label {color:#fff;font-size:18px}
+.box-module_a .radio.big label:before {border-color:#fff}
+.box-module_a .radio.big label:after {background-position-x:-180px}
+/* E : 2019-02-20 modify */
 .box-module_a .checkbox input[type='radio']:checked + label:before {border-color:#fff}
 .box-module_a .active .check-area {background-color:#cf214d;border-color:#cf214d}
 .box-module_a .active:before {content:'';position:absolute;top:0;right:0;bottom:0;left:0;border:2px solid #cf214d}
@@ -363,9 +371,11 @@ sup {font-size:11px}
 .sh-box {display:table;width:100%;table-layout:fixed}
 [class*='sh-item'] {position:relative;display:table-cell}
 .sh-item-from {padding:30px}
+/* S : 2019-02-20 modify */
 .sh-item-from input[type="text"],
 .sh-item-from input[type="date"],
-.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:14px;}
+.sh-item-from input[type="password"] {width:100%;height:48px;line-height:48px;font-size:14px; background:transparent}
+/* E : 2019-02-20 modify */
 .sh-item-from.small {width:158px}
 .sh-item-from.small .sh-item-title {text-align:center}
 .sh-item-from.medium {width:242px}
@@ -556,6 +566,12 @@ select[disabled]{background-color:#f7f7f7;color:#888;}
 .ui-dialog.noti .layer-big_a {padding:15px;border-bottom:1px solid #e0e2e8}
 .ui-dialog.noti .noti-img img {width:100%;vertical-align:top}
 .ui-dialog.noti .not-today {padding:10px 15px}
+
+/* S : 2019-2-20 add */
+.ui-dialog.full_ .ui-dialog-titlebar-close {top:20px;right:20px;width:21px;height:21px;background-image:url('../../resources/img/common/btn_close_popup_big.png')}
+.ui-dialog.calendar-pop .ui-dialog-titlebar-close {top:15px;right:15px;display:block;width:21px;height:21px;background-image:url('../../resources/img/common/btn_close_popup_big.png')}
+/* E : 2019-2-20 add */
+
 
 /* floor */
 .floor-img {text-align:center}

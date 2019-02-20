@@ -751,6 +751,11 @@
 	/* S : 2019-02-12 add */
 	.big-area {padding:20px}
 	/* E : 2019-02-12 add */
+
+	/* S : 2019-02-20 add */
+	.ui-dialog.full_ .ui-dialog-titlebar-close {top:10px;right:10px;background-image:url('../../resources/img/common/btn_close_popup.png')}
+	.ui-dialog.calendar-pop .ui-dialog-titlebar-close {top:0;right:-25px;background-color:rgba(255,255,255,.8);background-image:url('../../resources/img/common/btn_close_popup.png');border-radius:50%}
+	/* E : 2019-02-20 add */
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}
