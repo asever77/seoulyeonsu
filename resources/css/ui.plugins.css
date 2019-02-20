@@ -27,12 +27,14 @@
 .ui-select{position:relative; display:inline-block; vertical-align:top}
 /* S : 2019-02-20 modify */
 .ui-select:after {content:'';position:absolute;right:13px;top:50%;height:8px;width:13px;margin-top:-4px;background:url('../../resources/img/ico_form.png') no-repeat -100px 0;-webkit-transition:all .4s;transition:all .4s; z-index:-1}
-/* E : 2019-02-20 modify */
 .ui-select.on:after {-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}
 .ui-select select{width:100%}
 .ui-select select.off{position:absolute; width:0; height:0; border:0; opacity:0; z-index:-1; color:transparent; overflow:hidden; font-size:xx-small; line-height:0;}
 .ui-select-btn{display:inline-block; position:relative; text-align:left; vertical-align:top; width:100%; height:30px; padding:0 30px 0 10px; cursor:pointer; outline:0; box-sizing:border-box; text-overflow:ellipsis; background:url(../../resources/img/ico_select.png) no-repeat 100% 50% !important;}
+/* E : 2019-02-20 modify */
+/* S : 2019-02-20 add */
 .ui-select.on .ui-select-btn{background:url(../../resources/img/ico_select2.png) no-repeat 100% 50% !important;}
+/* E : 2019-02-20 add */
 .ui-select-btn span{display:inline-block; width:100%; text-align:left; word-break:nowrap; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; text-align:left}
 .ui-select-btn[aria-expanded="true"],
 .ui-select-btn:focus,
