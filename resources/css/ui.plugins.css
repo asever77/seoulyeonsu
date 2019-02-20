@@ -25,7 +25,9 @@
 .ui-tab.eff-fade .ui-tab-pnl{-webkit-transition:opacity 0.3s; -moz-transition:opacity 0.3s; -o-transition:opacity 0.3s; transition:opacity 0.3s;}
 
 .ui-select{position:relative; display:inline-block; vertical-align:top}
+/* S : 2019-02-20 modify */
 .ui-select:after {content:'';position:absolute;right:13px;top:50%;height:8px;width:13px;margin-top:-4px;background:url('../../resources/img/ico_form.png') no-repeat -100px 0;-webkit-transition:all .4s;transition:all .4s; z-index:-1}
+/* E : 2019-02-20 modify */
 .ui-select.on:after {-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}
 .ui-select select{width:100%}
 .ui-select select.off{position:absolute; width:0; height:0; border:0; opacity:0; z-index:-1; color:transparent; overflow:hidden; font-size:xx-small; line-height:0;}
