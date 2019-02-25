@@ -653,6 +653,13 @@
 	.popup .not-today .pop-close i:before,
 	.popup .not-today .pop-close i:after {width:80%;top:8px}
 	/* E : 2019-02-08 add */
+
+	/* S : 2019-02-25 add */
+	.scroll-x {overflow-y:hidden;overflow-x:auto}
+	.scroll-x .tb-type_c {table-layout:auto}
+	.scroll-x .tb-type_c thead th,
+	.scroll-x .tb-type_c tbody td {white-space:nowrap}
+	/* E : 2019-02-25 add */
 }
 
 

@@ -429,3 +429,9 @@
 .text-indent_b {padding-left:14px;text-indent:-14px;font-weight:300}
 .text-indent_c {padding-left:8px;text-indent:-8px;font-weight:300}
 /* E : 2018-02-12 add */
+
+/* S : 2019-02-25 add */
+.scroll-x .tb-type_c tbody td {text-align:left}
+.scroll-x .tb-type_c thead th ~ th,
+.scroll-x .tb-type_c tbody td ~ td {border-left:1px solid #c2c3c6}
+/* E : 2019-02-25 add */
