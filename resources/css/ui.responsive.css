@@ -660,9 +660,12 @@
 	.scroll-x .tb-type_c thead th,
 	.scroll-x .tb-type_c tbody td {white-space:nowrap}
 	/* E : 2019-02-25 add */
+
+	/* S : 2019-03-08 add */
+	.type-b .group-sub .group-item ~ .group-item {margin-left:1%}
+	.type-b .group-sub .group-item {width:23%}
+	/* E : 2019-03-08 add */
 }
-
-
 @media (max-width:420px) {
 	.sm-block {display:block}
 
@@ -768,6 +771,10 @@
 	.ui-dialog.full_ .ui-dialog-titlebar-close {top:10px;right:10px;background-image:url('../../resources/img/common/btn_close_popup.png')}
 	.ui-dialog.calendar-pop .ui-dialog-titlebar-close {top:0;right:-25px;background-color:rgba(255,255,255,.8);background-image:url('../../resources/img/common/btn_close_popup.png');border-radius:50%}
 	/* E : 2019-02-20 add */
+
+	/* S : 2019-03-08 add */
+	.type-b .group-sub .group-item {width:100%}
+	/* E : 2019-03-08 add */
 }
 @media (max-width:360px) {
 	.tb-type_d tbody td {padding:8px 10px}

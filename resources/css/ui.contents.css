@@ -10,6 +10,8 @@
 .page-title-area.tour-info {background-image:url('../../resources/img/contents/top_img_tour.jpg')}
 .page-title-area.mypage {background-image:url('../../resources/img/contents/top_mypage.jpg')}
 .page-title-area.about {background-image:url('../../resources/img/contents/top_about.jpg')}
+.page-title-area.about_b {background-image:url('../../resources/img/contents/top_about_b.jpg')}
+.page-title-area.about_c {background-image:url('../../resources/img/contents/top_about_c.jpg')}
 .page-title-area.facilities-info {background-image:url('../../resources/img/contents/top_facilities.jpg')}
 .page-title {color:#fff;font-size:40px;font-weight:300}
 .page-title_en {margin-top:10px;color:#fff;font-size:20px;font-weight:200;letter-spacing:6px}
@@ -435,3 +437,9 @@
 .scroll-x .tb-type_c thead th ~ th,
 .scroll-x .tb-type_c tbody td ~ td {border-left:1px solid #c2c3c6}
 /* E : 2019-02-25 add */
+
+/* S : 2019-03-08 add */
+.tb-type_c.lines tbody td {vertical-align:top}
+table .person-img {display:block;margin:0 auto 5px}
+table .person-img img {vertical-align:top;max-width:100%}
+/* E : 2019-03-08 add */
