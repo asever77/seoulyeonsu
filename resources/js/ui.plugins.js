@@ -1063,11 +1063,9 @@ if (!Object.keys){
 		
 		//event
 		$(doc).on('click', '.dim-dropdown',function(){
-			console.log($(this).closest('.ui-select').length)
 			if ($('body').data('select-open')) {
 				optBlur();
 			}
-			
 		});
 		$('.ui-select-btn')
 			.off('click.ui keydown.ui mouseover.ui focus.ui mouseleave.ui')
@@ -1097,30 +1095,23 @@ if (!Object.keys){
 			});
 
 		function selectLeave() {
-			console.log(11111111111111);
 			$('body').data('select-open', true);
 		}
-
 
 		function selectChange(){
 			win[global].uiSelectAct({ id:$(this).attr('id'), current:$(this).find('option:selected').index(), original:true });
 		}
 		function optBlur() {
-			clearTimeout(win[global].uiSelect.timer);
-			win[global].uiSelect.timer = setTimeout(function(){
-				optClose();
-			},200)
+			optClose();
 		}
 		function selectClick(){
 			var $btn = $(this);
-			clearTimeout(win[global].uiSelect.timer);
 			$btn.data('sct', $(doc).scrollTop());
 			optExpanded(this);
 		}
 		function optClick() {
 			var t = this,
 				sct = $(t).closest('.ui-select').find('.ui-select-btn').data('sct');
-			clearTimeout(win[global].uiSelect.timer);
 			win[global].uiSelectAct({ id:$(t).closest('.ui-select').find('.ui-select-btn').data('id'), current:$(t).index() })
 			$(t).closest('.ui-select').find('.ui-select-btn').focus();
 			optClose();
@@ -1130,8 +1121,6 @@ if (!Object.keys){
 		}
 		function selectOver(){
 			$('body').data('select-open', false);
-			clearTimeout(win[global].uiSelect.timer);
-			$(this).closest('.ui-select').find('.ui-select-wrap.on').length > 0 ? clearTimeout(win[global].uiSelect.timer) : '';
 		}
 		function selectKey(e){
 			var t = this,
@@ -1453,226 +1442,6 @@ if (!Object.keys){
 		}
 
 		!!callback ? callback(opt) : '';
-	}
-
-
-	win[global] = uiNameSpace(namespace, {
-		uiTooltip: function (opt) {
-			return createUiTooltip(opt);
-		}
-	});
-	win[global].uiTooltip.option = {
-		visible: null,
-		id: false,
-		ps: false
-	};
-	function createUiTooltip(opt){
-		var opt = opt === undefined ? {} : opt,
-			opt = $.extend(true, {}, win[global].uiTblScroll.option, opt),
-			$btn = $('.ui-tooltip-btn'),
-			$tip = opt.id ? typeof opt.id === 'string' ? $('#' + opt.id) : opt.id : false,
-			visible = opt.visible,
-			id = opt.id ? $tip.attr('id') : '',
-			
-			sp = 10,
-			ps = opt.ps,
-			off_t, off_l, w, h, bw, bh, st, sl, timer,
-			class_ps = 'ps-ct ps-cb ps-lt ps-lb ps-rt ps-rb';
-
-		if (visible !== null) {
-			visible ? tooltipSet(id) : tooltipHide();
-		}
-
-		$btn
-			.on('click', function(e){
-				e.preventDefault();
-				tooltipSet($(this).attr('aria-describedby'));
-			})
-			.off('mouseover.ui touchstart.ui focus.ui').on('mouseover.ui touchstart.ui focus.ui', function(e){
-				tooltipSet($(this).attr('aria-describedby'));
-			})
-			
-			.off('mouseleave.ui ').on('mouseleave.ui', function(){
-				tooltipHideDelay();
-
-				$('.ui-tooltip')
-					.on('mouseover.ui', function(){
-						clearTimeout(timer);
-					})
-					.on('mouseleave.ui', function(e){
-						tooltipHideDelay();
-					});
-			})
-			.off('touchcancel.ui touchend.ui blur.ui').on('touchcancel.ui touchend.ui blur.ui', function(e){
-				tooltipHide();
-			});
-		
-		function tooltipSet(v) {
-			var $t = $('[aria-describedby="'+ v +'"]');
-
-			$('#' + v).removeClass(class_ps);
-
-			id = v;
-			off_t = $t.offset().top;
-			off_l =$t.offset().left;
-			w = $t.outerWidth();
-			h = $t.outerHeight();
-			bw = $(win).innerWidth();
-			bh = $(win).innerHeight();
-			st = $(doc).scrollTop();
-			sl = $(doc).scrollLeft();
-			
-			tooltipShow(off_t, off_l, w, h, bw, bh, st, sl, id, false);
-		}
-		function tooltipHide() {
-			$('.ui-tooltip').removeAttr('style').attr('aria-hidden', true).removeClass(class_ps);
-		}
-		function tooltipHideDelay(){
-			timer = setTimeout(tooltipHide, 100);
-		}
-
-		function tooltipShow(off_t, off_l, w, h, bw, bh, st, sl, id) {
-			var $id = $('#' + id),
-				pst = (bh / 2 > (off_t - st) + (h / 2)) ? true : false,
-				psl = (bw / 2 > (off_l - sl) + (w / 2)) ? true : false,
-				tw = $id.outerWidth(),
-				th = $id.outerHeight(),
-				ps_l, ps_r, cursorCls = 'ps-';
-				
-			if (psl) {
-				if (off_l - sl > tw / 2) {
-					cursorCls += 'c';
-					ps_l = off_l - (tw / 2) + (w / 2);
-				} else {
-					cursorCls += 'l';
-					ps_l = off_l;
-				}
-			} else {
-				if (bw - (off_l - sl + w) > tw / 2) {
-					cursorCls += 'c';
-					ps_r = Math.ceil(off_l) - (tw / 2) + (w / 2);
-				} else {
-					cursorCls += 'r';
-					ps_r = off_l - tw + w;
-				}
-			}
-
-			ps ? cursorCls = 'ps-l' : '';
-			ps ? ps_l = off_l : '';
-			ps ? psl = true : '';
-
-			pst ? cursorCls += 'b' : cursorCls += 't';
-
-			if (!!$id.attr('modal')) {
-				if (!$.browser.oldie) {
-					ps_l = ps_l;
-					ps_r = ps_r;
-				}
-
-				$.browser.ie ? '' : off_t = off_t;
-			}
-
-			if (!!$id.closest('.type-fixed-bottom').length) {
-				off_t = off_t - $('ui-modal-tit').outerHeight();
-			}
-
-			$id.addClass(cursorCls).attr('aria-hidden', false).css({ 
-				display:'block'
-			}).css({
-				top : pst ? off_t + h + sp : off_t - th - sp,
-				left : psl ? ps_l : ps_r
-			});
-		}
-	}
-
-	/* ------------------------------------------------------------------------
-	 * table 
-	 * - table scroll v2.0
-	 * - table caption v1.0 
-	 * date : 2018-04-21
-	------------------------------------------------------------------------ */
-	win[global] = uiNameSpace(namespace, {
-		uiTblScroll: function () {
-			return createUiTblScroll();
-		},
-		uiCaption: function () {
-			return createUiCaption();
-		}
-	});
-	win[global].uiTblScroll.option = {
-		selector: '.ui-tblscroll',
-		coln: 5
-	}
-	function createUiTblScroll(opt){
-		var opt = opt === undefined ? {} : opt,
-			opt = $.extend(true, {}, win[global].uiTblScroll.option, opt),
-			$tbl = $(opt.selector),
-			coln = opt.coln,
-			len = $tbl.length,
-			$thead = '',
-			$tbody = '',
-			h = 0,
-			i = 0,
-			clone_colgroup,
-			clone_thead,
-			clone_tbl = '';
-
-		for (i = 0; i < len; i++) {
-			coln = !!$tbl.eq(i).data('col') ? $tbl.eq(i).data('col') : coln,
-			$tbody = $tbl.eq(i).find('.tbl-scroll-tbody');
-			clone_colgroup = $tbody.find('colgroup').clone();
-			clone_thead = $tbody.find('thead tr').clone();
-			h = 0;
-
-			clone_tbl += '<table class="tbl-scroll-thead txt-c" aria-hidden="true" tabindex="-1">';
-			clone_tbl += '</table>';
-
-			$tbl.prepend(clone_tbl);
-			$tbl.find('.tbl-scroll-thead').append(clone_colgroup);
-			$tbl.find('.tbl-scroll-thead').append(clone_thead);
-			$thead = $tbl.eq(i).find('.tbl-scroll-thead');
-
-			$thead.find('th').each(function(){
-				$(this).replaceWith('<td>'+ $(this).text() +'</td>');
-			});
-
-
-			if ($tbody.find('tbody tr').length > coln) {
-				for (var j = 0; j < coln; j++) {
-					h = h + $tbody.find('tbody tr').eq(j).outerHeight();
-				}
-				$tbl.eq(i).addClass('is-scr');
-				$tbody.css('max-height', h + 'px');
-				$thead.find('col').eq(-1).removeClass().addClass($tbody.find('col').eq(-1).attr('class') + '-scr');
-			}
-		}
-	}
-	function createUiCaption(){
-		var $cp = $('.ui-caption');
-
-		$cp.text('');
-		$cp.each(function(){
-			var $table = $(this).closest('table'),
-				isthead = !!$table.find('> thead').length,
-				$th = $(this).closest('table').find('> tbody th'),
-				th_len = $th.length,
-				i = 0,
-				cp_txt = '';
-			if (isthead) {
-				$th = $(this).closest('table').find('> thead th');
-				th_len = $th.length
-			}
-
-			for (i = 0; i < th_len; i++) {
-				if ($th.eq(i).text() !== '') {
-					cp_txt += $th.eq(i).text();
-				}
-				if (i < th_len - 1) {
-					cp_txt += ', ';
-				}
-			}
-			$(this).text(cp_txt + ' 정보입니다.');
-		})
 	}
 
 	win[global] = uiNameSpace(namespace, {
